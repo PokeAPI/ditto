@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 
-import sys, requests, os, os.path
+import sys, requests, os, os.path, json
 
 def safe_open_w(path):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     return open(path, "w")
+
+def print_json(data, path):
+    print(json.dumps(data, indent=4, sort_keys=True), file=safe_open_w(path))
 
 # Config
 
@@ -28,7 +31,7 @@ endpoints = requests.get(url)
 
 path = targetDir + url.replace(baseUrl, '') + "index.json"
 print(path)
-print(endpoints.text, file=safe_open_w(path))
+print_json(endpoints.json(), path)
 
 # Endpoints
 
@@ -38,21 +41,21 @@ for endpoint in endpoints.json().values():
     resourcelist = requests.get(url)
     path = targetDir + endpoint.replace(baseUrl, '') + "index.json"
     print(path)
-    print(resourcelist.text, file=safe_open_w(path))
+    print_json(resourcelist.json(), path)
     
     # Fifty index
     url = endpoint + "?limit=50"
     resourcelist = requests.get(url)
     path = targetDir + endpoint.replace(baseUrl, '') + "limit=50.json"
     print(path)
-    print(resourcelist.text, file=safe_open_w(path))
+    print_json(resourcelist.json(), path)
 
     # Zero index    
     url = endpoint + "?limit=0"
     resourcelist = requests.get(url)
     path = targetDir + endpoint.replace(baseUrl, '') + "limit=0.json"
     print(path)
-    print(resourcelist.text, file=safe_open_w(path))
+    print_json(resourcelist.json(), path)
     
     # All index
     count = str(resourcelist.json()["count"])
@@ -60,7 +63,7 @@ for endpoint in endpoints.json().values():
     resourcelist = requests.get(url)
     path = targetDir + endpoint.replace(baseUrl, '') + "limit=" + count + ".json"
     print(path)
-    print(resourcelist.text, file=safe_open_w(path))
+    print_json(resourcelist.json(), path)
     
     # All resources
     for resourceSummary in resourcelist.json()['results']:
@@ -70,7 +73,7 @@ for endpoint in endpoints.json().values():
         if not os.path.isfile(path):
             print(path)
             resource = requests.get(resourceUrl)
-            print(resource.text, file=safe_open_w(path))
+            print_json(resource.json(), path)
         
         if endpoint.endswith("/pokemon/"):
             resourceUrl = resourceUrl + "encounters/"
@@ -78,7 +81,7 @@ for endpoint in endpoints.json().values():
             if not os.path.isfile(path):
                 print(path)
                 resource = requests.get(resourceUrl)
-                print(resource.text, file=safe_open_w(path))
+                print_json(resource.json(), path)
 
 
 
