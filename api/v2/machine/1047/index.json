@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/390\/","name":"tm86"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/447\/","name":"grass-knot"},"id":1047,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/9\/","name":"platinum"}}
+{
+    "id": 1047,
+    "item": {
+        "name": "tm86",
+        "url": "http://127.0.0.1:8000/api/v2/item/390/"
+    },
+    "move": {
+        "name": "grass-knot",
+        "url": "http://127.0.0.1:8000/api/v2/move/447/"
+    },
+    "version_group": {
+        "name": "platinum",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+    }
+}

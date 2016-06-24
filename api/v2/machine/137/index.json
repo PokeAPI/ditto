@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/313\/","name":"tm09"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/331\/","name":"bullet-seed"},"id":137,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/9\/","name":"platinum"}}
+{
+    "id": 137,
+    "item": {
+        "name": "tm09",
+        "url": "http://127.0.0.1:8000/api/v2/item/313/"
+    },
+    "move": {
+        "name": "bullet-seed",
+        "url": "http://127.0.0.1:8000/api/v2/move/331/"
+    },
+    "version_group": {
+        "name": "platinum",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+    }
+}

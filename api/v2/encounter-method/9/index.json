@@ -1,1 +1,21 @@
-{"order":2,"names":[{"name":"Im raschelndem Gras laufen","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Walking in rustling grass","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":9,"name":"grass-spots"}
+{
+    "id": 9,
+    "name": "grass-spots",
+    "names": [
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Im raschelndem Gras laufen"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Walking in rustling grass"
+        }
+    ],
+    "order": 2
+}

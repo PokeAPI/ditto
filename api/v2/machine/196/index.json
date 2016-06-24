@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/317\/","name":"tm13"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/173\/","name":"snore"},"id":196,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/4\/","name":"crystal"}}
+{
+    "id": 196,
+    "item": {
+        "name": "tm13",
+        "url": "http://127.0.0.1:8000/api/v2/item/317/"
+    },
+    "move": {
+        "name": "snore",
+        "url": "http://127.0.0.1:8000/api/v2/move/173/"
+    },
+    "version_group": {
+        "name": "crystal",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/4/"
+    }
+}

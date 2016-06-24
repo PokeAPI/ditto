@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/330\/","name":"tm26"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/89\/","name":"earthquake"},"id":411,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/11\/","name":"black-white"}}
+{
+    "id": 411,
+    "item": {
+        "name": "tm26",
+        "url": "http://127.0.0.1:8000/api/v2/item/330/"
+    },
+    "move": {
+        "name": "earthquake",
+        "url": "http://127.0.0.1:8000/api/v2/move/89/"
+    },
+    "version_group": {
+        "name": "black-white",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+    }
+}

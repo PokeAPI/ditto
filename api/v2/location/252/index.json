@@ -1,1 +1,34 @@
-{"name":"radio-tower","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/2\/","name":"johto"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":208}],"names":[{"name":"Radio Tower","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Tour Radio","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":252,"areas":[]}
+{
+    "areas": [],
+    "game_indices": [
+        {
+            "game_index": 208,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 252,
+    "name": "radio-tower",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Radio Tower"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Tour Radio"
+        }
+    ],
+    "region": {
+        "name": "johto",
+        "url": "http://127.0.0.1:8000/api/v2/region/2/"
+    }
+}

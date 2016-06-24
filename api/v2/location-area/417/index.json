@@ -1,1 +1,306 @@
-{"names":[{"name":"underwater","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"name":"hoenn-route-124-underwater","encounter_method_rates":[{"encounter_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"},"version_details":[{"rate":4,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/9\/","name":"emerald"}},{"rate":4,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/8\/","name":"sapphire"}},{"rate":4,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/7\/","name":"ruby"}}]}],"location":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location\/472\/","name":"hoenn-route-124"},"pokemon_encounters":[{"version_details":[{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/7\/","name":"ruby"},"encounter_details":[{"min_level":20,"max_level":30,"condition_values":[],"chance":30,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]},{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/8\/","name":"sapphire"},"encounter_details":[{"min_level":20,"max_level":30,"condition_values":[],"chance":30,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]},{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/9\/","name":"emerald"},"encounter_details":[{"min_level":20,"max_level":30,"condition_values":[],"chance":30,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/170\/","name":"chinchou"}},{"version_details":[{"max_chance":65,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/7\/","name":"ruby"},"encounter_details":[{"min_level":20,"max_level":30,"condition_values":[],"chance":60,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":30,"max_level":35,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]},{"max_chance":65,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/8\/","name":"sapphire"},"encounter_details":[{"min_level":20,"max_level":30,"condition_values":[],"chance":60,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":30,"max_level":35,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]},{"max_chance":65,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/9\/","name":"emerald"},"encounter_details":[{"min_level":20,"max_level":30,"condition_values":[],"chance":60,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":30,"max_level":35,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/366\/","name":"clamperl"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/7\/","name":"ruby"},"encounter_details":[{"min_level":30,"max_level":35,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":30,"max_level":35,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/8\/","name":"sapphire"},"encounter_details":[{"min_level":30,"max_level":35,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":30,"max_level":35,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/9\/","name":"emerald"},"encounter_details":[{"min_level":30,"max_level":35,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":30,"max_level":35,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/369\/","name":"relicanth"}}],"id":417,"game_index":95}
+{
+    "encounter_method_rates": [
+        {
+            "encounter_method": {
+                "name": "surf",
+                "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+            },
+            "version_details": [
+                {
+                    "rate": 4,
+                    "version": {
+                        "name": "emerald",
+                        "url": "http://127.0.0.1:8000/api/v2/version/9/"
+                    }
+                },
+                {
+                    "rate": 4,
+                    "version": {
+                        "name": "sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version/8/"
+                    }
+                },
+                {
+                    "rate": 4,
+                    "version": {
+                        "name": "ruby",
+                        "url": "http://127.0.0.1:8000/api/v2/version/7/"
+                    }
+                }
+            ]
+        }
+    ],
+    "game_index": 95,
+    "id": 417,
+    "location": {
+        "name": "hoenn-route-124",
+        "url": "http://127.0.0.1:8000/api/v2/location/472/"
+    },
+    "name": "hoenn-route-124-underwater",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "underwater"
+        }
+    ],
+    "pokemon_encounters": [
+        {
+            "pokemon": {
+                "name": "chinchou",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/170/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 30,
+                            "condition_values": [],
+                            "max_level": 30,
+                            "method": {
+                                "name": "surf",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 20
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "ruby",
+                        "url": "http://127.0.0.1:8000/api/v2/version/7/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 30,
+                            "condition_values": [],
+                            "max_level": 30,
+                            "method": {
+                                "name": "surf",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 20
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version/8/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 30,
+                            "condition_values": [],
+                            "max_level": 30,
+                            "method": {
+                                "name": "surf",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 20
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "emerald",
+                        "url": "http://127.0.0.1:8000/api/v2/version/9/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "clamperl",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/366/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 60,
+                            "condition_values": [],
+                            "max_level": 30,
+                            "method": {
+                                "name": "surf",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 20
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 35,
+                            "method": {
+                                "name": "surf",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 30
+                        }
+                    ],
+                    "max_chance": 65,
+                    "version": {
+                        "name": "ruby",
+                        "url": "http://127.0.0.1:8000/api/v2/version/7/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 60,
+                            "condition_values": [],
+                            "max_level": 30,
+                            "method": {
+                                "name": "surf",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 20
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 35,
+                            "method": {
+                                "name": "surf",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 30
+                        }
+                    ],
+                    "max_chance": 65,
+                    "version": {
+                        "name": "sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version/8/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 60,
+                            "condition_values": [],
+                            "max_level": 30,
+                            "method": {
+                                "name": "surf",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 20
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 35,
+                            "method": {
+                                "name": "surf",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 30
+                        }
+                    ],
+                    "max_chance": 65,
+                    "version": {
+                        "name": "emerald",
+                        "url": "http://127.0.0.1:8000/api/v2/version/9/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "relicanth",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/369/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 35,
+                            "method": {
+                                "name": "surf",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 35,
+                            "method": {
+                                "name": "surf",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 30
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "ruby",
+                        "url": "http://127.0.0.1:8000/api/v2/version/7/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 35,
+                            "method": {
+                                "name": "surf",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 35,
+                            "method": {
+                                "name": "surf",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 30
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version/8/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 35,
+                            "method": {
+                                "name": "surf",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 35,
+                            "method": {
+                                "name": "surf",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                            },
+                            "min_level": 30
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "emerald",
+                        "url": "http://127.0.0.1:8000/api/v2/version/9/"
+                    }
+                }
+            ]
+        }
+    ]
+}

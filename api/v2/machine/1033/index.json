@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/388\/","name":"tm84"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/398\/","name":"poison-jab"},"id":1033,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/9\/","name":"platinum"}}
+{
+    "id": 1033,
+    "item": {
+        "name": "tm84",
+        "url": "http://127.0.0.1:8000/api/v2/item/388/"
+    },
+    "move": {
+        "name": "poison-jab",
+        "url": "http://127.0.0.1:8000/api/v2/move/398/"
+    },
+    "version_group": {
+        "name": "platinum",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+    }
+}

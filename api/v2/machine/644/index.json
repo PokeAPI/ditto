@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/345\/","name":"tm41"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/9\/","name":"thunder-punch"},"id":644,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/4\/","name":"crystal"}}
+{
+    "id": 644,
+    "item": {
+        "name": "tm41",
+        "url": "http://127.0.0.1:8000/api/v2/item/345/"
+    },
+    "move": {
+        "name": "thunder-punch",
+        "url": "http://127.0.0.1:8000/api/v2/move/9/"
+    },
+    "version_group": {
+        "name": "crystal",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/4/"
+    }
+}

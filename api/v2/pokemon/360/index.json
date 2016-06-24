@@ -1,1 +1,1212 @@
-{"forms":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-form\/360\/","name":"wynaut"}],"abilities":[{"slot":3,"is_hidden":true,"ability":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/ability\/140\/","name":"telepathy"}},{"slot":1,"is_hidden":false,"ability":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/ability\/23\/","name":"shadow-tag"}}],"stats":[{"stat":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/stat\/6\/","name":"speed"},"effort":0,"base_stat":23},{"stat":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/stat\/5\/","name":"special-defense"},"effort":0,"base_stat":48},{"stat":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/stat\/4\/","name":"special-attack"},"effort":0,"base_stat":23},{"stat":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/stat\/3\/","name":"defense"},"effort":0,"base_stat":48},{"stat":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/stat\/2\/","name":"attack"},"effort":0,"base_stat":23},{"stat":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/stat\/1\/","name":"hp"},"effort":1,"base_stat":95}],"name":"wynaut","weight":140,"moves":[{"version_group_details":[{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/5\/","name":"ruby-sapphire"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/6\/","name":"emerald"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/7\/","name":"firered-leafgreen"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/8\/","name":"diamond-pearl"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/9\/","name":"platinum"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/10\/","name":"heartgold-soulsilver"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/11\/","name":"black-white"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/12\/","name":"colosseum"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/13\/","name":"xd"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/14\/","name":"black-2-white-2"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/16\/","name":"omega-ruby-alpha-sapphire"}}],"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/68\/","name":"counter"}},{"version_group_details":[{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/5\/","name":"ruby-sapphire"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/6\/","name":"emerald"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/7\/","name":"firered-leafgreen"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/8\/","name":"diamond-pearl"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/9\/","name":"platinum"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/10\/","name":"heartgold-soulsilver"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/11\/","name":"black-white"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/12\/","name":"colosseum"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/13\/","name":"xd"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/14\/","name":"black-2-white-2"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/16\/","name":"omega-ruby-alpha-sapphire"}}],"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/150\/","name":"splash"}},{"version_group_details":[{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/5\/","name":"ruby-sapphire"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/6\/","name":"emerald"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/7\/","name":"firered-leafgreen"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/8\/","name":"diamond-pearl"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/9\/","name":"platinum"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/10\/","name":"heartgold-soulsilver"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/11\/","name":"black-white"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/12\/","name":"colosseum"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/13\/","name":"xd"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/14\/","name":"black-2-white-2"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/16\/","name":"omega-ruby-alpha-sapphire"}}],"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/194\/","name":"destiny-bond"}},{"version_group_details":[{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/5\/","name":"ruby-sapphire"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/6\/","name":"emerald"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/7\/","name":"firered-leafgreen"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/8\/","name":"diamond-pearl"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/9\/","name":"platinum"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/10\/","name":"heartgold-soulsilver"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/11\/","name":"black-white"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/12\/","name":"colosseum"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/13\/","name":"xd"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/14\/","name":"black-2-white-2"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/16\/","name":"omega-ruby-alpha-sapphire"}}],"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/204\/","name":"charm"}},{"version_group_details":[{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/4\/","name":"machine"},"level_learned_at":0,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/16\/","name":"omega-ruby-alpha-sapphire"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/16\/","name":"omega-ruby-alpha-sapphire"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/4\/","name":"machine"},"level_learned_at":0,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/14\/","name":"black-2-white-2"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/13\/","name":"xd"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/12\/","name":"colosseum"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/11\/","name":"black-white"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/10\/","name":"heartgold-soulsilver"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/9\/","name":"platinum"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/8\/","name":"diamond-pearl"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/7\/","name":"firered-leafgreen"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/6\/","name":"emerald"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/5\/","name":"ruby-sapphire"}}],"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/219\/","name":"safeguard"}},{"version_group_details":[{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/5\/","name":"ruby-sapphire"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/6\/","name":"emerald"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/7\/","name":"firered-leafgreen"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/8\/","name":"diamond-pearl"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/9\/","name":"platinum"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/10\/","name":"heartgold-soulsilver"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/11\/","name":"black-white"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/12\/","name":"colosseum"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/13\/","name":"xd"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/14\/","name":"black-2-white-2"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":1,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/16\/","name":"omega-ruby-alpha-sapphire"}}],"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/227\/","name":"encore"}},{"version_group_details":[{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/5\/","name":"ruby-sapphire"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/6\/","name":"emerald"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/7\/","name":"firered-leafgreen"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/8\/","name":"diamond-pearl"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/9\/","name":"platinum"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/10\/","name":"heartgold-soulsilver"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/11\/","name":"black-white"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/12\/","name":"colosseum"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/13\/","name":"xd"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/14\/","name":"black-2-white-2"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"}},{"move_learn_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},"level_learned_at":15,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/16\/","name":"omega-ruby-alpha-sapphire"}}],"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/243\/","name":"mirror-coat"}}],"sprites":{"back_female":null,"back_shiny_female":null,"back_default":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/back\/360.png","front_female":null,"front_shiny_female":null,"back_shiny":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/back\/shiny\/360.png","front_default":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/360.png","front_shiny":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/shiny\/360.png"},"held_items":[],"location_area_encounters":"\/api\/v2\/pokemon\/360\/encounters","height":6,"is_default":true,"species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/360\/","name":"wynaut"},"id":360,"order":256,"game_indices":[{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"game_index":360},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"game_index":360},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"game_index":360},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"game_index":360},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"game_index":360},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"game_index":360},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/14\/","name":"platinum"},"game_index":360},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/13\/","name":"pearl"},"game_index":360},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/12\/","name":"diamond"},"game_index":360},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/11\/","name":"leafgreen"},"game_index":360},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/10\/","name":"firered"},"game_index":360},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/9\/","name":"emerald"},"game_index":360},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/8\/","name":"sapphire"},"game_index":360},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/7\/","name":"ruby"},"game_index":360}],"base_experience":52,"types":[{"slot":1,"type":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/14\/","name":"psychic"}}]}
+{
+    "abilities": [
+        {
+            "ability": {
+                "name": "telepathy",
+                "url": "http://127.0.0.1:8000/api/v2/ability/140/"
+            },
+            "is_hidden": true,
+            "slot": 3
+        },
+        {
+            "ability": {
+                "name": "shadow-tag",
+                "url": "http://127.0.0.1:8000/api/v2/ability/23/"
+            },
+            "is_hidden": false,
+            "slot": 1
+        }
+    ],
+    "base_experience": 52,
+    "forms": [
+        {
+            "name": "wynaut",
+            "url": "http://127.0.0.1:8000/api/v2/pokemon-form/360/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 360,
+            "version": {
+                "name": "white-2",
+                "url": "http://127.0.0.1:8000/api/v2/version/22/"
+            }
+        },
+        {
+            "game_index": 360,
+            "version": {
+                "name": "black-2",
+                "url": "http://127.0.0.1:8000/api/v2/version/21/"
+            }
+        },
+        {
+            "game_index": 360,
+            "version": {
+                "name": "white",
+                "url": "http://127.0.0.1:8000/api/v2/version/18/"
+            }
+        },
+        {
+            "game_index": 360,
+            "version": {
+                "name": "black",
+                "url": "http://127.0.0.1:8000/api/v2/version/17/"
+            }
+        },
+        {
+            "game_index": 360,
+            "version": {
+                "name": "soulsilver",
+                "url": "http://127.0.0.1:8000/api/v2/version/16/"
+            }
+        },
+        {
+            "game_index": 360,
+            "version": {
+                "name": "heartgold",
+                "url": "http://127.0.0.1:8000/api/v2/version/15/"
+            }
+        },
+        {
+            "game_index": 360,
+            "version": {
+                "name": "platinum",
+                "url": "http://127.0.0.1:8000/api/v2/version/14/"
+            }
+        },
+        {
+            "game_index": 360,
+            "version": {
+                "name": "pearl",
+                "url": "http://127.0.0.1:8000/api/v2/version/13/"
+            }
+        },
+        {
+            "game_index": 360,
+            "version": {
+                "name": "diamond",
+                "url": "http://127.0.0.1:8000/api/v2/version/12/"
+            }
+        },
+        {
+            "game_index": 360,
+            "version": {
+                "name": "leafgreen",
+                "url": "http://127.0.0.1:8000/api/v2/version/11/"
+            }
+        },
+        {
+            "game_index": 360,
+            "version": {
+                "name": "firered",
+                "url": "http://127.0.0.1:8000/api/v2/version/10/"
+            }
+        },
+        {
+            "game_index": 360,
+            "version": {
+                "name": "emerald",
+                "url": "http://127.0.0.1:8000/api/v2/version/9/"
+            }
+        },
+        {
+            "game_index": 360,
+            "version": {
+                "name": "sapphire",
+                "url": "http://127.0.0.1:8000/api/v2/version/8/"
+            }
+        },
+        {
+            "game_index": 360,
+            "version": {
+                "name": "ruby",
+                "url": "http://127.0.0.1:8000/api/v2/version/7/"
+            }
+        }
+    ],
+    "height": 6,
+    "held_items": [],
+    "id": 360,
+    "is_default": true,
+    "location_area_encounters": "/api/v2/pokemon/360/encounters",
+    "moves": [
+        {
+            "move": {
+                "name": "counter",
+                "url": "http://127.0.0.1:8000/api/v2/move/68/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ruby-sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "emerald",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/6/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "firered-leafgreen",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/7/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "diamond-pearl",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "platinum",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "heartgold-soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/10/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-white",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "colosseum",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/12/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "xd",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/13/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "splash",
+                "url": "http://127.0.0.1:8000/api/v2/move/150/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ruby-sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "emerald",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/6/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "firered-leafgreen",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/7/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "diamond-pearl",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "platinum",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "heartgold-soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/10/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-white",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "colosseum",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/12/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "xd",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/13/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "destiny-bond",
+                "url": "http://127.0.0.1:8000/api/v2/move/194/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ruby-sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "emerald",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/6/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "firered-leafgreen",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/7/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "diamond-pearl",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "platinum",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "heartgold-soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/10/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-white",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "colosseum",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/12/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "xd",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/13/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "charm",
+                "url": "http://127.0.0.1:8000/api/v2/move/204/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ruby-sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "emerald",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/6/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "firered-leafgreen",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/7/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "diamond-pearl",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "platinum",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "heartgold-soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/10/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-white",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "colosseum",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/12/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "xd",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/13/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "safeguard",
+                "url": "http://127.0.0.1:8000/api/v2/move/219/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+                    }
+                },
+                {
+                    "level_learned_at": 0,
+                    "move_learn_method": {
+                        "name": "machine",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/4/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "xd",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/13/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "colosseum",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/12/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-white",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "heartgold-soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/10/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "platinum",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "diamond-pearl",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "firered-leafgreen",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/7/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "emerald",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/6/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ruby-sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "encore",
+                "url": "http://127.0.0.1:8000/api/v2/move/227/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ruby-sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "emerald",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/6/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "firered-leafgreen",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/7/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "diamond-pearl",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "platinum",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "heartgold-soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/10/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-white",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "colosseum",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/12/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "xd",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/13/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 1,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+                    }
+                }
+            ]
+        },
+        {
+            "move": {
+                "name": "mirror-coat",
+                "url": "http://127.0.0.1:8000/api/v2/move/243/"
+            },
+            "version_group_details": [
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "ruby-sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "emerald",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/6/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "firered-leafgreen",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/7/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "diamond-pearl",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "platinum",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "heartgold-soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/10/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-white",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "colosseum",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/12/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "xd",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/13/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "black-2-white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "x-y",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+                    }
+                },
+                {
+                    "level_learned_at": 15,
+                    "move_learn_method": {
+                        "name": "level-up",
+                        "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+                    },
+                    "version_group": {
+                        "name": "omega-ruby-alpha-sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+                    }
+                }
+            ]
+        }
+    ],
+    "name": "wynaut",
+    "order": 256,
+    "species": {
+        "name": "wynaut",
+        "url": "http://127.0.0.1:8000/api/v2/pokemon-species/360/"
+    },
+    "sprites": {
+        "back_default": "http://127.0.0.1:8000/media/sprites/pokemon/back/360.png",
+        "back_female": null,
+        "back_shiny": "http://127.0.0.1:8000/media/sprites/pokemon/back/shiny/360.png",
+        "back_shiny_female": null,
+        "front_default": "http://127.0.0.1:8000/media/sprites/pokemon/360.png",
+        "front_female": null,
+        "front_shiny": "http://127.0.0.1:8000/media/sprites/pokemon/shiny/360.png",
+        "front_shiny_female": null
+    },
+    "stats": [
+        {
+            "base_stat": 23,
+            "effort": 0,
+            "stat": {
+                "name": "speed",
+                "url": "http://127.0.0.1:8000/api/v2/stat/6/"
+            }
+        },
+        {
+            "base_stat": 48,
+            "effort": 0,
+            "stat": {
+                "name": "special-defense",
+                "url": "http://127.0.0.1:8000/api/v2/stat/5/"
+            }
+        },
+        {
+            "base_stat": 23,
+            "effort": 0,
+            "stat": {
+                "name": "special-attack",
+                "url": "http://127.0.0.1:8000/api/v2/stat/4/"
+            }
+        },
+        {
+            "base_stat": 48,
+            "effort": 0,
+            "stat": {
+                "name": "defense",
+                "url": "http://127.0.0.1:8000/api/v2/stat/3/"
+            }
+        },
+        {
+            "base_stat": 23,
+            "effort": 0,
+            "stat": {
+                "name": "attack",
+                "url": "http://127.0.0.1:8000/api/v2/stat/2/"
+            }
+        },
+        {
+            "base_stat": 95,
+            "effort": 1,
+            "stat": {
+                "name": "hp",
+                "url": "http://127.0.0.1:8000/api/v2/stat/1/"
+            }
+        }
+    ],
+    "types": [
+        {
+            "slot": 1,
+            "type": {
+                "name": "psychic",
+                "url": "http://127.0.0.1:8000/api/v2/type/14/"
+            }
+        }
+    ],
+    "weight": 140
+}

@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/390\/","name":"tm86"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/447\/","name":"grass-knot"},"id":1052,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/16\/","name":"omega-ruby-alpha-sapphire"}}
+{
+    "id": 1052,
+    "item": {
+        "name": "tm86",
+        "url": "http://127.0.0.1:8000/api/v2/item/390/"
+    },
+    "move": {
+        "name": "grass-knot",
+        "url": "http://127.0.0.1:8000/api/v2/move/447/"
+    },
+    "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+    }
+}

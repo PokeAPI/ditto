@@ -1,1 +1,20 @@
-{"names":[{"name":"Attaque","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"Attack","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":1,"name":"attack"}
+{
+    "id": 1,
+    "name": "attack",
+    "names": [
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Attaque"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Attack"
+        }
+    ]
+}

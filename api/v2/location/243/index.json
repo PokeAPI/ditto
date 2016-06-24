@@ -1,1 +1,34 @@
-{"name":"safari-zone-gate","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/2\/","name":"johto"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":227}],"names":[{"name":"Safari Zone Gate","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Portail Safari","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":243,"areas":[]}
+{
+    "areas": [],
+    "game_indices": [
+        {
+            "game_index": 227,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 243,
+    "name": "safari-zone-gate",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Safari Zone Gate"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Portail Safari"
+        }
+    ],
+    "region": {
+        "name": "johto",
+        "url": "http://127.0.0.1:8000/api/v2/region/2/"
+    }
+}

@@ -1,1 +1,21 @@
-{"order":16,"names":[{"name":"Steine zertr\u00fcmmern","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Smashing rocks","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":6,"name":"rock-smash"}
+{
+    "id": 6,
+    "name": "rock-smash",
+    "names": [
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Steine zertr\u00fcmmern"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Smashing rocks"
+        }
+    ],
+    "order": 16
+}

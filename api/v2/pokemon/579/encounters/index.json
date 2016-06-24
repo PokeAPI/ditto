@@ -1,1 +1,68 @@
-[{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":34,"max_level":34,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":34,"max_level":34,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":40,"max_level":40,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/639\/","name":"unova-route-9-area"}}]
+[
+    {
+        "location_area": {
+            "name": "unova-route-9-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/639/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 34,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 34
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 34,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 34
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white",
+                    "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 40
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    }
+]

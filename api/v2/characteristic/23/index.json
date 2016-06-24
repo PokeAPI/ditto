@@ -1,1 +1,32 @@
-{"highest_stat":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/stat\/5\/","name":"special-defense"},"possible_values":[3,8,13,18,23,28],"id":23,"descriptions":[{"description":"A horreur de perdre","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"description":"Hates to lose","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"gene_modulo":3}
+{
+    "descriptions": [
+        {
+            "description": "A horreur de perdre",
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            }
+        },
+        {
+            "description": "Hates to lose",
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            }
+        }
+    ],
+    "gene_modulo": 3,
+    "highest_stat": {
+        "name": "special-defense",
+        "url": "http://127.0.0.1:8000/api/v2/stat/5/"
+    },
+    "id": 23,
+    "possible_values": [
+        3,
+        8,
+        13,
+        18,
+        23,
+        28
+    ]
+}

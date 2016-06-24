@@ -1,1 +1,31 @@
-{"name":"water-labyrinth","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/1\/","name":"kanto"},"game_indices":[],"names":[{"name":"Water Labyrinth","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Labyrinthe d'O","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":511,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/518\/","name":"water-labyrinth-area"}]}
+{
+    "areas": [
+        {
+            "name": "water-labyrinth-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/518/"
+        }
+    ],
+    "game_indices": [],
+    "id": 511,
+    "name": "water-labyrinth",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Water Labyrinth"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Labyrinthe d'O"
+        }
+    ],
+    "region": {
+        "name": "kanto",
+        "url": "http://127.0.0.1:8000/api/v2/region/1/"
+    }
+}

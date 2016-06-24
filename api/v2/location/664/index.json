@@ -1,1 +1,76 @@
-{"name":"ambrette-gate","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/6\/","name":"kalos"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/6\/","name":"generation-vi"},"game_index":118}],"names":[{"name":"\u30b3\u30a6\u30b8\u30f3\u30b2\u30fc\u30c8","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/11\/","name":"ja-kanji"}},{"name":"Ambrette Gate","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Varco Petroglifari","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/8\/","name":"it"}},{"name":"Acceso a Petroglifo","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/7\/","name":"es"}},{"name":"Petrophia-Tor","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Porte de R. s\/Gliffe","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"\uac00\ub77c\uac8c\uc774\ud2b8","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/3\/","name":"ko"}},{"name":"\u30b3\u30a6\u30b8\u30f3\u30b2\u30fc\u30c8","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/1\/","name":"ja"}}],"id":664,"areas":[]}
+{
+    "areas": [],
+    "game_indices": [
+        {
+            "game_index": 118,
+            "generation": {
+                "name": "generation-vi",
+                "url": "http://127.0.0.1:8000/api/v2/generation/6/"
+            }
+        }
+    ],
+    "id": 664,
+    "name": "ambrette-gate",
+    "names": [
+        {
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://127.0.0.1:8000/api/v2/language/11/"
+            },
+            "name": "\u30b3\u30a6\u30b8\u30f3\u30b2\u30fc\u30c8"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Ambrette Gate"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+            },
+            "name": "Varco Petroglifari"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+            },
+            "name": "Acceso a Petroglifo"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Petrophia-Tor"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Porte de R. s/Gliffe"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+            },
+            "name": "\uac00\ub77c\uac8c\uc774\ud2b8"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+            },
+            "name": "\u30b3\u30a6\u30b8\u30f3\u30b2\u30fc\u30c8"
+        }
+    ],
+    "region": {
+        "name": "kalos",
+        "url": "http://127.0.0.1:8000/api/v2/region/6/"
+    }
+}

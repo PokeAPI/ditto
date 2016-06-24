@@ -1,1 +1,199 @@
-[{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/13\/","name":"pearl"},"encounter_details":[{"min_level":40,"max_level":55,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":40,"max_level":55,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/182\/","name":"sinnoh-sea-route-226-area"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/13\/","name":"pearl"},"encounter_details":[{"min_level":40,"max_level":55,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":40,"max_level":55,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]},{"max_chance":60,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/14\/","name":"platinum"},"encounter_details":[{"min_level":35,"max_level":55,"condition_values":[],"chance":60,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/183\/","name":"sinnoh-sea-route-230-area"}},{"version_details":[{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":25,"max_level":60,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":30,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":25,"max_level":60,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":30,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":25,"max_level":40,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":30,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":25,"max_level":40,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":30,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/619\/","name":"undella-bay-area"}}]
+[
+    {
+        "location_area": {
+            "name": "sinnoh-sea-route-226-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/182/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 40
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "pearl",
+                    "url": "http://127.0.0.1:8000/api/v2/version/13/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "sinnoh-sea-route-230-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/183/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 40
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "pearl",
+                    "url": "http://127.0.0.1:8000/api/v2/version/13/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 60,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 60,
+                "version": {
+                    "name": "platinum",
+                    "url": "http://127.0.0.1:8000/api/v2/version/14/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "undella-bay-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/619/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 30,
+                        "condition_values": [
+                            {
+                                "name": "season-winter",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                            }
+                        ],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 25
+                    }
+                ],
+                "max_chance": 30,
+                "version": {
+                    "name": "black",
+                    "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 30,
+                        "condition_values": [
+                            {
+                                "name": "season-winter",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                            }
+                        ],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 25
+                    }
+                ],
+                "max_chance": 30,
+                "version": {
+                    "name": "white",
+                    "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 30,
+                        "condition_values": [
+                            {
+                                "name": "season-winter",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                            }
+                        ],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 25
+                    }
+                ],
+                "max_chance": 30,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 30,
+                        "condition_values": [
+                            {
+                                "name": "season-winter",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                            }
+                        ],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 25
+                    }
+                ],
+                "max_chance": 30,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    }
+]

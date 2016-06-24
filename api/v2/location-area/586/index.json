@@ -1,1 +1,336 @@
-{"names":[{"name":"b","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"name":"relic-castle-b","encounter_method_rates":[{"encounter_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"},"version_details":[{"rate":3,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"}},{"rate":3,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"}}]}],"location":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location\/377\/","name":"relic-castle"},"pokemon_encounters":[{"version_details":[{"max_chance":50,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":34,"max_level":34,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":35,"max_level":35,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":36,"max_level":36,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":36,"max_level":36,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":37,"max_level":37,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":37,"max_level":37,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":50,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":34,"max_level":34,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":35,"max_level":35,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":36,"max_level":36,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":36,"max_level":36,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":37,"max_level":37,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":37,"max_level":37,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/552\/","name":"krokorok"}},{"version_details":[{"max_chance":50,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":34,"max_level":34,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":35,"max_level":35,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":36,"max_level":36,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":36,"max_level":36,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":37,"max_level":37,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":37,"max_level":37,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":50,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":34,"max_level":34,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":35,"max_level":35,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":36,"max_level":36,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":36,"max_level":36,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":37,"max_level":37,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":37,"max_level":37,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/563\/","name":"cofagrigus"}}],"id":586,"game_index":11}
+{
+    "encounter_method_rates": [
+        {
+            "encounter_method": {
+                "name": "walk",
+                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+            },
+            "version_details": [
+                {
+                    "rate": 3,
+                    "version": {
+                        "name": "white",
+                        "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                    }
+                },
+                {
+                    "rate": 3,
+                    "version": {
+                        "name": "black",
+                        "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                    }
+                }
+            ]
+        }
+    ],
+    "game_index": 11,
+    "id": 586,
+    "location": {
+        "name": "relic-castle",
+        "url": "http://127.0.0.1:8000/api/v2/location/377/"
+    },
+    "name": "relic-castle-b",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "b"
+        }
+    ],
+    "pokemon_encounters": [
+        {
+            "pokemon": {
+                "name": "krokorok",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/552/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 34,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 34
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 35,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 35
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 36,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 36
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 36,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 36
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 37,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 37
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 37,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 37
+                        }
+                    ],
+                    "max_chance": 50,
+                    "version": {
+                        "name": "black",
+                        "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 34,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 34
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 35,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 35
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 36,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 36
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 36,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 36
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 37,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 37
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 37,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 37
+                        }
+                    ],
+                    "max_chance": 50,
+                    "version": {
+                        "name": "white",
+                        "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "cofagrigus",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/563/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 34,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 34
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 35,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 35
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 36,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 36
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 36,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 36
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 37,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 37
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 37,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 37
+                        }
+                    ],
+                    "max_chance": 50,
+                    "version": {
+                        "name": "black",
+                        "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 34,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 34
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 35,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 35
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 36,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 36
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 36,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 36
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 37,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 37
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 37,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 37
+                        }
+                    ],
+                    "max_chance": 50,
+                    "version": {
+                        "name": "white",
+                        "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                    }
+                }
+            ]
+        }
+    ]
+}

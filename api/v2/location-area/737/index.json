@@ -1,1 +1,173 @@
-{"names":[{"name":"Unknown Area 304","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"name":"glittering-cave-unknown-area-304","encounter_method_rates":[],"location":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location\/671\/","name":"glittering-cave"},"pokemon_encounters":[{"version_details":[{"max_chance":35,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":15,"max_level":15,"condition_values":[],"chance":30,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/6\/","name":"rock-smash"}},{"min_level":16,"max_level":16,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/6\/","name":"rock-smash"}},{"min_level":17,"max_level":17,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/6\/","name":"rock-smash"}}]},{"max_chance":35,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":17,"max_level":17,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/6\/","name":"rock-smash"}},{"min_level":16,"max_level":16,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/6\/","name":"rock-smash"}},{"min_level":15,"max_level":15,"condition_values":[],"chance":30,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/6\/","name":"rock-smash"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/95\/","name":"onix"}},{"version_details":[{"max_chance":65,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":15,"max_level":15,"condition_values":[],"chance":50,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/6\/","name":"rock-smash"}},{"min_level":17,"max_level":17,"condition_values":[],"chance":15,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/6\/","name":"rock-smash"}}]},{"max_chance":65,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":17,"max_level":17,"condition_values":[],"chance":15,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/6\/","name":"rock-smash"}},{"min_level":15,"max_level":15,"condition_values":[],"chance":50,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/6\/","name":"rock-smash"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/557\/","name":"dwebble"}}],"id":737,"game_index":0}
+{
+    "encounter_method_rates": [],
+    "game_index": 0,
+    "id": 737,
+    "location": {
+        "name": "glittering-cave",
+        "url": "http://127.0.0.1:8000/api/v2/location/671/"
+    },
+    "name": "glittering-cave-unknown-area-304",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Unknown Area 304"
+        }
+    ],
+    "pokemon_encounters": [
+        {
+            "pokemon": {
+                "name": "onix",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/95/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 30,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 15
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 16,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 16
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 17,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 17
+                        }
+                    ],
+                    "max_chance": 35,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 17,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 17
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 16,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 16
+                        },
+                        {
+                            "chance": 30,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 15
+                        }
+                    ],
+                    "max_chance": 35,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "dwebble",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/557/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 50,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 15
+                        },
+                        {
+                            "chance": 15,
+                            "condition_values": [],
+                            "max_level": 17,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 17
+                        }
+                    ],
+                    "max_chance": 65,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 15,
+                            "condition_values": [],
+                            "max_level": 17,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 17
+                        },
+                        {
+                            "chance": 50,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 15
+                        }
+                    ],
+                    "max_chance": 65,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                }
+            ]
+        }
+    ]
+}

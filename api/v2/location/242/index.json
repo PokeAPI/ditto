@@ -1,1 +1,34 @@
-{"name":"ss-aqua","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/2\/","name":"johto"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":226}],"names":[{"name":"S.S. Aqua","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Aquaria","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":242,"areas":[]}
+{
+    "areas": [],
+    "game_indices": [
+        {
+            "game_index": 226,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 242,
+    "name": "ss-aqua",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "S.S. Aqua"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Aquaria"
+        }
+    ],
+    "region": {
+        "name": "johto",
+        "url": "http://127.0.0.1:8000/api/v2/region/2/"
+    }
+}

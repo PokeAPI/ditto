@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/334\/","name":"tm30"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/247\/","name":"shadow-ball"},"id":468,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/4\/","name":"crystal"}}
+{
+    "id": 468,
+    "item": {
+        "name": "tm30",
+        "url": "http://127.0.0.1:8000/api/v2/item/334/"
+    },
+    "move": {
+        "name": "shadow-ball",
+        "url": "http://127.0.0.1:8000/api/v2/move/247/"
+    },
+    "version_group": {
+        "name": "crystal",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/4/"
+    }
+}

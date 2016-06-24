@@ -1,1 +1,24 @@
-{"names":[{"name":"Au\u00dferhalb eines Schwarms","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Not during a swarm","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":2,"condition":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition\/1\/","name":"swarm"},"name":"swarm-no"}
+{
+    "condition": {
+        "name": "swarm",
+        "url": "http://127.0.0.1:8000/api/v2/encounter-condition/1/"
+    },
+    "id": 2,
+    "name": "swarm-no",
+    "names": [
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Au\u00dferhalb eines Schwarms"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Not during a swarm"
+        }
+    ]
+}

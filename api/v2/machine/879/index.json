@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/366\/","name":"tm62"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/318\/","name":"silver-wind"},"id":879,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/9\/","name":"platinum"}}
+{
+    "id": 879,
+    "item": {
+        "name": "tm62",
+        "url": "http://127.0.0.1:8000/api/v2/item/366/"
+    },
+    "move": {
+        "name": "silver-wind",
+        "url": "http://127.0.0.1:8000/api/v2/move/318/"
+    },
+    "version_group": {
+        "name": "platinum",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+    }
+}

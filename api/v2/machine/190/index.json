@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/316\/","name":"tm12"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/269\/","name":"taunt"},"id":190,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/14\/","name":"black-2-white-2"}}
+{
+    "id": 190,
+    "item": {
+        "name": "tm12",
+        "url": "http://127.0.0.1:8000/api/v2/item/316/"
+    },
+    "move": {
+        "name": "taunt",
+        "url": "http://127.0.0.1:8000/api/v2/move/269/"
+    },
+    "version_group": {
+        "name": "black-2-white-2",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+    }
+}

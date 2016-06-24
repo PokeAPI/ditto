@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/404\/","name":"hm08"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/590\/","name":"confide"},"id":1116,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/16\/","name":"omega-ruby-alpha-sapphire"}}
+{
+    "id": 1116,
+    "item": {
+        "name": "hm08",
+        "url": "http://127.0.0.1:8000/api/v2/item/404/"
+    },
+    "move": {
+        "name": "confide",
+        "url": "http://127.0.0.1:8000/api/v2/move/590/"
+    },
+    "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+    }
+}

@@ -1,1 +1,31 @@
-{"name":"lovely-place","region":null,"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":3000}],"names":[{"name":"Lovely place","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Endroit superbe","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":265,"areas":[]}
+{
+    "areas": [],
+    "game_indices": [
+        {
+            "game_index": 3000,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 265,
+    "name": "lovely-place",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Lovely place"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Endroit superbe"
+        }
+    ],
+    "region": null
+}

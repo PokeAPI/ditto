@@ -1,1 +1,1293 @@
-{"names":[{"name":"B1F","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"name":"rock-tunnel-b1f","encounter_method_rates":[{"encounter_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"},"version_details":[{"rate":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"}},{"rate":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"}}]},{"encounter_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/6\/","name":"rock-smash"},"version_details":[{"rate":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"}},{"rate":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"}}]}],"location":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location\/87\/","name":"rock-tunnel"},"pokemon_encounters":[{"version_details":[{"max_chance":55,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/1\/","name":"red"},"encounter_details":[{"min_level":15,"max_level":15,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":18,"max_level":18,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":17,"max_level":17,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":16,"max_level":16,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":55,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/2\/","name":"blue"},"encounter_details":[{"min_level":15,"max_level":15,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":18,"max_level":18,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":17,"max_level":17,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":16,"max_level":16,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":50,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/3\/","name":"yellow"},"encounter_details":[{"min_level":21,"max_level":21,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":19,"max_level":19,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":17,"max_level":17,"condition_values":[],"chance":15,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":15,"max_level":15,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":10,"max_level":10,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":10,"max_level":10,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/41\/","name":"zubat"}},{"version_details":[{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/1\/","name":"red"},"encounter_details":[{"min_level":15,"max_level":15,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":17,"max_level":17,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/2\/","name":"blue"},"encounter_details":[{"min_level":15,"max_level":15,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":17,"max_level":17,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/3\/","name":"yellow"},"encounter_details":[{"min_level":17,"max_level":17,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":19,"max_level":19,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":21,"max_level":21,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/66\/","name":"machop"}},{"version_details":[{"max_chance":25,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/1\/","name":"red"},"encounter_details":[{"min_level":16,"max_level":16,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":17,"max_level":17,"condition_values":[],"chance":15,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":25,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/2\/","name":"blue"},"encounter_details":[{"min_level":16,"max_level":16,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":17,"max_level":17,"condition_values":[],"chance":15,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":40,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/3\/","name":"yellow"},"encounter_details":[{"min_level":20,"max_level":20,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":18,"max_level":18,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":16,"max_level":16,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":130,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":17,"max_level":21,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/6\/","name":"rock-smash"}},{"min_level":12,"max_level":16,"condition_values":[],"chance":90,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/6\/","name":"rock-smash"}},{"min_level":12,"max_level":12,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/14\/","name":"radio-off"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":12,"max_level":12,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":130,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":12,"max_level":16,"condition_values":[],"chance":90,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/6\/","name":"rock-smash"}},{"min_level":12,"max_level":12,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/14\/","name":"radio-off"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":12,"max_level":12,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":17,"max_level":21,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/6\/","name":"rock-smash"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/74\/","name":"geodude"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/1\/","name":"red"},"encounter_details":[{"min_level":13,"max_level":13,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":15,"max_level":15,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/2\/","name":"blue"},"encounter_details":[{"min_level":13,"max_level":13,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":15,"max_level":15,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":16,"max_level":16,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/14\/","name":"radio-off"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":16,"max_level":16,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/14\/","name":"radio-off"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":16,"max_level":16,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/14\/","name":"radio-off"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":16,"max_level":16,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/14\/","name":"radio-off"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/95\/","name":"onix"}},{"version_details":[{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":12,"max_level":12,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":12,"max_level":12,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/14\/","name":"radio-off"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":12,"max_level":12,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":12,"max_level":12,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/14\/","name":"radio-off"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/104\/","name":"cubone"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":14,"max_level":14,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":14,"max_level":14,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":14,"max_level":14,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":14,"max_level":14,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/105\/","name":"marowak"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":14,"max_level":14,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":14,"max_level":14,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":14,"max_level":14,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":14,"max_level":14,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/115\/","name":"kangaskhan"}},{"version_details":[{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":16,"max_level":16,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/15\/","name":"radio-hoenn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":16,"max_level":16,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/15\/","name":"radio-hoenn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":16,"max_level":16,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/15\/","name":"radio-hoenn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":16,"max_level":16,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/15\/","name":"radio-hoenn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/296\/","name":"makuhita"}},{"version_details":[{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":12,"max_level":12,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/15\/","name":"radio-hoenn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":12,"max_level":12,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/15\/","name":"radio-hoenn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":12,"max_level":12,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/15\/","name":"radio-hoenn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":12,"max_level":12,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/15\/","name":"radio-hoenn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/359\/","name":"absol"}},{"version_details":[{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":16,"max_level":16,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":16,"max_level":16,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":16,"max_level":16,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":16,"max_level":16,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/433\/","name":"chingling"}},{"version_details":[{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":12,"max_level":12,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":12,"max_level":12,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":12,"max_level":12,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":12,"max_level":12,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/436\/","name":"bronzor"}}],"id":293,"game_index":110}
+{
+    "encounter_method_rates": [
+        {
+            "encounter_method": {
+                "name": "walk",
+                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+            },
+            "version_details": [
+                {
+                    "rate": 15,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                    }
+                },
+                {
+                    "rate": 15,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                    }
+                }
+            ]
+        },
+        {
+            "encounter_method": {
+                "name": "rock-smash",
+                "url": "http://127.0.0.1:8000/api/v2/encounter-method/6/"
+            },
+            "version_details": [
+                {
+                    "rate": 20,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                    }
+                },
+                {
+                    "rate": 20,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                    }
+                }
+            ]
+        }
+    ],
+    "game_index": 110,
+    "id": 293,
+    "location": {
+        "name": "rock-tunnel",
+        "url": "http://127.0.0.1:8000/api/v2/location/87/"
+    },
+    "name": "rock-tunnel-b1f",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "B1F"
+        }
+    ],
+    "pokemon_encounters": [
+        {
+            "pokemon": {
+                "name": "zubat",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/41/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 15
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 18,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 18
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 17,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 17
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        }
+                    ],
+                    "max_chance": 55,
+                    "version": {
+                        "name": "red",
+                        "url": "http://127.0.0.1:8000/api/v2/version/1/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 15
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 18,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 18
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 17,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 17
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        }
+                    ],
+                    "max_chance": 55,
+                    "version": {
+                        "name": "blue",
+                        "url": "http://127.0.0.1:8000/api/v2/version/2/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 21,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 21
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 19,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 19
+                        },
+                        {
+                            "chance": 15,
+                            "condition_values": [],
+                            "max_level": 17,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 17
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 15
+                        }
+                    ],
+                    "max_chance": 50,
+                    "version": {
+                        "name": "yellow",
+                        "url": "http://127.0.0.1:8000/api/v2/version/3/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "machop",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/66/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 15
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 17,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 17
+                        }
+                    ],
+                    "max_chance": 15,
+                    "version": {
+                        "name": "red",
+                        "url": "http://127.0.0.1:8000/api/v2/version/1/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 15
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 17,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 17
+                        }
+                    ],
+                    "max_chance": 15,
+                    "version": {
+                        "name": "blue",
+                        "url": "http://127.0.0.1:8000/api/v2/version/2/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 17,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 17
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 19,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 19
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 21,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 21
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "yellow",
+                        "url": "http://127.0.0.1:8000/api/v2/version/3/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "geodude",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/74/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        },
+                        {
+                            "chance": 15,
+                            "condition_values": [],
+                            "max_level": 17,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 17
+                        }
+                    ],
+                    "max_chance": 25,
+                    "version": {
+                        "name": "red",
+                        "url": "http://127.0.0.1:8000/api/v2/version/1/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        },
+                        {
+                            "chance": 15,
+                            "condition_values": [],
+                            "max_level": 17,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 17
+                        }
+                    ],
+                    "max_chance": 25,
+                    "version": {
+                        "name": "blue",
+                        "url": "http://127.0.0.1:8000/api/v2/version/2/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 20,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 20
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 18,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 18
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        }
+                    ],
+                    "max_chance": 40,
+                    "version": {
+                        "name": "yellow",
+                        "url": "http://127.0.0.1:8000/api/v2/version/3/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 21,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 17
+                        },
+                        {
+                            "chance": 90,
+                            "condition_values": [],
+                            "max_level": 16,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 12
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                }
+                            ],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        }
+                    ],
+                    "max_chance": 130,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 90,
+                            "condition_values": [],
+                            "max_level": 16,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 12
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                }
+                            ],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 21,
+                            "method": {
+                                "name": "rock-smash",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/6/"
+                            },
+                            "min_level": 17
+                        }
+                    ],
+                    "max_chance": 130,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "onix",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/95/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 13,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 13
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 15
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "red",
+                        "url": "http://127.0.0.1:8000/api/v2/version/1/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 13,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 13
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 15,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 15
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "blue",
+                        "url": "http://127.0.0.1:8000/api/v2/version/2/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                }
+                            ],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                }
+                            ],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                }
+                            ],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                }
+                            ],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "cubone",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/104/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                }
+                            ],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-off",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/14/"
+                                }
+                            ],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "marowak",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/105/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 14,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 14
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 14,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 14
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 14,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 14
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 14,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 14
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "kangaskhan",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/115/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 14,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 14
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 14,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 14
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 14,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 14
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 14,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 14
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "makuhita",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/296/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-hoenn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/15/"
+                                }
+                            ],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-hoenn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/15/"
+                                }
+                            ],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-hoenn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/15/"
+                                }
+                            ],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-hoenn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/15/"
+                                }
+                            ],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "absol",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/359/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-hoenn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/15/"
+                                }
+                            ],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-hoenn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/15/"
+                                }
+                            ],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-hoenn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/15/"
+                                }
+                            ],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-hoenn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/15/"
+                                }
+                            ],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "chingling",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/433/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-sinnoh",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                                }
+                            ],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-sinnoh",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                                }
+                            ],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-sinnoh",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                                }
+                            ],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-sinnoh",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                                }
+                            ],
+                            "max_level": 16,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 16
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "bronzor",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/436/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-sinnoh",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                                }
+                            ],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-sinnoh",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                                }
+                            ],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-sinnoh",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                                }
+                            ],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "radio-sinnoh",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                                }
+                            ],
+                            "max_level": 12,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 12
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                    }
+                }
+            ]
+        }
+    ]
+}

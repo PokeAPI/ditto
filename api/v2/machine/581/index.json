@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/341\/","name":"tm37"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/201\/","name":"sandstorm"},"id":581,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/5\/","name":"ruby-sapphire"}}
+{
+    "id": 581,
+    "item": {
+        "name": "tm37",
+        "url": "http://127.0.0.1:8000/api/v2/item/341/"
+    },
+    "move": {
+        "name": "sandstorm",
+        "url": "http://127.0.0.1:8000/api/v2/move/201/"
+    },
+    "version_group": {
+        "name": "ruby-sapphire",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+    }
+}

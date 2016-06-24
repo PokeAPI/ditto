@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/344\/","name":"tm40"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/130\/","name":"skull-bash"},"id":626,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/2\/","name":"yellow"}}
+{
+    "id": 626,
+    "item": {
+        "name": "tm40",
+        "url": "http://127.0.0.1:8000/api/v2/item/344/"
+    },
+    "move": {
+        "name": "skull-bash",
+        "url": "http://127.0.0.1:8000/api/v2/move/130/"
+    },
+    "version_group": {
+        "name": "yellow",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/2/"
+    }
+}

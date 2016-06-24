@@ -1,1 +1,1318 @@
-{"names":[{"name":"Plaine","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"Field","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":2,"pokemon_encounters":[{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/1\/","name":"bulbasaur"},"base_score":50},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/2\/","name":"ivysaur"},"base_score":80},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/3\/","name":"venusaur"},"base_score":90},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/4\/","name":"charmander"},"base_score":50},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/5\/","name":"charmeleon"},"base_score":80},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/6\/","name":"charizard"},"base_score":90},{"rate":50,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/16\/","name":"pidgey"},"base_score":30},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/17\/","name":"pidgeotto"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/18\/","name":"pidgeot"},"base_score":70},{"rate":50,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/19\/","name":"rattata"},"base_score":30},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/20\/","name":"raticate"},"base_score":50},{"rate":50,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/21\/","name":"spearow"},"base_score":30},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/22\/","name":"fearow"},"base_score":50},{"rate":50,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/29\/","name":"nidoran-f"},"base_score":30},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/30\/","name":"nidorina"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/31\/","name":"nidoqueen"},"base_score":70},{"rate":50,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/32\/","name":"nidoran-m"},"base_score":30},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/33\/","name":"nidorino"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/34\/","name":"nidoking"},"base_score":70},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/37\/","name":"vulpix"},"base_score":70},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/38\/","name":"ninetales"},"base_score":80},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/39\/","name":"jigglypuff"},"base_score":80},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/40\/","name":"wigglytuff"},"base_score":90},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/52\/","name":"meowth"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/53\/","name":"persian"},"base_score":70},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/58\/","name":"growlithe"},"base_score":70},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/59\/","name":"arcanine"},"base_score":80},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/63\/","name":"abra"},"base_score":50},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/64\/","name":"kadabra"},"base_score":80},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/65\/","name":"alakazam"},"base_score":90},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/77\/","name":"ponyta"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/78\/","name":"rapidash"},"base_score":70},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/83\/","name":"farfetchd"},"base_score":70},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/84\/","name":"doduo"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/85\/","name":"dodrio"},"base_score":70},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/88\/","name":"grimer"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/89\/","name":"muk"},"base_score":70},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/100\/","name":"voltorb"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/101\/","name":"electrode"},"base_score":70},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/108\/","name":"lickitung"},"base_score":70},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/113\/","name":"chansey"},"base_score":90},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/115\/","name":"kangaskhan"},"base_score":70},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/122\/","name":"mr-mime"},"base_score":70},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/123\/","name":"scyther"},"base_score":70},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/124\/","name":"jynx"},"base_score":70},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/128\/","name":"tauros"},"base_score":70},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/132\/","name":"ditto"},"base_score":70},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/133\/","name":"eevee"},"base_score":90},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/134\/","name":"vaporeon"},"base_score":90},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/135\/","name":"jolteon"},"base_score":90},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/136\/","name":"flareon"},"base_score":90},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/137\/","name":"porygon"},"base_score":80},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/143\/","name":"snorlax"},"base_score":80},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/150\/","name":"mewtwo"},"base_score":90},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/152\/","name":"chikorita"},"base_score":50},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/153\/","name":"bayleef"},"base_score":80},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/154\/","name":"meganium"},"base_score":90},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/155\/","name":"cyndaquil"},"base_score":50},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/156\/","name":"quilava"},"base_score":80},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/157\/","name":"typhlosion"},"base_score":90},{"rate":50,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/161\/","name":"sentret"},"base_score":30},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/162\/","name":"furret"},"base_score":50},{"rate":50,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/165\/","name":"ledyba"},"base_score":30},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/166\/","name":"ledian"},"base_score":50},{"rate":50,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/167\/","name":"spinarak"},"base_score":30},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/168\/","name":"ariados"},"base_score":50},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/172\/","name":"pichu"},"base_score":80},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/173\/","name":"cleffa"},"base_score":80},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/174\/","name":"igglybuff"},"base_score":80},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/175\/","name":"togepi"},"base_score":80},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/176\/","name":"togetic"},"base_score":90},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/179\/","name":"mareep"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/180\/","name":"flaaffy"},"base_score":70},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/181\/","name":"ampharos"},"base_score":80},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/187\/","name":"hoppip"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/188\/","name":"skiploom"},"base_score":70},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/189\/","name":"jumpluff"},"base_score":80},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/191\/","name":"sunkern"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/192\/","name":"sunflora"},"base_score":70},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/193\/","name":"yanma"},"base_score":80},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/196\/","name":"espeon"},"base_score":90},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/197\/","name":"umbreon"},"base_score":90},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/202\/","name":"wobbuffet"},"base_score":80},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/203\/","name":"girafarig"},"base_score":70},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/209\/","name":"snubbull"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/210\/","name":"granbull"},"base_score":70},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/212\/","name":"scizor"},"base_score":90},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/233\/","name":"porygon2"},"base_score":80},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/234\/","name":"stantler"},"base_score":50},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/235\/","name":"smeargle"},"base_score":80},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/238\/","name":"smoochum"},"base_score":80},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/241\/","name":"miltank"},"base_score":70},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/242\/","name":"blissey"},"base_score":90},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/255\/","name":"torchic"},"base_score":50},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/256\/","name":"combusken"},"base_score":80},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/257\/","name":"blaziken"},"base_score":90},{"rate":50,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/261\/","name":"poochyena"},"base_score":30},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/262\/","name":"mightyena"},"base_score":50},{"rate":50,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/263\/","name":"zigzagoon"},"base_score":30},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/264\/","name":"linoone"},"base_score":50},{"rate":50,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/276\/","name":"taillow"},"base_score":30},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/277\/","name":"swellow"},"base_score":50},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/280\/","name":"ralts"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/281\/","name":"kirlia"},"base_score":70},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/282\/","name":"gardevoir"},"base_score":80},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/300\/","name":"skitty"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/301\/","name":"delcatty"},"base_score":70},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/309\/","name":"electrike"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/310\/","name":"manectric"},"base_score":70},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/311\/","name":"plusle"},"base_score":90},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/312\/","name":"minun"},"base_score":90},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/315\/","name":"roselia"},"base_score":70},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/325\/","name":"spoink"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/326\/","name":"grumpig"},"base_score":70},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/327\/","name":"spinda"},"base_score":50},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/333\/","name":"swablu"},"base_score":50},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/334\/","name":"altaria"},"base_score":80},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/335\/","name":"zangoose"},"base_score":70},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/351\/","name":"castform"},"base_score":80},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/360\/","name":"wynaut"},"base_score":80},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/380\/","name":"latias"},"base_score":90},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/381\/","name":"latios"},"base_score":90},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/384\/","name":"rayquaza"},"base_score":90},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/390\/","name":"chimchar"},"base_score":50},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/391\/","name":"monferno"},"base_score":80},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/392\/","name":"infernape"},"base_score":90},{"rate":50,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/396\/","name":"starly"},"base_score":30},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/397\/","name":"staravia"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/398\/","name":"staraptor"},"base_score":70},{"rate":50,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/399\/","name":"bidoof"},"base_score":30},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/400\/","name":"bibarel"},"base_score":50},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/403\/","name":"shinx"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/404\/","name":"luxio"},"base_score":70},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/405\/","name":"luxray"},"base_score":80},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/406\/","name":"budew"},"base_score":80},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/407\/","name":"roserade"},"base_score":80},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/421\/","name":"cherrim"},"base_score":90},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/427\/","name":"buneary"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/428\/","name":"lopunny"},"base_score":70},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/431\/","name":"glameow"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/432\/","name":"purugly"},"base_score":70},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/433\/","name":"chingling"},"base_score":70},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/438\/","name":"bonsly"},"base_score":90},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/439\/","name":"mime-jr"},"base_score":90},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/440\/","name":"happiny"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/441\/","name":"chatot"},"base_score":70},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/442\/","name":"spiritomb"},"base_score":80},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/447\/","name":"riolu"},"base_score":70},{"rate":30,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/448\/","name":"lucario"},"base_score":50},{"rate":20,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/449\/","name":"hippopotas"},"base_score":70},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/463\/","name":"lickilicky"},"base_score":80},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/468\/","name":"togekiss"},"base_score":80},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/469\/","name":"yanmega"},"base_score":80},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/470\/","name":"leafeon"},"base_score":90},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/471\/","name":"glaceon"},"base_score":90},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/474\/","name":"porygon-z"},"base_score":80},{"rate":10,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/475\/","name":"gallade"},"base_score":80},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/479\/","name":"rotom"},"base_score":90},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/480\/","name":"uxie"},"base_score":90},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/481\/","name":"mesprit"},"base_score":90},{"rate":3,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/482\/","name":"azelf"},"base_score":90},{"rate":1,"pokemon_species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/492\/","name":"shaymin"},"base_score":100}],"name":"field"}
+{
+    "id": 2,
+    "name": "field",
+    "names": [
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Plaine"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Field"
+        }
+    ],
+    "pokemon_encounters": [
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "bulbasaur",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/1/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "ivysaur",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/2/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "venusaur",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/3/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "charmander",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/4/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "charmeleon",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/5/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "charizard",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/6/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 30,
+            "pokemon_species": {
+                "name": "pidgey",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/16/"
+            },
+            "rate": 50
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "pidgeotto",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/17/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "pidgeot",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/18/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 30,
+            "pokemon_species": {
+                "name": "rattata",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/19/"
+            },
+            "rate": 50
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "raticate",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/20/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 30,
+            "pokemon_species": {
+                "name": "spearow",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/21/"
+            },
+            "rate": 50
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "fearow",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/22/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 30,
+            "pokemon_species": {
+                "name": "nidoran-f",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/29/"
+            },
+            "rate": 50
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "nidorina",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/30/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "nidoqueen",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/31/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 30,
+            "pokemon_species": {
+                "name": "nidoran-m",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/32/"
+            },
+            "rate": 50
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "nidorino",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/33/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "nidoking",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/34/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "vulpix",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/37/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "ninetales",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/38/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "jigglypuff",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/39/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "wigglytuff",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/40/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "meowth",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/52/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "persian",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/53/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "growlithe",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/58/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "arcanine",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/59/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "abra",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/63/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "kadabra",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/64/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "alakazam",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/65/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "ponyta",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/77/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "rapidash",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/78/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "farfetchd",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/83/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "doduo",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/84/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "dodrio",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/85/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "grimer",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/88/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "muk",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/89/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "voltorb",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/100/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "electrode",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/101/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "lickitung",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/108/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "chansey",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/113/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "kangaskhan",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/115/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "mr-mime",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/122/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "scyther",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/123/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "jynx",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/124/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "tauros",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/128/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "ditto",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/132/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "eevee",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/133/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "vaporeon",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/134/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "jolteon",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/135/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "flareon",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/136/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "porygon",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/137/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "snorlax",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/143/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "mewtwo",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/150/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "chikorita",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/152/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "bayleef",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/153/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "meganium",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/154/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "cyndaquil",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/155/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "quilava",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/156/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "typhlosion",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/157/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 30,
+            "pokemon_species": {
+                "name": "sentret",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/161/"
+            },
+            "rate": 50
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "furret",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/162/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 30,
+            "pokemon_species": {
+                "name": "ledyba",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/165/"
+            },
+            "rate": 50
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "ledian",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/166/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 30,
+            "pokemon_species": {
+                "name": "spinarak",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/167/"
+            },
+            "rate": 50
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "ariados",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/168/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "pichu",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/172/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "cleffa",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/173/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "igglybuff",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/174/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "togepi",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/175/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "togetic",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/176/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "mareep",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/179/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "flaaffy",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/180/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "ampharos",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/181/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "hoppip",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/187/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "skiploom",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/188/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "jumpluff",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/189/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "sunkern",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/191/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "sunflora",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/192/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "yanma",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/193/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "espeon",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/196/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "umbreon",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/197/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "wobbuffet",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/202/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "girafarig",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/203/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "snubbull",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/209/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "granbull",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/210/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "scizor",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/212/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "porygon2",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/233/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "stantler",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/234/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "smeargle",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/235/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "smoochum",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/238/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "miltank",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/241/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "blissey",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/242/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "torchic",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/255/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "combusken",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/256/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "blaziken",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/257/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 30,
+            "pokemon_species": {
+                "name": "poochyena",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/261/"
+            },
+            "rate": 50
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "mightyena",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/262/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 30,
+            "pokemon_species": {
+                "name": "zigzagoon",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/263/"
+            },
+            "rate": 50
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "linoone",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/264/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 30,
+            "pokemon_species": {
+                "name": "taillow",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/276/"
+            },
+            "rate": 50
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "swellow",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/277/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "ralts",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/280/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "kirlia",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/281/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "gardevoir",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/282/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "skitty",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/300/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "delcatty",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/301/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "electrike",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/309/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "manectric",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/310/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "plusle",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/311/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "minun",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/312/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "roselia",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/315/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "spoink",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/325/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "grumpig",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/326/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "spinda",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/327/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "swablu",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/333/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "altaria",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/334/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "zangoose",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/335/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "castform",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/351/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "wynaut",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/360/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "latias",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/380/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "latios",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/381/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "rayquaza",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/384/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "chimchar",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/390/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "monferno",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/391/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "infernape",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/392/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 30,
+            "pokemon_species": {
+                "name": "starly",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/396/"
+            },
+            "rate": 50
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "staravia",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/397/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "staraptor",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/398/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 30,
+            "pokemon_species": {
+                "name": "bidoof",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/399/"
+            },
+            "rate": 50
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "bibarel",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/400/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "shinx",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/403/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "luxio",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/404/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "luxray",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/405/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "budew",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/406/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "roserade",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/407/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "cherrim",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/421/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "buneary",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/427/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "lopunny",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/428/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "glameow",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/431/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "purugly",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/432/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "chingling",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/433/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "bonsly",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/438/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "mime-jr",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/439/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "happiny",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/440/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "chatot",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/441/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "spiritomb",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/442/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "riolu",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/447/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 50,
+            "pokemon_species": {
+                "name": "lucario",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/448/"
+            },
+            "rate": 30
+        },
+        {
+            "base_score": 70,
+            "pokemon_species": {
+                "name": "hippopotas",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/449/"
+            },
+            "rate": 20
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "lickilicky",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/463/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "togekiss",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/468/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "yanmega",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/469/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "leafeon",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/470/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "glaceon",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/471/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "porygon-z",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/474/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 80,
+            "pokemon_species": {
+                "name": "gallade",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/475/"
+            },
+            "rate": 10
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "rotom",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/479/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "uxie",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/480/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "mesprit",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/481/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 90,
+            "pokemon_species": {
+                "name": "azelf",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/482/"
+            },
+            "rate": 3
+        },
+        {
+            "base_score": 100,
+            "pokemon_species": {
+                "name": "shaymin",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon-species/492/"
+            },
+            "rate": 1
+        }
+    ]
+}

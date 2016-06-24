@@ -1,1 +1,33 @@
-{"highest_stat":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/stat\/2\/","name":"attack"},"possible_values":[0,5,10,15,20,25,30],"id":2,"descriptions":[{"description":"Est fier de sa puissance","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"description":"Proud of its power","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"gene_modulo":0}
+{
+    "descriptions": [
+        {
+            "description": "Est fier de sa puissance",
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            }
+        },
+        {
+            "description": "Proud of its power",
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            }
+        }
+    ],
+    "gene_modulo": 0,
+    "highest_stat": {
+        "name": "attack",
+        "url": "http://127.0.0.1:8000/api/v2/stat/2/"
+    },
+    "id": 2,
+    "possible_values": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30
+    ]
+}

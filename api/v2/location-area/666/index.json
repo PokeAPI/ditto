@@ -1,1 +1,890 @@
-{"names":[{"name":"unknown area 76","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"name":"unova-victory-road-2-unknown-area-76","encounter_method_rates":[{"encounter_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"},"version_details":[{"rate":1,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"}},{"rate":1,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"}}]},{"encounter_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"},"version_details":[{"rate":3,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"}},{"rate":3,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"}}]}],"location":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location\/548\/","name":"unova-victory-road-2"},"pokemon_encounters":[{"version_details":[{"max_chance":95,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":50,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":49,"max_level":49,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":49,"max_level":49,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":47,"max_level":47,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":47,"max_level":47,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":95,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":50,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":49,"max_level":49,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":49,"max_level":49,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":47,"max_level":47,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":47,"max_level":47,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/531\/","name":"audino"}},{"version_details":[{"max_chance":140,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":52,"max_level":52,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":52,"max_level":52,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":53,"max_level":53,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":54,"max_level":54,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":47,"max_level":47,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":47,"max_level":47,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":49,"max_level":49,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":140,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":52,"max_level":52,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":52,"max_level":52,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":53,"max_level":53,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":54,"max_level":54,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":47,"max_level":47,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":47,"max_level":47,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":49,"max_level":49,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/533\/","name":"gurdurr"}},{"version_details":[{"max_chance":60,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":53,"max_level":53,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":54,"max_level":54,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":49,"max_level":49,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":60,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":53,"max_level":53,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":54,"max_level":54,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":49,"max_level":49,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/538\/","name":"throh"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":50,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":50,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/539\/","name":"sawk"}}],"id":666,"game_index":76}
+{
+    "encounter_method_rates": [
+        {
+            "encounter_method": {
+                "name": "walk",
+                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+            },
+            "version_details": [
+                {
+                    "rate": 1,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rate": 1,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                }
+            ]
+        },
+        {
+            "encounter_method": {
+                "name": "dark-grass",
+                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+            },
+            "version_details": [
+                {
+                    "rate": 3,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rate": 3,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                }
+            ]
+        }
+    ],
+    "game_index": 76,
+    "id": 666,
+    "location": {
+        "name": "unova-victory-road-2",
+        "url": "http://127.0.0.1:8000/api/v2/location/548/"
+    },
+    "name": "unova-victory-road-2-unknown-area-76",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "unknown area 76"
+        }
+    ],
+    "pokemon_encounters": [
+        {
+            "pokemon": {
+                "name": "audino",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/531/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        }
+                    ],
+                    "max_chance": 95,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 47
+                        }
+                    ],
+                    "max_chance": 95,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "gurdurr",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/533/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 52,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 52
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 52,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 52
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 53,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 53
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 140,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 52,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 52
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 52,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 52
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 53,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 53
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 140,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "throh",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/538/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 53,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 53
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 60,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 53,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 53
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "dark-grass",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 60,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "sawk",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/539/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "grass-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                }
+            ]
+        }
+    ]
+}

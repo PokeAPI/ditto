@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/360\/","name":"tm56"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/374\/","name":"fling"},"id":841,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"}}
+{
+    "id": 841,
+    "item": {
+        "name": "tm56",
+        "url": "http://127.0.0.1:8000/api/v2/item/360/"
+    },
+    "move": {
+        "name": "fling",
+        "url": "http://127.0.0.1:8000/api/v2/move/374/"
+    },
+    "version_group": {
+        "name": "x-y",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+    }
+}

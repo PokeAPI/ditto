@@ -1,1 +1,41 @@
-{"name":"black-gate","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/5\/","name":"unova"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/5\/","name":"generation-v"},"game_index":112}],"names":[{"name":"Black Gate","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Porte Noire","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"\u30d6\u30e9\u30c3\u30af\u30b2\u30fc\u30c8","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/1\/","name":"ja"}}],"id":424,"areas":[]}
+{
+    "areas": [],
+    "game_indices": [
+        {
+            "game_index": 112,
+            "generation": {
+                "name": "generation-v",
+                "url": "http://127.0.0.1:8000/api/v2/generation/5/"
+            }
+        }
+    ],
+    "id": 424,
+    "name": "black-gate",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Black Gate"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Porte Noire"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+            },
+            "name": "\u30d6\u30e9\u30c3\u30af\u30b2\u30fc\u30c8"
+        }
+    ],
+    "region": {
+        "name": "unova",
+        "url": "http://127.0.0.1:8000/api/v2/region/5/"
+    }
+}

@@ -1,1 +1,31 @@
-{"name":"sevault-canyon","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/1\/","name":"kanto"},"game_indices":[],"names":[{"name":"Sevault Canyon","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Canyon Sesor","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":520,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/527\/","name":"sevault-canyon-area"}]}
+{
+    "areas": [
+        {
+            "name": "sevault-canyon-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/527/"
+        }
+    ],
+    "game_indices": [],
+    "id": 520,
+    "name": "sevault-canyon",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Sevault Canyon"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Canyon Sesor"
+        }
+    ],
+    "region": {
+        "name": "kanto",
+        "url": "http://127.0.0.1:8000/api/v2/region/1/"
+    }
+}

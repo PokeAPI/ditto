@@ -1,1 +1,34 @@
-{"name":"snowpoint-city","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/4\/","name":"sinnoh"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":14}],"names":[{"name":"Snowpoint City","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Frimapic","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":171,"areas":[]}
+{
+    "areas": [],
+    "game_indices": [
+        {
+            "game_index": 14,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 171,
+    "name": "snowpoint-city",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Snowpoint City"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Frimapic"
+        }
+    ],
+    "region": {
+        "name": "sinnoh",
+        "url": "http://127.0.0.1:8000/api/v2/region/4/"
+    }
+}

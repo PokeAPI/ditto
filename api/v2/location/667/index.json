@@ -1,1 +1,76 @@
-{"name":"coumarine-gate","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/6\/","name":"kalos"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/6\/","name":"generation-vi"},"game_index":124}],"names":[{"name":"\u30d2\u30e8\u30af\u30b2\u30fc\u30c8","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/11\/","name":"ja-kanji"}},{"name":"Coumarine Gate","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Varco Temperopoli","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/8\/","name":"it"}},{"name":"Acceso a T\u00e9mpera","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/7\/","name":"es"}},{"name":"Tempera-Tor","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Porte de P. Temp\u00e8res","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"\ube44\uc775\uac8c\uc774\ud2b8","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/3\/","name":"ko"}},{"name":"\u30d2\u30e8\u30af\u30b2\u30fc\u30c8","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/1\/","name":"ja"}}],"id":667,"areas":[]}
+{
+    "areas": [],
+    "game_indices": [
+        {
+            "game_index": 124,
+            "generation": {
+                "name": "generation-vi",
+                "url": "http://127.0.0.1:8000/api/v2/generation/6/"
+            }
+        }
+    ],
+    "id": 667,
+    "name": "coumarine-gate",
+    "names": [
+        {
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://127.0.0.1:8000/api/v2/language/11/"
+            },
+            "name": "\u30d2\u30e8\u30af\u30b2\u30fc\u30c8"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Coumarine Gate"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+            },
+            "name": "Varco Temperopoli"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+            },
+            "name": "Acceso a T\u00e9mpera"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Tempera-Tor"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Porte de P. Temp\u00e8res"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+            },
+            "name": "\ube44\uc775\uac8c\uc774\ud2b8"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+            },
+            "name": "\u30d2\u30e8\u30af\u30b2\u30fc\u30c8"
+        }
+    ],
+    "region": {
+        "name": "kalos",
+        "url": "http://127.0.0.1:8000/api/v2/region/6/"
+    }
+}

@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/314\/","name":"tm10"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/237\/","name":"hidden-power"},"id":158,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/14\/","name":"black-2-white-2"}}
+{
+    "id": 158,
+    "item": {
+        "name": "tm10",
+        "url": "http://127.0.0.1:8000/api/v2/item/314/"
+    },
+    "move": {
+        "name": "hidden-power",
+        "url": "http://127.0.0.1:8000/api/v2/move/237/"
+    },
+    "version_group": {
+        "name": "black-2-white-2",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+    }
+}

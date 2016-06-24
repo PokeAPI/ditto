@@ -1,1 +1,21 @@
-{"order":4,"names":[{"name":"Im Schatten einer Br\u00fccke laufen","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Walking in bridge shadows","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":11,"name":"bridge-spots"}
+{
+    "id": 11,
+    "name": "bridge-spots",
+    "names": [
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Im Schatten einer Br\u00fccke laufen"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Walking in bridge shadows"
+        }
+    ],
+    "order": 4
+}

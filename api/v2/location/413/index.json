@@ -1,1 +1,46 @@
-{"name":"undella-bay","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/5\/","name":"unova"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/5\/","name":"generation-v"},"game_index":71}],"names":[{"name":"Undella Bay","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Baie Vaguelone","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"\u30b5\u30b6\u30ca\u30df\u6e7e","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/1\/","name":"ja"}}],"id":413,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/619\/","name":"undella-bay-area"}]}
+{
+    "areas": [
+        {
+            "name": "undella-bay-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/619/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 71,
+            "generation": {
+                "name": "generation-v",
+                "url": "http://127.0.0.1:8000/api/v2/generation/5/"
+            }
+        }
+    ],
+    "id": 413,
+    "name": "undella-bay",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Undella Bay"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Baie Vaguelone"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+            },
+            "name": "\u30b5\u30b6\u30ca\u30df\u6e7e"
+        }
+    ],
+    "region": {
+        "name": "unova",
+        "url": "http://127.0.0.1:8000/api/v2/region/5/"
+    }
+}

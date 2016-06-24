@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/381\/","name":"tm77"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/244\/","name":"psych-up"},"id":987,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/14\/","name":"black-2-white-2"}}
+{
+    "id": 987,
+    "item": {
+        "name": "tm77",
+        "url": "http://127.0.0.1:8000/api/v2/item/381/"
+    },
+    "move": {
+        "name": "psych-up",
+        "url": "http://127.0.0.1:8000/api/v2/move/244/"
+    },
+    "version_group": {
+        "name": "black-2-white-2",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+    }
+}

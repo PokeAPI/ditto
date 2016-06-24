@@ -1,1 +1,24 @@
-{"names":[{"name":"Sinnoh-Sound im Radio","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Sinnoh radio","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":16,"condition":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition\/5\/","name":"radio"},"name":"radio-sinnoh"}
+{
+    "condition": {
+        "name": "radio",
+        "url": "http://127.0.0.1:8000/api/v2/encounter-condition/5/"
+    },
+    "id": 16,
+    "name": "radio-sinnoh",
+    "names": [
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Sinnoh-Sound im Radio"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Sinnoh radio"
+        }
+    ]
+}

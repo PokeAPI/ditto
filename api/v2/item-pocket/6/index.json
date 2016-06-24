@@ -1,1 +1,19 @@
-{"names":[{"name":"Mail","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":6,"categories":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item-category\/25\/","name":"all-mail"}],"name":"mail"}
+{
+    "categories": [
+        {
+            "name": "all-mail",
+            "url": "http://127.0.0.1:8000/api/v2/item-category/25/"
+        }
+    ],
+    "id": 6,
+    "name": "mail",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Mail"
+        }
+    ]
+}

@@ -1,1 +1,31 @@
-{"name":"pokepark-06","region":null,"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":3041}],"names":[{"name":"POK\u00e9PARK 06","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"POK\u00e9PARK 06","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":306,"areas":[]}
+{
+    "areas": [],
+    "game_indices": [
+        {
+            "game_index": 3041,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 306,
+    "name": "pokepark-06",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "POK\u00e9PARK 06"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "POK\u00e9PARK 06"
+        }
+    ],
+    "region": null
+}

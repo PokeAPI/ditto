@@ -1,1 +1,39 @@
-{"name":"blackthorn-city","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/2\/","name":"johto"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":136}],"names":[{"name":"Blackthorn City","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Eb\u00e8nelle","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":65,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/249\/","name":"blackthorn-city-area"}]}
+{
+    "areas": [
+        {
+            "name": "blackthorn-city-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/249/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 136,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 65,
+    "name": "blackthorn-city",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Blackthorn City"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Eb\u00e8nelle"
+        }
+    ],
+    "region": {
+        "name": "johto",
+        "url": "http://127.0.0.1:8000/api/v2/region/2/"
+    }
+}

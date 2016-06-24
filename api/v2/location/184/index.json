@@ -1,1 +1,34 @@
-{"name":"sinnoh-battle-tower","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/4\/","name":"sinnoh"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":80}],"names":[{"name":"Battle Tower","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Tour de Combat","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":184,"areas":[]}
+{
+    "areas": [],
+    "game_indices": [
+        {
+            "game_index": 80,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 184,
+    "name": "sinnoh-battle-tower",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Battle Tower"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Tour de Combat"
+        }
+    ],
+    "region": {
+        "name": "sinnoh",
+        "url": "http://127.0.0.1:8000/api/v2/region/4/"
+    }
+}

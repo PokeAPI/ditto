@@ -1,1 +1,405 @@
-{"names":[{"name":"","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"name":"power-plant-area","encounter_method_rates":[{"encounter_method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"},"version_details":[{"rate":7,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/11\/","name":"leafgreen"}},{"rate":7,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/10\/","name":"firered"}}]}],"location":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location\/158\/","name":"power-plant"},"pokemon_encounters":[{"version_details":[{"max_chance":25,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/10\/","name":"firered"},"encounter_details":[{"min_level":22,"max_level":22,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":24,"max_level":24,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":26,"max_level":26,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":26,"max_level":26,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":25,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/11\/","name":"leafgreen"},"encounter_details":[{"min_level":22,"max_level":22,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":24,"max_level":24,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":26,"max_level":26,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":26,"max_level":26,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/25\/","name":"pikachu"}},{"version_details":[{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/10\/","name":"firered"},"encounter_details":[{"min_level":22,"max_level":22,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":25,"max_level":25,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/11\/","name":"leafgreen"},"encounter_details":[{"min_level":22,"max_level":22,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":25,"max_level":25,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/81\/","name":"magnemite"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/10\/","name":"firered"},"encounter_details":[{"min_level":31,"max_level":31,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":34,"max_level":34,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/11\/","name":"leafgreen"},"encounter_details":[{"min_level":31,"max_level":31,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":34,"max_level":34,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":34,"max_level":34,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/82\/","name":"magneton"}},{"version_details":[{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/10\/","name":"firered"},"encounter_details":[{"min_level":22,"max_level":22,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":25,"max_level":25,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/11\/","name":"leafgreen"},"encounter_details":[{"min_level":22,"max_level":22,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":25,"max_level":25,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/100\/","name":"voltorb"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/10\/","name":"firered"},"encounter_details":[{"min_level":32,"max_level":32,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":35,"max_level":35,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/125\/","name":"electabuzz"}}],"id":487,"game_index":39}
+{
+    "encounter_method_rates": [
+        {
+            "encounter_method": {
+                "name": "walk",
+                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+            },
+            "version_details": [
+                {
+                    "rate": 7,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "http://127.0.0.1:8000/api/v2/version/11/"
+                    }
+                },
+                {
+                    "rate": 7,
+                    "version": {
+                        "name": "firered",
+                        "url": "http://127.0.0.1:8000/api/v2/version/10/"
+                    }
+                }
+            ]
+        }
+    ],
+    "game_index": 39,
+    "id": 487,
+    "location": {
+        "name": "power-plant",
+        "url": "http://127.0.0.1:8000/api/v2/location/158/"
+    },
+    "name": "power-plant-area",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": ""
+        }
+    ],
+    "pokemon_encounters": [
+        {
+            "pokemon": {
+                "name": "pikachu",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/25/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 22,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 22
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 24,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 24
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 26,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 26
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 26,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 26
+                        }
+                    ],
+                    "max_chance": 25,
+                    "version": {
+                        "name": "firered",
+                        "url": "http://127.0.0.1:8000/api/v2/version/10/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 22,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 22
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 24,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 24
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 26,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 26
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 26,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 26
+                        }
+                    ],
+                    "max_chance": 25,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "http://127.0.0.1:8000/api/v2/version/11/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "magnemite",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/81/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 22,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 22
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 25,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 25
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "firered",
+                        "url": "http://127.0.0.1:8000/api/v2/version/10/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 22,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 22
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 25,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 25
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "http://127.0.0.1:8000/api/v2/version/11/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "magneton",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/82/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 34,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 34
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "firered",
+                        "url": "http://127.0.0.1:8000/api/v2/version/10/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 34,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 34
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 34,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 34
+                        }
+                    ],
+                    "max_chance": 15,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "http://127.0.0.1:8000/api/v2/version/11/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "voltorb",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/100/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 22,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 22
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 25,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 25
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "firered",
+                        "url": "http://127.0.0.1:8000/api/v2/version/10/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 22,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 22
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 25,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 25
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "leafgreen",
+                        "url": "http://127.0.0.1:8000/api/v2/version/11/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "electabuzz",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/125/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 32,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 32
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 35,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 35
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "firered",
+                        "url": "http://127.0.0.1:8000/api/v2/version/10/"
+                    }
+                }
+            ]
+        }
+    ]
+}

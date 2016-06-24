@@ -1,1 +1,24 @@
-{"is_battle_only":false,"sprites":{"front_default":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/201-question.png","back_default":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/back\/201-question.png","front_shiny":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/shiny\/201-question.png","back_shiny":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/back\/shiny\/201-question.png"},"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/5\/","name":"ruby-sapphire"},"form_order":27,"is_mega":false,"id":10027,"is_default":false,"form_name":"question","pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/201\/","name":"unown"},"order":282,"name":"unown-question"}
+{
+    "form_name": "question",
+    "form_order": 27,
+    "id": 10027,
+    "is_battle_only": false,
+    "is_default": false,
+    "is_mega": false,
+    "name": "unown-question",
+    "order": 282,
+    "pokemon": {
+        "name": "unown",
+        "url": "http://127.0.0.1:8000/api/v2/pokemon/201/"
+    },
+    "sprites": {
+        "back_default": "http://127.0.0.1:8000/media/sprites/pokemon/back/201-question.png",
+        "back_shiny": "http://127.0.0.1:8000/media/sprites/pokemon/back/shiny/201-question.png",
+        "front_default": "http://127.0.0.1:8000/media/sprites/pokemon/201-question.png",
+        "front_shiny": "http://127.0.0.1:8000/media/sprites/pokemon/shiny/201-question.png"
+    },
+    "version_group": {
+        "name": "ruby-sapphire",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+    }
+}

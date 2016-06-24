@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/335\/","name":"tm31"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/189\/","name":"mud-slap"},"id":484,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/4\/","name":"crystal"}}
+{
+    "id": 484,
+    "item": {
+        "name": "tm31",
+        "url": "http://127.0.0.1:8000/api/v2/item/335/"
+    },
+    "move": {
+        "name": "mud-slap",
+        "url": "http://127.0.0.1:8000/api/v2/move/189/"
+    },
+    "version_group": {
+        "name": "crystal",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/4/"
+    }
+}

@@ -1,1 +1,1666 @@
-[{"version_details":[{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":58,"max_level":58,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":58,"max_level":58,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":58,"max_level":58,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":58,"max_level":58,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":58,"max_level":58,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":58,"max_level":58,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":58,"max_level":58,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":58,"max_level":58,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":58,"max_level":58,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":58,"max_level":58,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":58,"max_level":58,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":58,"max_level":58,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/594\/","name":"dragonspiral-tower-entrance"}},{"version_details":[{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":57,"max_level":57,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":57,"max_level":57,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":57,"max_level":57,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":57,"max_level":57,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":57,"max_level":57,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":57,"max_level":57,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":57,"max_level":57,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":57,"max_level":57,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":57,"max_level":57,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":57,"max_level":57,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":57,"max_level":57,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":57,"max_level":57,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/595\/","name":"dragonspiral-tower-outside"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":58,"max_level":58,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":58,"max_level":58,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":58,"max_level":58,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":58,"max_level":58,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/625\/","name":"unova-route-3-area"}},{"version_details":[{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":25,"max_level":25,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":25,"max_level":25,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":25,"max_level":25,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":25,"max_level":25,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":25,"max_level":25,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":25,"max_level":25,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":25,"max_level":25,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":25,"max_level":25,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":25,"max_level":25,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":25,"max_level":25,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":25,"max_level":25,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":25,"max_level":25,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":26,"max_level":26,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":26,"max_level":26,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":26,"max_level":26,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":26,"max_level":26,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/629\/","name":"unova-route-6-area"}},{"version_details":[{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":33,"max_level":33,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":33,"max_level":33,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":33,"max_level":33,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/632\/","name":"unova-route-7-area"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":50,"max_level":50,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":50,"max_level":50,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":38,"max_level":38,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":38,"max_level":38,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/646\/","name":"unova-route-12-area"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":22,"max_level":22,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":22,"max_level":22,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/652\/","name":"lostlorn-forest-area"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":50,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":50,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/663\/","name":"unova-victory-road-2-unknown-area-73"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":50,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":50,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/669\/","name":"unova-victory-road-2-unknown-area-79"}}]
+[
+    {
+        "location_area": {
+            "name": "dragonspiral-tower-entrance",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/594/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "black",
+                    "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "white",
+                    "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "dragonspiral-tower-outside",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/595/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "black",
+                    "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "white",
+                    "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 57,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 57
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 57,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 57
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 57,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 57
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 57,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 57
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 57,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 57
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 57,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 57
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 57,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 57
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 57,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 57
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 57,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 57
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 57,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 57
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 57,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 57
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 57,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 57
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "unova-route-3-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/625/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "unova-route-6-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/629/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 25,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 25,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 25,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 25,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 25,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 25,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 25
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "black",
+                    "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 25,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 25,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 25,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 25,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 25,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 25,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 25
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "white",
+                    "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 26,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 26
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 26,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 26
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 26,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 26
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 26,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 26
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "unova-route-7-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/632/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 29,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 29
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 29,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 29
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 29,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 29
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 29,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 29
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 29,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 29
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 29,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 29
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "black",
+                    "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 29,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 29
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 29,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 29
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 29,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 29
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 29,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 29
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 29,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 29
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 29,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 29
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "white",
+                    "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 33,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 33
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "unova-route-12-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/646/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black",
+                    "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white",
+                    "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 38,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 38
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 38,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 38
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "lostlorn-forest-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/652/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 22,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 22
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black",
+                    "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 22,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 22
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white",
+                    "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "unova-victory-road-2-unknown-area-73",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/663/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "unova-victory-road-2-unknown-area-79",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/669/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    }
+]

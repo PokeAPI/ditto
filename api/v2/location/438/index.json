@@ -1,1 +1,31 @@
-{"name":"petalburg-woods","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/3\/","name":"hoenn"},"game_indices":[],"names":[{"name":"Petalburg Woods","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Bois Cl\u00e9menti","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":438,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/365\/","name":"petalburg-woods-area"}]}
+{
+    "areas": [
+        {
+            "name": "petalburg-woods-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/365/"
+        }
+    ],
+    "game_indices": [],
+    "id": 438,
+    "name": "petalburg-woods",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Petalburg Woods"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Bois Cl\u00e9menti"
+        }
+    ],
+    "region": {
+        "name": "hoenn",
+        "url": "http://127.0.0.1:8000/api/v2/region/3/"
+    }
+}

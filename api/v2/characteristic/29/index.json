@@ -1,1 +1,32 @@
-{"highest_stat":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/stat\/5\/","name":"special-defense"},"possible_values":[4,9,14,19,24,29],"id":29,"descriptions":[{"description":"Assez ent\u00eat\u00e9","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"description":"Somewhat stubborn","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"gene_modulo":4}
+{
+    "descriptions": [
+        {
+            "description": "Assez ent\u00eat\u00e9",
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            }
+        },
+        {
+            "description": "Somewhat stubborn",
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            }
+        }
+    ],
+    "gene_modulo": 4,
+    "highest_stat": {
+        "name": "special-defense",
+        "url": "http://127.0.0.1:8000/api/v2/stat/5/"
+    },
+    "id": 29,
+    "possible_values": [
+        4,
+        9,
+        14,
+        19,
+        24,
+        29
+    ]
+}

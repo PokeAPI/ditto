@@ -1,1 +1,649 @@
-{"names":[],"name":"kalos-route-4-area","encounter_method_rates":[],"location":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location\/597\/","name":"kalos-route-4"},"pokemon_encounters":[{"version_details":[{"max_chance":40,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":6,"max_level":6,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":7,"max_level":7,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}}]},{"max_chance":40,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":7,"max_level":7,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":6,"max_level":6,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/165\/","name":"ledyba"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":8,"max_level":8,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":8,"max_level":8,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/280\/","name":"ralts"}},{"version_details":[{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}}]},{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/300\/","name":"skitty"}},{"version_details":[{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}}]},{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/406\/","name":"budew"}},{"version_details":[{"max_chance":40,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":6,"max_level":6,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":7,"max_level":7,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}}]},{"max_chance":40,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":7,"max_level":7,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":6,"max_level":6,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/415\/","name":"combee"}},{"version_details":[{"max_chance":70,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":6,"max_level":6,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":7,"max_level":7,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":7,"max_level":7,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":6,"max_level":6,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":7,"max_level":7,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":7,"max_level":7,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}}]},{"max_chance":70,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":8,"max_level":8,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":7,"max_level":7,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":7,"max_level":7,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":6,"max_level":6,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/16\/","name":"red-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":7,"max_level":7,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":7,"max_level":7,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":6,"max_level":6,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/669\/","name":"flabebe"}}],"id":715,"game_index":0}
+{
+    "encounter_method_rates": [],
+    "game_index": 0,
+    "id": 715,
+    "location": {
+        "name": "kalos-route-4",
+        "url": "http://127.0.0.1:8000/api/v2/location/597/"
+    },
+    "name": "kalos-route-4-area",
+    "names": [],
+    "pokemon_encounters": [
+        {
+            "pokemon": {
+                "name": "ledyba",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/165/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 6,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 6
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 7,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 7
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 8
+                        }
+                    ],
+                    "max_chance": 40,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 7,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 7
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 6,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 6
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 8
+                        }
+                    ],
+                    "max_chance": 40,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "ralts",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/280/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 8
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 8
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "skitty",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/300/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 8
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 8
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "budew",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/406/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 8
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 8
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "combee",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/415/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 6,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 6
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 7,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 7
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 8
+                        }
+                    ],
+                    "max_chance": 40,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 7,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 7
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 6,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 6
+                        }
+                    ],
+                    "max_chance": 40,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "flabebe",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/669/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 6,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 6
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 7,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 7
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 7,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 7
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 6,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 6
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 7,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 7
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 7,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 7
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 8
+                        }
+                    ],
+                    "max_chance": 70,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 7,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 7
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 7,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 7
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 6,
+                            "method": {
+                                "name": "red-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/16/"
+                            },
+                            "min_level": 6
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 7,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 7
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 7,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 7
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 6,
+                            "method": {
+                                "name": "yellow-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                            },
+                            "min_level": 6
+                        }
+                    ],
+                    "max_chance": 70,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                }
+            ]
+        }
+    ]
+}

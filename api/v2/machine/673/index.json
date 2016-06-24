@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/347\/","name":"tm43"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/143\/","name":"sky-attack"},"id":673,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/1\/","name":"red-blue"}}
+{
+    "id": 673,
+    "item": {
+        "name": "tm43",
+        "url": "http://127.0.0.1:8000/api/v2/item/347/"
+    },
+    "move": {
+        "name": "sky-attack",
+        "url": "http://127.0.0.1:8000/api/v2/move/143/"
+    },
+    "version_group": {
+        "name": "red-blue",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/1/"
+    }
+}

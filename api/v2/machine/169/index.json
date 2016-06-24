@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/315\/","name":"tm11"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/241\/","name":"sunny-day"},"id":169,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/9\/","name":"platinum"}}
+{
+    "id": 169,
+    "item": {
+        "name": "tm11",
+        "url": "http://127.0.0.1:8000/api/v2/item/315/"
+    },
+    "move": {
+        "name": "sunny-day",
+        "url": "http://127.0.0.1:8000/api/v2/move/241/"
+    },
+    "version_group": {
+        "name": "platinum",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+    }
+}

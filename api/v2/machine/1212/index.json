@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/403\/","name":"hm07"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/127\/","name":"waterfall"},"id":1212,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/5\/","name":"ruby-sapphire"}}
+{
+    "id": 1212,
+    "item": {
+        "name": "hm07",
+        "url": "http://127.0.0.1:8000/api/v2/item/403/"
+    },
+    "move": {
+        "name": "waterfall",
+        "url": "http://127.0.0.1:8000/api/v2/move/127/"
+    },
+    "version_group": {
+        "name": "ruby-sapphire",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+    }
+}

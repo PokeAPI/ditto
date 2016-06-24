@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/395\/","name":"tm91"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/430\/","name":"flash-cannon"},"id":1081,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/8\/","name":"diamond-pearl"}}
+{
+    "id": 1081,
+    "item": {
+        "name": "tm91",
+        "url": "http://127.0.0.1:8000/api/v2/item/395/"
+    },
+    "move": {
+        "name": "flash-cannon",
+        "url": "http://127.0.0.1:8000/api/v2/move/430/"
+    },
+    "version_group": {
+        "name": "diamond-pearl",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+    }
+}

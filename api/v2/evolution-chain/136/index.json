@@ -1,1 +1,84 @@
-{"baby_trigger_item":null,"id":136,"chain":{"evolution_details":[],"evolves_to":[{"evolution_details":[{"min_level":14,"min_beauty":null,"time_of_day":"","gender":null,"relative_physical_stats":null,"needs_overworld_rain":false,"turn_upside_down":false,"item":null,"trigger":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/evolution-trigger\/1\/","name":"level-up"},"known_move_type":null,"min_affection":null,"party_type":null,"trade_species":null,"party_species":null,"min_happiness":null,"held_item":null,"known_move":null,"location":null}],"evolves_to":[{"evolution_details":[{"min_level":null,"min_beauty":null,"time_of_day":"","gender":null,"relative_physical_stats":null,"needs_overworld_rain":false,"turn_upside_down":false,"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/84\/","name":"water-stone"},"trigger":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/evolution-trigger\/3\/","name":"use-item"},"known_move_type":null,"min_affection":null,"party_type":null,"trade_species":null,"party_species":null,"min_happiness":null,"held_item":null,"known_move":null,"location":null}],"evolves_to":[],"is_baby":false,"species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/272\/","name":"ludicolo"}}],"is_baby":false,"species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/271\/","name":"lombre"}}],"is_baby":false,"species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/270\/","name":"lotad"}}}
+{
+    "baby_trigger_item": null,
+    "chain": {
+        "evolution_details": [],
+        "evolves_to": [
+            {
+                "evolution_details": [
+                    {
+                        "gender": null,
+                        "held_item": null,
+                        "item": null,
+                        "known_move": null,
+                        "known_move_type": null,
+                        "location": null,
+                        "min_affection": null,
+                        "min_beauty": null,
+                        "min_happiness": null,
+                        "min_level": 14,
+                        "needs_overworld_rain": false,
+                        "party_species": null,
+                        "party_type": null,
+                        "relative_physical_stats": null,
+                        "time_of_day": "",
+                        "trade_species": null,
+                        "trigger": {
+                            "name": "level-up",
+                            "url": "http://127.0.0.1:8000/api/v2/evolution-trigger/1/"
+                        },
+                        "turn_upside_down": false
+                    }
+                ],
+                "evolves_to": [
+                    {
+                        "evolution_details": [
+                            {
+                                "gender": null,
+                                "held_item": null,
+                                "item": {
+                                    "name": "water-stone",
+                                    "url": "http://127.0.0.1:8000/api/v2/item/84/"
+                                },
+                                "known_move": null,
+                                "known_move_type": null,
+                                "location": null,
+                                "min_affection": null,
+                                "min_beauty": null,
+                                "min_happiness": null,
+                                "min_level": null,
+                                "needs_overworld_rain": false,
+                                "party_species": null,
+                                "party_type": null,
+                                "relative_physical_stats": null,
+                                "time_of_day": "",
+                                "trade_species": null,
+                                "trigger": {
+                                    "name": "use-item",
+                                    "url": "http://127.0.0.1:8000/api/v2/evolution-trigger/3/"
+                                },
+                                "turn_upside_down": false
+                            }
+                        ],
+                        "evolves_to": [],
+                        "is_baby": false,
+                        "species": {
+                            "name": "ludicolo",
+                            "url": "http://127.0.0.1:8000/api/v2/pokemon-species/272/"
+                        }
+                    }
+                ],
+                "is_baby": false,
+                "species": {
+                    "name": "lombre",
+                    "url": "http://127.0.0.1:8000/api/v2/pokemon-species/271/"
+                }
+            }
+        ],
+        "is_baby": false,
+        "species": {
+            "name": "lotad",
+            "url": "http://127.0.0.1:8000/api/v2/pokemon-species/270/"
+        }
+    },
+    "id": 136
+}

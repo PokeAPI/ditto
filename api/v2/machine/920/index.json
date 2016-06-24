@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/372\/","name":"tm68"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/416\/","name":"giga-impact"},"id":920,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/8\/","name":"diamond-pearl"}}
+{
+    "id": 920,
+    "item": {
+        "name": "tm68",
+        "url": "http://127.0.0.1:8000/api/v2/item/372/"
+    },
+    "move": {
+        "name": "giga-impact",
+        "url": "http://127.0.0.1:8000/api/v2/move/416/"
+    },
+    "version_group": {
+        "name": "diamond-pearl",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+    }
+}

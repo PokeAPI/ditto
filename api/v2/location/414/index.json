@@ -1,1 +1,46 @@
-{"name":"lostlorn-forest","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/5\/","name":"unova"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/5\/","name":"generation-v"},"game_index":72}],"names":[{"name":"Lostlorn Forest","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Bois des Illusions","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"\u8ff7\u3044\u306e\u68ee","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/1\/","name":"ja"}}],"id":414,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/652\/","name":"lostlorn-forest-area"}]}
+{
+    "areas": [
+        {
+            "name": "lostlorn-forest-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/652/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 72,
+            "generation": {
+                "name": "generation-v",
+                "url": "http://127.0.0.1:8000/api/v2/generation/5/"
+            }
+        }
+    ],
+    "id": 414,
+    "name": "lostlorn-forest",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Lostlorn Forest"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Bois des Illusions"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+            },
+            "name": "\u8ff7\u3044\u306e\u68ee"
+        }
+    ],
+    "region": {
+        "name": "unova",
+        "url": "http://127.0.0.1:8000/api/v2/region/5/"
+    }
+}

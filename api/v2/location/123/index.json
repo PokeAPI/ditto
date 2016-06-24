@@ -1,1 +1,39 @@
-{"name":"johto-route-42","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/2\/","name":"johto"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":190}],"names":[{"name":"Route 42","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Route 42","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":123,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/236\/","name":"johto-route-42-area"}]}
+{
+    "areas": [
+        {
+            "name": "johto-route-42-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/236/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 190,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 123,
+    "name": "johto-route-42",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Route 42"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Route 42"
+        }
+    ],
+    "region": {
+        "name": "johto",
+        "url": "http://127.0.0.1:8000/api/v2/region/2/"
+    }
+}

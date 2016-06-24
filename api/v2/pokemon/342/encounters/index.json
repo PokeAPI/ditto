@@ -1,1 +1,351 @@
-[{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/12\/","name":"diamond"},"encounter_details":[{"min_level":35,"max_level":55,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}},{"min_level":35,"max_level":55,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/13\/","name":"pearl"},"encounter_details":[{"min_level":35,"max_level":55,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}},{"min_level":35,"max_level":55,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/14\/","name":"platinum"},"encounter_details":[{"min_level":40,"max_level":55,"condition_values":[],"chance":15,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/178\/","name":"celestic-town-area"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":50,"max_level":60,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":50,"max_level":60,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":50,"max_level":60,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":50,"max_level":60,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":50,"max_level":60,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":50,"max_level":60,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/576\/","name":"striaton-city-area"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":50,"max_level":60,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":50,"max_level":60,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":50,"max_level":60,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":50,"max_level":60,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":50,"max_level":60,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":50,"max_level":60,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/625\/","name":"unova-route-3-area"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":35,"max_level":35,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":35,"max_level":35,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/714\/","name":"kalos-route-3-area"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":35,"max_level":35,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":35,"max_level":35,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/735\/","name":"parfum-palace-area"}}]
+[
+    {
+        "location_area": {
+            "name": "celestic-town-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/178/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "diamond",
+                    "url": "http://127.0.0.1:8000/api/v2/version/12/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "pearl",
+                    "url": "http://127.0.0.1:8000/api/v2/version/13/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 15,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "platinum",
+                    "url": "http://127.0.0.1:8000/api/v2/version/14/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "striaton-city-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/576/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "unova-route-3-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/625/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "kalos-route-3-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/714/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "x",
+                    "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "y",
+                    "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "parfum-palace-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/735/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "x",
+                    "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "y",
+                    "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                }
+            }
+        ]
+    }
+]

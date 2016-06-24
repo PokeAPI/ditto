@@ -1,1 +1,76 @@
-{"name":"lysandre-labs","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/6\/","name":"kalos"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/6\/","name":"generation-vi"},"game_index":26}],"names":[{"name":"\u30d5\u30e9\u30c0\u30ea\u30e9\u30dc","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/11\/","name":"ja-kanji"}},{"name":"Lysandre Labs","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Laboratori Elisio","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/8\/","name":"it"}},{"name":"Laboratorios Lysson","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/7\/","name":"es"}},{"name":"Labor von Flordelis","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Labos Lysandre","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"\ud50c\ub77c\ub4dc\ub9ac \ub798\ubc84\ub7ec\ud1a0\ub9ac","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/3\/","name":"ko"}},{"name":"\u30d5\u30e9\u30c0\u30ea\u30e9\u30dc","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/1\/","name":"ja"}}],"id":601,"areas":[]}
+{
+    "areas": [],
+    "game_indices": [
+        {
+            "game_index": 26,
+            "generation": {
+                "name": "generation-vi",
+                "url": "http://127.0.0.1:8000/api/v2/generation/6/"
+            }
+        }
+    ],
+    "id": 601,
+    "name": "lysandre-labs",
+    "names": [
+        {
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://127.0.0.1:8000/api/v2/language/11/"
+            },
+            "name": "\u30d5\u30e9\u30c0\u30ea\u30e9\u30dc"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Lysandre Labs"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+            },
+            "name": "Laboratori Elisio"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+            },
+            "name": "Laboratorios Lysson"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Labor von Flordelis"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Labos Lysandre"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+            },
+            "name": "\ud50c\ub77c\ub4dc\ub9ac \ub798\ubc84\ub7ec\ud1a0\ub9ac"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+            },
+            "name": "\u30d5\u30e9\u30c0\u30ea\u30e9\u30dc"
+        }
+    ],
+    "region": {
+        "name": "kalos",
+        "url": "http://127.0.0.1:8000/api/v2/region/6/"
+    }
+}

@@ -1,1 +1,34 @@
-{"moves":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/193\/","name":"foresight"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/316\/","name":"odor-sleuth"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/357\/","name":"miracle-eye"}],"names":[{"name":"Aucune immunit\u00e9 aux types","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"No type immunity","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":17,"name":"no-type-immunity"}
+{
+    "id": 17,
+    "moves": [
+        {
+            "name": "foresight",
+            "url": "http://127.0.0.1:8000/api/v2/move/193/"
+        },
+        {
+            "name": "odor-sleuth",
+            "url": "http://127.0.0.1:8000/api/v2/move/316/"
+        },
+        {
+            "name": "miracle-eye",
+            "url": "http://127.0.0.1:8000/api/v2/move/357/"
+        }
+    ],
+    "name": "no-type-immunity",
+    "names": [
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Aucune immunit\u00e9 aux types"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "No type immunity"
+        }
+    ]
+}

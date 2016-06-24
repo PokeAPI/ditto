@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/325\/","name":"tm21"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/72\/","name":"mega-drain"},"id":321,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/1\/","name":"red-blue"}}
+{
+    "id": 321,
+    "item": {
+        "name": "tm21",
+        "url": "http://127.0.0.1:8000/api/v2/item/325/"
+    },
+    "move": {
+        "name": "mega-drain",
+        "url": "http://127.0.0.1:8000/api/v2/move/72/"
+    },
+    "version_group": {
+        "name": "red-blue",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/1/"
+    }
+}

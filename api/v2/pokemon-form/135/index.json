@@ -1,1 +1,24 @@
-{"is_battle_only":false,"sprites":{"front_default":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/135.png","back_default":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/back\/135.png","front_shiny":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/shiny\/135.png","back_shiny":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/back\/shiny\/135.png"},"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/1\/","name":"red-blue"},"form_order":1,"is_mega":false,"id":135,"is_default":true,"form_name":"","pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/135\/","name":"jolteon"},"order":180,"name":"jolteon"}
+{
+    "form_name": "",
+    "form_order": 1,
+    "id": 135,
+    "is_battle_only": false,
+    "is_default": true,
+    "is_mega": false,
+    "name": "jolteon",
+    "order": 180,
+    "pokemon": {
+        "name": "jolteon",
+        "url": "http://127.0.0.1:8000/api/v2/pokemon/135/"
+    },
+    "sprites": {
+        "back_default": "http://127.0.0.1:8000/media/sprites/pokemon/back/135.png",
+        "back_shiny": "http://127.0.0.1:8000/media/sprites/pokemon/back/shiny/135.png",
+        "front_default": "http://127.0.0.1:8000/media/sprites/pokemon/135.png",
+        "front_shiny": "http://127.0.0.1:8000/media/sprites/pokemon/shiny/135.png"
+    },
+    "version_group": {
+        "name": "red-blue",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/1/"
+    }
+}

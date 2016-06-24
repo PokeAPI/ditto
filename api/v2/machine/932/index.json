@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/373\/","name":"tm69"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/397\/","name":"rock-polish"},"id":932,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"}}
+{
+    "id": 932,
+    "item": {
+        "name": "tm69",
+        "url": "http://127.0.0.1:8000/api/v2/item/373/"
+    },
+    "move": {
+        "name": "rock-polish",
+        "url": "http://127.0.0.1:8000/api/v2/move/397/"
+    },
+    "version_group": {
+        "name": "x-y",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+    }
+}

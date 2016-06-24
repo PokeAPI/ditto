@@ -1,1 +1,39 @@
-{"name":"sinnoh-sea-route-220","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/4\/","name":"sinnoh"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":35}],"names":[{"name":"Sea Route 220","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Chenal 220","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":61,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/180\/","name":"sinnoh-sea-route-220-area"}]}
+{
+    "areas": [
+        {
+            "name": "sinnoh-sea-route-220-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/180/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 35,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 61,
+    "name": "sinnoh-sea-route-220",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Sea Route 220"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Chenal 220"
+        }
+    ],
+    "region": {
+        "name": "sinnoh",
+        "url": "http://127.0.0.1:8000/api/v2/region/4/"
+    }
+}

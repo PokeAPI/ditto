@@ -1,1 +1,24 @@
-{"is_battle_only":false,"sprites":{"front_default":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/585-winter.png","back_default":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/back\/585-winter.png","front_shiny":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/shiny\/585-winter.png","back_shiny":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/back\/shiny\/585-winter.png"},"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/11\/","name":"black-white"},"form_order":4,"is_mega":false,"id":10070,"is_default":false,"form_name":"winter","pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/585\/","name":"deerling"},"order":695,"name":"deerling-winter"}
+{
+    "form_name": "winter",
+    "form_order": 4,
+    "id": 10070,
+    "is_battle_only": false,
+    "is_default": false,
+    "is_mega": false,
+    "name": "deerling-winter",
+    "order": 695,
+    "pokemon": {
+        "name": "deerling",
+        "url": "http://127.0.0.1:8000/api/v2/pokemon/585/"
+    },
+    "sprites": {
+        "back_default": "http://127.0.0.1:8000/media/sprites/pokemon/back/585-winter.png",
+        "back_shiny": "http://127.0.0.1:8000/media/sprites/pokemon/back/shiny/585-winter.png",
+        "front_default": "http://127.0.0.1:8000/media/sprites/pokemon/585-winter.png",
+        "front_shiny": "http://127.0.0.1:8000/media/sprites/pokemon/shiny/585-winter.png"
+    },
+    "version_group": {
+        "name": "black-white",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+    }
+}

@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/307\/","name":"tm03"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/352\/","name":"water-pulse"},"id":39,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/7\/","name":"firered-leafgreen"}}
+{
+    "id": 39,
+    "item": {
+        "name": "tm03",
+        "url": "http://127.0.0.1:8000/api/v2/item/307/"
+    },
+    "move": {
+        "name": "water-pulse",
+        "url": "http://127.0.0.1:8000/api/v2/move/352/"
+    },
+    "version_group": {
+        "name": "firered-leafgreen",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/7/"
+    }
+}

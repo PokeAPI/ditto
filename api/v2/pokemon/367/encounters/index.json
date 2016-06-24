@@ -1,1 +1,95 @@
-[{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":45,"max_level":70,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/12\/","name":"super-rod-spots"}},{"min_level":45,"max_level":70,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/12\/","name":"super-rod-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":50,"max_level":70,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/12\/","name":"super-rod-spots"}},{"min_level":50,"max_level":70,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/12\/","name":"super-rod-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/627\/","name":"unova-route-4-area"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":35,"max_level":35,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/723\/","name":"kalos-route-12-area"}}]
+[
+    {
+        "location_area": {
+            "name": "unova-route-4-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/627/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "super-rod-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/12/"
+                        },
+                        "min_level": 45
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "super-rod-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/12/"
+                        },
+                        "min_level": 45
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black",
+                    "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "super-rod-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/12/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "super-rod-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/12/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "kalos-route-12-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/723/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "x",
+                    "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                }
+            }
+        ]
+    }
+]

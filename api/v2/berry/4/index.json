@@ -1,1 +1,59 @@
-{"natural_gift_power":60,"flavors":[{"flavor":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-flavor\/1\/","name":"spicy"},"potency":0},{"flavor":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-flavor\/2\/","name":"dry"},"potency":0},{"flavor":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-flavor\/3\/","name":"sweet"},"potency":0},{"flavor":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-flavor\/4\/","name":"bitter"},"potency":10},{"flavor":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-flavor\/5\/","name":"sour"},"potency":0}],"natural_gift_type":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/12\/","name":"grass"},"name":"rawst","max_harvest":5,"soil_dryness":15,"smoothness":25,"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/129\/","name":"rawst-berry"},"firmness":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-firmness\/3\/","name":"hard"},"growth_time":3,"id":4,"size":32}
+{
+    "firmness": {
+        "name": "hard",
+        "url": "http://127.0.0.1:8000/api/v2/berry-firmness/3/"
+    },
+    "flavors": [
+        {
+            "flavor": {
+                "name": "spicy",
+                "url": "http://127.0.0.1:8000/api/v2/berry-flavor/1/"
+            },
+            "potency": 0
+        },
+        {
+            "flavor": {
+                "name": "dry",
+                "url": "http://127.0.0.1:8000/api/v2/berry-flavor/2/"
+            },
+            "potency": 0
+        },
+        {
+            "flavor": {
+                "name": "sweet",
+                "url": "http://127.0.0.1:8000/api/v2/berry-flavor/3/"
+            },
+            "potency": 0
+        },
+        {
+            "flavor": {
+                "name": "bitter",
+                "url": "http://127.0.0.1:8000/api/v2/berry-flavor/4/"
+            },
+            "potency": 10
+        },
+        {
+            "flavor": {
+                "name": "sour",
+                "url": "http://127.0.0.1:8000/api/v2/berry-flavor/5/"
+            },
+            "potency": 0
+        }
+    ],
+    "growth_time": 3,
+    "id": 4,
+    "item": {
+        "name": "rawst-berry",
+        "url": "http://127.0.0.1:8000/api/v2/item/129/"
+    },
+    "max_harvest": 5,
+    "name": "rawst",
+    "natural_gift_power": 60,
+    "natural_gift_type": {
+        "name": "grass",
+        "url": "http://127.0.0.1:8000/api/v2/type/12/"
+    },
+    "size": 32,
+    "smoothness": 25,
+    "soil_dryness": 15
+}

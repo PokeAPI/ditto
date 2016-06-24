@@ -1,1 +1,1012 @@
-{"name":"grass","generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/1\/","name":"generation-i"},"damage_relations":{"half_damage_from":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/5\/","name":"ground"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/11\/","name":"water"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/12\/","name":"grass"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/13\/","name":"electric"}],"no_damage_from":[],"half_damage_to":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/3\/","name":"flying"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/4\/","name":"poison"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/7\/","name":"bug"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/9\/","name":"steel"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/10\/","name":"fire"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/12\/","name":"grass"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/16\/","name":"dragon"}],"double_damage_from":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/3\/","name":"flying"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/4\/","name":"poison"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/7\/","name":"bug"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/10\/","name":"fire"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/15\/","name":"ice"}],"no_damage_to":[],"double_damage_to":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/5\/","name":"ground"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/6\/","name":"rock"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/11\/","name":"water"}]},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/1\/","name":"generation-i"},"game_index":22},{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/2\/","name":"generation-ii"},"game_index":22},{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/3\/","name":"generation-iii"},"game_index":12},{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":12},{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/5\/","name":"generation-v"},"game_index":11},{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/6\/","name":"generation-vi"},"game_index":11}],"move_damage_class":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-damage-class\/3\/","name":"special"},"moves":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/22\/","name":"vine-whip"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/71\/","name":"absorb"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/72\/","name":"mega-drain"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/73\/","name":"leech-seed"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/75\/","name":"razor-leaf"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/76\/","name":"solar-beam"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/78\/","name":"stun-spore"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/79\/","name":"sleep-powder"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/80\/","name":"petal-dance"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/147\/","name":"spore"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/178\/","name":"cotton-spore"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/202\/","name":"giga-drain"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/235\/","name":"synthesis"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/275\/","name":"ingrain"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/302\/","name":"needle-arm"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/312\/","name":"aromatherapy"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/320\/","name":"grass-whistle"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/331\/","name":"bullet-seed"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/338\/","name":"frenzy-plant"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/345\/","name":"magical-leaf"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/348\/","name":"leaf-blade"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/388\/","name":"worry-seed"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/402\/","name":"seed-bomb"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/412\/","name":"energy-ball"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/437\/","name":"leaf-storm"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/438\/","name":"power-whip"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/447\/","name":"grass-knot"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/452\/","name":"wood-hammer"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/465\/","name":"seed-flare"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/520\/","name":"grass-pledge"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/532\/","name":"horn-leech"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/536\/","name":"leaf-tornado"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/538\/","name":"cotton-guard"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/571\/","name":"forests-curse"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/572\/","name":"petal-blizzard"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/580\/","name":"grassy-terrain"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/596\/","name":"spiky-shield"}],"pokemon":[{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/1\/","name":"bulbasaur"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/2\/","name":"ivysaur"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/3\/","name":"venusaur"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/43\/","name":"oddish"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/44\/","name":"gloom"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/45\/","name":"vileplume"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/46\/","name":"paras"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/47\/","name":"parasect"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/69\/","name":"bellsprout"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/70\/","name":"weepinbell"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/71\/","name":"victreebel"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/102\/","name":"exeggcute"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/103\/","name":"exeggutor"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/114\/","name":"tangela"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/152\/","name":"chikorita"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/153\/","name":"bayleef"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/154\/","name":"meganium"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/182\/","name":"bellossom"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/187\/","name":"hoppip"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/188\/","name":"skiploom"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/189\/","name":"jumpluff"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/191\/","name":"sunkern"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/192\/","name":"sunflora"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/251\/","name":"celebi"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/252\/","name":"treecko"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/253\/","name":"grovyle"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/254\/","name":"sceptile"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/270\/","name":"lotad"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/271\/","name":"lombre"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/272\/","name":"ludicolo"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/273\/","name":"seedot"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/274\/","name":"nuzleaf"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/275\/","name":"shiftry"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/285\/","name":"shroomish"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/286\/","name":"breloom"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/315\/","name":"roselia"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/331\/","name":"cacnea"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/332\/","name":"cacturne"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/345\/","name":"lileep"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/346\/","name":"cradily"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/357\/","name":"tropius"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/387\/","name":"turtwig"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/388\/","name":"grotle"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/389\/","name":"torterra"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/406\/","name":"budew"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/407\/","name":"roserade"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/413\/","name":"wormadam-plant"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/420\/","name":"cherubi"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/421\/","name":"cherrim"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/455\/","name":"carnivine"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/459\/","name":"snover"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/460\/","name":"abomasnow"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/465\/","name":"tangrowth"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/470\/","name":"leafeon"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/492\/","name":"shaymin-land"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/495\/","name":"snivy"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/496\/","name":"servine"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/497\/","name":"serperior"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/511\/","name":"pansage"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/512\/","name":"simisage"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/540\/","name":"sewaddle"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/541\/","name":"swadloon"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/542\/","name":"leavanny"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/546\/","name":"cottonee"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/547\/","name":"whimsicott"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/548\/","name":"petilil"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/549\/","name":"lilligant"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/556\/","name":"maractus"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/585\/","name":"deerling"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/586\/","name":"sawsbuck"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/590\/","name":"foongus"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/591\/","name":"amoonguss"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/597\/","name":"ferroseed"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/598\/","name":"ferrothorn"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/640\/","name":"virizion"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/650\/","name":"chespin"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/651\/","name":"quilladin"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/652\/","name":"chesnaught"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/672\/","name":"skiddo"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/673\/","name":"gogoat"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/708\/","name":"phantump"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/709\/","name":"trevenant"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/710\/","name":"pumpkaboo-average"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/711\/","name":"gourgeist-average"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10006\/","name":"shaymin-sky"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10012\/","name":"rotom-mow"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10027\/","name":"pumpkaboo-small"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10028\/","name":"pumpkaboo-large"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10029\/","name":"pumpkaboo-super"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10030\/","name":"gourgeist-small"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10031\/","name":"gourgeist-large"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10032\/","name":"gourgeist-super"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10033\/","name":"venusaur-mega"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10060\/","name":"abomasnow-mega"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10065\/","name":"sceptile-mega"}}],"id":12,"names":[{"name":"\u304f\u3055","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/1\/","name":"ja"}},{"name":"\ud480","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/3\/","name":"ko"}},{"name":"Plante","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"Pflanze","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Planta","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/7\/","name":"es"}},{"name":"Erba","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/8\/","name":"it"}},{"name":"Grass","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}]}
+{
+    "damage_relations": {
+        "double_damage_from": [
+            {
+                "name": "flying",
+                "url": "http://127.0.0.1:8000/api/v2/type/3/"
+            },
+            {
+                "name": "poison",
+                "url": "http://127.0.0.1:8000/api/v2/type/4/"
+            },
+            {
+                "name": "bug",
+                "url": "http://127.0.0.1:8000/api/v2/type/7/"
+            },
+            {
+                "name": "fire",
+                "url": "http://127.0.0.1:8000/api/v2/type/10/"
+            },
+            {
+                "name": "ice",
+                "url": "http://127.0.0.1:8000/api/v2/type/15/"
+            }
+        ],
+        "double_damage_to": [
+            {
+                "name": "ground",
+                "url": "http://127.0.0.1:8000/api/v2/type/5/"
+            },
+            {
+                "name": "rock",
+                "url": "http://127.0.0.1:8000/api/v2/type/6/"
+            },
+            {
+                "name": "water",
+                "url": "http://127.0.0.1:8000/api/v2/type/11/"
+            }
+        ],
+        "half_damage_from": [
+            {
+                "name": "ground",
+                "url": "http://127.0.0.1:8000/api/v2/type/5/"
+            },
+            {
+                "name": "water",
+                "url": "http://127.0.0.1:8000/api/v2/type/11/"
+            },
+            {
+                "name": "grass",
+                "url": "http://127.0.0.1:8000/api/v2/type/12/"
+            },
+            {
+                "name": "electric",
+                "url": "http://127.0.0.1:8000/api/v2/type/13/"
+            }
+        ],
+        "half_damage_to": [
+            {
+                "name": "flying",
+                "url": "http://127.0.0.1:8000/api/v2/type/3/"
+            },
+            {
+                "name": "poison",
+                "url": "http://127.0.0.1:8000/api/v2/type/4/"
+            },
+            {
+                "name": "bug",
+                "url": "http://127.0.0.1:8000/api/v2/type/7/"
+            },
+            {
+                "name": "steel",
+                "url": "http://127.0.0.1:8000/api/v2/type/9/"
+            },
+            {
+                "name": "fire",
+                "url": "http://127.0.0.1:8000/api/v2/type/10/"
+            },
+            {
+                "name": "grass",
+                "url": "http://127.0.0.1:8000/api/v2/type/12/"
+            },
+            {
+                "name": "dragon",
+                "url": "http://127.0.0.1:8000/api/v2/type/16/"
+            }
+        ],
+        "no_damage_from": [],
+        "no_damage_to": []
+    },
+    "game_indices": [
+        {
+            "game_index": 22,
+            "generation": {
+                "name": "generation-i",
+                "url": "http://127.0.0.1:8000/api/v2/generation/1/"
+            }
+        },
+        {
+            "game_index": 22,
+            "generation": {
+                "name": "generation-ii",
+                "url": "http://127.0.0.1:8000/api/v2/generation/2/"
+            }
+        },
+        {
+            "game_index": 12,
+            "generation": {
+                "name": "generation-iii",
+                "url": "http://127.0.0.1:8000/api/v2/generation/3/"
+            }
+        },
+        {
+            "game_index": 12,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        },
+        {
+            "game_index": 11,
+            "generation": {
+                "name": "generation-v",
+                "url": "http://127.0.0.1:8000/api/v2/generation/5/"
+            }
+        },
+        {
+            "game_index": 11,
+            "generation": {
+                "name": "generation-vi",
+                "url": "http://127.0.0.1:8000/api/v2/generation/6/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "http://127.0.0.1:8000/api/v2/generation/1/"
+    },
+    "id": 12,
+    "move_damage_class": {
+        "name": "special",
+        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/3/"
+    },
+    "moves": [
+        {
+            "name": "vine-whip",
+            "url": "http://127.0.0.1:8000/api/v2/move/22/"
+        },
+        {
+            "name": "absorb",
+            "url": "http://127.0.0.1:8000/api/v2/move/71/"
+        },
+        {
+            "name": "mega-drain",
+            "url": "http://127.0.0.1:8000/api/v2/move/72/"
+        },
+        {
+            "name": "leech-seed",
+            "url": "http://127.0.0.1:8000/api/v2/move/73/"
+        },
+        {
+            "name": "razor-leaf",
+            "url": "http://127.0.0.1:8000/api/v2/move/75/"
+        },
+        {
+            "name": "solar-beam",
+            "url": "http://127.0.0.1:8000/api/v2/move/76/"
+        },
+        {
+            "name": "stun-spore",
+            "url": "http://127.0.0.1:8000/api/v2/move/78/"
+        },
+        {
+            "name": "sleep-powder",
+            "url": "http://127.0.0.1:8000/api/v2/move/79/"
+        },
+        {
+            "name": "petal-dance",
+            "url": "http://127.0.0.1:8000/api/v2/move/80/"
+        },
+        {
+            "name": "spore",
+            "url": "http://127.0.0.1:8000/api/v2/move/147/"
+        },
+        {
+            "name": "cotton-spore",
+            "url": "http://127.0.0.1:8000/api/v2/move/178/"
+        },
+        {
+            "name": "giga-drain",
+            "url": "http://127.0.0.1:8000/api/v2/move/202/"
+        },
+        {
+            "name": "synthesis",
+            "url": "http://127.0.0.1:8000/api/v2/move/235/"
+        },
+        {
+            "name": "ingrain",
+            "url": "http://127.0.0.1:8000/api/v2/move/275/"
+        },
+        {
+            "name": "needle-arm",
+            "url": "http://127.0.0.1:8000/api/v2/move/302/"
+        },
+        {
+            "name": "aromatherapy",
+            "url": "http://127.0.0.1:8000/api/v2/move/312/"
+        },
+        {
+            "name": "grass-whistle",
+            "url": "http://127.0.0.1:8000/api/v2/move/320/"
+        },
+        {
+            "name": "bullet-seed",
+            "url": "http://127.0.0.1:8000/api/v2/move/331/"
+        },
+        {
+            "name": "frenzy-plant",
+            "url": "http://127.0.0.1:8000/api/v2/move/338/"
+        },
+        {
+            "name": "magical-leaf",
+            "url": "http://127.0.0.1:8000/api/v2/move/345/"
+        },
+        {
+            "name": "leaf-blade",
+            "url": "http://127.0.0.1:8000/api/v2/move/348/"
+        },
+        {
+            "name": "worry-seed",
+            "url": "http://127.0.0.1:8000/api/v2/move/388/"
+        },
+        {
+            "name": "seed-bomb",
+            "url": "http://127.0.0.1:8000/api/v2/move/402/"
+        },
+        {
+            "name": "energy-ball",
+            "url": "http://127.0.0.1:8000/api/v2/move/412/"
+        },
+        {
+            "name": "leaf-storm",
+            "url": "http://127.0.0.1:8000/api/v2/move/437/"
+        },
+        {
+            "name": "power-whip",
+            "url": "http://127.0.0.1:8000/api/v2/move/438/"
+        },
+        {
+            "name": "grass-knot",
+            "url": "http://127.0.0.1:8000/api/v2/move/447/"
+        },
+        {
+            "name": "wood-hammer",
+            "url": "http://127.0.0.1:8000/api/v2/move/452/"
+        },
+        {
+            "name": "seed-flare",
+            "url": "http://127.0.0.1:8000/api/v2/move/465/"
+        },
+        {
+            "name": "grass-pledge",
+            "url": "http://127.0.0.1:8000/api/v2/move/520/"
+        },
+        {
+            "name": "horn-leech",
+            "url": "http://127.0.0.1:8000/api/v2/move/532/"
+        },
+        {
+            "name": "leaf-tornado",
+            "url": "http://127.0.0.1:8000/api/v2/move/536/"
+        },
+        {
+            "name": "cotton-guard",
+            "url": "http://127.0.0.1:8000/api/v2/move/538/"
+        },
+        {
+            "name": "forests-curse",
+            "url": "http://127.0.0.1:8000/api/v2/move/571/"
+        },
+        {
+            "name": "petal-blizzard",
+            "url": "http://127.0.0.1:8000/api/v2/move/572/"
+        },
+        {
+            "name": "grassy-terrain",
+            "url": "http://127.0.0.1:8000/api/v2/move/580/"
+        },
+        {
+            "name": "spiky-shield",
+            "url": "http://127.0.0.1:8000/api/v2/move/596/"
+        }
+    ],
+    "name": "grass",
+    "names": [
+        {
+            "language": {
+                "name": "ja",
+                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+            },
+            "name": "\u304f\u3055"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+            },
+            "name": "\ud480"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Plante"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Pflanze"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+            },
+            "name": "Planta"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+            },
+            "name": "Erba"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Grass"
+        }
+    ],
+    "pokemon": [
+        {
+            "pokemon": {
+                "name": "bulbasaur",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/1/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "ivysaur",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/2/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "venusaur",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/3/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "oddish",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/43/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "gloom",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/44/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "vileplume",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/45/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "paras",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/46/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "parasect",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/47/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "bellsprout",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/69/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "weepinbell",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/70/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "victreebel",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/71/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "exeggcute",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/102/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "exeggutor",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/103/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "tangela",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/114/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "chikorita",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/152/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "bayleef",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/153/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "meganium",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/154/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "bellossom",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/182/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "hoppip",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/187/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "skiploom",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/188/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "jumpluff",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/189/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "sunkern",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/191/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "sunflora",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/192/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "celebi",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/251/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "treecko",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/252/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "grovyle",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/253/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "sceptile",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/254/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "lotad",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/270/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "lombre",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/271/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "ludicolo",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/272/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "seedot",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/273/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "nuzleaf",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/274/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "shiftry",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/275/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "shroomish",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/285/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "breloom",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/286/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "roselia",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/315/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "cacnea",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/331/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "cacturne",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/332/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "lileep",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/345/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "cradily",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/346/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "tropius",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/357/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "turtwig",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/387/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "grotle",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/388/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "torterra",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/389/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "budew",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/406/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "roserade",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/407/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "wormadam-plant",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/413/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "cherubi",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/420/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "cherrim",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/421/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "carnivine",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/455/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "snover",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/459/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "abomasnow",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/460/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "tangrowth",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/465/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "leafeon",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/470/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "shaymin-land",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/492/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "snivy",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/495/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "servine",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/496/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "serperior",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/497/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pansage",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/511/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "simisage",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/512/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "sewaddle",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/540/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "swadloon",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/541/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "leavanny",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/542/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "cottonee",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/546/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "whimsicott",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/547/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "petilil",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/548/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "lilligant",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/549/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "maractus",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/556/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "deerling",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/585/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "sawsbuck",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/586/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "foongus",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/590/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "amoonguss",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/591/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "ferroseed",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/597/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "ferrothorn",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/598/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "virizion",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/640/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "chespin",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/650/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "quilladin",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/651/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "chesnaught",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/652/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "skiddo",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/672/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "gogoat",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/673/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "phantump",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/708/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "trevenant",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/709/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "pumpkaboo-average",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/710/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "gourgeist-average",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/711/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "shaymin-sky",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10006/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "rotom-mow",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10012/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "pumpkaboo-small",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10027/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "pumpkaboo-large",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10028/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "pumpkaboo-super",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10029/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "gourgeist-small",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10030/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "gourgeist-large",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10031/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "gourgeist-super",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10032/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "venusaur-mega",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10033/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "abomasnow-mega",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10060/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "sceptile-mega",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10065/"
+            },
+            "slot": 1
+        }
+    ]
+}

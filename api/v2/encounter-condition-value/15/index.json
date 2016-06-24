@@ -1,1 +1,24 @@
-{"names":[{"name":"Hoenn-Sound im Radio","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Hoenn radio","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":15,"condition":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition\/5\/","name":"radio"},"name":"radio-hoenn"}
+{
+    "condition": {
+        "name": "radio",
+        "url": "http://127.0.0.1:8000/api/v2/encounter-condition/5/"
+    },
+    "id": 15,
+    "name": "radio-hoenn",
+    "names": [
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Hoenn-Sound im Radio"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Hoenn radio"
+        }
+    ]
+}

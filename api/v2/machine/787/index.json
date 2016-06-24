@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/354\/","name":"tm50"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/171\/","name":"nightmare"},"id":787,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/3\/","name":"gold-silver"}}
+{
+    "id": 787,
+    "item": {
+        "name": "tm50",
+        "url": "http://127.0.0.1:8000/api/v2/item/354/"
+    },
+    "move": {
+        "name": "nightmare",
+        "url": "http://127.0.0.1:8000/api/v2/move/171/"
+    },
+    "version_group": {
+        "name": "gold-silver",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/3/"
+    }
+}

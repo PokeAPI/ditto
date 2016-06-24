@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/364\/","name":"tm60"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/409\/","name":"drain-punch"},"id":866,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/10\/","name":"heartgold-soulsilver"}}
+{
+    "id": 866,
+    "item": {
+        "name": "tm60",
+        "url": "http://127.0.0.1:8000/api/v2/item/364/"
+    },
+    "move": {
+        "name": "drain-punch",
+        "url": "http://127.0.0.1:8000/api/v2/move/409/"
+    },
+    "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/10/"
+    }
+}

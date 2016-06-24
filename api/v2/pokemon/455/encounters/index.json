@@ -1,1 +1,512 @@
-[{"version_details":[{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":6,"max_level":6,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":6,"max_level":6,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":6,"max_level":6,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":6,"max_level":6,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/204\/","name":"ilex-forest-area"}},{"version_details":[{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":5,"max_level":5,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":5,"max_level":5,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":5,"max_level":5,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":5,"max_level":5,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/16\/","name":"radio-sinnoh"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/321\/","name":"viridian-forest-area"}},{"version_details":[{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":66,"max_level":66,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":58,"max_level":58,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":66,"max_level":66,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/8\/","name":"dark-grass"}},{"min_level":58,"max_level":58,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/653\/","name":"unova-route-18-area"}},{"version_details":[{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":30,"max_level":30,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":32,"max_level":32,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}},{"min_level":32,"max_level":32,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}}]},{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":30,"max_level":30,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":32,"max_level":32,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}},{"min_level":32,"max_level":32,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/725\/","name":"kalos-route-14-area"}},{"version_details":[{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":46,"max_level":46,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":46,"max_level":46,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":46,"max_level":46,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":46,"max_level":46,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":46,"max_level":46,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":46,"max_level":46,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/730\/","name":"kalos-route-19-area"}}]
+[
+    {
+        "location_area": {
+            "name": "ilex-forest-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/204/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "radio-sinnoh",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                            }
+                        ],
+                        "max_level": 6,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 6
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "radio-sinnoh",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                            }
+                        ],
+                        "max_level": 6,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 6
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "heartgold",
+                    "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "radio-sinnoh",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                            }
+                        ],
+                        "max_level": 6,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 6
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "radio-sinnoh",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                            }
+                        ],
+                        "max_level": 6,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 6
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "viridian-forest-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/321/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "radio-sinnoh",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                            }
+                        ],
+                        "max_level": 5,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 5
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "radio-sinnoh",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                            }
+                        ],
+                        "max_level": 5,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 5
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "heartgold",
+                    "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "radio-sinnoh",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                            }
+                        ],
+                        "max_level": 5,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 5
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "radio-sinnoh",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/16/"
+                            }
+                        ],
+                        "max_level": 5,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 5
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "unova-route-18-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/653/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 66,
+                        "method": {
+                            "name": "dark-grass",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                        },
+                        "min_level": 66
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 58,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 58
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 66,
+                        "method": {
+                            "name": "dark-grass",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/8/"
+                        },
+                        "min_level": 66
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 58,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 58
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "kalos-route-14-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/725/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 30,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 30
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 31,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 31
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 32,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 32
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 31,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 31
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 32,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 32
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "x",
+                    "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 30,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 30
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 31,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 31
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 32,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 32
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 31,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 31
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 32,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 32
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "y",
+                    "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "kalos-route-19-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/730/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 46,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 46
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 48,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 48
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 46,
+                        "method": {
+                            "name": "purple-flowers",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                        },
+                        "min_level": 46
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 48,
+                        "method": {
+                            "name": "purple-flowers",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                        },
+                        "min_level": 48
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 46,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 46
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 48,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 48
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "x",
+                    "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 46,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 46
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 48,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 48
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 46,
+                        "method": {
+                            "name": "purple-flowers",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                        },
+                        "min_level": 46
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 48,
+                        "method": {
+                            "name": "purple-flowers",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                        },
+                        "min_level": 48
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 46,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 46
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 48,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 48
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "y",
+                    "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                }
+            }
+        ]
+    }
+]

@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/305\/","name":"tm01"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/468\/","name":"hone-claws"},"id":14,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/14\/","name":"black-2-white-2"}}
+{
+    "id": 14,
+    "item": {
+        "name": "tm01",
+        "url": "http://127.0.0.1:8000/api/v2/item/305/"
+    },
+    "move": {
+        "name": "hone-claws",
+        "url": "http://127.0.0.1:8000/api/v2/move/468/"
+    },
+    "version_group": {
+        "name": "black-2-white-2",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+    }
+}

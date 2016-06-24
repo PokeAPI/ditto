@@ -1,1 +1,31 @@
-{"move_learn_methods":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/1\/","name":"level-up"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/3\/","name":"tutor"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-learn-method\/4\/","name":"machine"}],"name":"xd","versions":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/20\/","name":"xd"}],"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/3\/","name":"generation-iii"},"id":13,"regions":[],"pokedexes":[],"order":8}
+{
+    "generation": {
+        "name": "generation-iii",
+        "url": "http://127.0.0.1:8000/api/v2/generation/3/"
+    },
+    "id": 13,
+    "move_learn_methods": [
+        {
+            "name": "level-up",
+            "url": "http://127.0.0.1:8000/api/v2/move-learn-method/1/"
+        },
+        {
+            "name": "tutor",
+            "url": "http://127.0.0.1:8000/api/v2/move-learn-method/3/"
+        },
+        {
+            "name": "machine",
+            "url": "http://127.0.0.1:8000/api/v2/move-learn-method/4/"
+        }
+    ],
+    "name": "xd",
+    "order": 8,
+    "pokedexes": [],
+    "regions": [],
+    "versions": [
+        {
+            "name": "xd",
+            "url": "http://127.0.0.1:8000/api/v2/version/20/"
+        }
+    ]
+}

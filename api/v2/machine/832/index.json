@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/359\/","name":"tm55"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/503\/","name":"scald"},"id":832,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/11\/","name":"black-white"}}
+{
+    "id": 832,
+    "item": {
+        "name": "tm55",
+        "url": "http://127.0.0.1:8000/api/v2/item/359/"
+    },
+    "move": {
+        "name": "scald",
+        "url": "http://127.0.0.1:8000/api/v2/move/503/"
+    },
+    "version_group": {
+        "name": "black-white",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+    }
+}

@@ -1,1 +1,151 @@
-{"effect_chance":100,"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/3\/","name":"generation-iii"},"stat_changes":[],"effect_changes":[],"names":[{"name":"Fake Out","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Bruciapelo","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/8\/","name":"it"}},{"name":"Sorpresa","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/7\/","name":"es"}},{"name":"Mogelhieb","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Bluff","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"\uc18d\uc774\ub2e4","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/3\/","name":"ko"}},{"name":"\u306d\u3053\u3060\u307e\u3057","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/1\/","name":"ja"}}],"id":252,"machines":[],"pp":10,"contest_combos":{"super":{"use_after":null,"use_before":null},"normal":{"use_after":null,"use_before":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/69\/","name":"seismic-toss"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/185\/","name":"feint-attack"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/233\/","name":"vital-throw"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/282\/","name":"knock-off"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/292\/","name":"arm-thrust"}]}},"effect_entries":[{"short_effect":"Can only be used as the first move after the user enters battle.  Causes the target to flinch.","effect":"Inflicts regular damage.  Causes the target to flinch.  Can only be used on the user's first turn after entering the field.","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"contest_type":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/contest-type\/3\/","name":"cute"},"priority":3,"contest_effect":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/contest-effect\/23\/"},"type":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/1\/","name":"normal"},"accuracy":100,"power":40,"past_values":[],"target":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-target\/10\/","name":"selected-pokemon"},"super_contest_effect":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/super-contest-effect\/17\/"},"name":"fake-out","damage_class":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-damage-class\/2\/","name":"physical"},"meta":{"category":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-category\/0\/","name":"damage"},"healing":0,"max_turns":null,"drain":0,"ailment":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-ailment\/0\/","name":"none"},"stat_chance":0,"flinch_chance":100,"min_hits":null,"ailment_chance":0,"crit_rate":0,"min_turns":null,"max_hits":null}}
+{
+    "accuracy": 100,
+    "contest_combos": {
+        "normal": {
+            "use_after": null,
+            "use_before": [
+                {
+                    "name": "seismic-toss",
+                    "url": "http://127.0.0.1:8000/api/v2/move/69/"
+                },
+                {
+                    "name": "feint-attack",
+                    "url": "http://127.0.0.1:8000/api/v2/move/185/"
+                },
+                {
+                    "name": "vital-throw",
+                    "url": "http://127.0.0.1:8000/api/v2/move/233/"
+                },
+                {
+                    "name": "knock-off",
+                    "url": "http://127.0.0.1:8000/api/v2/move/282/"
+                },
+                {
+                    "name": "arm-thrust",
+                    "url": "http://127.0.0.1:8000/api/v2/move/292/"
+                }
+            ]
+        },
+        "super": {
+            "use_after": null,
+            "use_before": null
+        }
+    },
+    "contest_effect": {
+        "url": "http://127.0.0.1:8000/api/v2/contest-effect/23/"
+    },
+    "contest_type": {
+        "name": "cute",
+        "url": "http://127.0.0.1:8000/api/v2/contest-type/3/"
+    },
+    "damage_class": {
+        "name": "physical",
+        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/2/"
+    },
+    "effect_chance": 100,
+    "effect_changes": [],
+    "effect_entries": [
+        {
+            "effect": "Inflicts regular damage.  Causes the target to flinch.  Can only be used on the user's first turn after entering the field.",
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "short_effect": "Can only be used as the first move after the user enters battle.  Causes the target to flinch."
+        }
+    ],
+    "generation": {
+        "name": "generation-iii",
+        "url": "http://127.0.0.1:8000/api/v2/generation/3/"
+    },
+    "id": 252,
+    "machines": [],
+    "meta": {
+        "ailment": {
+            "name": "none",
+            "url": "http://127.0.0.1:8000/api/v2/move-ailment/0/"
+        },
+        "ailment_chance": 0,
+        "category": {
+            "name": "damage",
+            "url": "http://127.0.0.1:8000/api/v2/move-category/0/"
+        },
+        "crit_rate": 0,
+        "drain": 0,
+        "flinch_chance": 100,
+        "healing": 0,
+        "max_hits": null,
+        "max_turns": null,
+        "min_hits": null,
+        "min_turns": null,
+        "stat_chance": 0
+    },
+    "name": "fake-out",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Fake Out"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+            },
+            "name": "Bruciapelo"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+            },
+            "name": "Sorpresa"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Mogelhieb"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Bluff"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+            },
+            "name": "\uc18d\uc774\ub2e4"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+            },
+            "name": "\u306d\u3053\u3060\u307e\u3057"
+        }
+    ],
+    "past_values": [],
+    "power": 40,
+    "pp": 10,
+    "priority": 3,
+    "stat_changes": [],
+    "super_contest_effect": {
+        "url": "http://127.0.0.1:8000/api/v2/super-contest-effect/17/"
+    },
+    "target": {
+        "name": "selected-pokemon",
+        "url": "http://127.0.0.1:8000/api/v2/move-target/10/"
+    },
+    "type": {
+        "name": "normal",
+        "url": "http://127.0.0.1:8000/api/v2/type/1/"
+    }
+}

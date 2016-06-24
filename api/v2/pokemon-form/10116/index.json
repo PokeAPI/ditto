@@ -1,1 +1,24 @@
-{"is_battle_only":false,"sprites":{"front_default":null,"back_default":null,"front_shiny":null,"back_shiny":null},"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"},"form_order":3,"is_mega":false,"id":10116,"is_default":false,"form_name":"star","pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/676\/","name":"furfrou"},"order":831,"name":"furfrou-star"}
+{
+    "form_name": "star",
+    "form_order": 3,
+    "id": 10116,
+    "is_battle_only": false,
+    "is_default": false,
+    "is_mega": false,
+    "name": "furfrou-star",
+    "order": 831,
+    "pokemon": {
+        "name": "furfrou",
+        "url": "http://127.0.0.1:8000/api/v2/pokemon/676/"
+    },
+    "sprites": {
+        "back_default": null,
+        "back_shiny": null,
+        "front_default": null,
+        "front_shiny": null
+    },
+    "version_group": {
+        "name": "x-y",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+    }
+}

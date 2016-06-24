@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/352\/","name":"tm48"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/285\/","name":"skill-swap"},"id":761,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/9\/","name":"platinum"}}
+{
+    "id": 761,
+    "item": {
+        "name": "tm48",
+        "url": "http://127.0.0.1:8000/api/v2/item/352/"
+    },
+    "move": {
+        "name": "skill-swap",
+        "url": "http://127.0.0.1:8000/api/v2/move/285/"
+    },
+    "version_group": {
+        "name": "platinum",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+    }
+}

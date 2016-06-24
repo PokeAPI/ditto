@@ -1,1 +1,32 @@
-{"highest_stat":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/stat\/6\/","name":"speed"},"possible_values":[2,7,12,17,22,27],"id":18,"descriptions":[{"description":"B\u00eate et impulsif","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"description":"Impetuous and silly","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"gene_modulo":2}
+{
+    "descriptions": [
+        {
+            "description": "B\u00eate et impulsif",
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            }
+        },
+        {
+            "description": "Impetuous and silly",
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            }
+        }
+    ],
+    "gene_modulo": 2,
+    "highest_stat": {
+        "name": "speed",
+        "url": "http://127.0.0.1:8000/api/v2/stat/6/"
+    },
+    "id": 18,
+    "possible_values": [
+        2,
+        7,
+        12,
+        17,
+        22,
+        27
+    ]
+}

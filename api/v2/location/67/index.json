@@ -1,1 +1,43 @@
-{"name":"celadon-city","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/1\/","name":"kanto"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":144}],"names":[{"name":"Celadon City","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"C\u00e9ladopole","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":67,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/558\/","name":"celadon-city-area"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/283\/","name":"celadon-city-area"}]}
+{
+    "areas": [
+        {
+            "name": "celadon-city-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/558/"
+        },
+        {
+            "name": "celadon-city-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/283/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 144,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 67,
+    "name": "celadon-city",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Celadon City"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "C\u00e9ladopole"
+        }
+    ],
+    "region": {
+        "name": "kanto",
+        "url": "http://127.0.0.1:8000/api/v2/region/1/"
+    }
+}

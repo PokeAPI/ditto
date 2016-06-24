@@ -1,1 +1,26 @@
-{"berry_flavor":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-flavor\/5\/","name":"sour"},"names":[{"color":"Yellow","name":"Tough","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"color":"Jaune","name":"Robustesse","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":5,"name":"tough"}
+{
+    "berry_flavor": {
+        "name": "sour",
+        "url": "http://127.0.0.1:8000/api/v2/berry-flavor/5/"
+    },
+    "id": 5,
+    "name": "tough",
+    "names": [
+        {
+            "color": "Yellow",
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Tough"
+        },
+        {
+            "color": "Jaune",
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Robustesse"
+        }
+    ]
+}

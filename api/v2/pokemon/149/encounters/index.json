@@ -1,1 +1,86 @@
-[{"version_details":[{"max_chance":1,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":50,"max_level":70,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/12\/","name":"super-rod-spots"}}]},{"max_chance":1,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":50,"max_level":70,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/12\/","name":"super-rod-spots"}}]},{"max_chance":1,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":50,"max_level":70,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/12\/","name":"super-rod-spots"}}]},{"max_chance":1,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":50,"max_level":70,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/12\/","name":"super-rod-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/595\/","name":"dragonspiral-tower-outside"}}]
+[
+    {
+        "location_area": {
+            "name": "dragonspiral-tower-outside",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/595/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "super-rod-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/12/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 1,
+                "version": {
+                    "name": "black",
+                    "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "super-rod-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/12/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 1,
+                "version": {
+                    "name": "white",
+                    "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "super-rod-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/12/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 1,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "super-rod-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/12/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 1,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    }
+]

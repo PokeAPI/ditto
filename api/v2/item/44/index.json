@@ -1,1 +1,426 @@
-{"category":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item-category\/29\/","name":"revival"},"name":"sacred-ash","fling_effect":null,"effect_entries":[{"short_effect":"Revives all fainted Pok\u00e9mon with full HP.","effect":"Used\n:   Revives all fainted Pok\u00e9mon in the party and restores their HP to full.","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"held_by_pokemon":[{"version_details":[{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"rarity":100},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"rarity":100},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"rarity":100},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"rarity":100},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"rarity":100},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"rarity":100},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"rarity":100},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"rarity":100},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/14\/","name":"platinum"},"rarity":100},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/13\/","name":"pearl"},"rarity":100},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/12\/","name":"diamond"},"rarity":100},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/9\/","name":"emerald"},"rarity":100},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/8\/","name":"sapphire"},"rarity":100},{"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/7\/","name":"ruby"},"rarity":100}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/250\/","name":"ho-oh"}}],"sprites":{"default":"http:\/\/127.0.0.1:8000\/media\/sprites\/items\/sacred-ash.png"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/6\/","name":"generation-vi"},"game_index":44},{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/5\/","name":"generation-v"},"game_index":44},{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":44},{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/3\/","name":"generation-iii"},"game_index":45}],"baby_trigger_for":null,"cost":200,"names":[{"name":"Sacred Ash","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Ceneremagica","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/8\/","name":"it"}},{"name":"Ceniza Sagrada","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/7\/","name":"es"}},{"name":"Zauberasche","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Cendre Sacr\u00e9e","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"\uc131\uc2a4\ub7ec\uc6b4\ubd84\ub9d0","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/3\/","name":"ko"}},{"name":"\u305b\u3044\u306a\u308b\u306f\u3044","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/1\/","name":"ja"}}],"attributes":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item-attribute\/5\/","name":"holdable"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item-attribute\/4\/","name":"usable-in-battle"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item-attribute\/3\/","name":"usable-overworld"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item-attribute\/2\/","name":"consumable"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item-attribute\/1\/","name":"countable"}],"flavor_text_entries":[{"text":"\u3072\u3093\u3057\u306b\u3000\u306a\u3063\u3066\u3057\u307e\u3063\u305f\n\u30dd\u30b1\u30e2\u30f3\u3000\u5168\u54e1\u306e\u3000\uff28\uff30\u3092\n\u3059\u3079\u3066\u3000\u56de\u5fa9\u3059\u308b\u3002","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/11\/","name":"ja-kanji"}},{"text":"This rare ash can revive all fainted\nPok\u00e9mon in a party. In doing so, it\nalso fully restores their maximum HP.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"text":"Rianima tutti i Pok\u00e9mon esausti, restituendo loro\nanche tutti i PS.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/8\/","name":"it"}},{"text":"Reanima completamente a todos los Pok\u00e9mon\ndebilitados y restaura todos sus PS.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/7\/","name":"es"}},{"text":"Belebt und erfrischt alle besiegten Pok\u00e9mon\nund f\u00fcllt deren KP wieder vollst\u00e4ndig auf.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"text":"Ranime tous les Pok\u00e9mon K.O. et restaure tous\nleurs PV.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"text":"\uae30\uc808\ud574 \ubc84\ub9b0\n\ud3ec\ucf13\ubaac \uc804\uc6d0\uc758 HP\ub97c\n\ubaa8\ub450 \ud68c\ubcf5\ud55c\ub2e4.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/3\/","name":"ko"}},{"text":"\u3072\u3093\u3057\u306b\u3000\u306a\u3063\u3066\u3057\u307e\u3063\u305f\n\u30dd\u30b1\u30e2\u30f3\u3000\u305c\u3093\u3044\u3093\u306e\u3000\uff28\uff30\u3092\n\u3059\u3079\u3066\u3000\u304b\u3044\u3075\u304f\u3059\u308b\u3002","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/1\/","name":"ja"}},{"text":"It revives all fainted Pok\u00e9mon.\nIn doing so, it also fully restores\ntheir HP.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/14\/","name":"black-2-white-2"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"text":"It revives all fainted Pok\u00e9mon.\nIn doing so, it also fully restores\ntheir HP.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/11\/","name":"black-white"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"text":"Ranime tous les Pok\u00e9mon K.O. et\nrestaure tous leurs PV.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/11\/","name":"black-white"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"text":"It revives all fainted Pok\u00e9mon.\nIn doing so, it also fully restores\ntheir HP.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/10\/","name":"heartgold-soulsilver"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"text":"It revives all fainted Pok\u00e9mon.\nIn doing so, it also fully restores\ntheir HP.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/9\/","name":"platinum"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"text":"It revives all fainted Pok\u00e9mon.\nIn doing so, it also fully restores\ntheir HP.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/8\/","name":"diamond-pearl"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"text":"Revives all fainted POK\u00e9MON,\nrestoring HP fully.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/7\/","name":"firered-leafgreen"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"text":"Fully revives and\nrestores all\nfainted POK\u00e9MON.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/6\/","name":"emerald"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"text":"Fully revives and\nrestores all\nfainted POK\u00e9MON.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/5\/","name":"ruby-sapphire"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":44,"machines":[],"fling_power":30}
+{
+    "attributes": [
+        {
+            "name": "holdable",
+            "url": "http://127.0.0.1:8000/api/v2/item-attribute/5/"
+        },
+        {
+            "name": "usable-in-battle",
+            "url": "http://127.0.0.1:8000/api/v2/item-attribute/4/"
+        },
+        {
+            "name": "usable-overworld",
+            "url": "http://127.0.0.1:8000/api/v2/item-attribute/3/"
+        },
+        {
+            "name": "consumable",
+            "url": "http://127.0.0.1:8000/api/v2/item-attribute/2/"
+        },
+        {
+            "name": "countable",
+            "url": "http://127.0.0.1:8000/api/v2/item-attribute/1/"
+        }
+    ],
+    "baby_trigger_for": null,
+    "category": {
+        "name": "revival",
+        "url": "http://127.0.0.1:8000/api/v2/item-category/29/"
+    },
+    "cost": 200,
+    "effect_entries": [
+        {
+            "effect": "Used\n:   Revives all fainted Pok\u00e9mon in the party and restores their HP to full.",
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "short_effect": "Revives all fainted Pok\u00e9mon with full HP."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://127.0.0.1:8000/api/v2/language/11/"
+            },
+            "text": "\u3072\u3093\u3057\u306b\u3000\u306a\u3063\u3066\u3057\u307e\u3063\u305f\n\u30dd\u30b1\u30e2\u30f3\u3000\u5168\u54e1\u306e\u3000\uff28\uff30\u3092\n\u3059\u3079\u3066\u3000\u56de\u5fa9\u3059\u308b\u3002",
+            "version_group": {
+                "name": "x-y",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "text": "This rare ash can revive all fainted\nPok\u00e9mon in a party. In doing so, it\nalso fully restores their maximum HP.",
+            "version_group": {
+                "name": "x-y",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+            },
+            "text": "Rianima tutti i Pok\u00e9mon esausti, restituendo loro\nanche tutti i PS.",
+            "version_group": {
+                "name": "x-y",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+            },
+            "text": "Reanima completamente a todos los Pok\u00e9mon\ndebilitados y restaura todos sus PS.",
+            "version_group": {
+                "name": "x-y",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "text": "Belebt und erfrischt alle besiegten Pok\u00e9mon\nund f\u00fcllt deren KP wieder vollst\u00e4ndig auf.",
+            "version_group": {
+                "name": "x-y",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "text": "Ranime tous les Pok\u00e9mon K.O. et restaure tous\nleurs PV.",
+            "version_group": {
+                "name": "x-y",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+            },
+            "text": "\uae30\uc808\ud574 \ubc84\ub9b0\n\ud3ec\ucf13\ubaac \uc804\uc6d0\uc758 HP\ub97c\n\ubaa8\ub450 \ud68c\ubcf5\ud55c\ub2e4.",
+            "version_group": {
+                "name": "x-y",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+            },
+            "text": "\u3072\u3093\u3057\u306b\u3000\u306a\u3063\u3066\u3057\u307e\u3063\u305f\n\u30dd\u30b1\u30e2\u30f3\u3000\u305c\u3093\u3044\u3093\u306e\u3000\uff28\uff30\u3092\n\u3059\u3079\u3066\u3000\u304b\u3044\u3075\u304f\u3059\u308b\u3002",
+            "version_group": {
+                "name": "x-y",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "text": "It revives all fainted Pok\u00e9mon.\nIn doing so, it also fully restores\ntheir HP.",
+            "version_group": {
+                "name": "black-2-white-2",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "text": "It revives all fainted Pok\u00e9mon.\nIn doing so, it also fully restores\ntheir HP.",
+            "version_group": {
+                "name": "black-white",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+            }
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "text": "Ranime tous les Pok\u00e9mon K.O. et\nrestaure tous leurs PV.",
+            "version_group": {
+                "name": "black-white",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "text": "It revives all fainted Pok\u00e9mon.\nIn doing so, it also fully restores\ntheir HP.",
+            "version_group": {
+                "name": "heartgold-soulsilver",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/10/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "text": "It revives all fainted Pok\u00e9mon.\nIn doing so, it also fully restores\ntheir HP.",
+            "version_group": {
+                "name": "platinum",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "text": "It revives all fainted Pok\u00e9mon.\nIn doing so, it also fully restores\ntheir HP.",
+            "version_group": {
+                "name": "diamond-pearl",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "text": "Revives all fainted POK\u00e9MON,\nrestoring HP fully.",
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/7/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "text": "Fully revives and\nrestores all\nfainted POK\u00e9MON.",
+            "version_group": {
+                "name": "emerald",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/6/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "text": "Fully revives and\nrestores all\nfainted POK\u00e9MON.",
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "fling_effect": null,
+    "fling_power": 30,
+    "game_indices": [
+        {
+            "game_index": 44,
+            "generation": {
+                "name": "generation-vi",
+                "url": "http://127.0.0.1:8000/api/v2/generation/6/"
+            }
+        },
+        {
+            "game_index": 44,
+            "generation": {
+                "name": "generation-v",
+                "url": "http://127.0.0.1:8000/api/v2/generation/5/"
+            }
+        },
+        {
+            "game_index": 44,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        },
+        {
+            "game_index": 45,
+            "generation": {
+                "name": "generation-iii",
+                "url": "http://127.0.0.1:8000/api/v2/generation/3/"
+            }
+        }
+    ],
+    "held_by_pokemon": [
+        {
+            "pokemon": {
+                "name": "ho-oh",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/250/"
+            },
+            "version_details": [
+                {
+                    "rarity": 100,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                },
+                {
+                    "rarity": 100,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                },
+                {
+                    "rarity": 100,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                },
+                {
+                    "rarity": 100,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                },
+                {
+                    "rarity": 100,
+                    "version": {
+                        "name": "white",
+                        "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                    }
+                },
+                {
+                    "rarity": 100,
+                    "version": {
+                        "name": "black",
+                        "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                    }
+                },
+                {
+                    "rarity": 100,
+                    "version": {
+                        "name": "soulsilver",
+                        "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                    }
+                },
+                {
+                    "rarity": 100,
+                    "version": {
+                        "name": "heartgold",
+                        "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                    }
+                },
+                {
+                    "rarity": 100,
+                    "version": {
+                        "name": "platinum",
+                        "url": "http://127.0.0.1:8000/api/v2/version/14/"
+                    }
+                },
+                {
+                    "rarity": 100,
+                    "version": {
+                        "name": "pearl",
+                        "url": "http://127.0.0.1:8000/api/v2/version/13/"
+                    }
+                },
+                {
+                    "rarity": 100,
+                    "version": {
+                        "name": "diamond",
+                        "url": "http://127.0.0.1:8000/api/v2/version/12/"
+                    }
+                },
+                {
+                    "rarity": 100,
+                    "version": {
+                        "name": "emerald",
+                        "url": "http://127.0.0.1:8000/api/v2/version/9/"
+                    }
+                },
+                {
+                    "rarity": 100,
+                    "version": {
+                        "name": "sapphire",
+                        "url": "http://127.0.0.1:8000/api/v2/version/8/"
+                    }
+                },
+                {
+                    "rarity": 100,
+                    "version": {
+                        "name": "ruby",
+                        "url": "http://127.0.0.1:8000/api/v2/version/7/"
+                    }
+                }
+            ]
+        }
+    ],
+    "id": 44,
+    "machines": [],
+    "name": "sacred-ash",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Sacred Ash"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+            },
+            "name": "Ceneremagica"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+            },
+            "name": "Ceniza Sagrada"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Zauberasche"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Cendre Sacr\u00e9e"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+            },
+            "name": "\uc131\uc2a4\ub7ec\uc6b4\ubd84\ub9d0"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+            },
+            "name": "\u305b\u3044\u306a\u308b\u306f\u3044"
+        }
+    ],
+    "sprites": {
+        "default": "http://127.0.0.1:8000/media/sprites/items/sacred-ash.png"
+    }
+}

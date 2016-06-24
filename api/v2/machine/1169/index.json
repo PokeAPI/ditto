@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/400\/","name":"hm04"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/70\/","name":"strength"},"id":1169,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/5\/","name":"ruby-sapphire"}}
+{
+    "id": 1169,
+    "item": {
+        "name": "hm04",
+        "url": "http://127.0.0.1:8000/api/v2/item/400/"
+    },
+    "move": {
+        "name": "strength",
+        "url": "http://127.0.0.1:8000/api/v2/move/70/"
+    },
+    "version_group": {
+        "name": "ruby-sapphire",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+    }
+}

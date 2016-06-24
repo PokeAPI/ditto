@@ -1,1 +1,34 @@
-{"name":"survival-area","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/4\/","name":"sinnoh"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":82}],"names":[{"name":"Survival Area","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Aire de Survie","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":186,"areas":[]}
+{
+    "areas": [],
+    "game_indices": [
+        {
+            "game_index": 82,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 186,
+    "name": "survival-area",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Survival Area"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Aire de Survie"
+        }
+    ],
+    "region": {
+        "name": "sinnoh",
+        "url": "http://127.0.0.1:8000/api/v2/region/4/"
+    }
+}

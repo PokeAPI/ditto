@@ -1,1 +1,21 @@
-{"order":12,"names":[{"name":"Mit einer Superangel angeln","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Fishing with a Super Rod","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":4,"name":"super-rod"}
+{
+    "id": 4,
+    "name": "super-rod",
+    "names": [
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Mit einer Superangel angeln"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Fishing with a Super Rod"
+        }
+    ],
+    "order": 12
+}

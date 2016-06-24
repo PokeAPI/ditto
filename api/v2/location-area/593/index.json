@@ -1,1 +1,2965 @@
-{"names":[{"name":"","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"name":"twist-mountain-area","encounter_method_rates":[],"location":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location\/380\/","name":"twist-mountain"},"pokemon_encounters":[{"version_details":[{"max_chance":25,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":54,"max_level":54,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":25,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":54,"max_level":54,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/95\/","name":"onix"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":57,"max_level":57,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":57,"max_level":57,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/208\/","name":"steelix"}},{"version_details":[{"max_chance":143,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":143,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":120,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":54,"max_level":54,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":54,"max_level":54,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":54,"max_level":54,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":55,"max_level":55,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":55,"max_level":55,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":55,"max_level":55,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":120,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":54,"max_level":54,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":54,"max_level":54,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":54,"max_level":54,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":55,"max_level":55,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":55,"max_level":55,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":55,"max_level":55,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/525\/","name":"boldore"}},{"version_details":[{"max_chance":50,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":50,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":54,"max_level":54,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":54,"max_level":54,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/527\/","name":"woobat"}},{"version_details":[{"max_chance":100,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":28,"max_level":28,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":28,"max_level":28,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":29,"max_level":29,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":29,"max_level":29,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":30,"max_level":30,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":30,"max_level":30,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}}]},{"max_chance":100,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":28,"max_level":28,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":28,"max_level":28,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":29,"max_level":29,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":29,"max_level":29,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":30,"max_level":30,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":30,"max_level":30,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/529\/","name":"drilbur"}},{"version_details":[{"max_chance":75,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":57,"max_level":57,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":56,"max_level":56,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":56,"max_level":56,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":54,"max_level":54,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}}]},{"max_chance":75,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":57,"max_level":57,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":56,"max_level":56,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":56,"max_level":56,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}},{"min_level":54,"max_level":54,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/10\/","name":"cave-spots"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/530\/","name":"excadrill"}},{"version_details":[{"max_chance":100,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":100,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":50,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":55,"max_level":55,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":55,"max_level":55,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":55,"max_level":55,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":55,"max_level":55,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":50,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":55,"max_level":55,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":55,"max_level":55,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":55,"max_level":55,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":55,"max_level":55,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/533\/","name":"gurdurr"}},{"version_details":[{"max_chance":69,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":69,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":29,"max_level":29,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":30,"max_level":30,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/613\/","name":"cubchoo"}},{"version_details":[{"max_chance":45,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":54,"max_level":54,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":56,"max_level":56,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":56,"max_level":56,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":56,"max_level":56,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":45,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":54,"max_level":54,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":56,"max_level":56,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":56,"max_level":56,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":56,"max_level":56,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/614\/","name":"beartic"}},{"version_details":[{"max_chance":8,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":8,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":28,"max_level":28,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":56,"max_level":56,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":56,"max_level":56,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/615\/","name":"cryogonal"}},{"version_details":[{"max_chance":35,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":55,"max_level":55,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":56,"max_level":56,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":56,"max_level":56,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":56,"max_level":56,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":56,"max_level":56,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":35,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":55,"max_level":55,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":56,"max_level":56,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":56,"max_level":56,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":56,"max_level":56,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":56,"max_level":56,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/20\/","name":"season-winter"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/631\/","name":"heatmor"}},{"version_details":[{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":56,"max_level":56,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":56,"max_level":56,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/632\/","name":"durant"}}],"id":593,"game_index":44}
+{
+    "encounter_method_rates": [],
+    "game_index": 44,
+    "id": 593,
+    "location": {
+        "name": "twist-mountain",
+        "url": "http://127.0.0.1:8000/api/v2/location/380/"
+    },
+    "name": "twist-mountain-area",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": ""
+        }
+    ],
+    "pokemon_encounters": [
+        {
+            "pokemon": {
+                "name": "onix",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/95/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 57
+                        }
+                    ],
+                    "max_chance": 25,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 57
+                        }
+                    ],
+                    "max_chance": 25,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "steelix",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/208/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 57
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 57
+                        }
+                    ],
+                    "max_chance": 5,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "boldore",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/525/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        }
+                    ],
+                    "max_chance": 143,
+                    "version": {
+                        "name": "black",
+                        "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        }
+                    ],
+                    "max_chance": 143,
+                    "version": {
+                        "name": "white",
+                        "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 54,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 54,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 54,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55
+                        }
+                    ],
+                    "max_chance": 120,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 54,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 54,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 54,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55
+                        }
+                    ],
+                    "max_chance": 120,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "woobat",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/527/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        }
+                    ],
+                    "max_chance": 50,
+                    "version": {
+                        "name": "black",
+                        "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        }
+                    ],
+                    "max_chance": 50,
+                    "version": {
+                        "name": "white",
+                        "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 54
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 54
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "drilbur",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/529/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 28,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 28,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 29,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 29,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 30,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 30,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 31
+                        }
+                    ],
+                    "max_chance": 100,
+                    "version": {
+                        "name": "black",
+                        "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 28,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 28,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 29,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 29,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 30,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 30,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 31,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 31
+                        }
+                    ],
+                    "max_chance": 100,
+                    "version": {
+                        "name": "white",
+                        "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "excadrill",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/530/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 54
+                        }
+                    ],
+                    "max_chance": 75,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "cave-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/10/"
+                            },
+                            "min_level": 54
+                        }
+                    ],
+                    "max_chance": 75,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "gurdurr",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/533/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        }
+                    ],
+                    "max_chance": 100,
+                    "version": {
+                        "name": "black",
+                        "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        }
+                    ],
+                    "max_chance": 100,
+                    "version": {
+                        "name": "white",
+                        "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55
+                        }
+                    ],
+                    "max_chance": 50,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55
+                        }
+                    ],
+                    "max_chance": 50,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "cubchoo",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/613/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        }
+                    ],
+                    "max_chance": 69,
+                    "version": {
+                        "name": "black",
+                        "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 29,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 29
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 30,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 30
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        }
+                    ],
+                    "max_chance": 69,
+                    "version": {
+                        "name": "white",
+                        "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "beartic",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/614/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 54,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        }
+                    ],
+                    "max_chance": 45,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 54,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        }
+                    ],
+                    "max_chance": 45,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "cryogonal",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/615/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        }
+                    ],
+                    "max_chance": 8,
+                    "version": {
+                        "name": "black",
+                        "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 28,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 28
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 31,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 31
+                        }
+                    ],
+                    "max_chance": 8,
+                    "version": {
+                        "name": "white",
+                        "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 57
+                        }
+                    ],
+                    "max_chance": 15,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 57
+                        }
+                    ],
+                    "max_chance": 15,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "heatmor",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/631/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        }
+                    ],
+                    "max_chance": 35,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 55,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [
+                                {
+                                    "name": "season-summer",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-spring",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-autumn",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [
+                                {
+                                    "name": "season-winter",
+                                    "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/20/"
+                                }
+                            ],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        }
+                    ],
+                    "max_chance": 35,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "durant",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/632/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 57
+                        }
+                    ],
+                    "max_chance": 15,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 57
+                        }
+                    ],
+                    "max_chance": 15,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                }
+            ]
+        }
+    ]
+}

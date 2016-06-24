@@ -1,1 +1,76 @@
-{"name":"sea-spirits-den","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/6\/","name":"kalos"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/6\/","name":"generation-vi"},"game_index":146}],"names":[{"name":"\u6d77\u795e\u306e\u7a74","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/11\/","name":"ja-kanji"}},{"name":"Sea Spirit\u2019s Den","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Antro Talassico","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/8\/","name":"it"}},{"name":"Cueva Talasia","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/7\/","name":"es"}},{"name":"Meerestitanenh\u00f6hle","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Antre N\u00e9r\u00e9en","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"\ud574\uc2e0\uc758 \uad74","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/3\/","name":"ko"}},{"name":"\u308f\u3060\u3064\u307f\u306e\u3042\u306a","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/1\/","name":"ja"}}],"id":679,"areas":[]}
+{
+    "areas": [],
+    "game_indices": [
+        {
+            "game_index": 146,
+            "generation": {
+                "name": "generation-vi",
+                "url": "http://127.0.0.1:8000/api/v2/generation/6/"
+            }
+        }
+    ],
+    "id": 679,
+    "name": "sea-spirits-den",
+    "names": [
+        {
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://127.0.0.1:8000/api/v2/language/11/"
+            },
+            "name": "\u6d77\u795e\u306e\u7a74"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Sea Spirit\u2019s Den"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+            },
+            "name": "Antro Talassico"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+            },
+            "name": "Cueva Talasia"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Meerestitanenh\u00f6hle"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Antre N\u00e9r\u00e9en"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+            },
+            "name": "\ud574\uc2e0\uc758 \uad74"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+            },
+            "name": "\u308f\u3060\u3064\u307f\u306e\u3042\u306a"
+        }
+    ],
+    "region": {
+        "name": "kalos",
+        "url": "http://127.0.0.1:8000/api/v2/region/6/"
+    }
+}

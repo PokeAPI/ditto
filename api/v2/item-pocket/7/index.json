@@ -1,1 +1,27 @@
-{"names":[{"name":"Battle Items","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":7,"categories":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item-category\/1\/","name":"stat-boosts"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item-category\/38\/","name":"flutes"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item-category\/43\/","name":"miracle-shooter"}],"name":"battle"}
+{
+    "categories": [
+        {
+            "name": "stat-boosts",
+            "url": "http://127.0.0.1:8000/api/v2/item-category/1/"
+        },
+        {
+            "name": "flutes",
+            "url": "http://127.0.0.1:8000/api/v2/item-category/38/"
+        },
+        {
+            "name": "miracle-shooter",
+            "url": "http://127.0.0.1:8000/api/v2/item-category/43/"
+        }
+    ],
+    "id": 7,
+    "name": "battle",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Battle Items"
+        }
+    ]
+}

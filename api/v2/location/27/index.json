@@ -1,1 +1,39 @@
-{"name":"lake-valor","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/4\/","name":"sinnoh"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":77}],"names":[{"name":"Lake Valor","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Lac Courage","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":27,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/137\/","name":"lake-valor-area"}]}
+{
+    "areas": [
+        {
+            "name": "lake-valor-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/137/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 77,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 27,
+    "name": "lake-valor",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Lake Valor"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Lac Courage"
+        }
+    ],
+    "region": {
+        "name": "sinnoh",
+        "url": "http://127.0.0.1:8000/api/v2/region/4/"
+    }
+}

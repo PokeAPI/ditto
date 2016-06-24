@@ -1,1 +1,59 @@
-{"pocket":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item-pocket\/5\/","name":"berries"},"items":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/126\/","name":"cheri-berry"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/127\/","name":"chesto-berry"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/128\/","name":"pecha-berry"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/129\/","name":"rawst-berry"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/130\/","name":"aspear-berry"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/131\/","name":"leppa-berry"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/132\/","name":"oran-berry"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/133\/","name":"persim-berry"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/134\/","name":"lum-berry"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/135\/","name":"sitrus-berry"}],"names":[{"name":"Medicine","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":3,"name":"medicine"}
+{
+    "id": 3,
+    "items": [
+        {
+            "name": "cheri-berry",
+            "url": "http://127.0.0.1:8000/api/v2/item/126/"
+        },
+        {
+            "name": "chesto-berry",
+            "url": "http://127.0.0.1:8000/api/v2/item/127/"
+        },
+        {
+            "name": "pecha-berry",
+            "url": "http://127.0.0.1:8000/api/v2/item/128/"
+        },
+        {
+            "name": "rawst-berry",
+            "url": "http://127.0.0.1:8000/api/v2/item/129/"
+        },
+        {
+            "name": "aspear-berry",
+            "url": "http://127.0.0.1:8000/api/v2/item/130/"
+        },
+        {
+            "name": "leppa-berry",
+            "url": "http://127.0.0.1:8000/api/v2/item/131/"
+        },
+        {
+            "name": "oran-berry",
+            "url": "http://127.0.0.1:8000/api/v2/item/132/"
+        },
+        {
+            "name": "persim-berry",
+            "url": "http://127.0.0.1:8000/api/v2/item/133/"
+        },
+        {
+            "name": "lum-berry",
+            "url": "http://127.0.0.1:8000/api/v2/item/134/"
+        },
+        {
+            "name": "sitrus-berry",
+            "url": "http://127.0.0.1:8000/api/v2/item/135/"
+        }
+    ],
+    "name": "medicine",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Medicine"
+        }
+    ],
+    "pocket": {
+        "name": "berries",
+        "url": "http://127.0.0.1:8000/api/v2/item-pocket/5/"
+    }
+}

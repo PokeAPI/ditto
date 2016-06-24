@@ -1,1 +1,778 @@
-[{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/12\/","name":"diamond"},"encounter_details":[{"min_level":20,"max_level":45,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}},{"min_level":20,"max_level":45,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/13\/","name":"pearl"},"encounter_details":[{"min_level":20,"max_level":45,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}},{"min_level":20,"max_level":45,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/180\/","name":"sinnoh-sea-route-220-area"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/184\/","name":"new-bark-town-area"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/226\/","name":"johto-sea-route-41-area"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/255\/","name":"johto-route-47-area"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/278\/","name":"kanto-sea-route-20-area"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/279\/","name":"cinnabar-island-area"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/282\/","name":"vermilion-city-area"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/285\/","name":"pallet-town-area"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/287\/","name":"kanto-route-26-area"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/288\/","name":"kanto-route-27-area"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/312\/","name":"kanto-sea-route-21-area"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/16\/","name":"soulsilver"},"encounter_details":[{"min_level":40,"max_level":40,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/349\/","name":"vermilion-city-ss-anne-dock"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":45,"max_level":70,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/12\/","name":"super-rod-spots"}},{"min_level":45,"max_level":70,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/12\/","name":"super-rod-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":45,"max_level":70,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/12\/","name":"super-rod-spots"}},{"min_level":45,"max_level":70,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/12\/","name":"super-rod-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/577\/","name":"driftveil-city-area"}},{"version_details":[{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":50,"max_level":70,"condition_values":[],"chance":15,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/12\/","name":"super-rod-spots"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":50,"max_level":70,"condition_values":[],"chance":15,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/12\/","name":"super-rod-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/619\/","name":"undella-bay-area"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":35,"max_level":35,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":35,"max_level":35,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/711\/","name":"shalour-city-area"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":35,"max_level":35,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":35,"max_level":35,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/4\/","name":"super-rod"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/760\/","name":"azure-bay-area"}}]
+[
+    {
+        "location_area": {
+            "name": "sinnoh-sea-route-220-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/180/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 45,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 20
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 45,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 20
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "diamond",
+                    "url": "http://127.0.0.1:8000/api/v2/version/12/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 45,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 20
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 45,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 20
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "pearl",
+                    "url": "http://127.0.0.1:8000/api/v2/version/13/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "new-bark-town-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/184/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "heartgold",
+                    "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "johto-sea-route-41-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/226/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "heartgold",
+                    "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "johto-route-47-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/255/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "heartgold",
+                    "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "kanto-sea-route-20-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/278/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "heartgold",
+                    "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "cinnabar-island-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/279/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "heartgold",
+                    "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "vermilion-city-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/282/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "heartgold",
+                    "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "pallet-town-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/285/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "heartgold",
+                    "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "kanto-route-26-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/287/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "heartgold",
+                    "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "kanto-route-27-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/288/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "heartgold",
+                    "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "kanto-sea-route-21-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/312/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "heartgold",
+                    "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "vermilion-city-ss-anne-dock",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/349/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "heartgold",
+                    "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "http://127.0.0.1:8000/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "driftveil-city-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/577/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "super-rod-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/12/"
+                        },
+                        "min_level": 45
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "super-rod-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/12/"
+                        },
+                        "min_level": 45
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black",
+                    "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "super-rod-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/12/"
+                        },
+                        "min_level": 45
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "super-rod-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/12/"
+                        },
+                        "min_level": 45
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white",
+                    "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "undella-bay-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/619/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 15,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "super-rod-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/12/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 15,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "super-rod-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/12/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "shalour-city-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/711/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "x",
+                    "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "y",
+                    "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "azure-bay-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/760/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "x",
+                    "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "super-rod",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/4/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "y",
+                    "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                }
+            }
+        ]
+    }
+]

@@ -1,1 +1,73 @@
-{"baby_trigger_item":null,"id":178,"chain":{"evolution_details":[],"evolves_to":[{"evolution_details":[{"min_level":null,"min_beauty":171,"time_of_day":"","gender":null,"relative_physical_stats":null,"needs_overworld_rain":false,"turn_upside_down":false,"item":null,"trigger":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/evolution-trigger\/1\/","name":"level-up"},"known_move_type":null,"min_affection":null,"party_type":null,"trade_species":null,"party_species":null,"min_happiness":null,"held_item":null,"known_move":null,"location":null},{"min_level":null,"min_beauty":null,"time_of_day":"","gender":null,"relative_physical_stats":null,"needs_overworld_rain":false,"turn_upside_down":false,"item":null,"trigger":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/evolution-trigger\/2\/","name":"trade"},"known_move_type":null,"min_affection":null,"party_type":null,"trade_species":null,"party_species":null,"min_happiness":null,"held_item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/580\/","name":"prism-scale"},"known_move":null,"location":null}],"evolves_to":[],"is_baby":false,"species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/350\/","name":"milotic"}}],"is_baby":false,"species":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon-species\/349\/","name":"feebas"}}}
+{
+    "baby_trigger_item": null,
+    "chain": {
+        "evolution_details": [],
+        "evolves_to": [
+            {
+                "evolution_details": [
+                    {
+                        "gender": null,
+                        "held_item": null,
+                        "item": null,
+                        "known_move": null,
+                        "known_move_type": null,
+                        "location": null,
+                        "min_affection": null,
+                        "min_beauty": 171,
+                        "min_happiness": null,
+                        "min_level": null,
+                        "needs_overworld_rain": false,
+                        "party_species": null,
+                        "party_type": null,
+                        "relative_physical_stats": null,
+                        "time_of_day": "",
+                        "trade_species": null,
+                        "trigger": {
+                            "name": "level-up",
+                            "url": "http://127.0.0.1:8000/api/v2/evolution-trigger/1/"
+                        },
+                        "turn_upside_down": false
+                    },
+                    {
+                        "gender": null,
+                        "held_item": {
+                            "name": "prism-scale",
+                            "url": "http://127.0.0.1:8000/api/v2/item/580/"
+                        },
+                        "item": null,
+                        "known_move": null,
+                        "known_move_type": null,
+                        "location": null,
+                        "min_affection": null,
+                        "min_beauty": null,
+                        "min_happiness": null,
+                        "min_level": null,
+                        "needs_overworld_rain": false,
+                        "party_species": null,
+                        "party_type": null,
+                        "relative_physical_stats": null,
+                        "time_of_day": "",
+                        "trade_species": null,
+                        "trigger": {
+                            "name": "trade",
+                            "url": "http://127.0.0.1:8000/api/v2/evolution-trigger/2/"
+                        },
+                        "turn_upside_down": false
+                    }
+                ],
+                "evolves_to": [],
+                "is_baby": false,
+                "species": {
+                    "name": "milotic",
+                    "url": "http://127.0.0.1:8000/api/v2/pokemon-species/350/"
+                }
+            }
+        ],
+        "is_baby": false,
+        "species": {
+            "name": "feebas",
+            "url": "http://127.0.0.1:8000/api/v2/pokemon-species/349/"
+        }
+    },
+    "id": 178
+}

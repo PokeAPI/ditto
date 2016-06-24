@@ -1,1 +1,105 @@
-{"category":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item-category\/20\/","name":"event-items"},"name":"auroraticket","fling_effect":null,"effect_entries":[{"short_effect":"Allows access to Birth Island and Deoxys.","effect":"Provides access to Birth Island and deoxys.","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"held_by_pokemon":[],"sprites":{"default":"http:\/\/127.0.0.1:8000\/media\/sprites\/items\/auroraticket.png"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/3\/","name":"generation-iii"},"game_index":371}],"baby_trigger_for":null,"cost":0,"names":[{"name":"AuroraTicket","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Bigl. Aurora","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/8\/","name":"it"}},{"name":"Ori-Ticket","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/7\/","name":"es"}},{"name":"Auroraticket","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Ticketaurora","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"\u30aa\u30fc\u30ed\u30e9\u30c1\u30b1\u30c3\u30c8","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/1\/","name":"ja"}}],"attributes":[],"flavor_text_entries":[{"text":"A ticket required to board the ship\nto BIRTH ISLAND.\nIt glows beautifully.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/7\/","name":"firered-leafgreen"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"text":"A ticket required\nto board the ship\nto BIRTH ISLAND.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/6\/","name":"emerald"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":557,"machines":[],"fling_power":null}
+{
+    "attributes": [],
+    "baby_trigger_for": null,
+    "category": {
+        "name": "event-items",
+        "url": "http://127.0.0.1:8000/api/v2/item-category/20/"
+    },
+    "cost": 0,
+    "effect_entries": [
+        {
+            "effect": "Provides access to Birth Island and deoxys.",
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "short_effect": "Allows access to Birth Island and Deoxys."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "text": "A ticket required to board the ship\nto BIRTH ISLAND.\nIt glows beautifully.",
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/7/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "text": "A ticket required\nto board the ship\nto BIRTH ISLAND.",
+            "version_group": {
+                "name": "emerald",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/6/"
+            }
+        }
+    ],
+    "fling_effect": null,
+    "fling_power": null,
+    "game_indices": [
+        {
+            "game_index": 371,
+            "generation": {
+                "name": "generation-iii",
+                "url": "http://127.0.0.1:8000/api/v2/generation/3/"
+            }
+        }
+    ],
+    "held_by_pokemon": [],
+    "id": 557,
+    "machines": [],
+    "name": "auroraticket",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "AuroraTicket"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+            },
+            "name": "Bigl. Aurora"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+            },
+            "name": "Ori-Ticket"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Auroraticket"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Ticketaurora"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+            },
+            "name": "\u30aa\u30fc\u30ed\u30e9\u30c1\u30b1\u30c3\u30c8"
+        }
+    ],
+    "sprites": {
+        "default": "http://127.0.0.1:8000/media/sprites/items/auroraticket.png"
+    }
+}

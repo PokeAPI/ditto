@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/337\/","name":"tm33"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/8\/","name":"ice-punch"},"id":516,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/4\/","name":"crystal"}}
+{
+    "id": 516,
+    "item": {
+        "name": "tm33",
+        "url": "http://127.0.0.1:8000/api/v2/item/337/"
+    },
+    "move": {
+        "name": "ice-punch",
+        "url": "http://127.0.0.1:8000/api/v2/move/8/"
+    },
+    "version_group": {
+        "name": "crystal",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/4/"
+    }
+}

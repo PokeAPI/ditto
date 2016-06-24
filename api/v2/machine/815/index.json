@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/357\/","name":"tm53"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/412\/","name":"energy-ball"},"id":815,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/8\/","name":"diamond-pearl"}}
+{
+    "id": 815,
+    "item": {
+        "name": "tm53",
+        "url": "http://127.0.0.1:8000/api/v2/item/357/"
+    },
+    "move": {
+        "name": "energy-ball",
+        "url": "http://127.0.0.1:8000/api/v2/move/412/"
+    },
+    "version_group": {
+        "name": "diamond-pearl",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+    }
+}

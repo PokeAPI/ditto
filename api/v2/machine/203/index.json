@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/317\/","name":"tm13"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/58\/","name":"ice-beam"},"id":203,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/11\/","name":"black-white"}}
+{
+    "id": 203,
+    "item": {
+        "name": "tm13",
+        "url": "http://127.0.0.1:8000/api/v2/item/317/"
+    },
+    "move": {
+        "name": "ice-beam",
+        "url": "http://127.0.0.1:8000/api/v2/move/58/"
+    },
+    "version_group": {
+        "name": "black-white",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+    }
+}

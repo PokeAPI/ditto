@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/351\/","name":"tm47"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/211\/","name":"steel-wing"},"id":743,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/7\/","name":"firered-leafgreen"}}
+{
+    "id": 743,
+    "item": {
+        "name": "tm47",
+        "url": "http://127.0.0.1:8000/api/v2/item/351/"
+    },
+    "move": {
+        "name": "steel-wing",
+        "url": "http://127.0.0.1:8000/api/v2/move/211/"
+    },
+    "version_group": {
+        "name": "firered-leafgreen",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/7/"
+    }
+}

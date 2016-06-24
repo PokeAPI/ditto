@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/320\/","name":"tm16"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/6\/","name":"pay-day"},"id":242,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/2\/","name":"yellow"}}
+{
+    "id": 242,
+    "item": {
+        "name": "tm16",
+        "url": "http://127.0.0.1:8000/api/v2/item/320/"
+    },
+    "move": {
+        "name": "pay-day",
+        "url": "http://127.0.0.1:8000/api/v2/move/6/"
+    },
+    "version_group": {
+        "name": "yellow",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/2/"
+    }
+}

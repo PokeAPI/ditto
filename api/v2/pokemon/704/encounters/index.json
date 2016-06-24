@@ -1,1 +1,108 @@
-[{"version_details":[{"max_chance":45,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":30,"max_level":30,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}},{"min_level":32,"max_level":32,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":15,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]},{"max_chance":45,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":30,"max_level":30,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}},{"min_level":32,"max_level":32,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}},{"min_level":31,"max_level":31,"condition_values":[],"chance":15,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/725\/","name":"kalos-route-14-area"}}]
+[
+    {
+        "location_area": {
+            "name": "kalos-route-14-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/725/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 30,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 30
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 31,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 31
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 32,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 32
+                    },
+                    {
+                        "chance": 15,
+                        "condition_values": [],
+                        "max_level": 31,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 31
+                    }
+                ],
+                "max_chance": 45,
+                "version": {
+                    "name": "x",
+                    "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 30,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 30
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 31,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 31
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 32,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 32
+                    },
+                    {
+                        "chance": 15,
+                        "condition_values": [],
+                        "max_level": 31,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 31
+                    }
+                ],
+                "max_chance": 45,
+                "version": {
+                    "name": "y",
+                    "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                }
+            }
+        ]
+    }
+]

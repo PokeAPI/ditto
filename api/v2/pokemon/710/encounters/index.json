@@ -1,1 +1,88 @@
-[{"version_details":[{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":34,"max_level":34,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}},{"min_level":34,"max_level":34,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}},{"min_level":35,"max_level":35,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}}]},{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":34,"max_level":34,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}},{"min_level":34,"max_level":34,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}},{"min_level":35,"max_level":35,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/17\/","name":"rough-terrain"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/727\/","name":"kalos-route-16-area"}}]
+[
+    {
+        "location_area": {
+            "name": "kalos-route-16-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/727/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 34,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 34
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 34,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 34
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 30,
+                "version": {
+                    "name": "x",
+                    "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 34,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 34
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 34,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 34
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 30,
+                "version": {
+                    "name": "y",
+                    "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                }
+            }
+        ]
+    }
+]

@@ -1,1 +1,82 @@
-{"descriptions":[{"description":"The user's side of the field.  Affects the user and its ally (if any).","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"description":"Die Seite des Anwenders auf dem Feld.  Betrifft den Anwender und seine Partner (wenn vorhanden).","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}}],"moves":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/54\/","name":"mist"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/113\/","name":"light-screen"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/115\/","name":"reflect"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/219\/","name":"safeguard"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/366\/","name":"tailwind"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/381\/","name":"lucky-chant"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/469\/","name":"wide-guard"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/501\/","name":"quick-guard"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/561\/","name":"mat-block"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/578\/","name":"crafty-shield"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/603\/","name":"happy-hour"}],"names":[{"name":"Seite des Anwenders","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"User's field","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":4,"name":"users-field"}
+{
+    "descriptions": [
+        {
+            "description": "The user's side of the field.  Affects the user and its ally (if any).",
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            }
+        },
+        {
+            "description": "Die Seite des Anwenders auf dem Feld.  Betrifft den Anwender und seine Partner (wenn vorhanden).",
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            }
+        }
+    ],
+    "id": 4,
+    "moves": [
+        {
+            "name": "mist",
+            "url": "http://127.0.0.1:8000/api/v2/move/54/"
+        },
+        {
+            "name": "light-screen",
+            "url": "http://127.0.0.1:8000/api/v2/move/113/"
+        },
+        {
+            "name": "reflect",
+            "url": "http://127.0.0.1:8000/api/v2/move/115/"
+        },
+        {
+            "name": "safeguard",
+            "url": "http://127.0.0.1:8000/api/v2/move/219/"
+        },
+        {
+            "name": "tailwind",
+            "url": "http://127.0.0.1:8000/api/v2/move/366/"
+        },
+        {
+            "name": "lucky-chant",
+            "url": "http://127.0.0.1:8000/api/v2/move/381/"
+        },
+        {
+            "name": "wide-guard",
+            "url": "http://127.0.0.1:8000/api/v2/move/469/"
+        },
+        {
+            "name": "quick-guard",
+            "url": "http://127.0.0.1:8000/api/v2/move/501/"
+        },
+        {
+            "name": "mat-block",
+            "url": "http://127.0.0.1:8000/api/v2/move/561/"
+        },
+        {
+            "name": "crafty-shield",
+            "url": "http://127.0.0.1:8000/api/v2/move/578/"
+        },
+        {
+            "name": "happy-hour",
+            "url": "http://127.0.0.1:8000/api/v2/move/603/"
+        }
+    ],
+    "name": "users-field",
+    "names": [
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Seite des Anwenders"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "User's field"
+        }
+    ]
+}

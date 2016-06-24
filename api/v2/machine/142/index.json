@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/313\/","name":"tm09"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/474\/","name":"venoshock"},"id":142,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/14\/","name":"black-2-white-2"}}
+{
+    "id": 142,
+    "item": {
+        "name": "tm09",
+        "url": "http://127.0.0.1:8000/api/v2/item/313/"
+    },
+    "move": {
+        "name": "venoshock",
+        "url": "http://127.0.0.1:8000/api/v2/move/474/"
+    },
+    "version_group": {
+        "name": "black-2-white-2",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+    }
+}

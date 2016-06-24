@@ -1,1 +1,545 @@
-{"names":[{"name":"","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"name":"marvelous-bridge-area","encounter_method_rates":[],"location":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location\/410\/","name":"marvelous-bridge"},"pokemon_encounters":[{"version_details":[{"max_chance":100,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":47,"max_level":47,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":47,"max_level":47,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":49,"max_level":49,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":49,"max_level":49,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}}]},{"max_chance":100,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":47,"max_level":47,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":47,"max_level":47,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":48,"max_level":48,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":49,"max_level":49,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":49,"max_level":49,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":50,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}}]},{"max_chance":100,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":54,"max_level":54,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":54,"max_level":54,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":56,"max_level":56,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":56,"max_level":56,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}}]},{"max_chance":100,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":54,"max_level":54,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":54,"max_level":54,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":55,"max_level":55,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":56,"max_level":56,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":56,"max_level":56,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}},{"min_level":57,"max_level":57,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/11\/","name":"bridge-spots"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/581\/","name":"swanna"}}],"id":622,"game_index":76}
+{
+    "encounter_method_rates": [],
+    "game_index": 76,
+    "id": 622,
+    "location": {
+        "name": "marvelous-bridge",
+        "url": "http://127.0.0.1:8000/api/v2/location/410/"
+    },
+    "name": "marvelous-bridge-area",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": ""
+        }
+    ],
+    "pokemon_encounters": [
+        {
+            "pokemon": {
+                "name": "swanna",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/581/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 100,
+                    "version": {
+                        "name": "black",
+                        "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 47,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 47
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 48,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 48
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 49,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 49
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 50
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 50,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 50
+                        }
+                    ],
+                    "max_chance": 100,
+                    "version": {
+                        "name": "white",
+                        "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 57
+                        }
+                    ],
+                    "max_chance": 100,
+                    "version": {
+                        "name": "black-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 20,
+                            "condition_values": [],
+                            "max_level": 54,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 54
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 55,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 55
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 56,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 56
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 57
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 57,
+                            "method": {
+                                "name": "bridge-spots",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/11/"
+                            },
+                            "min_level": 57
+                        }
+                    ],
+                    "max_chance": 100,
+                    "version": {
+                        "name": "white-2",
+                        "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                    }
+                }
+            ]
+        }
+    ]
+}

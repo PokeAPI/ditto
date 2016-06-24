@@ -1,1 +1,43 @@
-{"name":"pallet-town","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/1\/","name":"kanto"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":138}],"names":[{"name":"Pallet Town","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Bourg Palette","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":86,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/554\/","name":"pallet-town-area"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/285\/","name":"pallet-town-area"}]}
+{
+    "areas": [
+        {
+            "name": "pallet-town-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/554/"
+        },
+        {
+            "name": "pallet-town-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/285/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 138,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 86,
+    "name": "pallet-town",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Pallet Town"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Bourg Palette"
+        }
+    ],
+    "region": {
+        "name": "kanto",
+        "url": "http://127.0.0.1:8000/api/v2/region/1/"
+    }
+}

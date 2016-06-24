@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/391\/","name":"tm87"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/207\/","name":"swagger"},"id":1053,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/8\/","name":"diamond-pearl"}}
+{
+    "id": 1053,
+    "item": {
+        "name": "tm87",
+        "url": "http://127.0.0.1:8000/api/v2/item/391/"
+    },
+    "move": {
+        "name": "swagger",
+        "url": "http://127.0.0.1:8000/api/v2/move/207/"
+    },
+    "version_group": {
+        "name": "diamond-pearl",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+    }
+}

@@ -1,1 +1,39 @@
-{"name":"eterna-city","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/4\/","name":"sinnoh"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":9}],"names":[{"name":"Eterna City","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Vestigion","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":2,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/2\/","name":"eterna-city-area"}]}
+{
+    "areas": [
+        {
+            "name": "eterna-city-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/2/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 9,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 2,
+    "name": "eterna-city",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Eterna City"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Vestigion"
+        }
+    ],
+    "region": {
+        "name": "sinnoh",
+        "url": "http://127.0.0.1:8000/api/v2/region/4/"
+    }
+}

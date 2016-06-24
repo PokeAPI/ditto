@@ -1,1 +1,31 @@
-{"name":"mirage-tower","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/3\/","name":"hoenn"},"game_indices":[],"names":[{"name":"Mirage Tower","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Tour Mirage","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":487,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/438\/","name":"mirage-tower-area"}]}
+{
+    "areas": [
+        {
+            "name": "mirage-tower-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/438/"
+        }
+    ],
+    "game_indices": [],
+    "id": 487,
+    "name": "mirage-tower",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Mirage Tower"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Tour Mirage"
+        }
+    ],
+    "region": {
+        "name": "hoenn",
+        "url": "http://127.0.0.1:8000/api/v2/region/3/"
+    }
+}

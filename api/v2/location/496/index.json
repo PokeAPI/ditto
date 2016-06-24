@@ -1,1 +1,31 @@
-{"name":"rixy-chamber","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/1\/","name":"kanto"},"game_indices":[],"names":[{"name":"Rixy Chamber","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Chambre Irix","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":496,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/455\/","name":"rixy-chamber-area"}]}
+{
+    "areas": [
+        {
+            "name": "rixy-chamber-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/455/"
+        }
+    ],
+    "game_indices": [],
+    "id": 496,
+    "name": "rixy-chamber",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Rixy Chamber"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Chambre Irix"
+        }
+    ],
+    "region": {
+        "name": "kanto",
+        "url": "http://127.0.0.1:8000/api/v2/region/1/"
+    }
+}

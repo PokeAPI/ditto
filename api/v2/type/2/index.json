@@ -1,1 +1,731 @@
-{"name":"fighting","generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/1\/","name":"generation-i"},"damage_relations":{"half_damage_from":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/6\/","name":"rock"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/7\/","name":"bug"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/17\/","name":"dark"}],"no_damage_from":[],"half_damage_to":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/3\/","name":"flying"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/4\/","name":"poison"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/7\/","name":"bug"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/14\/","name":"psychic"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/18\/","name":"fairy"}],"double_damage_from":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/3\/","name":"flying"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/14\/","name":"psychic"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/18\/","name":"fairy"}],"no_damage_to":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/8\/","name":"ghost"}],"double_damage_to":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/1\/","name":"normal"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/6\/","name":"rock"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/9\/","name":"steel"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/15\/","name":"ice"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/17\/","name":"dark"}]},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/1\/","name":"generation-i"},"game_index":1},{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/2\/","name":"generation-ii"},"game_index":1},{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/3\/","name":"generation-iii"},"game_index":1},{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":1},{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/5\/","name":"generation-v"},"game_index":1},{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/6\/","name":"generation-vi"},"game_index":1}],"move_damage_class":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move-damage-class\/2\/","name":"physical"},"moves":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/2\/","name":"karate-chop"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/24\/","name":"double-kick"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/26\/","name":"jump-kick"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/27\/","name":"rolling-kick"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/66\/","name":"submission"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/67\/","name":"low-kick"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/68\/","name":"counter"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/69\/","name":"seismic-toss"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/136\/","name":"high-jump-kick"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/167\/","name":"triple-kick"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/179\/","name":"reversal"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/183\/","name":"mach-punch"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/197\/","name":"detect"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/223\/","name":"dynamic-punch"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/233\/","name":"vital-throw"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/238\/","name":"cross-chop"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/249\/","name":"rock-smash"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/264\/","name":"focus-punch"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/276\/","name":"superpower"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/279\/","name":"revenge"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/280\/","name":"brick-break"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/292\/","name":"arm-thrust"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/327\/","name":"sky-uppercut"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/339\/","name":"bulk-up"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/358\/","name":"wake-up-slap"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/359\/","name":"hammer-arm"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/370\/","name":"close-combat"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/395\/","name":"force-palm"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/396\/","name":"aura-sphere"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/409\/","name":"drain-punch"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/410\/","name":"vacuum-wave"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/411\/","name":"focus-blast"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/480\/","name":"storm-throw"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/490\/","name":"low-sweep"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/501\/","name":"quick-guard"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/509\/","name":"circle-throw"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/515\/","name":"final-gambit"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/533\/","name":"sacred-sword"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/548\/","name":"secret-sword"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/560\/","name":"flying-press"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/561\/","name":"mat-block"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/612\/","name":"power-up-punch"}],"pokemon":[{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/56\/","name":"mankey"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/57\/","name":"primeape"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/62\/","name":"poliwrath"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/66\/","name":"machop"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/67\/","name":"machoke"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/68\/","name":"machamp"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/106\/","name":"hitmonlee"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/107\/","name":"hitmonchan"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/214\/","name":"heracross"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/236\/","name":"tyrogue"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/237\/","name":"hitmontop"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/256\/","name":"combusken"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/257\/","name":"blaziken"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/286\/","name":"breloom"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/296\/","name":"makuhita"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/297\/","name":"hariyama"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/307\/","name":"meditite"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/308\/","name":"medicham"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/391\/","name":"monferno"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/392\/","name":"infernape"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/447\/","name":"riolu"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/448\/","name":"lucario"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/453\/","name":"croagunk"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/454\/","name":"toxicroak"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/475\/","name":"gallade"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/499\/","name":"pignite"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/500\/","name":"emboar"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/532\/","name":"timburr"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/533\/","name":"gurdurr"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/534\/","name":"conkeldurr"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/538\/","name":"throh"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/539\/","name":"sawk"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/559\/","name":"scraggy"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/560\/","name":"scrafty"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/619\/","name":"mienfoo"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/620\/","name":"mienshao"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/638\/","name":"cobalion"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/639\/","name":"terrakion"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/640\/","name":"virizion"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/647\/","name":"keldeo-ordinary"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/652\/","name":"chesnaught"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/674\/","name":"pancham"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/675\/","name":"pangoro"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/701\/","name":"hawlucha"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10018\/","name":"meloetta-pirouette"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10024\/","name":"keldeo-resolute"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10043\/","name":"mewtwo-mega-x"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10047\/","name":"heracross-mega"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10050\/","name":"blaziken-mega"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10054\/","name":"medicham-mega"}},{"slot":1,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10059\/","name":"lucario-mega"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10068\/","name":"gallade-mega"}},{"slot":2,"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10088\/","name":"lopunny-mega"}}],"id":2,"names":[{"name":"\u304b\u304f\u3068\u3046","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/1\/","name":"ja"}},{"name":"\uaca9\ud22c","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/3\/","name":"ko"}},{"name":"Combat","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"Kampf","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Lucha","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/7\/","name":"es"}},{"name":"Lotta","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/8\/","name":"it"}},{"name":"Fighting","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}]}
+{
+    "damage_relations": {
+        "double_damage_from": [
+            {
+                "name": "flying",
+                "url": "http://127.0.0.1:8000/api/v2/type/3/"
+            },
+            {
+                "name": "psychic",
+                "url": "http://127.0.0.1:8000/api/v2/type/14/"
+            },
+            {
+                "name": "fairy",
+                "url": "http://127.0.0.1:8000/api/v2/type/18/"
+            }
+        ],
+        "double_damage_to": [
+            {
+                "name": "normal",
+                "url": "http://127.0.0.1:8000/api/v2/type/1/"
+            },
+            {
+                "name": "rock",
+                "url": "http://127.0.0.1:8000/api/v2/type/6/"
+            },
+            {
+                "name": "steel",
+                "url": "http://127.0.0.1:8000/api/v2/type/9/"
+            },
+            {
+                "name": "ice",
+                "url": "http://127.0.0.1:8000/api/v2/type/15/"
+            },
+            {
+                "name": "dark",
+                "url": "http://127.0.0.1:8000/api/v2/type/17/"
+            }
+        ],
+        "half_damage_from": [
+            {
+                "name": "rock",
+                "url": "http://127.0.0.1:8000/api/v2/type/6/"
+            },
+            {
+                "name": "bug",
+                "url": "http://127.0.0.1:8000/api/v2/type/7/"
+            },
+            {
+                "name": "dark",
+                "url": "http://127.0.0.1:8000/api/v2/type/17/"
+            }
+        ],
+        "half_damage_to": [
+            {
+                "name": "flying",
+                "url": "http://127.0.0.1:8000/api/v2/type/3/"
+            },
+            {
+                "name": "poison",
+                "url": "http://127.0.0.1:8000/api/v2/type/4/"
+            },
+            {
+                "name": "bug",
+                "url": "http://127.0.0.1:8000/api/v2/type/7/"
+            },
+            {
+                "name": "psychic",
+                "url": "http://127.0.0.1:8000/api/v2/type/14/"
+            },
+            {
+                "name": "fairy",
+                "url": "http://127.0.0.1:8000/api/v2/type/18/"
+            }
+        ],
+        "no_damage_from": [],
+        "no_damage_to": [
+            {
+                "name": "ghost",
+                "url": "http://127.0.0.1:8000/api/v2/type/8/"
+            }
+        ]
+    },
+    "game_indices": [
+        {
+            "game_index": 1,
+            "generation": {
+                "name": "generation-i",
+                "url": "http://127.0.0.1:8000/api/v2/generation/1/"
+            }
+        },
+        {
+            "game_index": 1,
+            "generation": {
+                "name": "generation-ii",
+                "url": "http://127.0.0.1:8000/api/v2/generation/2/"
+            }
+        },
+        {
+            "game_index": 1,
+            "generation": {
+                "name": "generation-iii",
+                "url": "http://127.0.0.1:8000/api/v2/generation/3/"
+            }
+        },
+        {
+            "game_index": 1,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        },
+        {
+            "game_index": 1,
+            "generation": {
+                "name": "generation-v",
+                "url": "http://127.0.0.1:8000/api/v2/generation/5/"
+            }
+        },
+        {
+            "game_index": 1,
+            "generation": {
+                "name": "generation-vi",
+                "url": "http://127.0.0.1:8000/api/v2/generation/6/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-i",
+        "url": "http://127.0.0.1:8000/api/v2/generation/1/"
+    },
+    "id": 2,
+    "move_damage_class": {
+        "name": "physical",
+        "url": "http://127.0.0.1:8000/api/v2/move-damage-class/2/"
+    },
+    "moves": [
+        {
+            "name": "karate-chop",
+            "url": "http://127.0.0.1:8000/api/v2/move/2/"
+        },
+        {
+            "name": "double-kick",
+            "url": "http://127.0.0.1:8000/api/v2/move/24/"
+        },
+        {
+            "name": "jump-kick",
+            "url": "http://127.0.0.1:8000/api/v2/move/26/"
+        },
+        {
+            "name": "rolling-kick",
+            "url": "http://127.0.0.1:8000/api/v2/move/27/"
+        },
+        {
+            "name": "submission",
+            "url": "http://127.0.0.1:8000/api/v2/move/66/"
+        },
+        {
+            "name": "low-kick",
+            "url": "http://127.0.0.1:8000/api/v2/move/67/"
+        },
+        {
+            "name": "counter",
+            "url": "http://127.0.0.1:8000/api/v2/move/68/"
+        },
+        {
+            "name": "seismic-toss",
+            "url": "http://127.0.0.1:8000/api/v2/move/69/"
+        },
+        {
+            "name": "high-jump-kick",
+            "url": "http://127.0.0.1:8000/api/v2/move/136/"
+        },
+        {
+            "name": "triple-kick",
+            "url": "http://127.0.0.1:8000/api/v2/move/167/"
+        },
+        {
+            "name": "reversal",
+            "url": "http://127.0.0.1:8000/api/v2/move/179/"
+        },
+        {
+            "name": "mach-punch",
+            "url": "http://127.0.0.1:8000/api/v2/move/183/"
+        },
+        {
+            "name": "detect",
+            "url": "http://127.0.0.1:8000/api/v2/move/197/"
+        },
+        {
+            "name": "dynamic-punch",
+            "url": "http://127.0.0.1:8000/api/v2/move/223/"
+        },
+        {
+            "name": "vital-throw",
+            "url": "http://127.0.0.1:8000/api/v2/move/233/"
+        },
+        {
+            "name": "cross-chop",
+            "url": "http://127.0.0.1:8000/api/v2/move/238/"
+        },
+        {
+            "name": "rock-smash",
+            "url": "http://127.0.0.1:8000/api/v2/move/249/"
+        },
+        {
+            "name": "focus-punch",
+            "url": "http://127.0.0.1:8000/api/v2/move/264/"
+        },
+        {
+            "name": "superpower",
+            "url": "http://127.0.0.1:8000/api/v2/move/276/"
+        },
+        {
+            "name": "revenge",
+            "url": "http://127.0.0.1:8000/api/v2/move/279/"
+        },
+        {
+            "name": "brick-break",
+            "url": "http://127.0.0.1:8000/api/v2/move/280/"
+        },
+        {
+            "name": "arm-thrust",
+            "url": "http://127.0.0.1:8000/api/v2/move/292/"
+        },
+        {
+            "name": "sky-uppercut",
+            "url": "http://127.0.0.1:8000/api/v2/move/327/"
+        },
+        {
+            "name": "bulk-up",
+            "url": "http://127.0.0.1:8000/api/v2/move/339/"
+        },
+        {
+            "name": "wake-up-slap",
+            "url": "http://127.0.0.1:8000/api/v2/move/358/"
+        },
+        {
+            "name": "hammer-arm",
+            "url": "http://127.0.0.1:8000/api/v2/move/359/"
+        },
+        {
+            "name": "close-combat",
+            "url": "http://127.0.0.1:8000/api/v2/move/370/"
+        },
+        {
+            "name": "force-palm",
+            "url": "http://127.0.0.1:8000/api/v2/move/395/"
+        },
+        {
+            "name": "aura-sphere",
+            "url": "http://127.0.0.1:8000/api/v2/move/396/"
+        },
+        {
+            "name": "drain-punch",
+            "url": "http://127.0.0.1:8000/api/v2/move/409/"
+        },
+        {
+            "name": "vacuum-wave",
+            "url": "http://127.0.0.1:8000/api/v2/move/410/"
+        },
+        {
+            "name": "focus-blast",
+            "url": "http://127.0.0.1:8000/api/v2/move/411/"
+        },
+        {
+            "name": "storm-throw",
+            "url": "http://127.0.0.1:8000/api/v2/move/480/"
+        },
+        {
+            "name": "low-sweep",
+            "url": "http://127.0.0.1:8000/api/v2/move/490/"
+        },
+        {
+            "name": "quick-guard",
+            "url": "http://127.0.0.1:8000/api/v2/move/501/"
+        },
+        {
+            "name": "circle-throw",
+            "url": "http://127.0.0.1:8000/api/v2/move/509/"
+        },
+        {
+            "name": "final-gambit",
+            "url": "http://127.0.0.1:8000/api/v2/move/515/"
+        },
+        {
+            "name": "sacred-sword",
+            "url": "http://127.0.0.1:8000/api/v2/move/533/"
+        },
+        {
+            "name": "secret-sword",
+            "url": "http://127.0.0.1:8000/api/v2/move/548/"
+        },
+        {
+            "name": "flying-press",
+            "url": "http://127.0.0.1:8000/api/v2/move/560/"
+        },
+        {
+            "name": "mat-block",
+            "url": "http://127.0.0.1:8000/api/v2/move/561/"
+        },
+        {
+            "name": "power-up-punch",
+            "url": "http://127.0.0.1:8000/api/v2/move/612/"
+        }
+    ],
+    "name": "fighting",
+    "names": [
+        {
+            "language": {
+                "name": "ja",
+                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+            },
+            "name": "\u304b\u304f\u3068\u3046"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+            },
+            "name": "\uaca9\ud22c"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Combat"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Kampf"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+            },
+            "name": "Lucha"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+            },
+            "name": "Lotta"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Fighting"
+        }
+    ],
+    "pokemon": [
+        {
+            "pokemon": {
+                "name": "mankey",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/56/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "primeape",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/57/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "poliwrath",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/62/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "machop",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/66/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "machoke",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/67/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "machamp",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/68/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "hitmonlee",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/106/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "hitmonchan",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/107/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "heracross",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/214/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "tyrogue",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/236/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "hitmontop",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/237/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "combusken",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/256/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "blaziken",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/257/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "breloom",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/286/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "makuhita",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/296/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "hariyama",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/297/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "meditite",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/307/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "medicham",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/308/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "monferno",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/391/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "infernape",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/392/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "riolu",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/447/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "lucario",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/448/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "croagunk",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/453/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "toxicroak",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/454/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "gallade",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/475/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "pignite",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/499/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "emboar",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/500/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "timburr",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/532/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "gurdurr",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/533/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "conkeldurr",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/534/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "throh",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/538/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "sawk",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/539/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "scraggy",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/559/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "scrafty",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/560/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "mienfoo",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/619/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "mienshao",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/620/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "cobalion",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/638/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "terrakion",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/639/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "virizion",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/640/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "keldeo-ordinary",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/647/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "chesnaught",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/652/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "pancham",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/674/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "pangoro",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/675/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "hawlucha",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/701/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "meloetta-pirouette",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10018/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "keldeo-resolute",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10024/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "mewtwo-mega-x",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10043/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "heracross-mega",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10047/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "blaziken-mega",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10050/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "medicham-mega",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10054/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "lucario-mega",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10059/"
+            },
+            "slot": 1
+        },
+        {
+            "pokemon": {
+                "name": "gallade-mega",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10068/"
+            },
+            "slot": 2
+        },
+        {
+            "pokemon": {
+                "name": "lopunny-mega",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/10088/"
+            },
+            "slot": 2
+        }
+    ]
+}

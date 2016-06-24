@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/326\/","name":"tm22"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/76\/","name":"solar-beam"},"id":351,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"}}
+{
+    "id": 351,
+    "item": {
+        "name": "tm22",
+        "url": "http://127.0.0.1:8000/api/v2/item/326/"
+    },
+    "move": {
+        "name": "solar-beam",
+        "url": "http://127.0.0.1:8000/api/v2/move/76/"
+    },
+    "version_group": {
+        "name": "x-y",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+    }
+}

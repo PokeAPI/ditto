@@ -1,1 +1,97 @@
-{"name":"victory-road","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/6\/","name":"kalos"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/6\/","name":"generation-vi"},"game_index":104}],"names":[{"name":"\u30c1\u30e3\u30f3\u30d4\u30aa\u30f3\u30ed\u30fc\u30c9","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/11\/","name":"ja-kanji"}},{"name":"Victory Road","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Via Vittoria","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/8\/","name":"it"}},{"name":"Calle Victoria","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/7\/","name":"es"}},{"name":"Siegesstra\u00dfe","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Route Victoire","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"\ucc54\ud53c\uc5b8\ub85c\ub4dc","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/3\/","name":"ko"}},{"name":"\u30c1\u30e3\u30f3\u30d4\u30aa\u30f3\u30ed\u30fc\u30c9","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/1\/","name":"ja"}}],"id":657,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/748\/","name":"victory-road-unknown-area-322"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/749\/","name":"victory-road-unknown-area-324"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/750\/","name":"victory-road-unknown-area-326"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/751\/","name":"victory-road-unknown-area-327"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/752\/","name":"victory-road-unknown-area-328"}]}
+{
+    "areas": [
+        {
+            "name": "victory-road-unknown-area-322",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/748/"
+        },
+        {
+            "name": "victory-road-unknown-area-324",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/749/"
+        },
+        {
+            "name": "victory-road-unknown-area-326",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/750/"
+        },
+        {
+            "name": "victory-road-unknown-area-327",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/751/"
+        },
+        {
+            "name": "victory-road-unknown-area-328",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/752/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 104,
+            "generation": {
+                "name": "generation-vi",
+                "url": "http://127.0.0.1:8000/api/v2/generation/6/"
+            }
+        }
+    ],
+    "id": 657,
+    "name": "victory-road",
+    "names": [
+        {
+            "language": {
+                "name": "ja-kanji",
+                "url": "http://127.0.0.1:8000/api/v2/language/11/"
+            },
+            "name": "\u30c1\u30e3\u30f3\u30d4\u30aa\u30f3\u30ed\u30fc\u30c9"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Victory Road"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+            },
+            "name": "Via Vittoria"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+            },
+            "name": "Calle Victoria"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Siegesstra\u00dfe"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Route Victoire"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "http://127.0.0.1:8000/api/v2/language/3/"
+            },
+            "name": "\ucc54\ud53c\uc5b8\ub85c\ub4dc"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+            },
+            "name": "\u30c1\u30e3\u30f3\u30d4\u30aa\u30f3\u30ed\u30fc\u30c9"
+        }
+    ],
+    "region": {
+        "name": "kalos",
+        "url": "http://127.0.0.1:8000/api/v2/region/6/"
+    }
+}

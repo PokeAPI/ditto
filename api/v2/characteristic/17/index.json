@@ -1,1 +1,32 @@
-{"highest_stat":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/stat\/5\/","name":"special-defense"},"possible_values":[2,7,12,17,22,27],"id":17,"descriptions":[{"description":"Esprit rebelle","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"description":"Strongly defiant","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"gene_modulo":2}
+{
+    "descriptions": [
+        {
+            "description": "Esprit rebelle",
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            }
+        },
+        {
+            "description": "Strongly defiant",
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            }
+        }
+    ],
+    "gene_modulo": 2,
+    "highest_stat": {
+        "name": "special-defense",
+        "url": "http://127.0.0.1:8000/api/v2/stat/5/"
+    },
+    "id": 17,
+    "possible_values": [
+        2,
+        7,
+        12,
+        17,
+        22,
+        27
+    ]
+}

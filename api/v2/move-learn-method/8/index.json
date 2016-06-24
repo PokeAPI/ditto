@@ -1,1 +1,23 @@
-{"descriptions":[{"description":"Appears on a Snatched Shadow Pok\u00e9mon.","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"version_groups":[],"names":[{"name":"XD: Shadow","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":8,"name":"xd-shadow"}
+{
+    "descriptions": [
+        {
+            "description": "Appears on a Snatched Shadow Pok\u00e9mon.",
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            }
+        }
+    ],
+    "id": 8,
+    "name": "xd-shadow",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "XD: Shadow"
+        }
+    ],
+    "version_groups": []
+}

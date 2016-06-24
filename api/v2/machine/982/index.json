@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/380\/","name":"tm76"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/522\/","name":"struggle-bug"},"id":982,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/16\/","name":"omega-ruby-alpha-sapphire"}}
+{
+    "id": 982,
+    "item": {
+        "name": "tm76",
+        "url": "http://127.0.0.1:8000/api/v2/item/380/"
+    },
+    "move": {
+        "name": "struggle-bug",
+        "url": "http://127.0.0.1:8000/api/v2/move/522/"
+    },
+    "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+    }
+}

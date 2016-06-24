@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/339\/","name":"tm35"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/118\/","name":"metronome"},"id":545,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/1\/","name":"red-blue"}}
+{
+    "id": 545,
+    "item": {
+        "name": "tm35",
+        "url": "http://127.0.0.1:8000/api/v2/item/339/"
+    },
+    "move": {
+        "name": "metronome",
+        "url": "http://127.0.0.1:8000/api/v2/move/118/"
+    },
+    "version_group": {
+        "name": "red-blue",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/1/"
+    }
+}

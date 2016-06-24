@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/401\/","name":"hm05"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/399\/","name":"dark-pulse"},"id":1110,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/16\/","name":"omega-ruby-alpha-sapphire"}}
+{
+    "id": 1110,
+    "item": {
+        "name": "hm05",
+        "url": "http://127.0.0.1:8000/api/v2/item/401/"
+    },
+    "move": {
+        "name": "dark-pulse",
+        "url": "http://127.0.0.1:8000/api/v2/move/399/"
+    },
+    "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+    }
+}

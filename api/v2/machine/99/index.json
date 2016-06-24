@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/311\/","name":"tm07"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/192\/","name":"zap-cannon"},"id":99,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/3\/","name":"gold-silver"}}
+{
+    "id": 99,
+    "item": {
+        "name": "tm07",
+        "url": "http://127.0.0.1:8000/api/v2/item/311/"
+    },
+    "move": {
+        "name": "zap-cannon",
+        "url": "http://127.0.0.1:8000/api/v2/move/192/"
+    },
+    "version_group": {
+        "name": "gold-silver",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/3/"
+    }
+}

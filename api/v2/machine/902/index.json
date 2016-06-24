@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/369\/","name":"tm65"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/421\/","name":"shadow-claw"},"id":902,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/11\/","name":"black-white"}}
+{
+    "id": 902,
+    "item": {
+        "name": "tm65",
+        "url": "http://127.0.0.1:8000/api/v2/item/369/"
+    },
+    "move": {
+        "name": "shadow-claw",
+        "url": "http://127.0.0.1:8000/api/v2/move/421/"
+    },
+    "version_group": {
+        "name": "black-white",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/11/"
+    }
+}

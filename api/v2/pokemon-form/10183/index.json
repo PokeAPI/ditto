@@ -1,1 +1,24 @@
-{"is_battle_only":false,"sprites":{"front_default":null,"back_default":null,"front_shiny":null,"back_shiny":null},"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/16\/","name":"omega-ruby-alpha-sapphire"},"form_order":4,"is_mega":false,"id":10183,"is_default":true,"form_name":"belle","pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10081\/","name":"pikachu-belle"},"order":36,"name":"pikachu-belle"}
+{
+    "form_name": "belle",
+    "form_order": 4,
+    "id": 10183,
+    "is_battle_only": false,
+    "is_default": true,
+    "is_mega": false,
+    "name": "pikachu-belle",
+    "order": 36,
+    "pokemon": {
+        "name": "pikachu-belle",
+        "url": "http://127.0.0.1:8000/api/v2/pokemon/10081/"
+    },
+    "sprites": {
+        "back_default": null,
+        "back_shiny": null,
+        "front_default": null,
+        "front_shiny": null
+    },
+    "version_group": {
+        "name": "omega-ruby-alpha-sapphire",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/16/"
+    }
+}

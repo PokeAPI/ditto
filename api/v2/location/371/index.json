@@ -1,1 +1,53 @@
-{"name":"unova-route-16","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/5\/","name":"unova"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/5\/","name":"generation-v"},"game_index":29},{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/5\/","name":"generation-v"},"game_index":103}],"names":[{"name":"Route 16","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Route 16","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"\uff11\uff16\u756a\u9053\u8def","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/1\/","name":"ja"}}],"id":371,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/651\/","name":"unova-route-16-area"}]}
+{
+    "areas": [
+        {
+            "name": "unova-route-16-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/651/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 29,
+            "generation": {
+                "name": "generation-v",
+                "url": "http://127.0.0.1:8000/api/v2/generation/5/"
+            }
+        },
+        {
+            "game_index": 103,
+            "generation": {
+                "name": "generation-v",
+                "url": "http://127.0.0.1:8000/api/v2/generation/5/"
+            }
+        }
+    ],
+    "id": 371,
+    "name": "unova-route-16",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Route 16"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Route 16"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+            },
+            "name": "\uff11\uff16\u756a\u9053\u8def"
+        }
+    ],
+    "region": {
+        "name": "unova",
+        "url": "http://127.0.0.1:8000/api/v2/region/5/"
+    }
+}

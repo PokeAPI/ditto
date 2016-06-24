@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/344\/","name":"tm40"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/332\/","name":"aerial-ace"},"id":629,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/5\/","name":"ruby-sapphire"}}
+{
+    "id": 629,
+    "item": {
+        "name": "tm40",
+        "url": "http://127.0.0.1:8000/api/v2/item/344/"
+    },
+    "move": {
+        "name": "aerial-ace",
+        "url": "http://127.0.0.1:8000/api/v2/move/332/"
+    },
+    "version_group": {
+        "name": "ruby-sapphire",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+    }
+}

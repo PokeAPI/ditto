@@ -1,1 +1,116 @@
-{"category":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item-category\/20\/","name":"event-items"},"name":"eon-ticket","fling_effect":null,"effect_entries":[{"short_effect":"Provides access to Southern Island and Latias or Latios.","effect":"Provides access to southern island and either latias or latios, whichever is not available roaming around Hoenn.","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"held_by_pokemon":[],"sprites":{"default":"http:\/\/127.0.0.1:8000\/media\/sprites\/items\/eon-ticket.png"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/3\/","name":"generation-iii"},"game_index":275}],"baby_trigger_for":null,"cost":0,"names":[{"name":"Eon Ticket","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Bigl. Eone","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/8\/","name":"it"}},{"name":"Ticket E\u00f3n","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/7\/","name":"es"}},{"name":"\u00c4on-Ticket","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Passe \u00c9on","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"\u3080\u3052\u3093\u306e\u30c1\u30b1\u30c3\u30c8","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/1\/","name":"ja"}}],"attributes":[],"flavor_text_entries":[{"text":"The ticket required for sailing on a\nferry to a distant southern island.\nIt features a drawing of an island.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/7\/","name":"firered-leafgreen"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"text":"The ticket for a\nferry to a distant\nsouthern island.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/6\/","name":"emerald"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"text":"The ticket for a\nferry to a distant\nsouthern island.","version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/5\/","name":"ruby-sapphire"},"language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":534,"machines":[],"fling_power":null}
+{
+    "attributes": [],
+    "baby_trigger_for": null,
+    "category": {
+        "name": "event-items",
+        "url": "http://127.0.0.1:8000/api/v2/item-category/20/"
+    },
+    "cost": 0,
+    "effect_entries": [
+        {
+            "effect": "Provides access to southern island and either latias or latios, whichever is not available roaming around Hoenn.",
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "short_effect": "Provides access to Southern Island and Latias or Latios."
+        }
+    ],
+    "flavor_text_entries": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "text": "The ticket required for sailing on a\nferry to a distant southern island.\nIt features a drawing of an island.",
+            "version_group": {
+                "name": "firered-leafgreen",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/7/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "text": "The ticket for a\nferry to a distant\nsouthern island.",
+            "version_group": {
+                "name": "emerald",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/6/"
+            }
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "text": "The ticket for a\nferry to a distant\nsouthern island.",
+            "version_group": {
+                "name": "ruby-sapphire",
+                "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+            }
+        }
+    ],
+    "fling_effect": null,
+    "fling_power": null,
+    "game_indices": [
+        {
+            "game_index": 275,
+            "generation": {
+                "name": "generation-iii",
+                "url": "http://127.0.0.1:8000/api/v2/generation/3/"
+            }
+        }
+    ],
+    "held_by_pokemon": [],
+    "id": 534,
+    "machines": [],
+    "name": "eon-ticket",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Eon Ticket"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "http://127.0.0.1:8000/api/v2/language/8/"
+            },
+            "name": "Bigl. Eone"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "http://127.0.0.1:8000/api/v2/language/7/"
+            },
+            "name": "Ticket E\u00f3n"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "\u00c4on-Ticket"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Passe \u00c9on"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "http://127.0.0.1:8000/api/v2/language/1/"
+            },
+            "name": "\u3080\u3052\u3093\u306e\u30c1\u30b1\u30c3\u30c8"
+        }
+    ],
+    "sprites": {
+        "default": "http://127.0.0.1:8000/media/sprites/items/eon-ticket.png"
+    }
+}

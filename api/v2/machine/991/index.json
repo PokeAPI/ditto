@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/382\/","name":"tm78"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/445\/","name":"captivate"},"id":991,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/9\/","name":"platinum"}}
+{
+    "id": 991,
+    "item": {
+        "name": "tm78",
+        "url": "http://127.0.0.1:8000/api/v2/item/382/"
+    },
+    "move": {
+        "name": "captivate",
+        "url": "http://127.0.0.1:8000/api/v2/move/445/"
+    },
+    "version_group": {
+        "name": "platinum",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/9/"
+    }
+}

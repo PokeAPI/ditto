@@ -1,1 +1,24 @@
-{"is_battle_only":true,"sprites":{"front_default":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/10053.png","back_default":null,"front_shiny":null,"back_shiny":null},"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"},"form_order":2,"is_mega":true,"id":10153,"is_default":true,"form_name":"mega","pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10053\/","name":"aggron-mega"},"order":394,"name":"aggron-mega"}
+{
+    "form_name": "mega",
+    "form_order": 2,
+    "id": 10153,
+    "is_battle_only": true,
+    "is_default": true,
+    "is_mega": true,
+    "name": "aggron-mega",
+    "order": 394,
+    "pokemon": {
+        "name": "aggron-mega",
+        "url": "http://127.0.0.1:8000/api/v2/pokemon/10053/"
+    },
+    "sprites": {
+        "back_default": null,
+        "back_shiny": null,
+        "front_default": "http://127.0.0.1:8000/media/sprites/pokemon/10053.png",
+        "front_shiny": null
+    },
+    "version_group": {
+        "name": "x-y",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+    }
+}

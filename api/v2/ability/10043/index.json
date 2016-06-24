@@ -1,1 +1,22 @@
-{"effect_changes":[],"name":"fortune","generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/5\/","name":"generation-v"},"pokemon":[],"is_main_series":false,"effect_entries":[],"names":[{"name":"Fortune","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"flavor_text_entries":[],"id":10043}
+{
+    "effect_changes": [],
+    "effect_entries": [],
+    "flavor_text_entries": [],
+    "generation": {
+        "name": "generation-v",
+        "url": "http://127.0.0.1:8000/api/v2/generation/5/"
+    },
+    "id": 10043,
+    "is_main_series": false,
+    "name": "fortune",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Fortune"
+        }
+    ],
+    "pokemon": []
+}

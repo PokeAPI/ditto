@@ -1,1 +1,31 @@
-{"name":"petalburg-city","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/3\/","name":"hoenn"},"game_indices":[],"names":[{"name":"Petalburg City","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Cl\u00e9menti-Ville","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":429,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/350\/","name":"petalburg-city-area"}]}
+{
+    "areas": [
+        {
+            "name": "petalburg-city-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/350/"
+        }
+    ],
+    "game_indices": [],
+    "id": 429,
+    "name": "petalburg-city",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Petalburg City"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Cl\u00e9menti-Ville"
+        }
+    ],
+    "region": {
+        "name": "hoenn",
+        "url": "http://127.0.0.1:8000/api/v2/region/3/"
+    }
+}

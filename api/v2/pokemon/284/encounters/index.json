@@ -1,1 +1,125 @@
-[{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/14\/","name":"platinum"},"encounter_details":[{"min_level":35,"max_level":55,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":35,"max_level":55,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/176\/","name":"sinnoh-route-229-area"}},{"version_details":[{"max_chance":66,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":25,"max_level":25,"condition_values":[],"chance":50,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":26,"max_level":26,"condition_values":[],"chance":15,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":27,"max_level":27,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]},{"max_chance":66,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":25,"max_level":25,"condition_values":[],"chance":50,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":26,"max_level":26,"condition_values":[],"chance":15,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":27,"max_level":27,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/714\/","name":"kalos-route-3-area"}}]
+[
+    {
+        "location_area": {
+            "name": "sinnoh-route-229-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/176/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "platinum",
+                    "url": "http://127.0.0.1:8000/api/v2/version/14/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "kalos-route-3-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/714/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 50,
+                        "condition_values": [],
+                        "max_level": 25,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 15,
+                        "condition_values": [],
+                        "max_level": 26,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 26
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 27,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 27
+                    }
+                ],
+                "max_chance": 66,
+                "version": {
+                    "name": "x",
+                    "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 50,
+                        "condition_values": [],
+                        "max_level": 25,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 15,
+                        "condition_values": [],
+                        "max_level": 26,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 26
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 27,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 27
+                    }
+                ],
+                "max_chance": 66,
+                "version": {
+                    "name": "y",
+                    "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                }
+            }
+        ]
+    }
+]

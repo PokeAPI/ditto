@@ -1,1 +1,39 @@
-{"name":"cianwood-city","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/2\/","name":"johto"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":130}],"names":[{"name":"Cianwood City","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Irisia","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":70,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/235\/","name":"cianwood-city-area"}]}
+{
+    "areas": [
+        {
+            "name": "cianwood-city-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/235/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 130,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 70,
+    "name": "cianwood-city",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Cianwood City"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Irisia"
+        }
+    ],
+    "region": {
+        "name": "johto",
+        "url": "http://127.0.0.1:8000/api/v2/region/2/"
+    }
+}

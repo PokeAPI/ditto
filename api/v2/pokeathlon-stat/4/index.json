@@ -1,1 +1,24 @@
-{"names":[{"name":"Endurance","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"Stamina","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"affecting_natures":{"increase":[],"decrease":[]},"id":4,"name":"stamina"}
+{
+    "affecting_natures": {
+        "decrease": [],
+        "increase": []
+    },
+    "id": 4,
+    "name": "stamina",
+    "names": [
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Endurance"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Stamina"
+        }
+    ]
+}

@@ -1,1 +1,24 @@
-{"names":[{"name":"Kein Spiel in Slot 2","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"No game in slot 2","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":8,"condition":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition\/4\/","name":"slot2"},"name":"slot2-none"}
+{
+    "condition": {
+        "name": "slot2",
+        "url": "http://127.0.0.1:8000/api/v2/encounter-condition/4/"
+    },
+    "id": 8,
+    "name": "slot2-none",
+    "names": [
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "Kein Spiel in Slot 2"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "No game in slot 2"
+        }
+    ]
+}

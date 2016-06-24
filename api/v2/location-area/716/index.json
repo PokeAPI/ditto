@@ -1,1 +1,709 @@
-{"names":[],"name":"kalos-route-5-area","encounter_method_rates":[],"location":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location\/602\/","name":"kalos-route-5"},"pokemon_encounters":[{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":10,"max_level":10,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":10,"max_level":10,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/63\/","name":"abra"}},{"version_details":[{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}}]},{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/84\/","name":"doduo"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":9,"max_level":9,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":9,"max_level":9,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/311\/","name":"plusle"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":10,"max_level":10,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":9,"max_level":9,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":9,"max_level":9,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/312\/","name":"minun"}},{"version_details":[{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}}]},{"max_chance":20,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/316\/","name":"gulpin"}},{"version_details":[{"max_chance":40,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":9,"max_level":9,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}}]},{"max_chance":40,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":9,"max_level":9,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/659\/","name":"bunnelby"}},{"version_details":[{"max_chance":40,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":9,"max_level":9,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}}]},{"max_chance":40,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":9,"max_level":9,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/672\/","name":"skiddo"}},{"version_details":[{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":9,"max_level":9,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}}]},{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":9,"max_level":9,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/674\/","name":"pancham"}},{"version_details":[{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":9,"max_level":9,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}}]},{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":10,"max_level":10,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/15\/","name":"purple-flowers"}},{"min_level":9,"max_level":9,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":8,"max_level":8,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/676\/","name":"furfrou"}}],"id":716,"game_index":0}
+{
+    "encounter_method_rates": [],
+    "game_index": 0,
+    "id": 716,
+    "location": {
+        "name": "kalos-route-5",
+        "url": "http://127.0.0.1:8000/api/v2/location/602/"
+    },
+    "name": "kalos-route-5-area",
+    "names": [],
+    "pokemon_encounters": [
+        {
+            "pokemon": {
+                "name": "abra",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/63/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 10
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 5,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "doduo",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/84/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 10
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "plusle",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/311/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 9,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 9
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 9,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 9
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 10
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "minun",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/312/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 9,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 9
+                        },
+                        {
+                            "chance": 1,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 4,
+                            "condition_values": [],
+                            "max_level": 9,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 9
+                        }
+                    ],
+                    "max_chance": 10,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "gulpin",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/316/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 10
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        }
+                    ],
+                    "max_chance": 20,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "bunnelby",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/659/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 9,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 9
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 10
+                        }
+                    ],
+                    "max_chance": 40,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 9,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 9
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 8
+                        }
+                    ],
+                    "max_chance": 40,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "skiddo",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/672/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 9,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 9
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 10
+                        }
+                    ],
+                    "max_chance": 40,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 9,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 9
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        }
+                    ],
+                    "max_chance": 40,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "pancham",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/674/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 9,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 9
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 9,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 9
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 10
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                }
+            ]
+        },
+        {
+            "pokemon": {
+                "name": "furfrou",
+                "url": "http://127.0.0.1:8000/api/v2/pokemon/676/"
+            },
+            "version_details": [
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 8
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 9,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 9
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 10
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "x",
+                        "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                    }
+                },
+                {
+                    "encounter_details": [
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 10,
+                            "method": {
+                                "name": "purple-flowers",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/15/"
+                            },
+                            "min_level": 10
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 9,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 9
+                        },
+                        {
+                            "chance": 10,
+                            "condition_values": [],
+                            "max_level": 8,
+                            "method": {
+                                "name": "walk",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                            },
+                            "min_level": 8
+                        }
+                    ],
+                    "max_chance": 30,
+                    "version": {
+                        "name": "y",
+                        "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                    }
+                }
+            ]
+        }
+    ]
+}

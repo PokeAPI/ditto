@@ -1,1 +1,31 @@
-{"name":"desert-underpass","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/3\/","name":"hoenn"},"game_indices":[],"names":[{"name":"Desert Underpass","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Voie du D\u00e9sert","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":488,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/439\/","name":"desert-underpass-area"}]}
+{
+    "areas": [
+        {
+            "name": "desert-underpass-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/439/"
+        }
+    ],
+    "game_indices": [],
+    "id": 488,
+    "name": "desert-underpass",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Desert Underpass"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Voie du D\u00e9sert"
+        }
+    ],
+    "region": {
+        "name": "hoenn",
+        "url": "http://127.0.0.1:8000/api/v2/region/3/"
+    }
+}

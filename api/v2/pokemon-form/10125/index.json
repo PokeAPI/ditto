@@ -1,1 +1,24 @@
-{"is_battle_only":true,"sprites":{"front_default":"http:\/\/127.0.0.1:8000\/media\/sprites\/pokemon\/681-blade.png","back_default":null,"front_shiny":null,"back_shiny":null},"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/15\/","name":"x-y"},"form_order":2,"is_mega":false,"id":10125,"is_default":true,"form_name":"blade","pokemon":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/pokemon\/10026\/","name":"aegislash-blade"},"order":845,"name":"aegislash-blade"}
+{
+    "form_name": "blade",
+    "form_order": 2,
+    "id": 10125,
+    "is_battle_only": true,
+    "is_default": true,
+    "is_mega": false,
+    "name": "aegislash-blade",
+    "order": 845,
+    "pokemon": {
+        "name": "aegislash-blade",
+        "url": "http://127.0.0.1:8000/api/v2/pokemon/10026/"
+    },
+    "sprites": {
+        "back_default": null,
+        "back_shiny": null,
+        "front_default": "http://127.0.0.1:8000/media/sprites/pokemon/681-blade.png",
+        "front_shiny": null
+    },
+    "version_group": {
+        "name": "x-y",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/15/"
+    }
+}

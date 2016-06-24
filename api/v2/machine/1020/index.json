@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/386\/","name":"tm82"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/214\/","name":"sleep-talk"},"id":1020,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/10\/","name":"heartgold-soulsilver"}}
+{
+    "id": 1020,
+    "item": {
+        "name": "tm82",
+        "url": "http://127.0.0.1:8000/api/v2/item/386/"
+    },
+    "move": {
+        "name": "sleep-talk",
+        "url": "http://127.0.0.1:8000/api/v2/move/214/"
+    },
+    "version_group": {
+        "name": "heartgold-soulsilver",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/10/"
+    }
+}

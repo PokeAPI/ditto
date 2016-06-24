@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/336\/","name":"tm32"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/104\/","name":"double-team"},"id":501,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/5\/","name":"ruby-sapphire"}}
+{
+    "id": 501,
+    "item": {
+        "name": "tm32",
+        "url": "http://127.0.0.1:8000/api/v2/item/336/"
+    },
+    "move": {
+        "name": "double-team",
+        "url": "http://127.0.0.1:8000/api/v2/move/104/"
+    },
+    "version_group": {
+        "name": "ruby-sapphire",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/5/"
+    }
+}

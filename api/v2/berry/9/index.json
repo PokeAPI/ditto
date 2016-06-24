@@ -1,1 +1,59 @@
-{"natural_gift_power":60,"flavors":[{"flavor":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-flavor\/1\/","name":"spicy"},"potency":10},{"flavor":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-flavor\/2\/","name":"dry"},"potency":10},{"flavor":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-flavor\/3\/","name":"sweet"},"potency":10},{"flavor":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-flavor\/4\/","name":"bitter"},"potency":10},{"flavor":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-flavor\/5\/","name":"sour"},"potency":0}],"natural_gift_type":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/3\/","name":"flying"},"name":"lum","max_harvest":5,"soil_dryness":8,"smoothness":20,"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/134\/","name":"lum-berry"},"firmness":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-firmness\/5\/","name":"super-hard"},"growth_time":12,"id":9,"size":34}
+{
+    "firmness": {
+        "name": "super-hard",
+        "url": "http://127.0.0.1:8000/api/v2/berry-firmness/5/"
+    },
+    "flavors": [
+        {
+            "flavor": {
+                "name": "spicy",
+                "url": "http://127.0.0.1:8000/api/v2/berry-flavor/1/"
+            },
+            "potency": 10
+        },
+        {
+            "flavor": {
+                "name": "dry",
+                "url": "http://127.0.0.1:8000/api/v2/berry-flavor/2/"
+            },
+            "potency": 10
+        },
+        {
+            "flavor": {
+                "name": "sweet",
+                "url": "http://127.0.0.1:8000/api/v2/berry-flavor/3/"
+            },
+            "potency": 10
+        },
+        {
+            "flavor": {
+                "name": "bitter",
+                "url": "http://127.0.0.1:8000/api/v2/berry-flavor/4/"
+            },
+            "potency": 10
+        },
+        {
+            "flavor": {
+                "name": "sour",
+                "url": "http://127.0.0.1:8000/api/v2/berry-flavor/5/"
+            },
+            "potency": 0
+        }
+    ],
+    "growth_time": 12,
+    "id": 9,
+    "item": {
+        "name": "lum-berry",
+        "url": "http://127.0.0.1:8000/api/v2/item/134/"
+    },
+    "max_harvest": 5,
+    "name": "lum",
+    "natural_gift_power": 60,
+    "natural_gift_type": {
+        "name": "flying",
+        "url": "http://127.0.0.1:8000/api/v2/type/3/"
+    },
+    "size": 34,
+    "smoothness": 20,
+    "soil_dryness": 8
+}

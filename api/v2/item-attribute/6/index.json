@@ -1,1 +1,23 @@
-{"descriptions":[{"description":"Works passively when held","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"items":[],"names":[{"name":"Holdable_passive","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":6,"name":"holdable-passive"}
+{
+    "descriptions": [
+        {
+            "description": "Works passively when held",
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            }
+        }
+    ],
+    "id": 6,
+    "items": [],
+    "name": "holdable-passive",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Holdable_passive"
+        }
+    ]
+}

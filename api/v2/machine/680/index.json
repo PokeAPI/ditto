@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/347\/","name":"tm43"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/290\/","name":"secret-power"},"id":680,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/8\/","name":"diamond-pearl"}}
+{
+    "id": 680,
+    "item": {
+        "name": "tm43",
+        "url": "http://127.0.0.1:8000/api/v2/item/347/"
+    },
+    "move": {
+        "name": "secret-power",
+        "url": "http://127.0.0.1:8000/api/v2/move/290/"
+    },
+    "version_group": {
+        "name": "diamond-pearl",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/8/"
+    }
+}

@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/352\/","name":"tm48"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/157\/","name":"rock-slide"},"id":754,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/2\/","name":"yellow"}}
+{
+    "id": 754,
+    "item": {
+        "name": "tm48",
+        "url": "http://127.0.0.1:8000/api/v2/item/352/"
+    },
+    "move": {
+        "name": "rock-slide",
+        "url": "http://127.0.0.1:8000/api/v2/move/157/"
+    },
+    "version_group": {
+        "name": "yellow",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/2/"
+    }
+}

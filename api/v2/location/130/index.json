@@ -1,1 +1,43 @@
-{"name":"kanto-route-5","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/1\/","name":"kanto"},"game_indices":[{"generation":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/generation\/4\/","name":"generation-iv"},"game_index":153}],"names":[{"name":"Route 5","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Route 5","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":130,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/533\/","name":"kanto-route-5-area"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/299\/","name":"kanto-route-5-area"}]}
+{
+    "areas": [
+        {
+            "name": "kanto-route-5-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/533/"
+        },
+        {
+            "name": "kanto-route-5-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/299/"
+        }
+    ],
+    "game_indices": [
+        {
+            "game_index": 153,
+            "generation": {
+                "name": "generation-iv",
+                "url": "http://127.0.0.1:8000/api/v2/generation/4/"
+            }
+        }
+    ],
+    "id": 130,
+    "name": "kanto-route-5",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Route 5"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Route 5"
+        }
+    ],
+    "region": {
+        "name": "kanto",
+        "url": "http://127.0.0.1:8000/api/v2/region/1/"
+    }
+}

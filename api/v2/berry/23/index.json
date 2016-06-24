@@ -1,1 +1,59 @@
-{"natural_gift_power":70,"flavors":[{"flavor":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-flavor\/1\/","name":"spicy"},"potency":10},{"flavor":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-flavor\/2\/","name":"dry"},"potency":0},{"flavor":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-flavor\/3\/","name":"sweet"},"potency":10},{"flavor":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-flavor\/4\/","name":"bitter"},"potency":0},{"flavor":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-flavor\/5\/","name":"sour"},"potency":10}],"natural_gift_type":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/type\/4\/","name":"poison"},"name":"qualot","max_harvest":5,"soil_dryness":8,"smoothness":20,"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/148\/","name":"qualot-berry"},"firmness":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/berry-firmness\/3\/","name":"hard"},"growth_time":8,"id":23,"size":110}
+{
+    "firmness": {
+        "name": "hard",
+        "url": "http://127.0.0.1:8000/api/v2/berry-firmness/3/"
+    },
+    "flavors": [
+        {
+            "flavor": {
+                "name": "spicy",
+                "url": "http://127.0.0.1:8000/api/v2/berry-flavor/1/"
+            },
+            "potency": 10
+        },
+        {
+            "flavor": {
+                "name": "dry",
+                "url": "http://127.0.0.1:8000/api/v2/berry-flavor/2/"
+            },
+            "potency": 0
+        },
+        {
+            "flavor": {
+                "name": "sweet",
+                "url": "http://127.0.0.1:8000/api/v2/berry-flavor/3/"
+            },
+            "potency": 10
+        },
+        {
+            "flavor": {
+                "name": "bitter",
+                "url": "http://127.0.0.1:8000/api/v2/berry-flavor/4/"
+            },
+            "potency": 0
+        },
+        {
+            "flavor": {
+                "name": "sour",
+                "url": "http://127.0.0.1:8000/api/v2/berry-flavor/5/"
+            },
+            "potency": 10
+        }
+    ],
+    "growth_time": 8,
+    "id": 23,
+    "item": {
+        "name": "qualot-berry",
+        "url": "http://127.0.0.1:8000/api/v2/item/148/"
+    },
+    "max_harvest": 5,
+    "name": "qualot",
+    "natural_gift_power": 70,
+    "natural_gift_type": {
+        "name": "poison",
+        "url": "http://127.0.0.1:8000/api/v2/type/4/"
+    },
+    "size": 110,
+    "smoothness": 20,
+    "soil_dryness": 8
+}

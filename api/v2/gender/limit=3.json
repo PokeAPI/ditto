@@ -1,1 +1,19 @@
-{"count":3,"previous":null,"results":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/gender\/1\/","name":"female"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/gender\/2\/","name":"male"},{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/gender\/3\/","name":"genderless"}],"next":null}
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "name": "female",
+            "url": "http://127.0.0.1:8000/api/v2/gender/1/"
+        },
+        {
+            "name": "male",
+            "url": "http://127.0.0.1:8000/api/v2/gender/2/"
+        },
+        {
+            "name": "genderless",
+            "url": "http://127.0.0.1:8000/api/v2/gender/3/"
+        }
+    ]
+}

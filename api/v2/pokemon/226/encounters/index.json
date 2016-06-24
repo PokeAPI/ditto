@@ -1,1 +1,459 @@
-[{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/15\/","name":"heartgold"},"encounter_details":[{"min_level":15,"max_level":25,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":15,"max_level":25,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":15,"max_level":25,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/226\/","name":"johto-sea-route-41-area"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/11\/","name":"leafgreen"},"encounter_details":[{"min_level":35,"max_level":40,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/525\/","name":"trainer-tower-area"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/11\/","name":"leafgreen"},"encounter_details":[{"min_level":35,"max_level":40,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/528\/","name":"tanoby-ruins-area"}},{"version_details":[{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":35,"max_level":70,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":35,"max_level":70,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":35,"max_level":70,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":35,"max_level":70,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":35,"max_level":70,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":35,"max_level":70,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":30,"max_level":40,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":30,"max_level":40,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":30,"max_level":40,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":15,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":30,"max_level":40,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/17\/","name":"season-spring"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":30,"max_level":40,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/18\/","name":"season-summer"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":30,"max_level":40,"condition_values":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition-value\/19\/","name":"season-autumn"}],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/619\/","name":"undella-bay-area"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/17\/","name":"black"},"encounter_details":[{"min_level":35,"max_level":70,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":35,"max_level":70,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":35,"max_level":70,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/18\/","name":"white"},"encounter_details":[{"min_level":35,"max_level":70,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":35,"max_level":70,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":35,"max_level":70,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/654\/","name":"undella-town-area"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":35,"max_level":45,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":35,"max_level":45,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/707\/","name":"route-21-area"}}]
+[
+    {
+        "location_area": {
+            "name": "johto-sea-route-41-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/226/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 25,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 15
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 25,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 15
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 25,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "heartgold",
+                    "url": "http://127.0.0.1:8000/api/v2/version/15/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "trainer-tower-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/525/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "leafgreen",
+                    "url": "http://127.0.0.1:8000/api/v2/version/11/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "tanoby-ruins-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/528/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "leafgreen",
+                    "url": "http://127.0.0.1:8000/api/v2/version/11/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "undella-bay-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/619/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "black",
+                    "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "white",
+                    "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 30
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 30
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 30
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [
+                            {
+                                "name": "season-spring",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/17/"
+                            }
+                        ],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 30
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [
+                            {
+                                "name": "season-summer",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/18/"
+                            }
+                        ],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 30
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [
+                            {
+                                "name": "season-autumn",
+                                "url": "http://127.0.0.1:8000/api/v2/encounter-condition-value/19/"
+                            }
+                        ],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 30
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "undella-town-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/654/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "black",
+                    "url": "http://127.0.0.1:8000/api/v2/version/17/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "white",
+                    "url": "http://127.0.0.1:8000/api/v2/version/18/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "route-21-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/707/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 45,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 45,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    }
+]

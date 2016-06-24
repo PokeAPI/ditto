@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/355\/","name":"tm51"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/502\/","name":"ally-switch"},"id":805,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/14\/","name":"black-2-white-2"}}
+{
+    "id": 805,
+    "item": {
+        "name": "tm51",
+        "url": "http://127.0.0.1:8000/api/v2/item/355/"
+    },
+    "move": {
+        "name": "ally-switch",
+        "url": "http://127.0.0.1:8000/api/v2/move/502/"
+    },
+    "version_group": {
+        "name": "black-2-white-2",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+    }
+}

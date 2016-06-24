@@ -1,1 +1,31 @@
-{"name":"treasure-beach","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/1\/","name":"kanto"},"game_indices":[],"names":[{"name":"Treasure Beach","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Plage Tr\u00e9sor","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":506,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/513\/","name":"treasure-beach-area"}]}
+{
+    "areas": [
+        {
+            "name": "treasure-beach-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/513/"
+        }
+    ],
+    "game_indices": [],
+    "id": 506,
+    "name": "treasure-beach",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Treasure Beach"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Plage Tr\u00e9sor"
+        }
+    ],
+    "region": {
+        "name": "kanto",
+        "url": "http://127.0.0.1:8000/api/v2/region/1/"
+    }
+}

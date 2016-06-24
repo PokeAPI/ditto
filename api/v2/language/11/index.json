@@ -1,1 +1,8 @@
-{"iso639":"ja","name":"ja-kanji","official":true,"names":[],"iso3166":"jp","id":11}
+{
+    "id": 11,
+    "iso3166": "jp",
+    "iso639": "ja",
+    "name": "ja-kanji",
+    "names": [],
+    "official": true
+}

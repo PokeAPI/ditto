@@ -1,1 +1,21 @@
-{"order":13,"names":[{"name":"An dunklen stellen angeln","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Fishing in dark spots","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":12,"name":"super-rod-spots"}
+{
+    "id": 12,
+    "name": "super-rod-spots",
+    "names": [
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "An dunklen stellen angeln"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Fishing in dark spots"
+        }
+    ],
+    "order": 13
+}

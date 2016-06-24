@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/316\/","name":"tm12"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/55\/","name":"water-gun"},"id":177,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/1\/","name":"red-blue"}}
+{
+    "id": 177,
+    "item": {
+        "name": "tm12",
+        "url": "http://127.0.0.1:8000/api/v2/item/316/"
+    },
+    "move": {
+        "name": "water-gun",
+        "url": "http://127.0.0.1:8000/api/v2/move/55/"
+    },
+    "version_group": {
+        "name": "red-blue",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/1/"
+    }
+}

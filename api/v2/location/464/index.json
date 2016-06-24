@@ -1,1 +1,31 @@
-{"name":"hoenn-route-116","region":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/region\/3\/","name":"hoenn"},"game_indices":[],"names":[{"name":"Route 116","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}},{"name":"Route 116","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}}],"id":464,"areas":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/408\/","name":"hoenn-route-116-area"}]}
+{
+    "areas": [
+        {
+            "name": "hoenn-route-116-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/408/"
+        }
+    ],
+    "game_indices": [],
+    "id": 464,
+    "name": "hoenn-route-116",
+    "names": [
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Route 116"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Route 116"
+        }
+    ],
+    "region": {
+        "name": "hoenn",
+        "url": "http://127.0.0.1:8000/api/v2/region/3/"
+    }
+}

@@ -1,1 +1,1130 @@
-[{"version_details":[{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/14\/","name":"platinum"},"encounter_details":[{"min_level":41,"max_level":41,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":43,"max_level":43,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/50\/","name":"sinnoh-victory-road-b1f"}},{"version_details":[{"max_chance":30,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/14\/","name":"platinum"},"encounter_details":[{"min_level":47,"max_level":47,"condition_values":[],"chance":20,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}},{"min_level":49,"max_level":49,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/1\/","name":"walk"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/51\/","name":"sinnoh-victory-road-inside-b1f"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":50,"max_level":60,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":50,"max_level":60,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":50,"max_level":60,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":50,"max_level":60,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/582\/","name":"pinwheel-forest-inside"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":30,"max_level":40,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":39,"max_level":39,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":39,"max_level":39,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":30,"max_level":40,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":39,"max_level":39,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":39,"max_level":39,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/621\/","name":"village-bridge-area"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":10,"max_level":30,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":10,"max_level":30,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":26,"max_level":26,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":10,"max_level":35,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":10,"max_level":35,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":26,"max_level":26,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/629\/","name":"unova-route-6-area"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":39,"max_level":39,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":39,"max_level":39,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":39,"max_level":39,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":39,"max_level":39,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/645\/","name":"unova-route-11-area"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":30,"max_level":40,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":30,"max_level":40,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":30,"max_level":40,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":30,"max_level":40,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":36,"max_level":36,"condition_values":[],"chance":5,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/649\/","name":"abundant-shrine-area"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":40,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":40,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":40,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":40,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/661\/","name":"unova-victory-road-2-unknown-area-71"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":40,"max_level":70,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":40,"max_level":70,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":40,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":40,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/665\/","name":"unova-victory-road-2-unknown-area-75"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":40,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":40,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":40,"max_level":50,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":40,"max_level":50,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/668\/","name":"unova-victory-road-2-unknown-area-78"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":5,"max_level":15,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":5,"max_level":15,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":5,"max_level":15,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":5,"max_level":15,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/673\/","name":"floccesy-ranch-outer"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":5,"max_level":15,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":5,"max_level":15,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":5,"max_level":15,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":5,"max_level":15,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/674\/","name":"floccesy-ranch-inner"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":10,"max_level":30,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":10,"max_level":30,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":10,"max_level":30,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":10,"max_level":30,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/693\/","name":"relic-passage-relic-castle-entrance"}},{"version_details":[{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":5,"max_level":15,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":5,"max_level":15,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]},{"max_chance":5,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":5,"max_level":15,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":5,"max_level":15,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/704\/","name":"route-20-area"}},{"version_details":[{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/21\/","name":"black-2"},"encounter_details":[{"min_level":25,"max_level":45,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":25,"max_level":45,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":42,"max_level":42,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":42,"max_level":42,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]},{"max_chance":10,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/22\/","name":"white-2"},"encounter_details":[{"min_level":25,"max_level":45,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":25,"max_level":45,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/13\/","name":"surf-spots"}},{"min_level":42,"max_level":42,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}},{"min_level":42,"max_level":42,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/9\/","name":"grass-spots"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/705\/","name":"route-22-area"}},{"version_details":[{"max_chance":25,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/23\/","name":"x"},"encounter_details":[{"min_level":25,"max_level":25,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":26,"max_level":26,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":25,"max_level":25,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":27,"max_level":27,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]},{"max_chance":25,"version":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version\/24\/","name":"y"},"encounter_details":[{"min_level":25,"max_level":25,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":26,"max_level":26,"condition_values":[],"chance":10,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/14\/","name":"yellow-flowers"}},{"min_level":25,"max_level":25,"condition_values":[],"chance":4,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}},{"min_level":27,"max_level":27,"condition_values":[],"chance":1,"method":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-method\/5\/","name":"surf"}}]}],"location_area":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/location-area\/733\/","name":"kalos-route-22-area"}}]
+[
+    {
+        "location_area": {
+            "name": "sinnoh-victory-road-b1f",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/50/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 20,
+                        "condition_values": [],
+                        "max_level": 41,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 41
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 43,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 43
+                    }
+                ],
+                "max_chance": 30,
+                "version": {
+                    "name": "platinum",
+                    "url": "http://127.0.0.1:8000/api/v2/version/14/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "sinnoh-victory-road-inside-b1f",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/51/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 20,
+                        "condition_values": [],
+                        "max_level": 47,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 47
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 49,
+                        "method": {
+                            "name": "walk",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 49
+                    }
+                ],
+                "max_chance": 30,
+                "version": {
+                    "name": "platinum",
+                    "url": "http://127.0.0.1:8000/api/v2/version/14/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "pinwheel-forest-inside",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/582/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "village-bridge-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/621/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 30
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 39,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 39
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 39,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 39
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 30
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 39,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 39
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 39,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 39
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "unova-route-6-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/629/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 30,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 10
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 30,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 10
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 26,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 26
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 10
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 10
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 26,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 26
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "unova-route-11-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/645/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 39,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 39
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 39,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 39
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 39,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 39
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 39,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 39
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "abundant-shrine-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/649/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 30
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 30
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 30
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 30
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 36,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 36
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "unova-victory-road-2-unknown-area-71",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/661/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 40
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 40
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "unova-victory-road-2-unknown-area-75",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/665/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 40
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 40
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "unova-victory-road-2-unknown-area-78",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/668/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 40
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 40
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "floccesy-ranch-outer",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/673/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 5
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 5
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 5
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 5
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "floccesy-ranch-inner",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/674/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 5
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 5
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 5
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 5
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "relic-passage-relic-castle-entrance",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/693/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 30,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 10
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 30,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 10
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 30,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 10
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 30,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 10
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "route-20-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/704/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 5
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 5
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 5
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 5
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "route-22-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/705/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 45,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 45,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 42,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 42
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 42,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 42
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "black-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 45,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 45,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 42,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 42
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 42,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 42
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "white-2",
+                    "url": "http://127.0.0.1:8000/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "kalos-route-22-area",
+            "url": "http://127.0.0.1:8000/api/v2/location-area/733/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 25,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 26,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 26
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 25,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 27,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 27
+                    }
+                ],
+                "max_chance": 25,
+                "version": {
+                    "name": "x",
+                    "url": "http://127.0.0.1:8000/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 25,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 26,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 26
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 25,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 25
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 27,
+                        "method": {
+                            "name": "surf",
+                            "url": "http://127.0.0.1:8000/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 27
+                    }
+                ],
+                "max_chance": 25,
+                "version": {
+                    "name": "y",
+                    "url": "http://127.0.0.1:8000/api/v2/version/24/"
+                }
+            }
+        ]
+    }
+]

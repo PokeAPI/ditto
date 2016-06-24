@@ -1,1 +1,26 @@
-{"moves":[{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/259\/","name":"torment"}],"names":[{"name":"Tourmente","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/5\/","name":"fr"}},{"name":"Torment","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":12,"name":"torment"}
+{
+    "id": 12,
+    "moves": [
+        {
+            "name": "torment",
+            "url": "http://127.0.0.1:8000/api/v2/move/259/"
+        }
+    ],
+    "name": "torment",
+    "names": [
+        {
+            "language": {
+                "name": "fr",
+                "url": "http://127.0.0.1:8000/api/v2/language/5/"
+            },
+            "name": "Tourmente"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Torment"
+        }
+    ]
+}

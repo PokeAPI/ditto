@@ -1,1 +1,21 @@
-{"order":8,"names":[{"name":"In roten Blumenfeldern laufen","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Walking in red flowers","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":16,"name":"red-flowers"}
+{
+    "id": 16,
+    "name": "red-flowers",
+    "names": [
+        {
+            "language": {
+                "name": "de",
+                "url": "http://127.0.0.1:8000/api/v2/language/6/"
+            },
+            "name": "In roten Blumenfeldern laufen"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "http://127.0.0.1:8000/api/v2/language/9/"
+            },
+            "name": "Walking in red flowers"
+        }
+    ],
+    "order": 8
+}

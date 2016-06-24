@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/399\/","name":"hm03"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/57\/","name":"surf"},"id":1150,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/2\/","name":"yellow"}}
+{
+    "id": 1150,
+    "item": {
+        "name": "hm03",
+        "url": "http://127.0.0.1:8000/api/v2/item/399/"
+    },
+    "move": {
+        "name": "surf",
+        "url": "http://127.0.0.1:8000/api/v2/move/57/"
+    },
+    "version_group": {
+        "name": "yellow",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/2/"
+    }
+}

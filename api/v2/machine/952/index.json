@@ -1,1 +1,15 @@
-{"item":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/item\/376\/","name":"tm72"},"move":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/move\/521\/","name":"volt-switch"},"id":952,"version_group":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/version-group\/14\/","name":"black-2-white-2"}}
+{
+    "id": 952,
+    "item": {
+        "name": "tm72",
+        "url": "http://127.0.0.1:8000/api/v2/item/376/"
+    },
+    "move": {
+        "name": "volt-switch",
+        "url": "http://127.0.0.1:8000/api/v2/move/521/"
+    },
+    "version_group": {
+        "name": "black-2-white-2",
+        "url": "http://127.0.0.1:8000/api/v2/version-group/14/"
+    }
+}
