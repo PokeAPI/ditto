@@ -1,0 +1,1 @@
+{"names":[{"name":"In der Nacht","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"At night","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":5,"condition":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition\/2\/","name":"time"},"name":"time-night"}

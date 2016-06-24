@@ -1,0 +1,1 @@
+{"names":[{"name":"Im Fr\u00fchling","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"During Spring","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":17,"condition":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition\/6\/","name":"season"},"name":"season-spring"}

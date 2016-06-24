@@ -1,0 +1,1 @@
+{"names":[{"name":"W\u00e4hrend eines Schwarms","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"During a swarm","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":1,"condition":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition\/1\/","name":"swarm"},"name":"swarm-yes"}

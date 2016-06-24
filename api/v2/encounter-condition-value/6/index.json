@@ -1,0 +1,1 @@
+{"names":[{"name":"Durch Benutzung des Pok\u00e9radars","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/6\/","name":"de"}},{"name":"Using Pok\u00e9Radar","language":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/language\/9\/","name":"en"}}],"id":6,"condition":{"url":"http:\/\/127.0.0.1:8000\/api\/v2\/encounter-condition\/3\/","name":"radar"},"name":"radar-on"}
