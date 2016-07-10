@@ -6,7 +6,7 @@ This repository contains a copy of the JSON data generated from [PokeAPI](https:
 
 Just use the command `make serve` to serve the data. Edit the Makefile to change the port.
 
-```
+```bash
 cd ~
 git clone https://github.com/pokesource/ditto.git
 cd ditto
