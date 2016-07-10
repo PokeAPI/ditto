@@ -12,7 +12,7 @@ Usage
     cd ~
     git clone https://github.com/pokesource/ditto.git
     cd ditto
-    python3 setup.py install --user
+    python3 setup.py develop --user
     ditto serve --port 8080 --source ./data
 
 Uninstall
@@ -21,7 +21,7 @@ Uninstall
 .. code:: bash
 
     cd ~/ditto
-    python3 setup.py install --user --uninstall
+    python3 setup.py develop --user --uninstall
 
 Advanced
 --------
