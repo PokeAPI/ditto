@@ -19,24 +19,24 @@ def print_json(data, file_name):
 # Config
 
 if len(sys.argv) != 3:
-    print('Usage: ' + sys.argv[0] + ' <baseUrl> <targetDir>', file=sys.stderr)
+    print('Usage: ' + sys.argv[0] + ' <base_url> <target_dir>', file=sys.stderr)
     quit(1)
 
-baseUrl = sys.argv[1]
-targetDir = sys.argv[2]
+base_url = sys.argv[1]
+target_dir = sys.argv[2]
 
-if not baseUrl.endswith("/"):
-    baseUrl += "/"
+if not base_url.endswith("/"):
+    base_url += "/"
 
-if not targetDir.endswith("/"):
-    targetDir += "/"
+if not target_dir.endswith("/"):
+    target_dir += "/"
 
 # Root
 
-url = baseUrl + "api/v2/"
+url = base_url + "api/v2/"
 endpoints = requests.get(url)
 
-path = targetDir + url.replace(baseUrl, '') + "index.json"
+path = target_dir + url.replace(base_url, '') + "index.json"
 print(path)
 print_json(endpoints.json(), path)
 
@@ -51,14 +51,14 @@ for endpoint in endpoints.json().values():
     # Full index
     url = endpoint + "?limit=" + count
     resource_list = requests.get(url)
-    path = targetDir + endpoint.replace(baseUrl, '') + "index.json"
+    path = target_dir + endpoint.replace(base_url, '') + "index.json"
     print(path)
     print_json(resource_list.json(), path)
 
     # All resources
     for resourceSummary in resource_list.json()['results']:
         resourceUrl = resourceSummary['url']
-        path = targetDir + resourceUrl.replace(baseUrl, '') + "index.json"
+        path = target_dir + resourceUrl.replace(base_url, '') + "index.json"
 
         if not os.path.isfile(path):
             print(path)
@@ -67,7 +67,7 @@ for endpoint in endpoints.json().values():
 
         if endpoint.endswith("/pokemon/"):
             resourceUrl += "encounters/"
-            path = targetDir + resourceUrl.replace(baseUrl, '') + "index.json"
+            path = target_dir + resourceUrl.replace(base_url, '') + "index.json"
             if not os.path.isfile(path):
                 print(path)
                 resource = requests.get(resourceUrl)
