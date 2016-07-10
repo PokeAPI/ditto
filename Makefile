@@ -1,10 +1,10 @@
-.PHONY: clean data
+.PHONY: clean data serve
 
 data:
-	python3 ./src/clone_data.py http://localhost ./data/
+	python3 ditto.py capture
 
 serve:
-	python3 ./src/serve_data.py 80 ./data/
+	python3 ditto.py transform --port 8080
 
 clean:
 	rm -r data
