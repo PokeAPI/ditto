@@ -40,14 +40,14 @@ def resource_list(category):
     return get_api_resource(category)
 
 
-@app.route('/api/v2/<string:category>/<int:id>/')
-def resource(category, id):
-    return get_api_resource("%s/%s" % (category, id))
+@app.route('/api/v2/<string:category>/<key>/')
+def resource(category, key):
+    return get_api_resource("%s/%s" % (category, key))
 
 
-@app.route('/api/v2/<string:category>/<int:id>/<string:extra>/')
-def resource_extra(category, id, extra):
-    return get_api_resource("%s/%s/%s" % (category, id, extra))
+@app.route('/api/v2/<string:category>/<key>/<string:extra>/')
+def resource_extra(category, key, extra):
+    return get_api_resource("%s/%s/%s" % (category, key, extra))
 
 
 if __name__ == '__main__':
