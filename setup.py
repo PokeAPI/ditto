@@ -14,7 +14,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     scripts=['scripts/ditto'],
 
-    install_requires=[],
+    install_requires=open('requirements.txt').read().splitlines(),
 
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',

@@ -45,8 +45,7 @@ def build(data_dir):
 
         result_obj['results'] = result_obj['results'][offset:offset + limit]
         if offset > 0:
-            url = url_for('resource_list', category=category, limit=limit, offset=max(offset - limit, 0),
-                          _external=True)
+            url = url_for('resource_list', category=category, limit=limit, offset=max(offset - limit, 0), _external=True)
             result_obj['previous'] = url
         if offset + limit < result_obj['count']:
             url = url_for('resource_list', category=category, limit=limit, offset=offset + limit, _external=True)
