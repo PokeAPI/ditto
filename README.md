@@ -17,6 +17,8 @@ make serve
 
 You can manually update the data if necessary. This is quite an involved process. You shouldn't really need to do this, since I'll be keeping the data in this repo up to date. But if I abandon it for some reason, here's how to update it.
 
+Before starting, you'll need to install [Docker and Docker Compose](https://docs.docker.com/compose/install/).
+
 First clone the PokeAPI repository:
 
 ```bash
