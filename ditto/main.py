@@ -30,4 +30,5 @@ class Ditto(object):
 
     @staticmethod
     def serve(args):
+        print('serving on port %d from source %s' % (args.port, args.source))
         WSGIServer(('', args.port), app.build(args.source)).serve_forever()

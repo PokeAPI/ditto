@@ -23,6 +23,19 @@ Uninstall
     cd ~/ditto
     python3 setup.py develop --user --uninstall
 
+Docker
+------
+
+Replace 8080 with the port of your choice.
+
+.. code:: bash
+
+    # After cloning the repo to ~
+    cd ~/ditto
+    docker build -t ditto .
+    docker run -d -p 8080:80 ditto
+    
+
 Advanced
 --------
 
