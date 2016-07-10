@@ -1,6 +1,7 @@
 import re
 import json
-from flask import Flask, url_for, request
+import os
+from flask import *
 
 
 def build(data_dir):
@@ -14,6 +15,9 @@ def build(data_dir):
         original = open(data_dir + 'api/v2/' + path + '/index.json', 'r').read()
         replaced = re.sub('http://[a-zA-Z0-9.]+/', url_for('root', _external=True), original)
         return replaced
+        
+    def get_media_resource(path):
+        return open(data_dir + 'media/' + path, 'r+b').read()
 
     def safe_cast(val, to_type, default=None):
         try:
@@ -23,17 +27,25 @@ def build(data_dir):
 
     # noinspection PyUnusedLocal
     @app.errorhandler(FileNotFoundError)
+    def not_found_file(error):
+        return '{"error": "File not found"}', 404, {'Content-Type': 'application/json'}
+
+    # noinspection PyUnusedLocal
     @app.errorhandler(404)
-    def not_found(error):
-        return '{"error": "Not found"}', 404
+    def not_found_404(error):
+        return '{"error": "Not found"}', 404, {'Content-Type': 'application/json'}
 
     @app.route('/')
     def root():
-        return '{"information": "https://github.com/pokesource/ditto"}'
+        return '{"information": "https://github.com/pokesource/ditto"}', 200, {'Content-Type': 'application/json'}
+
+    @app.route('/media/<path:path>')
+    def media(path):
+        return get_media_resource(path), 200, {'Content-Type': 'image/png'}
 
     @app.route('/api/v2/')
     def index():
-        return get_api_resource('')
+        return get_api_resource(''), 200, {'Content-Type': 'application/json'}
 
     @app.route('/api/v2/<string:category>/')
     def resource_list(category):
@@ -51,14 +63,14 @@ def build(data_dir):
             url = url_for('resource_list', category=category, limit=limit, offset=offset + limit, _external=True)
             result_obj['next'] = url
 
-        return json.dumps(result_obj, indent=4, sort_keys=True)
+        return json.dumps(result_obj, indent=4, sort_keys=True), 200, {'Content-Type': 'application/json'}
 
     @app.route('/api/v2/<string:category>/<int:key>/')
     def resource(category, key):
-        return get_api_resource("%s/%s" % (category, key))
+        return get_api_resource("%s/%s" % (category, key)), 200, {'Content-Type': 'application/json'}
 
     @app.route('/api/v2/<string:category>/<int:key>/<string:extra>/')
     def resource_extra(category, key, extra):
-        return get_api_resource('%s/%s/%s' % (category, key, extra))
+        return get_api_resource('%s/%s/%s' % (category, key, extra)), 200, {'Content-Type': 'application/json'}
 
     return app
