@@ -1,5 +1,4 @@
-import app
-import clone
+from ditto import app, clone
 import argparse
 import sys
 from gevent.wsgi import WSGIServer
@@ -11,11 +10,11 @@ class Ditto(object):
         parser = argparse.ArgumentParser()
         subparsers = parser.add_subparsers(dest='command')
 
-        transform = subparsers.add_parser('capture')
+        transform = subparsers.add_parser('clone')
         transform.add_argument('--source', type=str, default='http://localhost/')
-        transform.add_argument('--destination', type=str, default='./data')
+        transform.add_argument('--destination', type=str, default='./ditto/data')
 
-        serve = subparsers.add_parser('transform')
+        serve = subparsers.add_parser('serve')
         serve.add_argument('--port', type=int, default=80)
         serve.add_argument('--source', type=str, default='./data')
 
@@ -26,12 +25,9 @@ class Ditto(object):
         getattr(self, args.command)(args)
 
     @staticmethod
-    def capture(args):
+    def clone(args):
         clone.do_clone(args.source, args.destination)
 
     @staticmethod
-    def transform(args):
+    def serve(args):
         WSGIServer(('', args.port), app.build(args.source)).serve_forever()
-
-if __name__ == '__main__':
-    Ditto()
