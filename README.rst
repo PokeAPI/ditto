@@ -15,6 +15,14 @@ Usage
     python3 setup.py install --user
     ditto serve --port 8080 --source ./data
 
+Uninstall
+---------
+
+.. code:: bash
+
+    cd ~/ditto
+    python3 setup.py install --user --uninstall
+
 Advanced
 --------
 
