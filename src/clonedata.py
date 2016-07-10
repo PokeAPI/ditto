@@ -43,32 +43,15 @@ print_json(endpoints.json(), path)
 # Endpoints
 
 for endpoint in endpoints.json().values():
-    # Default index
-    url = endpoint
-    resource_list = requests.get(url)
-    path = targetDir + endpoint.replace(baseUrl, '') + "index.json"
-    print(path)
-    print_json(resource_list.json(), path)
-
-    # Fifty index
-    url = endpoint + "?limit=50"
-    resource_list = requests.get(url)
-    path = targetDir + endpoint.replace(baseUrl, '') + "limit=50.json"
-    print(path)
-    print_json(resource_list.json(), path)
-
     # Zero index
     url = endpoint + "?limit=0"
     resource_list = requests.get(url)
-    path = targetDir + endpoint.replace(baseUrl, '') + "limit=0.json"
-    print(path)
-    print_json(resource_list.json(), path)
-
-    # All index
     count = str(resource_list.json()["count"])
+
+    # Full index
     url = endpoint + "?limit=" + count
     resource_list = requests.get(url)
-    path = targetDir + endpoint.replace(baseUrl, '') + "limit=" + count + ".json"
+    path = targetDir + endpoint.replace(baseUrl, '') + "index.json"
     print(path)
     print_json(resource_list.json(), path)
 
