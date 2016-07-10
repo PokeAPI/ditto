@@ -2,6 +2,7 @@ import app
 import clone
 import argparse
 import sys
+from gevent.wsgi import WSGIServer
 
 
 class Ditto(object):
@@ -30,7 +31,7 @@ class Ditto(object):
 
     @staticmethod
     def transform(args):
-        app.build(args.source).run(port=args.port)
+        WSGIServer(('', args.port), app.build(args.source)).serve_forever()
 
 if __name__ == '__main__':
     Ditto()
