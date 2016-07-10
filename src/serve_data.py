@@ -40,12 +40,12 @@ def resource_list(category):
     return get_api_resource(category)
 
 
-@app.route('/api/v2/<string:category>/<key>/')
+@app.route('/api/v2/<string:category>/<int:key>/')
 def resource(category, key):
     return get_api_resource("%s/%s" % (category, key))
 
 
-@app.route('/api/v2/<string:category>/<key>/<string:extra>/')
+@app.route('/api/v2/<string:category>/<int:key>/<string:extra>/')
 def resource_extra(category, key, extra):
     return get_api_resource("%s/%s/%s" % (category, key, extra))
 
