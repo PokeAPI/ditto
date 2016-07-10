@@ -2,7 +2,7 @@
 
 This repository contains a copy of the JSON data generated from [PokeAPI](https://github.com/PokeAPI/pokeapi) based on [Veekun's data](https://github.com/veekun/pokedex).
 
-## Run the server
+## Usage
 
 Just use the command `make serve` to serve the data. Edit the Makefile to change the port.
 
@@ -10,9 +10,10 @@ Just use the command `make serve` to serve the data. Edit the Makefile to change
 cd ~
 git clone https://github.com/pokesource/ditto.git
 cd ditto
+make serve
 ```
 
-## Update the data
+## Advanced
 
 You can manually update the data if necessary. This is quite an involved process. You shouldn't really need to do this, since I'll be keeping the data in this repo up to date. But if I abandon it for some reason, here's how to update it.
 
