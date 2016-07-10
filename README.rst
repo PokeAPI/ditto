@@ -7,15 +7,13 @@ This repository contains a copy of the JSON data generated from
 Usage
 -----
 
-Just use the command ``make serve`` to serve the data. Edit the Makefile
-to change the port.
-
 .. code:: bash
 
     cd ~
     git clone https://github.com/pokesource/ditto.git
     cd ditto
-    make serve
+    python3 setup.py install --user
+    ditto serve --port 8080 --source ./data
 
 Advanced
 --------
@@ -68,8 +66,9 @@ Once that’s done, you can finally update Ditto’s data:
 .. code:: bash
 
     cd ../ditto
-    make clean
-    make data
+    rm -r ./data
+    python3 setup.py install --user # If you didn't do this already
+    ditto clone --source http://localhost/ --destination ./data
 
 And now serve the fresh data!
 

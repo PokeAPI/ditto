@@ -12,7 +12,7 @@ class Ditto(object):
 
         transform = subparsers.add_parser('clone')
         transform.add_argument('--source', type=str, default='http://localhost/')
-        transform.add_argument('--destination', type=str, default='./ditto/data')
+        transform.add_argument('--destination', type=str, default='./data')
 
         serve = subparsers.add_parser('serve')
         serve.add_argument('--port', type=int, default=80)
