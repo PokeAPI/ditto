@@ -1,8 +1,7 @@
 Ditto
 =====
 
-This repository contains a copy of the JSON data generated from
-`PokeAPI`_ based on `Veekun’s data`_.
+This repository contains a copy of the JSON data generated from `PokeAPI`_ based on `Veekun’s data`_. It also contains a small server application to serve the data in the same form as PokeAPI.
 
 Usage
 -----
