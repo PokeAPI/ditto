@@ -1,8 +1,5 @@
 FROM python:3.5
 
-ENV PYTHONUNBUFFERED 1
-ENV PYTHONHASHSEED 'random'
-
 RUN mkdir /ditto
 WORKDIR /ditto/
 ADD requirements.txt /ditto/
