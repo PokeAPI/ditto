@@ -12,11 +12,16 @@ This project is on Docker Hub. If you just want to run it, you just have to run 
 
     docker run -p 8080:80 pokesource/ditto
     
-Testing
--------
+Development
+-----------
+
+If you plan to edit the project, you can install it locally for development.
 
 .. code:: bash
 
+    cd ~
+    git clone https://github.com/pokesource/ditto.git
+    cd ditto
     pip3 install -r requirements.txt
     python3 setup.py develop --user
     ditto serve --port 8080 --source ./data
@@ -61,10 +66,9 @@ Build the PokeAPI database:
 .. code:: python
 
     from data.v2.build import build_all
-    # This will take a loooong time!
     build_all()
 
-Once that’s done, you can finally update Ditto’s data:
+The above step can take a really long time to complete. Once it’s done, you can finally update Ditto’s data:
 
 .. code:: bash
 
@@ -74,11 +78,11 @@ Once that’s done, you can finally update Ditto’s data:
     python3 setup.py develop --user
     ditto clone --source http://localhost/ --destination ./data
 
-And now serve the fresh data!
+This will crawl your local instance of PokeAPI and copy all the data to `./data`. Once that's finished, you can serve the freshly updated data!
 
 .. code:: bash
 
-    make serve
+    ditto serve --port 8080 --source ./data
 
 .. _PokeAPI: https://github.com/PokeAPI/pokeapi
 .. _Veekun’s data: https://github.com/veekun/pokedex
