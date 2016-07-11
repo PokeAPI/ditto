@@ -1,3 +1,5 @@
+.. image:: https://img.shields.io/docker/pulls/pokesource/ditto.svg?maxAge=3600   :target: https://hub.docker.com/r/pokesource/ditto/
+
 Ditto
 =====
 
