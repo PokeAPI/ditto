@@ -1,5 +1,7 @@
 FROM python:3.5
 
+ENV PYTHONUNBUFFERED=0
+
 RUN mkdir /ditto
 WORKDIR /ditto/
 ADD requirements.txt /ditto/
