@@ -26,14 +26,12 @@ Uninstall
 Docker
 ------
 
-Replace 8080 with the port of your choice.
-
 .. code:: bash
 
     # After cloning the repo to ~
     cd ~/ditto
-    docker build -t ditto .
-    docker run -d -p 8080:80 ditto
+    make docker-image
+    make docker-run
     
 
 Advanced
