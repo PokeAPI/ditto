@@ -4,44 +4,29 @@ Ditto
 This repository contains a copy of the JSON data generated from `PokeAPI`_ based on `Veekun’s data`_. It also contains a small server application to serve the data in the same form as PokeAPI.
 
 Usage
------
-
-.. code:: bash
-
-    cd ~
-    git clone https://github.com/pokesource/ditto.git
-    cd ditto
-    python3 setup.py develop --user
-    ditto serve --port 8080 --source ./data
-
-Uninstall
----------
-
-.. code:: bash
-
-    cd ~/ditto
-    python3 setup.py develop --user --uninstall
-
-Docker
 ------
 
+This project is on Docker Hub. If you just want to run it, you just have to run one command. Replace ``8080`` with the port of your choice.
+
 .. code:: bash
 
-    # After cloning the repo to ~
-    cd ~/ditto
-    make docker-image
-    make docker-run
+    docker run -p 8080:80 pokesource/ditto
     
+Testing
+-------
+
+.. code:: bash
+
+    pip3 install -r requirements.txt
+    python3 setup.py develop --user
+    ditto serve --port 8080 --source ./data
 
 Advanced
 --------
 
-You can manually update the data if necessary. This is quite an involved
-process. You shouldn’t really need to do this, since I’ll be keeping the
-data in this repo up to date. But if I abandon it for some reason,
-here’s how to update it.
+You can manually update the data if necessary. This is quite an involved process. You shouldn’t really need to do this, since I’ll be keeping the data in this repo up to date. But if I abandon it for some reason, here’s how to update it.
 
-Before starting, you’ll need to install `Docker and Docker Compose`_.
+Before starting, you’ll need to install `Docker and Docker Compose`_. These instructions assume you've cloned this repo into ``~/ditto``.
 
 First clone the PokeAPI repository:
 
@@ -56,7 +41,7 @@ Apply the patch to disable rate limiting on your local PokeAPI:
 .. code:: bash
 
     # Assuming you have this "ditto" repo in ../ditto
-    git apply ../ditto/disable-rate-limit.patch
+    git apply ~/ditto/extra/disable-rate-limit.patch
 
 Run PokeAPI using docker-compose:
 
@@ -83,9 +68,10 @@ Once that’s done, you can finally update Ditto’s data:
 
 .. code:: bash
 
-    cd ../ditto
+    cd ~/ditto
     rm -r ./data
-    python3 setup.py install --user # If you didn't do this already
+    pip3 install -r requirements.txt # If you didn't do this already
+    python3 setup.py develop --user
     ditto clone --source http://localhost/ --destination ./data
 
 And now serve the fresh data!
