@@ -2,6 +2,7 @@ import re
 import json
 import os
 from flask import *
+from flask_cors import CORS
 
 
 def build(data_dir):
@@ -9,6 +10,7 @@ def build(data_dir):
         data_dir += "/"
 
     app = Flask(__name__)
+    CORS(app)
     app.url_map.strict_slashes = False
 
     def get_api_resource(path):
