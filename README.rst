@@ -74,8 +74,8 @@ The above step can take a really long time to complete. Once it’s done, you ca
 
     cd ~/ditto
     rm -r ./data
-    pip3 install -r requirements.txt # If you didn't do this already
-    python3 setup.py develop --user
+    pip3 install -r requirements.txt # If you didn't do these two already
+    python3 setup.py develop --user  #
     ditto clone --source http://localhost/ --destination ./data
 
 This will crawl your local instance of PokeAPI and copy all the data to `./data`. Once that's finished, you can serve the freshly updated data!
