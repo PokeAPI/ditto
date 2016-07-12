@@ -16,7 +16,6 @@ class Ditto(object):
 
         serve = subparsers.add_parser('serve')
         serve.add_argument('--port', type=int, default=80)
-        serve.add_argument('--source', type=str, default='./data')
 
         args = parser.parse_args(sys.argv[1:])
         if args.command is None:
@@ -30,5 +29,5 @@ class Ditto(object):
 
     @staticmethod
     def serve(args):
-        print('serving on port %d from source %s' % (args.port, args.source))
-        WSGIServer(('', args.port), app.build(args.source)).serve_forever()
+        print('Starting Ditto server with configuration: {}'.format(vars(args)))
+        WSGIServer(('', args.port), app.app).serve_forever()
