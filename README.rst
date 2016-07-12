@@ -1,5 +1,4 @@
-.. image:: https://img.shields.io/docker/pulls/pokesource/ditto.svg?maxAge=3600
-   :target: https://hub.docker.com/r/pokesource/ditto/
+.. image:: https://img.shields.io/docker/pulls/pokesource/ditto.svg?maxAge=3600 :target: https://hub.docker.com/r/pokesource/ditto/
 
 Ditto
 =====
@@ -7,7 +6,7 @@ Ditto
 This repository contains a copy of the JSON data generated from `PokeAPI`_ based on `Veekun’s data`_. It also contains a small server script to serve the data in the same form as PokeAPI, and a crawler script to harvest the data from an instance of PokeAPI.
 
 Usage
-------
+-----
 
 This project is on Docker Hub. If you just want to run it, you just have to run one command. Replace ``8080`` with the port of your choice.
 
@@ -27,7 +26,7 @@ If you plan to edit the project, you can install it locally for development.
     cd ditto
     pip3 install -r requirements.txt
     python3 setup.py develop --user
-    ditto serve --port 8080 --source ./data
+    ditto serve --port 8080
 
 Advanced
 --------
@@ -85,7 +84,7 @@ This will crawl your local instance of PokeAPI and copy all the data to `./data`
 
 .. code:: bash
 
-    ditto serve --port 8080 --source ./data
+    ditto serve --port 8080
 
 .. _PokeAPI: https://github.com/PokeAPI/pokeapi
 .. _Veekun’s data: https://github.com/veekun/pokedex
