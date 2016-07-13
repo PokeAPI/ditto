@@ -10,5 +10,5 @@ RUN pip3 install -r requirements.txt
 ADD . /ditto/
 RUN python3 setup.py install
 
-CMD ditto serve
-EXPOSE 80
+EXPOSE 8080
+CMD ditto serve --port 8080

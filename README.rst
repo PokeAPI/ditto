@@ -10,11 +10,11 @@ This repository contains a copy of the JSON data generated from `PokeAPI`_ based
 Usage
 -----
 
-This project is on Docker Hub. If you just want to run it, you just have to run one command. Replace ``8080`` with the port of your choice.
+This project is on Docker Hub. If you just want to run it, you just have to run one command. Replace ``80`` with the port of your choice.
 
 .. code:: bash
 
-    docker run -p 8080:80 pokesource/ditto
+    docker run -p 80:8080 pokesource/ditto
     
 Development
 -----------
