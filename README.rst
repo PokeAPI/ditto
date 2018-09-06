@@ -33,7 +33,7 @@ If you plan to edit the project, you can install it locally for development.
 Advanced
 --------
 
-You can manually update the data if necessary. This is quite an involved process. You shouldn’t really need to do this, since I’ll be keeping the data in this repo up to date. But if I abandon it for some reason, here’s how to update it.
+You can manually update the data if necessary. If I abandon this project, here’s how to update it. It's a bit of an involved process. 
 
 Before starting, you’ll need to install `Docker and Docker Compose`_. These instructions assume you've cloned this repo into ``~/ditto``.
 
