@@ -58,7 +58,7 @@ Run PokeAPI using docker-compose:
 
     docker volume create --name=redis_data
     docker volume create --name=pg_data
-    docker up -d
+    docker-compose up -d
 
 Build the PokeAPI database:
 
