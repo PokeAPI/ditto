@@ -1,4 +1,4 @@
-from ditto import app, clone
+from ditto import analyze, clone, serve
 import argparse
 import sys
 from gevent.pywsgi import WSGIServer
@@ -18,11 +18,19 @@ class Ditto(object):
         serve = subparsers.add_parser('serve')
         serve.add_argument('--port', type=int, default=80)
 
+        analyze = subparsers.add_parser('analyze')
+        analyze.add_argument('--api-dir', type=str, default='./data/api')
+        analyze.add_argument('--schema-dir', type=str, default='./data/schema')
+
         args = parser.parse_args(sys.argv[1:])
         if args.command is None:
             parser.print_help()
             exit(1)
         getattr(self, args.command)(args)
+
+    @staticmethod
+    def analyze(args):
+        analyze.do_analyze(args.api_dir, args.schema_dir)
 
     @staticmethod
     def clone(args):
@@ -31,4 +39,4 @@ class Ditto(object):
     @staticmethod
     def serve(args):
         print('Starting Ditto server with configuration: {}'.format(vars(args)))
-        WSGIServer(('', args.port), app.app).serve_forever()
+        WSGIServer(('', args.port), serve.app).serve_forever()

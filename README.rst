@@ -5,7 +5,12 @@ Ditto
 
 `http://bulbapedia.bulbagarden.net/wiki/Ditto_(Pokemon)`
 
-This repository contains a copy of the JSON data generated from `PokeAPI`_ based on `Veekun’s data`_. It also contains a small server script to serve the data in the same form as PokeAPI, and a crawler script to harvest the data from an instance of PokeAPI.
+This repository contains:
+ - a static copy of the JSON data generated from `PokeAPI`_ based on `Veekun’s data`_
+ - a PokeAPI schema generated from the above data
+ - a script to serve the data in the same form as PokeAPI
+ - a script to crawl an instance of PokeAPI to regenerate the data
+ - a script to analyze the generated data and produce a JSON Schema
 
 Usage
 -----
@@ -15,7 +20,7 @@ This project is on Docker Hub. If you just want to run it, you just have to run 
 .. code:: bash
 
     docker run -p 8080:80 pokesource/ditto
-    
+
 Development
 -----------
 
@@ -27,13 +32,13 @@ If you plan to edit the project, you can install it locally for development.
     git clone https://github.com/pokesource/ditto.git
     cd ditto
     pip3 install -r requirements.txt
-    python3 setup.py develop 
+    python3 setup.py develop
     ditto serve --port 8080
 
 Advanced
 --------
 
-You can manually update the data if necessary. If I abandon this project, here’s how to update it. It's a bit of an involved process. 
+You can manually update the data if necessary. If I abandon this project, here’s how to update it. It's a bit of an involved process.
 
 Before starting, you’ll need to install `Docker and Docker Compose`_. These instructions assume you've cloned this repo into ``~/ditto``.
 
@@ -81,8 +86,10 @@ The above step can take a really long time to complete. Once it’s done, you ca
     pip3 install -r requirements.txt # If you didn't do these two already
     python3 setup.py develop --user  #
     ditto clone --source http://localhost/ --destination ./data
+    ditto analyze --api-dir ./data/api --schema-dir ./data/schema
 
-This will crawl your local instance of PokeAPI and copy all the data to `./data`. Once that's finished, you can serve the freshly updated data!
+This will crawl your local instance of PokeAPI, copy all the data to `./data`, and regenerate the schema.
+Once that's finished, you can serve the freshly updated data!
 
 .. code:: bash
 
