@@ -85,7 +85,7 @@ The above step can take a really long time to complete. Once it’s done, you ca
     cd ~/ditto
     rm -r ./data
     pip3 install -r requirements.txt # If you didn't do these two already
-    python3 setup.py develop --user  #
+    python3 setup.py develop         #
     ditto clone --source http://localhost/ --destination ./data
     ditto analyze --api-dir ./data/api --schema-dir ./data/schema
 
