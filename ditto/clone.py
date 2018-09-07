@@ -12,8 +12,7 @@ def do_clone(base_url, target_dir, replacement_url):
 
     def print_json(data, file_name):
         transformed_data = json.dumps(data, indent=4, sort_keys=True)
-        if replacement_url:
-            transformed_data = transformed_data.replace(base_url, replacement_url)
+        transformed_data = transformed_data.replace(base_url, replacement_url)
         print(transformed_data, file=safe_open_w(file_name))
 
     if not base_url.endswith("/"):
