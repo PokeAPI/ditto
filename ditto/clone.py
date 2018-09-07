@@ -4,14 +4,16 @@ import os.path
 import requests
 
 
-def do_clone(base_url, target_dir):
+def do_clone(base_url, target_dir, replacement_url):
 
     def safe_open_w(file_name):
         os.makedirs(os.path.dirname(file_name), exist_ok=True)
         return open(file_name, "w")
 
     def print_json(data, file_name):
-        print(json.dumps(data, indent=4, sort_keys=True), file=safe_open_w(file_name))
+        transformed_data = json.dumps(data, indent=4, sort_keys=True)
+        transformed_data = transformed_data.replace(base_url, replacement_url)
+        print(transformed_data, file=safe_open_w(file_name))
 
     if not base_url.endswith("/"):
         base_url += "/"

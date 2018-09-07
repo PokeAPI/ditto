@@ -13,6 +13,7 @@ class Ditto(object):
         transform = subparsers.add_parser('clone')
         transform.add_argument('--source', type=str, default='http://localhost/')
         transform.add_argument('--destination', type=str, default='./data')
+        transform.add_argument('--replacement-url', type=str, default='https://pokeapi.co/')
 
         serve = subparsers.add_parser('serve')
         serve.add_argument('--port', type=int, default=80)
@@ -25,7 +26,7 @@ class Ditto(object):
 
     @staticmethod
     def clone(args):
-        clone.do_clone(args.source, args.destination)
+        clone.do_clone(args.source, args.destination, args.replacement_url)
 
     @staticmethod
     def serve(args):
