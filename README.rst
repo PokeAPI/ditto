@@ -27,7 +27,7 @@ If you plan to edit the project, you can install it locally for development.
     git clone https://github.com/pokesource/ditto.git
     cd ditto
     pip3 install -r requirements.txt
-    python3 setup.py develop --user
+    python3 setup.py develop 
     ditto serve --port 8080
 
 Advanced

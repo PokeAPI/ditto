@@ -1,7 +1,7 @@
 from ditto import app, clone
 import argparse
 import sys
-from gevent.wsgi import WSGIServer
+from gevent.pywsgi import WSGIServer
 
 
 class Ditto(object):
