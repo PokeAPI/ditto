@@ -1,7 +1,9 @@
-from ditto import analyze, clone, serve
 import argparse
 import sys
+
 from gevent.pywsgi import WSGIServer
+
+from ditto import analyze, clone, serve
 
 
 class Ditto(object):

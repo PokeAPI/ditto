@@ -1,11 +1,11 @@
 import json
 import os
 import os.path
+
 import requests
 
 
 def do_clone(base_url, target_dir, replacement_url):
-
     def safe_open_w(file_name):
         os.makedirs(os.path.dirname(file_name), exist_ok=True)
         return open(file_name, "w")

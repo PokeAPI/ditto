@@ -1,5 +1,6 @@
-import re
 import json
+import re
+
 from flask import *
 from flask_cors import CORS
 

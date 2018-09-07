@@ -1,11 +1,14 @@
 import glob
-import re
-import os
 import json
+import os
+import re
+
 from genson import SchemaBuilder
+
 
 def _from_dir(dir):
     dir = os.path.abspath(dir)
+
     def func_decorator(func):
         def func_wrapper(*args, **kwargs):
             cwd = os.getcwd()
@@ -13,11 +16,13 @@ def _from_dir(dir):
             result = func(*args, **kwargs)
             os.chdir(cwd)
             return result
+
         return func_wrapper
+
     return func_decorator
 
-def do_analyze(data_dir, schema_dir):
 
+def do_analyze(data_dir, schema_dir):
     if not os.path.exists(schema_dir):
         os.makedirs(schema_dir)
 
