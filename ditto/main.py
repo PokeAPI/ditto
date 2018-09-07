@@ -12,17 +12,17 @@ class Ditto(object):
         parser = argparse.ArgumentParser()
         subparsers = parser.add_subparsers(dest='command')
 
-        transform = subparsers.add_parser('clone')
-        transform.add_argument('--source', type=str, default='http://localhost/')
-        transform.add_argument('--destination', type=str, default='./data')
-        transform.add_argument('--replacement-url', type=str, default='https://pokeapi.co/')
+        clone_args = subparsers.add_parser('clone')
+        clone_args.add_argument('--source', type=str, default='http://localhost/')
+        clone_args.add_argument('--destination', type=str, default='./data')
+        clone_args.add_argument('--replacement-url', type=str, default='https://pokeapi.co/')
 
-        serve = subparsers.add_parser('serve')
-        serve.add_argument('--port', type=int, default=80)
+        serve_args = subparsers.add_parser('serve')
+        serve_args.add_argument('--port', type=int, default=80)
 
-        analyze = subparsers.add_parser('analyze')
-        analyze.add_argument('--api-dir', type=str, default='./data/api')
-        analyze.add_argument('--schema-dir', type=str, default='./data/schema')
+        analyze_args = subparsers.add_parser('analyze')
+        analyze_args.add_argument('--api-dir', type=str, default='./data/api')
+        analyze_args.add_argument('--schema-dir', type=str, default='./data/schema')
 
         args = parser.parse_args(sys.argv[1:])
         if args.command is None:
