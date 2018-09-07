@@ -29,7 +29,7 @@ If you plan to edit the project, you can install it locally for development.
 .. code:: bash
 
     cd ~
-    git clone https://github.com/pokesource/ditto.git
+    git clone https://github.com/PokeAPI/ditto.git
     cd ditto
     pip3 install -r requirements.txt
     python3 setup.py develop
@@ -47,7 +47,7 @@ First clone the Ditto and PokeAPI repositories:
 .. code:: bash
 
     cd ~
-    git clone https://github.com/pokesource/ditto.git
+    git clone https://github.com/PokeAPI/ditto.git
     git clone https://github.com/PokeAPI/pokeapi.git
 
 Apply the patch to disable rate limiting on your local PokeAPI:

@@ -3,10 +3,10 @@ import setuptools
 setuptools.setup(
     name="ditto",
     version="0.1.0",
-    url="https://github.com/pokesource/ditto",
+    url="https://github.com/PokeAPI/ditto",
 
     author="Sargun Vohra",
-    author_email="sargunvdev@gmail.com",
+    author_email="sargun.vohra@gmail.com",
 
     description="Ditto is a server that serves a static copy of PokeAPI's data.",
     long_description=open('README.rst').read(),
