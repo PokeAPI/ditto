@@ -9,7 +9,7 @@ setuptools.setup(
     author_email="sargun.vohra@gmail.com",
 
     description="Ditto is a server that serves a static copy of PokeAPI's data.",
-    long_description=open('README.rst').read(),
+    long_description=open('README.md').read(),
 
     packages=setuptools.find_packages(),
     scripts=['scripts/ditto'],
