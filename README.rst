@@ -27,12 +27,14 @@ Development
 If you plan to edit the project, you can install it locally for development.
 
 .. code:: bash
-
+    pip3 install virtualenv # if you don't have it already
     cd ~
     git clone https://github.com/PokeAPI/ditto.git
     cd ditto
-    pip3 install -r requirements.txt
-    python3 setup.py develop
+    virtualenv .venv
+    source .venv/bin/activate # always have the virtualenv active while developing
+    pip install -r requirements.txt
+    python setup.py develop
     ditto serve --port 8080
 
 Advanced
@@ -40,14 +42,15 @@ Advanced
 
 You can manually update the data if necessary. If I abandon this project, here’s how to update it. It's a bit of an involved process.
 
-Before starting, you’ll need to install `Docker and Docker Compose`_. These instructions assume you've cloned this repo into ``~/ditto``.
+Before starting, you’ll need to install `Docker and Docker Compose`_.
 
-First clone the Ditto and PokeAPI repositories:
+These instructions assume you've already set up the project for development in `~/ditto` and activated the virtualenv.
+
+First clone the PokeAPI repository:
 
 .. code:: bash
 
     cd ~
-    git clone https://github.com/PokeAPI/ditto.git
     git clone https://github.com/PokeAPI/pokeapi.git
 
 Apply the patch to disable rate limiting on your local PokeAPI:
@@ -84,8 +87,7 @@ The above step can take a really long time to complete. Once it’s done, you ca
 
     cd ~/ditto
     rm -r ./data
-    pip3 install -r requirements.txt # If you didn't do these two already
-    python3 setup.py develop         #
+    # make sure you've set up ditto for development!
     ditto clone --source http://localhost/ --destination ./data
     ditto analyze --api-dir ./data/api --schema-dir ./data/schema
 
