@@ -10,7 +10,7 @@ def to_json(obj):
 
 
 def replace_host(string, url):
-    return re.sub('http://[a-zA-Z0-9.]+/', url, string)
+    return re.sub('https?://[a-zA-Z0-9.]+/', url, string)
 
 
 def safe_cast(val, to_type, default=None):
