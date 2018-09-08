@@ -34,6 +34,7 @@ genson = "^1.0"
 pytest = "^3.0"
 flake8 = "^3.5"
 black = "^18.3-alpha.0"
+isort = "^4.3"
 
 [tool.black]
 line-length = 88

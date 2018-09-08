@@ -3,11 +3,11 @@ linters:
     config: ./pyproject.toml
     fixer: true
   flake8:
-    # copied from .flake8
+    python: 3
+    fixer: true
+    # copied from tox.ini
     max-complexity: 15
     ignore: W,E
     exclude: .venv, .git, __pycache__, dist
-    python: 3
-    fixer: true
 fixers:
   enable: true

@@ -1,4 +1,0 @@
-[flake8]
-max-complexity = 15
-ignore = W,E # use black for formatting
-exclude = .venv, .git, __pycache__, dist
