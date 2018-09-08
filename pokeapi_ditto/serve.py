@@ -92,9 +92,10 @@ error_500 = to_json({
 })
 
 information = to_json({
-    'git_repo': 'https://github.com/PokeAPI/ditto',
-    'docker': 'pokesource/ditto',
-    'github': 'PokeAPI/ditto'
+    'docker': 'sargunv/pokeapi-ditto',
+    'git': 'https://github.com/PokeAPI/ditto',
+    'github': 'PokeAPI/ditto',
+    'pypi': 'pokeapi-ditto'
 })
 
 content_json = 'application/json'

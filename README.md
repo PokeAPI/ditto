@@ -1,5 +1,3 @@
-![image](https://img.shields.io/docker/pulls/pokesource/ditto.svg?maxAge=3600%20:target:%20https://hub.docker.com/r/pokesource/ditto/)
-
 # Ditto
 
 [https://bulbapedia.bulbagarden.net/wiki/Ditto_(Pokémon)](https://bulbapedia.bulbagarden.net/wiki/Ditto_(Pok%C3%A9mon))
@@ -20,7 +18,7 @@ This project is on Docker Hub. If you just want to run it, you just have
 to run one command. Replace `8080` with the port of your choice.
 
 ``` bash
-docker run -p 8080:80 pokesource/ditto
+docker run -p 8080:80 sargunv/pokeapi-ditto
 ```
 
 ## Development
@@ -44,15 +42,14 @@ You can manually update the data if necessary. If I abandon this
 project, here’s how to update it. It's a bit of an involved process.
 
 Before starting, you’ll need to install [Docker and Docker
-Compose](https://docs.docker.com/compose/install/).
+Compose](https://docs.docker.com/compose/install/). You'll
+also need [Poetry](https://poetry.eustace.io/).
 
-These instructions assume you've already set up the project for
-development in \~/ditto.
-
-First clone the PokeAPI repository:
+First clone the PokeAPI and Ditto repositories:
 
 ``` bash
 cd ~
+git clone https://github.com/PokeAPI/ditto.git
 git clone https://github.com/PokeAPI/pokeapi.git
 ```
 
