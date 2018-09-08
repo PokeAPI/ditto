@@ -1,5 +1,6 @@
 linters:
-  flake8:
+  black:
+    config: ./pyproject.toml
     fixer: true
 fixers:
   enable: true
