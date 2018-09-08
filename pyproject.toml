@@ -32,7 +32,10 @@ genson = "^1.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"
+flake8 = "^3.5"
+black = "^18.3-alpha.0"
 
 [tool.black]
 line-length = 88
 py36 = true
+
