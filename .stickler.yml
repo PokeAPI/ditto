@@ -2,5 +2,10 @@ linters:
   black:
     config: ./pyproject.toml
     fixer: true
+  flake8:
+    python: 3
+    max-line-length: 88
+    max-complexity: 20
+    fixer: true
 fixers:
   enable: true
