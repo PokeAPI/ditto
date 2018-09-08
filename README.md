@@ -26,18 +26,16 @@ docker run -p 8080:80 pokesource/ditto
 ## Development
 
 If you plan to edit the project, you can install it locally for
-development.
+development. [Poetry](https://poetry.eustace.io/) is required.
 
 ``` bash
- pip3 install virtualenv # if you don't have it already
- cd ~
- git clone https://github.com/PokeAPI/ditto.git
- cd ditto
- virtualenv .venv
- source .venv/bin/activate # always have the virtualenv active while developing
- pip install -r requirements.txt
- python setup.py develop
- ditto serve --port 8080
+cd ~
+git clone https://github.com/PokeAPI/ditto.git
+cd ditto
+poetry install
+
+# now you can run ditto!
+poetry run ditto --help
 ```
 
 ## Advanced
@@ -49,7 +47,7 @@ Before starting, you’ll need to install [Docker and Docker
 Compose](https://docs.docker.com/compose/install/).
 
 These instructions assume you've already set up the project for
-development in \~/ditto and activated the virtualenv.
+development in \~/ditto.
 
 First clone the PokeAPI repository:
 
@@ -92,9 +90,9 @@ you can finally update Ditto’s data:
 ``` bash
 cd ~/ditto
 rm -r ./data
-# make sure you've set up ditto for development!
-ditto clone --source http://localhost/ --destination ./data
-ditto analyze --api-dir ./data/api --schema-dir ./data/schema
+poetry install
+poetry run ditto clone --source http://localhost/ --destination ./data
+poetry run ditto analyze --api-dir ./data/api --schema-dir ./data/schema
 ```
 
 This will crawl your local instance of PokeAPI, copy all the data to
@@ -102,5 +100,5 @@ This will crawl your local instance of PokeAPI, copy all the data to
 the freshly updated data!
 
 ``` bash
-ditto serve --port 8080
+poetry run ditto serve --port 8080
 ```

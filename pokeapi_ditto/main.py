@@ -3,7 +3,7 @@ import sys
 
 from gevent.pywsgi import WSGIServer
 
-from ditto import analyze, clone, serve
+from pokeapi_ditto import analyze, clone, serve
 
 
 class Ditto(object):

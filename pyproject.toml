@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "pokeapi-ditto"
+version = "0.2.0"
+description = "Ditto is a server that serves a static copy of PokeAPI's data."
+license = "Apache-2.0"
+authors = ["Sargun Vohra <sargun.vohra@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/PokeAPI/ditto"
+repository = "https://github.com/PokeAPI/ditto.git"
+documentation = "https://github.com/PokeAPI/ditto"
+keywords = ["pokeapi", "ditto", "pokemon"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apple Public Source License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Topic :: Internet :: WWW/HTTP :: HTTP Servers",
+]
+
+[tool.poetry.scripts]
+ditto = "pokeapi_ditto.main:Ditto"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+flask = "^1.0"
+flask-cors = "^3.0"
+requests = "^2.19"
+gevent = "^1.3"
+genson = "^1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
