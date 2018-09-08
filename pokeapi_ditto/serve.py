@@ -10,7 +10,7 @@ def to_json(obj):
 
 
 def replace_host(string, url):
-    return re.sub('https?://[a-zA-Z0-9.]+/', url, string)
+    return re.sub("https?://[a-zA-Z0-9.]+/", url, string)
 
 
 def safe_cast(val, to_type, default=None):
@@ -26,80 +26,89 @@ def stream_file(file, url):
 
 
 def host_url():
-    return url_for('root', _external=True)
+    return url_for("root", _external=True)
 
 
 class DittoApp:
-
     def __init__(self, root_dir: str):
-        if not root_dir.endswith('/'):
-            root_dir += '/'
+        if not root_dir.endswith("/"):
+            root_dir += "/"
         self.root_dir = root_dir
 
     def api_path(self, path: str):
-        return self.root_dir + 'api/v2/' + path + '/index.json'
+        return self.root_dir + "api/v2/" + path + "/index.json"
 
     def media_path(self, path: str):
-        return self.root_dir + 'media/' + path
+        return self.root_dir + "media/" + path
 
     def streamed_api_file(self, path: str):
         return stream_file(open(self.api_path(path)), host_url())
 
     def get_index(self):
-        return self.streamed_api_file('.')
+        return self.streamed_api_file(".")
 
     def get_resource_list(self, category: str):
         result_obj = json.loads(open(self.api_path(category)).read())
 
         args = request.args.to_dict()
-        offset = max(safe_cast(args.get('offset'), int, 0), 0)
-        limit = safe_cast(args.get('limit'), int, 20)
+        offset = max(safe_cast(args.get("offset"), int, 0), 0)
+        limit = safe_cast(args.get("limit"), int, 20)
 
-        result_obj['results'] = result_obj['results'][offset:offset + limit]
+        result_obj["results"] = result_obj["results"][offset : offset + limit]
         if offset > 0:
             prev_offset = max(offset - limit, 0)
-            prev_page = url_for('resource_list', category=category, limit=limit, offset=prev_offset, _external=True)
-            result_obj['previous'] = prev_page
-        if offset + limit < result_obj['count']:
+            prev_page = url_for(
+                "resource_list",
+                category=category,
+                limit=limit,
+                offset=prev_offset,
+                _external=True,
+            )
+            result_obj["previous"] = prev_page
+        if offset + limit < result_obj["count"]:
             next_offset = offset + limit
-            next_page = url_for('resource_list', category=category, limit=limit, offset=next_offset, _external=True)
-            result_obj['next'] = next_page
+            next_page = url_for(
+                "resource_list",
+                category=category,
+                limit=limit,
+                offset=next_offset,
+                _external=True,
+            )
+            result_obj["next"] = next_page
 
         return replace_host(to_json(result_obj), host_url())
 
     def get_resource_item(self, category: str, key: str):
-        return self.streamed_api_file(category + '/' + key)
+        return self.streamed_api_file(category + "/" + key)
 
     def get_resource_extra(self, category: str, key: str, extra: str):
-        return self.streamed_api_file(category + '/' + key + '/' + extra)
+        return self.streamed_api_file(category + "/" + key + "/" + extra)
 
     def get_media(self, path: str):
-        return open(self.media_path(path), 'r+b').read()
+        return open(self.media_path(path), "r+b").read()
 
 
 app = Flask(__name__)
 CORS(app)
 app.url_map.strict_slashes = False
 
-ditto = DittoApp('./data')
+ditto = DittoApp("./data")
 
-error_404 = to_json({
-    'error': 'Not found'
-})
+error_404 = to_json({"error": "Not found"})
 
-error_500 = to_json({
-    'error': 'Internal server error'
-})
+error_500 = to_json({"error": "Internal server error"})
 
-information = to_json({
-    'docker': 'sargunv/pokeapi-ditto',
-    'git': 'https://github.com/PokeAPI/ditto',
-    'github': 'PokeAPI/ditto',
-    'pypi': 'pokeapi-ditto'
-})
+information = to_json(
+    {
+        "docker": "sargunv/pokeapi-ditto",
+        "git": "https://github.com/PokeAPI/ditto",
+        "github": "PokeAPI/ditto",
+        "pypi": "pokeapi-ditto",
+    }
+)
 
-content_json = 'application/json'
-content_png = 'image/png'
+content_json = "application/json"
+content_png = "image/png"
 
 
 @app.errorhandler(FileNotFoundError)
@@ -113,31 +122,39 @@ def not_found_500(_):
     return Response(error_500, status=500, mimetype=content_json)
 
 
-@app.route('/')
+@app.route("/")
 def root():
     return Response(information, status=200, mimetype=content_json)
 
 
-@app.route('/media/<path:path>')
+@app.route("/media/<path:path>")
 def media(path):
     return Response(ditto.get_media(path), status=200, mimetype=content_png)
 
 
-@app.route('/api/v2/')
+@app.route("/api/v2/")
 def index():
     return Response(ditto.get_index(), status=200, mimetype=content_json)
 
 
-@app.route('/api/v2/<string:category>/')
+@app.route("/api/v2/<string:category>/")
 def resource_list(category):
-    return Response(ditto.get_resource_list(category), status=200, mimetype=content_json)
+    return Response(
+        ditto.get_resource_list(category), status=200, mimetype=content_json
+    )
 
 
-@app.route('/api/v2/<string:category>/<string:key>/')
+@app.route("/api/v2/<string:category>/<string:key>/")
 def resource_item(category, key):
-    return Response(ditto.get_resource_item(category, key), status=200, mimetype=content_json)
+    return Response(
+        ditto.get_resource_item(category, key), status=200, mimetype=content_json
+    )
 
 
-@app.route('/api/v2/<string:category>/<string:key>/<string:extra>')
+@app.route("/api/v2/<string:category>/<string:key>/<string:extra>")
 def resource_extra(category, key, extra):
-    return Response(ditto.get_resource_extra(category, key, extra), status=200, mimetype=content_json)
+    return Response(
+        ditto.get_resource_extra(category, key, extra),
+        status=200,
+        mimetype=content_json,
+    )

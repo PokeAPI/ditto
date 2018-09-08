@@ -7,22 +7,23 @@ from pokeapi_ditto import analyze, clone, serve
 
 
 class Ditto(object):
-
     def __init__(self):
         parser = argparse.ArgumentParser()
-        subparsers = parser.add_subparsers(dest='command')
+        subparsers = parser.add_subparsers(dest="command")
 
-        clone_args = subparsers.add_parser('clone')
-        clone_args.add_argument('--source', type=str, default='http://localhost/')
-        clone_args.add_argument('--destination', type=str, default='./data')
-        clone_args.add_argument('--replacement-url', type=str, default='https://pokeapi.co/')
+        clone_args = subparsers.add_parser("clone")
+        clone_args.add_argument("--source", type=str, default="http://localhost/")
+        clone_args.add_argument("--destination", type=str, default="./data")
+        clone_args.add_argument(
+            "--replacement-url", type=str, default="https://pokeapi.co/"
+        )
 
-        serve_args = subparsers.add_parser('serve')
-        serve_args.add_argument('--port', type=int, default=80)
+        serve_args = subparsers.add_parser("serve")
+        serve_args.add_argument("--port", type=int, default=80)
 
-        analyze_args = subparsers.add_parser('analyze')
-        analyze_args.add_argument('--api-dir', type=str, default='./data/api')
-        analyze_args.add_argument('--schema-dir', type=str, default='./data/schema')
+        analyze_args = subparsers.add_parser("analyze")
+        analyze_args.add_argument("--api-dir", type=str, default="./data/api")
+        analyze_args.add_argument("--schema-dir", type=str, default="./data/schema")
 
         args = parser.parse_args(sys.argv[1:])
         if args.command is None:
@@ -40,5 +41,5 @@ class Ditto(object):
 
     @staticmethod
     def serve(args):
-        print('Starting Ditto server with configuration: {}'.format(vars(args)))
-        WSGIServer(('', args.port), serve.app).serve_forever()
+        print("Starting Ditto server with configuration: {}".format(vars(args)))
+        WSGIServer(("", args.port), serve.app).serve_forever()
