@@ -43,3 +43,7 @@ class Ditto(object):
     def serve(args):
         print("Starting Ditto server with configuration: {}".format(vars(args)))
         WSGIServer(("", args.port), serve.app).serve_forever()
+
+
+if __name__ == "__main__":
+    Ditto()

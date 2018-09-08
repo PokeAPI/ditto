@@ -2,14 +2,16 @@ import glob
 import json
 import os
 import re
+from pathlib import Path
+from typing import List
 
 from genson import SchemaBuilder
 
 
-def _from_dir(target_dir):
+def _from_dir(target_dir: str):
     target_dir = os.path.abspath(target_dir)
 
-    def func_decorator(func):
+    def func_decorator(func: callable):
         def func_wrapper(*args, **kwargs):
             cwd = os.getcwd()
             os.chdir(target_dir)
@@ -22,21 +24,25 @@ def _from_dir(target_dir):
     return func_decorator
 
 
-def do_analyze(data_dir, schema_dir):
-    if not os.path.exists(schema_dir):
-        os.makedirs(schema_dir)
+def do_analyze(data_dir: str, schema_dir: str):
+    if not Path(schema_dir).exists():
+        Path(schema_dir).mkdir(parents=True)
 
     @_from_dir(data_dir)
-    def get_schema_paths():
-        file_names = glob.iglob("**/*.json", recursive=True)
+    def get_schema_paths() -> List[Path]:
         return sorted(
-            {re.sub("/[0-9]+/", "/$id/", file_name) for file_name in file_names}
+            {
+                Path(*[re.sub("^[0-9]+$", "$id", part) for part in path.parts])
+                for path in Path(".").glob("**/*.json")
+            }
         )
 
     @_from_dir(data_dir)
-    def gen_single_schema(path):
-        glob_exp = path.replace("/$id/", "/*/")
-        print(os.path.join(data_dir, glob_exp))
+    def gen_single_schema(path: Path) -> SchemaBuilder:
+        glob_exp = os.path.join(
+            *["*" if part == "$id" else part for part in path.parts]
+        )
+        print(os.path.join(*Path(data_dir).parts, glob_exp))
         file_names = glob.iglob(glob_exp, recursive=True)
         schema = SchemaBuilder()
         for file_name in file_names:
@@ -45,13 +51,12 @@ def do_analyze(data_dir, schema_dir):
         return schema
 
     @_from_dir(schema_dir)
-    def gen_schemas(paths):
-        for file_name in paths:
-            base_dir = os.path.dirname(file_name)
-            if not os.path.exists(base_dir):
-                os.makedirs(base_dir)
-            schema = gen_single_schema(file_name)
-            with open(file_name, "w") as f:
+    def gen_schemas(paths: List[Path]):
+        for path in paths:
+            if not path.parent.exists():
+                os.makedirs(path.parent)
+            schema = gen_single_schema(path)
+            with path.open("w") as f:
                 f.write(schema.to_json(indent=4, sort_keys=True))
 
     gen_schemas(get_schema_paths())
