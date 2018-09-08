@@ -26,7 +26,7 @@ def do_clone(base_url, target_dir, replacement_url):
     url = base_url + "api/v2/"
     endpoints = requests.get(url)
 
-    path = target_dir + url.replace(base_url, '') + "index.json"
+    path = target_dir + url.replace(base_url, "") + "index.json"
     print(path)
     print_json(endpoints.json(), path)
 
@@ -41,14 +41,14 @@ def do_clone(base_url, target_dir, replacement_url):
         # Full index
         url = endpoint + "?limit=" + count
         resource_list = requests.get(url)
-        path = target_dir + endpoint.replace(base_url, '') + "index.json"
+        path = target_dir + endpoint.replace(base_url, "") + "index.json"
         print(path)
         print_json(resource_list.json(), path)
 
         # All resources
-        for resourceSummary in resource_list.json()['results']:
-            resource_url = resourceSummary['url']
-            path = target_dir + resource_url.replace(base_url, '') + "index.json"
+        for resourceSummary in resource_list.json()["results"]:
+            resource_url = resourceSummary["url"]
+            path = target_dir + resource_url.replace(base_url, "") + "index.json"
 
             if not os.path.isfile(path):
                 print(path)
@@ -57,7 +57,7 @@ def do_clone(base_url, target_dir, replacement_url):
 
             if endpoint.endswith("/pokemon/"):
                 resource_url += "encounters/"
-                path = target_dir + resource_url.replace(base_url, '') + "index.json"
+                path = target_dir + resource_url.replace(base_url, "") + "index.json"
                 if not os.path.isfile(path):
                     print(path)
                     resource = requests.get(resource_url)

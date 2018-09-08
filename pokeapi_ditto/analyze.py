@@ -28,8 +28,10 @@ def do_analyze(data_dir, schema_dir):
 
     @_from_dir(data_dir)
     def get_schema_paths():
-        file_names = glob.iglob('**/*.json', recursive=True)
-        return sorted({re.sub('/[0-9]+/', '/$id/', file_name) for file_name in file_names})
+        file_names = glob.iglob("**/*.json", recursive=True)
+        return sorted(
+            {re.sub("/[0-9]+/", "/$id/", file_name) for file_name in file_names}
+        )
 
     @_from_dir(data_dir)
     def gen_single_schema(path):
@@ -49,7 +51,7 @@ def do_analyze(data_dir, schema_dir):
             if not os.path.exists(base_dir):
                 os.makedirs(base_dir)
             schema = gen_single_schema(file_name)
-            with open(file_name, 'w') as f:
+            with open(file_name, "w") as f:
                 f.write(schema.to_json(indent=4, sort_keys=True))
 
     gen_schemas(get_schema_paths())
