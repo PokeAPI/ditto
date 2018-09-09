@@ -4,29 +4,31 @@ import os.path
 
 import requests
 
+from pokeapi_ditto.common import BASE_URL_PLACEHOLDER
 
-def do_clone(base_url, target_dir, replacement_url):
+
+def do_clone(src_url, dest_dir):
+    if not src_url.endswith("/"):
+        src_url += "/"
+
+    if not dest_dir.endswith("/"):
+        dest_dir += "/"
+
     def safe_open_w(file_name):
         os.makedirs(os.path.dirname(file_name), exist_ok=True)
         return open(file_name, "w")
 
     def print_json(data, file_name):
         transformed_data = json.dumps(data, indent=4, sort_keys=True)
-        transformed_data = transformed_data.replace(base_url, replacement_url)
+        transformed_data = transformed_data.replace(src_url, BASE_URL_PLACEHOLDER + "/")
         print(transformed_data, file=safe_open_w(file_name))
-
-    if not base_url.endswith("/"):
-        base_url += "/"
-
-    if not target_dir.endswith("/"):
-        target_dir += "/"
 
     # Root
 
-    url = base_url + "api/v2/"
+    url = src_url + "api/v2/"
     endpoints = requests.get(url)
 
-    path = target_dir + url.replace(base_url, "") + "index.json"
+    path = dest_dir + url.replace(src_url, "") + "index.json"
     print(path)
     print_json(endpoints.json(), path)
 
@@ -41,14 +43,14 @@ def do_clone(base_url, target_dir, replacement_url):
         # Full index
         url = endpoint + "?limit=" + count
         resource_list = requests.get(url)
-        path = target_dir + endpoint.replace(base_url, "") + "index.json"
+        path = dest_dir + endpoint.replace(src_url, "") + "index.json"
         print(path)
         print_json(resource_list.json(), path)
 
         # All resources
         for resourceSummary in resource_list.json()["results"]:
             resource_url = resourceSummary["url"]
-            path = target_dir + resource_url.replace(base_url, "") + "index.json"
+            path = dest_dir + resource_url.replace(src_url, "") + "index.json"
 
             if not os.path.isfile(path):
                 print(path)
@@ -57,7 +59,7 @@ def do_clone(base_url, target_dir, replacement_url):
 
             if endpoint.endswith("/pokemon/"):
                 resource_url += "encounters/"
-                path = target_dir + resource_url.replace(base_url, "") + "index.json"
+                path = dest_dir + resource_url.replace(src_url, "") + "index.json"
                 if not os.path.isfile(path):
                     print(path)
                     resource = requests.get(resource_url)
