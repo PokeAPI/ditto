@@ -5,9 +5,13 @@ linters:
     fixer: true
 
   flake8:
-    config: tox.ini
     fixer: true
     python: 3
+    
+    # copied from tox.ini
+    max-complexity: 15
+    ignore: W,E
+    exclude: .venv, .git, __pycache__, dist, data
 
 fixers:
   enable: true
