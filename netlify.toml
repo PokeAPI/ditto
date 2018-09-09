@@ -9,11 +9,6 @@ command = "pip install poetry && poetry install --no-dev && poetry run ditto tra
 BASE_URL = "https://pokeapi.netlify.com/"
 
 [[redirects]]
-from = "/*"
-to = "/:splatindex.json"
-status = 200
-
-[[redirects]]
 from = "/*/"
 to = "/:splat/index.json"
 status = 200
