@@ -26,7 +26,7 @@ class Ditto(object):
 
         transform_args = subparsers.add_parser("transform")
         transform_args.add_argument("--src-dir", type=str, default="./data")
-        transform_args.add_argument("--dest-dir", type=str, default="./data-dist")
+        transform_args.add_argument("--dest-dir", type=str, default="./dist")
         transform_args.add_argument("--base-url", type=str, required=True)
 
         analyze_args = subparsers.add_parser("analyze")
