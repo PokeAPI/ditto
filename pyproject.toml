@@ -39,4 +39,3 @@ isort = "^4.3"
 [tool.black]
 line-length = 88
 py36 = true
-

@@ -1,0 +1,14 @@
+[Settings]
+ID = "pokeapi"
+
+[build]
+publish = "data-dist"
+command = "pip install poetry && poetry install --no-dev && poetry run ditto transform \"--base-url=$BASE_URL\""
+
+[build.environment]
+BASE_URL = "https://pokeapi.netlify.com/"
+
+[[redirects]]
+from = "/*"
+to = "/:splatindex.json"
+status = 200
