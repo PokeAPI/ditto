@@ -10,7 +10,7 @@ from genson import SchemaBuilder
 from pokeapi_ditto.common import from_dir
 
 
-def do_analyze(api_dir: str, schema_dir: str):
+def do_analyze(api_dir: str, schema_dir: str, log: bool):
     if not Path(schema_dir).exists():
         Path(schema_dir).mkdir(parents=True)
 
@@ -38,7 +38,8 @@ def do_analyze(api_dir: str, schema_dir: str):
     @from_dir(schema_dir)
     def gen_schemas(paths: List[Path]):
         for path in paths:
-            print(Path(schema_dir).joinpath(path))
+            if log:
+                print(Path(schema_dir).joinpath(path))
             if not path.parent.exists():
                 os.makedirs(path.parent)
             schema = gen_single_schema(path)

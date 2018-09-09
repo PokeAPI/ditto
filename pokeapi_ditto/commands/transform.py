@@ -4,7 +4,7 @@ from typing import List
 from pokeapi_ditto.common import apply_base_url
 
 
-def do_transform(src_dir: str, dest_dir: str, base_url: str):
+def do_transform(src_dir: str, dest_dir: str, base_url: str, log: bool):
     src_dir: Path = Path(src_dir)
     dest_dir: Path = Path(dest_dir)
 
@@ -18,7 +18,8 @@ def do_transform(src_dir: str, dest_dir: str, base_url: str):
 
     for orig in orig_paths:
         new = dest_dir.joinpath(orig.relative_to(src_dir))
-        print(new)
+        if log:
+            print(new)
 
         if not new.parent.exists():
             new.parent.mkdir(parents=True)
