@@ -3,7 +3,7 @@ import sys
 
 from gevent.pywsgi import WSGIServer
 
-from pokeapi_ditto import analyze, clone, serve
+from pokeapi_ditto.commands import analyze, clone, serve, transform
 
 
 class Ditto(object):
@@ -12,37 +12,51 @@ class Ditto(object):
         subparsers = parser.add_subparsers(dest="command")
 
         clone_args = subparsers.add_parser("clone")
-        clone_args.add_argument("--source", type=str, default="http://localhost/")
-        clone_args.add_argument("--destination", type=str, default="./data")
-        clone_args.add_argument(
-            "--replacement-url", type=str, default="https://pokeapi.co/"
-        )
+        clone_args.add_argument("--src-url", type=str, default="http://localhost/")
+        clone_args.add_argument("--dest-dir", type=str, default="./data")
 
-        serve_args = subparsers.add_parser("serve")
-        serve_args.add_argument("--port", type=int, default=80)
+        transform_args = subparsers.add_parser("transform")
+        transform_args.add_argument("--src-dir", type=str, default="./data")
+        transform_args.add_argument("--dest-dir", type=str, default="./data-dist")
+        transform_args.add_argument("--base-url", type=str, required=True)
 
         analyze_args = subparsers.add_parser("analyze")
         analyze_args.add_argument("--api-dir", type=str, default="./data/api")
         analyze_args.add_argument("--schema-dir", type=str, default="./data/schema")
 
-        args = parser.parse_args(sys.argv[1:])
-        if args.command is None:
+        serve_args = subparsers.add_parser("serve")
+        serve_args.add_argument("--port", type=int, default=80)
+        serve_args.add_argument("--base-url", type=str, default="")
+        serve_args.add_argument("--root-dir", type=str, default="./data")
+
+        args = vars(parser.parse_args(sys.argv[1:]))
+        command = args.pop("command")
+        if command is None:
             parser.print_help()
             exit(1)
-        getattr(self, args.command)(args)
 
-    @staticmethod
-    def analyze(args):
-        analyze.do_analyze(args.api_dir, args.schema_dir)
+        print(
+            "Doing '{}' with configuration: {}".format(command, args), file=sys.stderr
+        )
+        getattr(self, command)(args)
 
     @staticmethod
     def clone(args):
-        clone.do_clone(args.source, args.destination, args.replacement_url)
+        clone.do_clone(**args)
+
+    @staticmethod
+    def transform(args):
+        transform.do_transform(**args)
+
+    @staticmethod
+    def analyze(args):
+        analyze.do_analyze(**args)
 
     @staticmethod
     def serve(args):
-        print("Starting Ditto server with configuration: {}".format(vars(args)))
-        WSGIServer(("", args.port), serve.app).serve_forever()
+        port = args.pop("port")
+        app = serve.create_app(**args)
+        WSGIServer(("", port), app).serve_forever()
 
 
 if __name__ == "__main__":
