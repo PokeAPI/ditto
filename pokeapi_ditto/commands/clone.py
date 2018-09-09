@@ -7,7 +7,7 @@ import requests
 from pokeapi_ditto.common import BASE_URL_PLACEHOLDER
 
 
-def do_clone(src_url, dest_dir):
+def do_clone(src_url: str, dest_dir: str, log: bool):
     if not src_url.endswith("/"):
         src_url += "/"
 
@@ -29,7 +29,8 @@ def do_clone(src_url, dest_dir):
     endpoints = requests.get(url)
 
     path = dest_dir + url.replace(src_url, "") + "index.json"
-    print(path)
+    if log:
+        print(path)
     print_json(endpoints.json(), path)
 
     # Endpoints
@@ -44,7 +45,8 @@ def do_clone(src_url, dest_dir):
         url = endpoint + "?limit=" + count
         resource_list = requests.get(url)
         path = dest_dir + endpoint.replace(src_url, "") + "index.json"
-        print(path)
+        if log:
+            print(path)
         print_json(resource_list.json(), path)
 
         # All resources

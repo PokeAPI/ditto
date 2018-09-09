@@ -3,12 +3,21 @@ import sys
 
 from gevent.pywsgi import WSGIServer
 
+from pokeapi_ditto import __version__
 from pokeapi_ditto.commands import analyze, clone, serve, transform
 
 
 class Ditto(object):
     def __init__(self):
         parser = argparse.ArgumentParser()
+        parser.add_argument("--version", action="version", version=__version__)
+        parser.add_argument(
+            "--log",
+            action="store_const",
+            const=True,
+            default=False,
+            help="turn on logging of files saved",
+        )
         subparsers = parser.add_subparsers(dest="command")
 
         clone_args = subparsers.add_parser("clone")
