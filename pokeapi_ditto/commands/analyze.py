@@ -7,28 +7,14 @@ from typing import List
 
 from genson import SchemaBuilder
 
-
-def _from_dir(target_dir: str):
-    target_dir = os.path.abspath(target_dir)
-
-    def func_decorator(func: callable):
-        def func_wrapper(*args, **kwargs):
-            cwd = os.getcwd()
-            os.chdir(target_dir)
-            result = func(*args, **kwargs)
-            os.chdir(cwd)
-            return result
-
-        return func_wrapper
-
-    return func_decorator
+from pokeapi_ditto.common import from_dir
 
 
-def do_analyze(data_dir: str, schema_dir: str):
+def do_analyze(api_dir: str, schema_dir: str):
     if not Path(schema_dir).exists():
         Path(schema_dir).mkdir(parents=True)
 
-    @_from_dir(data_dir)
+    @from_dir(api_dir)
     def get_schema_paths() -> List[Path]:
         return sorted(
             {
@@ -37,12 +23,11 @@ def do_analyze(data_dir: str, schema_dir: str):
             }
         )
 
-    @_from_dir(data_dir)
+    @from_dir(api_dir)
     def gen_single_schema(path: Path) -> SchemaBuilder:
         glob_exp = os.path.join(
             *["*" if part == "$id" else part for part in path.parts]
         )
-        print(os.path.join(*Path(data_dir).parts, glob_exp))
         file_names = glob.iglob(glob_exp, recursive=True)
         schema = SchemaBuilder()
         for file_name in file_names:
@@ -50,9 +35,10 @@ def do_analyze(data_dir: str, schema_dir: str):
                 schema.add_object(json.load(f))
         return schema
 
-    @_from_dir(schema_dir)
+    @from_dir(schema_dir)
     def gen_schemas(paths: List[Path]):
         for path in paths:
+            print(Path(schema_dir).joinpath(path))
             if not path.parent.exists():
                 os.makedirs(path.parent)
             schema = gen_single_schema(path)
