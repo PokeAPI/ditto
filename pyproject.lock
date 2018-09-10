@@ -344,6 +344,15 @@ version = "0.9.4"
 
 [[package]]
 category = "main"
+description = "Fast, Extensible Progress Meter"
+name = "tqdm"
+optional = false
+platform = "any"
+python-versions = ">=2.6, !=3.0.*, !=3.1.*"
+version = "4.25.0"
+
+[[package]]
+category = "main"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
 name = "urllib3"
 optional = false
@@ -361,7 +370,7 @@ python-versions = "*"
 version = "0.14.1"
 
 [metadata]
-content-hash = "2084bde1ecc9f116f89986fc0a738d8269e3eaba20333963f7199aa0af1aa616"
+content-hash = "bd8d8fb1022f9d3d21cdfaba69d1b7574c307f71346ed689ea1fb770acace180"
 platform = "*"
 python-versions = "^3.6"
 
@@ -397,5 +406,6 @@ pytest = ["453cbbbe5ce6db38717d282b758b917de84802af4288910c12442984bde7b823", "a
 requests = ["63b52e3c866428a224f97cab011de738c36aec0185aa91cfacd418b5d58911d1", "ec22d826a36ed72a7358ff3fe56cbd4ba69dd7a6718ffd450ff0e9df7a47ce6a"]
 six = ["70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9", "832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb"]
 toml = ["8e86bd6ce8cc11b9620cb637466453d94f5d57ad86f17e98a98d1f73e3baab2d"]
+tqdm = ["5ef526702c0d265d5a960a3b27f3971fac13c26cf0fb819294bfa71fc6026c88", "a3364bd83ce4777320b862e3c8a93d7da91e20a95f06ef79bed7dd71c654cafa"]
 urllib3 = ["a68ac5e15e76e7e5dd2b8f94007233e01effe3e50e8daddf69acfd81cb686baf", "b5725a0bd4ba422ab0e66e89e030c806576753ea3ee08554382c14e685d117b5"]
 werkzeug = ["c3fd7a7d41976d9f44db327260e263132466836cef6f91512889ed60ad26557c", "d5da73735293558eb1651ee2fddc4d0dedcfa06538b8813a2e20011583c9e49b"]

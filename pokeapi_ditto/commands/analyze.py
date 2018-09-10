@@ -6,11 +6,12 @@ from pathlib import Path
 from typing import List
 
 from genson import SchemaBuilder
+from tqdm import tqdm
 
 from pokeapi_ditto.common import from_dir
 
 
-def do_analyze(api_dir: str, schema_dir: str, log: bool):
+def do_analyze(api_dir: str, schema_dir: str):
     if not Path(schema_dir).exists():
         Path(schema_dir).mkdir(parents=True)
 
@@ -30,16 +31,14 @@ def do_analyze(api_dir: str, schema_dir: str, log: bool):
         )
         file_names = glob.iglob(glob_exp, recursive=True)
         schema = SchemaBuilder()
-        for file_name in file_names:
+        for file_name in tqdm(file_names, desc=str(path.parent)):
             with open(file_name) as f:
                 schema.add_object(json.load(f))
         return schema
 
     @from_dir(schema_dir)
     def gen_schemas(paths: List[Path]):
-        for path in paths:
-            if log:
-                print(Path(schema_dir).joinpath(path))
+        for path in tqdm(paths):
             if not path.parent.exists():
                 os.makedirs(path.parent)
             schema = gen_single_schema(path)
