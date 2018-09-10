@@ -55,7 +55,8 @@ def do_clone(src_url: str, dest_dir: str, log: bool):
             path = dest_dir + resource_url.replace(src_url, "") + "index.json"
 
             if not os.path.isfile(path):
-                print(path)
+                if log:
+                    print(path)
                 resource = requests.get(resource_url)
                 print_json(resource.json(), path)
 
@@ -63,6 +64,7 @@ def do_clone(src_url: str, dest_dir: str, log: bool):
                 resource_url += "encounters/"
                 path = dest_dir + resource_url.replace(src_url, "") + "index.json"
                 if not os.path.isfile(path):
-                    print(path)
+                    if log:
+                        print(path)
                     resource = requests.get(resource_url)
                     print_json(resource.json(), path)
