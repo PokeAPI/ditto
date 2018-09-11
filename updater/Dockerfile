@@ -14,10 +14,10 @@ COPY . /updater/
 RUN dos2unix cmd.bash
 
 ENV COMMIT_NAME 'Updater Bot'
-ENV COMMIT_EMAIL 'anon@example.com'
+ENV COMMIT_EMAIL ''
 ENV COMMIT_MESSAGE '[Updater Bot] Regenerate data'
 ENV BRANCH_NAME 'updater-bot'
-ENV REPO_POKEAPI  'git@github.com:sargunv/pokeapi'
-ENV REPO_DITTO  'git@github.com:sargunv/ditto'
+ENV REPO_POKEAPI  'git@github.com:PokeAPI/pokeapi'
+ENV REPO_DITTO  'git@github.com:PokeAPI/ditto'
 
 CMD bash cmd.bash
