@@ -24,7 +24,7 @@ just have to run one command.
  - Replace `http://localhost:8080` with the base url of your choice
 
 ``` bash
-docker run -p 8080:80 -e DITTO_BASE_URL=http://localhost:8080 sargunv/pokeapi-ditto
+docker run -p 8080:80 -e DITTO_BASE_URL=http://localhost:8080 sargunv/pokeapi-ditto:latest
 ```
 
 ## Usage
