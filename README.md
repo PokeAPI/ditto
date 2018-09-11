@@ -11,6 +11,7 @@ This repository contains:
  - `ditto transform`: a script to apply a new base url to data in `data/api` 
  - `ditto serve`: a script to serve the data in the same form as PokeAPI
     - with full support for dynamic pagination using GET args `offset` and `limit`
+ - `updater/`: a bot that runs in docker and can update the data stored in this repo
 
 ## Docker
 
