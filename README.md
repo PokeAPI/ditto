@@ -4,14 +4,16 @@
 
 This repository contains:
 
- - `ditto clone`: a script to crawl an instance of PokeAPI and download all objects
- - `data/api`: a static copy of the JSON data generated with the above script
- - `ditto analyze`: a script to generate a JSON schema of the above data
- - `data/schema`: a static copy of the PokeAPI schema generated from the above data
- - `ditto transform`: a script to apply a new base url to data in `data/api` 
- - `ditto serve`: a script to serve the data in the same form as PokeAPI
-    - with full support for dynamic pagination using GET args `offset` and `limit`
- - `updater/`: a bot that runs in docker and can update the data stored in this repo
+ - Ditto script:
+    - `ditto clone`: a script to crawl an instance of PokeAPI and download all objects
+    - `ditto analyze`: a script to generate a JSON schema of the above data
+    - `ditto transform`: a script to apply a new base url to data in `data/api` 
+    - `ditto serve`: a script to serve the data in the same form as PokeAPI
+       - with full support for dynamic pagination using GET args `offset` and `limit`
+ - Static data:
+    - [data/api](data/api): a static copy of the JSON data generated with the above script
+    - [data/schema](data/schema): a static copy of the PokeAPI schema generated from the above data
+    - [updater](updater): a bot that runs in docker and can update the data stored in this repo
 
 ## Docker
 
