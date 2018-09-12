@@ -18,8 +18,7 @@ from = "/api/v2/:endpoint/"
 to = "https://pokeapi.co/api/v2/:endpoint/?limit=:limit&offset=:offset"
 status = 200
 query = {offset = ":offset", limit = ":limit"}
-[[redirects.headers]]
-X-Forwarded-Host = "https://pokeapi.netlify.com/"
+headers = {X-Forwarded-Host = "https://pokeapi.netlify.com/"}
 
 [[redirects]]
 from = "/api/v2/:endpoint/"
@@ -27,7 +26,7 @@ to = "https://pokeapi.co/api/v2/:endpoint/?offset=:offset"
 status = 200
 query = {offset = ":offset"}
 [[redirects.headers]]
-Host = "https://pokeapi.netlify.com/"
+headers = {Host = "https://pokeapi.netlify.com/"}
 
 [[redirects]]
 from = "/api/v2/:endpoint/"
