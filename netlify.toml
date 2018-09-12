@@ -3,12 +3,42 @@ ID = "pokeapi"
 
 [build]
 publish = "dist"
-command = "pip install poetry && poetry install --no-dev && poetry run ditto transform \"--base-url=$BASE_URL\""
-
-[build.environment]
-BASE_URL = "https://pokeapi.netlify.com/"
+command = "pip install poetry && poetry install --no-dev && poetry run ditto transform --base-url='https://pokeapi.nelify.com/'"
 
 [[redirects]]
-from = "/*/"
-to = "/:splat/index.json"
+from = "/api/v2/"
+to = "/api/v2/index.json"
+status = 200
+
+[[redirects]]
+from = "/api/v2/:endpoint/"
+to = "https://pokeapi.co/api/v2/:endpoint/?limit=:limit&offset=:offset"
+status = 200
+query = {offset = ":offset", limit = ":limit"}
+
+[[redirects]]
+from = "/api/v2/:endpoint/"
+to = "https://pokeapi.co/api/v2/:endpoint/?offset=:offset"
+status = 200
+query = {offset = ":offset"}
+
+[[redirects]]
+from = "/api/v2/:endpoint/"
+to = "https://pokeapi.co/api/v2/:endpoint/?limit=:limit"
+status = 200
+query = {limit = ":limit"}
+
+[[redirects]]
+from = "/api/v2/:endpoint/"
+to = "/api/v2/:endpoint/index.json"
+status = 200
+
+[[redirects]]
+from = "/api/v2/:endpoint/:id/"
+to = "/api/v2/:endpoint/:id/index.json"
+status = 200
+
+[[redirects]]
+from = "/api/v2/:endpoint/:id/:extra"
+to = "/api/v2/:endpoint/:id/:extra/index.json"
 status = 200
