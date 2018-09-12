@@ -10,9 +10,10 @@ BASE_URL = "https://pokeapi.netlify.com/"
 
 [[redirects]]
 from = "/api/v2/:endpoint/"
-to = "https://pokeapi.co/api/v2/:endpoint/?limit=:limit&offset=:offset"
+to = "https://pokeapi.co/api/v2/:endpoint/?limit=:limit"
 status = 200
-query = {offset = ":offset", limit = ":limit"}
+force = true
+query = {limit = ":limit"}
 
 [[redirects]]
 from = "/*/"
