@@ -14,8 +14,3 @@ to = "https://pokeapi.co/api/v2/:endpoint/?limit=:limit"
 status = 200
 force = true
 query = {limit = ":limit"}
-
-[[redirects]]
-from = "/*/"
-to = "/:splat/index.json"
-status = 200
