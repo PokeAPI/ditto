@@ -15,11 +15,12 @@ exports.handler = (event, context, callback) => {
         }
 
         let defaults = {offset: 0, limit: 20};
-        let params = Object.assign(defaults, Object.entries(event.queryStringParameters).map((param) => [param[0], parseInt(param[1])]));
-        console.log(params);
+        let params = event.queryStringParameters;
+
+        params.offset= parseInt(params.offset) || defaults.offset;
+        params.limit = parseInt(params.limit) || defaults.limit;
 
         let resultSlice = response.results.slice(params.offset, params.offset + params.limit);
-
         let finalResponse = Object.assign(response, {results: resultSlice});
 
         callback(null, {statusCode: 200, body: JSON.stringify(finalResponse, null, 4)})
