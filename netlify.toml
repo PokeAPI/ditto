@@ -10,7 +10,7 @@ status = 200
 
 [[redirects]]
 from = "/api/v2/:endpoint/"
-to = "/api/v2/:endpoint/index.json"
+to = "/.netlify/functions/resource-list/"
 status = 200
 
 [[redirects]]
