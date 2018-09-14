@@ -15,19 +15,19 @@ status = 200
 
 [[redirects]]
 from = "/api/v2/:endpoint/"
-to = "/.netlify/functions/resource-list/?endpoint=/:endpoint/&offset=:offset"
+to = "/.netlify/functions/resource-list/?endpoint=/:endpoint/?endpoint=:endpoint&offset=:offset"
 query = {offset = ":offset"}
 status = 200
 
 [[redirects]]
 from = "/api/v2/:endpoint/"
-to = "/.netlify/functions/resource-list/?endpoint=/:endpoint/&limit=:limit"
+to = "/.netlify/functions/resource-list/?endpoint=/:endpoint/?endpoint=:endpoint&limit=:limit"
 query = {limit = ":limit"}
 status = 200
 
 [[redirects]]
 from = "/api/v2/:endpoints/"
-to = "./netlify/functions/resource-list/?endpoint=/:endpoint/&offset=:offset&limit=:limit"
+to = "./netlify/functions/resource-list/?endpoint=/:endpoint/?endpoint=:endpoint&offset=:offset&limit=:limit"
 query = {offset = ":offset", limit = ":limit"}
 status = 200
 
