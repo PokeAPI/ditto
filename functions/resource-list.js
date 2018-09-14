@@ -70,6 +70,8 @@ function getNextPage(params, count) {
 }
 
 exports.handler = (event, context, callback) => {
+    console.log(event);
+
     if (event.httpMethod !== "GET") {
         callback(null, {statusCode: 405, body: event.httpMethod + " not allowed"});
         return;
