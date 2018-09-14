@@ -1,6 +1,6 @@
 import getJson from 'get-json'
 
-const baseUrl = "https://pokeapi.netlify.com";
+const baseUrl = "https://pokeapi-prod.netlify.com";
 
 function targetUrlForPath(path) {
     let target = baseUrl;
