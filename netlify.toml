@@ -9,8 +9,9 @@ to = "/api/v2/index.json"
 status = 200
 
 [[redirects]]
-from = "/api/v2/:endpoint/"
-to = "/.netlify/functions/resource-list/?endpoint=:endpoint"
+from = "/api/v2/:endpoints/"
+to = "./netlify/functions/resource-list/?endpoint=/:endpoint/?endpoint=:endpoint&offset=:offset&limit=:limit"
+query = {offset = ":offset", limit = ":limit"}
 status = 301
 
 [[redirects]]
@@ -26,9 +27,8 @@ query = {limit = ":limit"}
 status = 301
 
 [[redirects]]
-from = "/api/v2/:endpoints/"
-to = "./netlify/functions/resource-list/?endpoint=/:endpoint/?endpoint=:endpoint&offset=:offset&limit=:limit"
-query = {offset = ":offset", limit = ":limit"}
+from = "/api/v2/:endpoint/"
+to = "/.netlify/functions/resource-list/?endpoint=:endpoint"
 status = 301
 
 [[redirects]]
