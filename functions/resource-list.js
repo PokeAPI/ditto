@@ -1,6 +1,6 @@
 import getJson from 'get-json'
 
-const baseUrl = "https://pokeapi.netlify.com/api/v2";
+const baseUrl = "https://pokeapi.netlify.com";
 
 function targetUrlForPath(path) {
     let target = baseUrl;
@@ -77,7 +77,7 @@ exports.handler = (event, context, callback) => {
         return;
     }
 
-    let path = event.queryStringParameters.endpoint;
+    let path = "/api/v2/" + event.queryStringParameters.endpoint + "/";
 
     if (!path) {
         callback(null, {statusCode: 400, body: "path must not be empty"});
