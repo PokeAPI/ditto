@@ -75,21 +75,26 @@ exports.handler = (event, context, callback) => {
         return;
     }
 
-    console.log(event);
-    
-    let url = targetUrlForPath(event.path);
+    let path = event.queryStringParameters.endpoint;
+
+    if (!path) {
+        callback(null, {statusCode: 400, body: "path must not be empty"});
+        return;
+    }
+
+    let url = targetUrlForPath(path);
 
     getJson(url, (error, response) => {
         if (error) {
-            console.error(error);
-            throw "Request failed: " + url;
+            callback(null, {statusCode: 400, body: "path must be a valid resource list"});
+            return;
         }
 
         let params = extractParams(event.queryStringParameters);
         let resultSlice = response.results.slice(params.offset, params.offset + params.limit);
         let finalResponse = Object.assign(response, {
-            next: getPageUrl(event.path, getNextPage(params, response.count)),
-            previous: getPageUrl(event.path, getPreviousPage(params)),
+            next: getPageUrl(path, getNextPage(params, response.count)),
+            previous: getPageUrl(path, getPreviousPage(params)),
             results: resultSlice,
         });
 

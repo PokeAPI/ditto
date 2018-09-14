@@ -10,7 +10,25 @@ status = 200
 
 [[redirects]]
 from = "/api/v2/:endpoint/"
-to = "/.netlify/functions/resource-list/"
+to = "/.netlify/functions/resource-list/?endpoint=:endpoint"
+status = 200
+
+[[redirects]]
+from = "/api/v2/:endpoint/"
+to = "/.netlify/functions/resource-list/?endpoint=/:endpoint/&offset=:offset"
+query = {offset = ":offset"}
+status = 200
+
+[[redirects]]
+from = "/api/v2/:endpoint/"
+to = "/.netlify/functions/resource-list/?endpoint=/:endpoint/&limit=:limit"
+query = {limit = ":limit"}
+status = 200
+
+[[redirects]]
+from = "/api/v2/:endpoints/"
+to = "./netlify/functions/resource-list/?endpoint=/:endpoint/&offset=:offset&limit=:limit"
+query = {offset = ":offset", limit = ":limit"}
 status = 200
 
 [[redirects]]
