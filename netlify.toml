@@ -12,7 +12,7 @@ status = 200
 from = "/api/v2/:endpoints/"
 to = "./netlify/functions/resource-list/?endpoint=:endpoint&offset=:offset&limit=:limit"
 query = {offset = ":offset", limit = ":limit"}
-status = 200
+status = 301
 
 [[redirects]]
 from = "/api/v2/:endpoint/"
