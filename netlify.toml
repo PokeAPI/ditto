@@ -9,10 +9,10 @@ to = "/api/v2/index.json"
 status = 200
 
 [[redirects]]
-from = "/api/v2/:endpoints/"
+from = "/api/v2/:endpoint/"
 to = "/.netlify/functions/resource-list/?endpoint=:endpoint&offset=:offset&limit=:limit"
 query = {offset = ":offset", limit = ":limit"}
-status = 301
+status = 200
 
 [[redirects]]
 from = "/api/v2/:endpoint/"
