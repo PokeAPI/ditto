@@ -14,5 +14,6 @@ This repository contains:
 ## Usage
 
 ```
+pip install pokeapi-ditto
 poetry run ditto --help
 ```
