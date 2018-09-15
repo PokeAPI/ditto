@@ -61,5 +61,5 @@ class Ditto(object):
         WSGIServer(("", port), app).serve_forever()
 
 
-if __name__ == "__main__":
+def main():
     Ditto()

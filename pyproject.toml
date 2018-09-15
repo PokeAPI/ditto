@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pokeapi-ditto"
-version = "0.3.0"
+version = "0.3.1"
 description = "Ditto is a server that serves a static copy of PokeAPI's data."
 license = "Apache-2.0"
 authors = ["Sargun Vohra <sargun.vohra@gmail.com>"]
@@ -20,7 +20,7 @@ classifiers = [
 ]
 
 [tool.poetry.scripts]
-ditto = "pokeapi_ditto.main:Ditto"
+ditto = "pokeapi_ditto.main:main"
 
 [tool.poetry.dependencies]
 python = "^3.6"
