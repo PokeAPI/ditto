@@ -1,7 +1,5 @@
 import os
 
-BASE_URL_PLACEHOLDER = "$BASE_URL_PLACEHOLDER"
-
 
 def from_dir(target_dir: str) -> callable:
     target_dir = os.path.abspath(target_dir)

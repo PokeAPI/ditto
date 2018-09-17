@@ -3,12 +3,36 @@ import json
 import os
 import re
 from pathlib import Path
-from typing import List
+from typing import List, Dict, TypeVar
 
 from genson import SchemaBuilder
 from tqdm import tqdm
 
+from pokeapi_ditto.commands.models import COMMON_MODELS
 from pokeapi_ditto.common import from_dir
+
+T = TypeVar("T")
+
+
+def _replace_common_model(item: T, name: str, model: Dict) -> T:
+    if isinstance(item, Dict):
+        without_schema = item
+        schema = None
+        if "$schema" in without_schema:
+            without_schema = item.copy()
+            schema = without_schema.pop("$schema")
+        if without_schema == model:
+            result = {"$ref": name}
+            if schema:
+                result["$schema"] = schema
+            return result
+
+        return {k: _replace_common_model(v, name, model) for k, v in item.items()}
+
+    if isinstance(item, List):
+        return [_replace_common_model(v, name, model) for v in item]
+
+    return item
 
 
 def do_analyze(api_dir: str, schema_dir: str):
@@ -26,10 +50,11 @@ def do_analyze(api_dir: str, schema_dir: str):
 
     @from_dir(api_dir)
     def gen_single_schema(path: Path) -> SchemaBuilder:
+        import pdb; pdb.set_trace()
         glob_exp = os.path.join(
             *["*" if part == "$id" else part for part in path.parts]
         )
-        file_names = glob.iglob(glob_exp, recursive=True)
+        file_names = list(glob.iglob(glob_exp, recursive=True))
         schema = SchemaBuilder()
         for file_name in tqdm(file_names, desc=str(path.parent)):
             with open(file_name) as f:
@@ -41,8 +66,10 @@ def do_analyze(api_dir: str, schema_dir: str):
         for path in tqdm(paths):
             if not path.parent.exists():
                 os.makedirs(path.parent)
-            schema = gen_single_schema(path)
+            schema = gen_single_schema(path).to_schema()
+            for name, model in COMMON_MODELS.items():
+                schema = _replace_common_model(schema, name, model)
             with path.open("w") as f:
-                f.write(schema.to_json(indent=4, sort_keys=True))
+                f.write(json.dumps(schema, indent=4, sort_keys=True))
 
     gen_schemas(get_schema_paths())

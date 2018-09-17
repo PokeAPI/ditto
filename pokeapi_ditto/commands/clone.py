@@ -5,8 +5,6 @@ import os.path
 import requests
 from tqdm import tqdm
 
-from pokeapi_ditto.common import BASE_URL_PLACEHOLDER
-
 
 def do_clone(src_url: str, dest_dir: str):
     if not src_url.endswith("/"):
@@ -21,7 +19,7 @@ def do_clone(src_url: str, dest_dir: str):
 
     def print_json(data, file_name):
         transformed_data = json.dumps(data, indent=4, sort_keys=True)
-        transformed_data = transformed_data.replace(src_url, BASE_URL_PLACEHOLDER + "/")
+        transformed_data = transformed_data.replace(src_url, "/")
         print(transformed_data, file=safe_open_w(file_name))
 
     # Root
