@@ -1,14 +1,18 @@
 import argparse
 import sys
+import pkg_resources
 
-from pokeapi_ditto import __version__
 from pokeapi_ditto.commands import analyze, clone, transform
 
 
 class Ditto(object):
     def __init__(self):
         parser = argparse.ArgumentParser()
-        parser.add_argument("--version", action="version", version=__version__)
+        parser.add_argument(
+            "--version",
+            action="version",
+            version=pkg_resources.get_distribution("pokeapi-ditto").version,
+        )
         subparsers = parser.add_subparsers(dest="command")
 
         clone_args = subparsers.add_parser("clone")

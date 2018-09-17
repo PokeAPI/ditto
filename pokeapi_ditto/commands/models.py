@@ -33,9 +33,7 @@ COMMON_MODELS: OrderedDict = odict[
             "next": {"type": "null"},
             "previous": {"type": "null"},
             "results": {
-                "items": {
-                    "$ref": f"/schema/v2/named_api_resource.json"
-                },
+                "items": {"$ref": f"/schema/v2/named_api_resource.json"},
                 "type": "array",
             },
         },
