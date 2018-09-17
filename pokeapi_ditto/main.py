@@ -4,7 +4,7 @@ import sys
 from gevent.pywsgi import WSGIServer
 
 from pokeapi_ditto import __version__
-from pokeapi_ditto.commands import analyze, clone, serve, transform
+from pokeapi_ditto.commands import analyze, clone, transform
 
 
 class Ditto(object):
@@ -24,11 +24,6 @@ class Ditto(object):
 
         analyze_args = subparsers.add_parser("analyze")
         analyze_args.add_argument("--data-dir", type=str, default="./data")
-
-        serve_args = subparsers.add_parser("serve")
-        serve_args.add_argument("--port", type=int, default=80)
-        serve_args.add_argument("--base-url", type=str, default="")
-        serve_args.add_argument("--root-dir", type=str, default="./data")
 
         args = vars(parser.parse_args(sys.argv[1:]))
         command = args.pop("command")
@@ -52,12 +47,6 @@ class Ditto(object):
     @staticmethod
     def analyze(args):
         analyze.do_analyze(**args)
-
-    @staticmethod
-    def serve(args):
-        port = args.pop("port")
-        app = serve.create_app(**args)
-        WSGIServer(("", port), app).serve_forever()
 
 
 def main():

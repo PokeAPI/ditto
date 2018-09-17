@@ -6,9 +6,7 @@ This repository contains:
 
  - `ditto clone`: a script to crawl an instance of PokeAPI and download all data
  - `ditto analyze`: a script to generate a JSON schema of the above data
- - `ditto transform`: a script to apply a new base url to the above data 
- - `ditto serve`: a script to serve the data in the same form as PokeAPI
-    - with full support for dynamic pagination using GET args `offset` and `limit`
+ - `ditto transform`: a script to apply a new base url to the above data and schema
 
 ## Usage
 
