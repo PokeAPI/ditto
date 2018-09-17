@@ -9,7 +9,7 @@ from genson import SchemaBuilder
 from tqdm import tqdm
 
 from pokeapi_ditto.commands.models import COMMON_MODELS
-from pokeapi_ditto.common import from_dir
+from pokeapi_ditto.common import from_path
 
 T = TypeVar("T")
 
@@ -35,11 +35,15 @@ def _replace_common_model(item: T, name: str, model: Dict) -> T:
     return item
 
 
-def do_analyze(api_dir: str, schema_dir: str):
-    if not Path(schema_dir).exists():
-        Path(schema_dir).mkdir(parents=True)
+def do_analyze(data_dir: str):
+    data_path = Path(data_dir)
+    api_path = data_path.joinpath("api")
+    schema_path = data_path.joinpath("schema")
 
-    @from_dir(api_dir)
+    if not schema_path.exists():
+        schema_path.mkdir(parents=True)
+
+    @from_path(api_path)
     def get_schema_paths() -> List[Path]:
         return sorted(
             {
@@ -48,9 +52,8 @@ def do_analyze(api_dir: str, schema_dir: str):
             }
         )
 
-    @from_dir(api_dir)
+    @from_path(api_path)
     def gen_single_schema(path: Path) -> SchemaBuilder:
-        import pdb; pdb.set_trace()
         glob_exp = os.path.join(
             *["*" if part == "$id" else part for part in path.parts]
         )
@@ -61,7 +64,7 @@ def do_analyze(api_dir: str, schema_dir: str):
                 schema.add_object(json.load(f))
         return schema
 
-    @from_dir(schema_dir)
+    @from_path(schema_path)
     def gen_schemas(paths: List[Path]):
         for path in tqdm(paths):
             if not path.parent.exists():
@@ -72,4 +75,17 @@ def do_analyze(api_dir: str, schema_dir: str):
             with path.open("w") as f:
                 f.write(json.dumps(schema, indent=4, sort_keys=True))
 
+    @from_path(data_path)
+    def save_common_schemas():
+        for name, model in COMMON_MODELS.items():
+            schema_builder = SchemaBuilder()
+            schema_builder.add_schema(model)
+            schema = schema_builder.to_schema()
+            if name.endswith("resource_list.json"):
+                schema["properties"]["next"]["type"] = ["null", "string"]
+                schema["properties"]["previous"]["type"] = ["null", "string"]
+            with Path(name).relative_to(Path(name).root).open("w") as f:
+                f.write(json.dumps(schema, indent=4, sort_keys=True))
+
     gen_schemas(get_schema_paths())
+    save_common_schemas()

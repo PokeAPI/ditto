@@ -23,8 +23,7 @@ class Ditto(object):
         transform_args.add_argument("--base-url", type=str, required=True)
 
         analyze_args = subparsers.add_parser("analyze")
-        analyze_args.add_argument("--api-dir", type=str, default="./data/api")
-        analyze_args.add_argument("--schema-dir", type=str, default="./data/schema")
+        analyze_args.add_argument("--data-dir", type=str, default="./data")
 
         serve_args = subparsers.add_parser("serve")
         serve_args.add_argument("--port", type=int, default=80)
