@@ -240,6 +240,15 @@ version = "4.3.0"
 six = ">=1.0.0,<2.0.0"
 
 [[package]]
+category = "main"
+description = "A tidier way of coding literal OrderedDicts"
+name = "odictliteral"
+optional = false
+platform = "UNKNOWN"
+python-versions = "*"
+version = "1.0.0"
+
+[[package]]
 category = "dev"
 description = "plugin and hook calling mechanisms for python"
 name = "pluggy"
@@ -370,7 +379,7 @@ python-versions = "*"
 version = "0.14.1"
 
 [metadata]
-content-hash = "bd8d8fb1022f9d3d21cdfaba69d1b7574c307f71346ed689ea1fb770acace180"
+content-hash = "4d8528cd3b55827764c83927c2c6429414362fb921f82661b3e5be5a13f8e67b"
 platform = "*"
 python-versions = "^3.6"
 
@@ -397,6 +406,7 @@ jinja2 = ["74c935a1b8bb9a3947c50a54766a969d4846290e1e788ea44c1392163723c3bd", "f
 markupsafe = ["a6be69091dac236ea9c6bc7d012beab42010fa914c459791d627dad4910eb665"]
 mccabe = ["ab8a6258860da4b6677da4bd2fe5dc2c659cff31b3ee4f7f5d64e79735b80d42", "dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"]
 more-itertools = ["c187a73da93e7a8acc0001572aebc7e3c69daf7bf6881a2cea10650bd4420092", "c476b5d3a34e12d40130bc2f935028b5f636df8f372dc2c1c01dc19681b2039e", "fcbfeaea0be121980e15bc97b3817b5202ca73d0eae185b4550cbfce2a3ebb3d"]
+odictliteral = ["88405c7fab7ff7a54c7b9fac9fd69264e526b0024b8265bc042ba3a797f0c161"]
 pluggy = ["6e3836e39f4d36ae72840833db137f7b7d35105079aee6ec4a62d9f80d594dd1", "95eb8364a4708392bae89035f45341871286a333f749c3141c20573d2b3876e1"]
 py = ["06a30435d058473046be836d3fc4f27167fd84c45b99704f2fb5509ef61f9af1", "50402e9d1c9005d759426988a492e0edaadb7f4e68bcddfea586bc7432d009c6"]
 pycodestyle = ["682256a5b318149ca0d2a9185d365d8864a768a28db66a84a2ea946bcc426766", "6c4245ade1edfad79c3446fadfc96b0de2759662dc29d07d80a6f27ad1ca6ba9"]
