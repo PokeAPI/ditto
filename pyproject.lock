@@ -239,7 +239,7 @@ name = "toml"
 optional = false
 platform = "*"
 python-versions = "*"
-version = "0.9.4"
+version = "0.9.6"
 
 [[package]]
 category = "main"
@@ -248,7 +248,7 @@ name = "tqdm"
 optional = false
 platform = "any"
 python-versions = ">=2.6, !=3.0.*, !=3.1.*"
-version = "4.25.0"
+version = "4.26.0"
 
 [[package]]
 category = "main"
@@ -287,6 +287,6 @@ pyflakes = ["08bd6a50edf8cffa9fa09a463063c425ecaaf10d1eb0335a7e8b1401aef89e6f", 
 pytest = ["453cbbbe5ce6db38717d282b758b917de84802af4288910c12442984bde7b823", "a8a07f84e680482eb51e244370aaf2caa6301ef265f37c2bdefb3dd3b663f99d"]
 requests = ["63b52e3c866428a224f97cab011de738c36aec0185aa91cfacd418b5d58911d1", "ec22d826a36ed72a7358ff3fe56cbd4ba69dd7a6718ffd450ff0e9df7a47ce6a"]
 six = ["70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9", "832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb"]
-toml = ["8e86bd6ce8cc11b9620cb637466453d94f5d57ad86f17e98a98d1f73e3baab2d"]
-tqdm = ["5ef526702c0d265d5a960a3b27f3971fac13c26cf0fb819294bfa71fc6026c88", "a3364bd83ce4777320b862e3c8a93d7da91e20a95f06ef79bed7dd71c654cafa"]
+toml = ["380178cde50a6a79f9d2cf6f42a62a5174febe5eea4126fe4038785f1d888d42", "a7901919d3e4f92ffba7ff40a9d697e35bbbc8a8049fe8da742f34c83606d957"]
+tqdm = ["18f1818ce951aeb9ea162ae1098b43f583f7d057b34d706f66939353d1208889", "df02c0650160986bac0218bb07952245fc6960d23654648b5d5526ad5a4128c9"]
 urllib3 = ["a68ac5e15e76e7e5dd2b8f94007233e01effe3e50e8daddf69acfd81cb686baf", "b5725a0bd4ba422ab0e66e89e030c806576753ea3ee08554382c14e685d117b5"]

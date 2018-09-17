@@ -26,7 +26,7 @@ ditto = "pokeapi_ditto.main:main"
 python = "^3.6"
 requests = "^2.19"
 genson = "^1.0"
-tqdm = "^4.25"
+tqdm = "^4.26"
 odictliteral = "^1.0"
 
 [tool.poetry.dev-dependencies]
