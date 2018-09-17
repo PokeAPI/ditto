@@ -1,8 +1,6 @@
 import argparse
 import sys
 
-from gevent.pywsgi import WSGIServer
-
 from pokeapi_ditto import __version__
 from pokeapi_ditto.commands import analyze, clone, transform
 
