@@ -1,4 +1,5 @@
 import os
+import re
 from pathlib import Path
 
 
@@ -19,4 +20,4 @@ def from_path(target_path: Path) -> callable:
 
 
 def apply_base_url(data: str, base_url: str) -> str:
-    return data.replace(BASE_URL_PLACEHOLDER, base_url)
+    return re.sub(r'(")(/(api|schema)/v2)', r"\1{0}\2".format(base_url), data)

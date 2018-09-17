@@ -16,7 +16,7 @@ def do_transform(src_dir: str, dest_dir: str, base_url: str):
     if not dest_dir.exists():
         dest_dir.mkdir(parents=True)
 
-    orig_paths: Iterable[Path] = src_dir.glob("api/**/*.json")
+    orig_paths = src_dir.glob("**/*.json")
 
     for orig in tqdm(list(orig_paths)):
         new = dest_dir.joinpath(orig.relative_to(src_dir))
