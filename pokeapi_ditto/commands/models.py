@@ -2,7 +2,6 @@ from collections import OrderedDict
 
 from odictliteral import odict
 
-
 COMMON_MODELS: OrderedDict = odict[
     f"/schema/v2/api_resource.json":{
         "properties": {"url": {"type": "string"}},

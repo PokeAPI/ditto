@@ -3,7 +3,7 @@ import json
 import os
 import re
 from pathlib import Path
-from typing import List, Dict, TypeVar
+from typing import Dict, List, TypeVar
 
 from genson import SchemaBuilder
 from tqdm import tqdm

@@ -18,6 +18,7 @@ class Ditto(object):
         clone_args = subparsers.add_parser("clone")
         clone_args.add_argument("--src-url", type=str, default="http://localhost/")
         clone_args.add_argument("--dest-dir", type=str, default="./data")
+        clone_args.add_argument("--select", nargs='+', default=[])
 
         transform_args = subparsers.add_parser("transform")
         transform_args.add_argument("--src-dir", type=str, default="./data")
