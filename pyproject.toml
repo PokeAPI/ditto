@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pokeapi-ditto"
-version = "0.6.0"
+version = "0.6.1"
 description = "Ditto is a server that serves a static copy of PokeAPI's data."
 license = "Apache-2.0"
 authors = ["Sargun Vohra <sargun.vohra@gmail.com>"]
