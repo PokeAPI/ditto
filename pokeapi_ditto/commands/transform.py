@@ -53,10 +53,13 @@ def do_transform(src_dir: str, dest_dir: str, base_url: str):
             _dump(dest_path, content)
 
         # a hack for pokemon/ID/encounters
-        if _is_id(dest_path.parent.parent.name) and dest_path.parent.name == "encounters":
+        if (
+            _is_id(dest_path.parent.parent.name)
+            and dest_path.parent.name == "encounters"
+        ):
             pokemon_path = src_path.parent.parent.joinpath("index.json")
             name = json.loads(pokemon_path.read_text())["name"]
-            dest_path = dest_path.parent.parent.parent.joinpath(name, "encounters", "index.json")
+            dest_path = dest_path.parent.parent.parent.joinpath(
+                name, "encounters", "index.json"
+            )
             _dump(dest_path, content)
-
-
