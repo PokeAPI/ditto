@@ -1,4 +1,6 @@
+import json
 from pathlib import Path
+from typing import Dict
 
 from tqdm import tqdm
 
@@ -15,12 +17,21 @@ def do_transform(src_dir: str, dest_dir: str, base_url: str):
     if not dest_dir.exists():
         dest_dir.mkdir(parents=True)
 
-    orig_paths = src_dir.glob("**/*.json")
+    src_paths = src_dir.glob("**/*.json")
 
-    for orig in tqdm(list(orig_paths)):
-        new = dest_dir.joinpath(orig.relative_to(src_dir))
+    for src_path in tqdm(list(src_paths)):
+        content: Dict = json.loads(apply_base_url(src_path.read_text(), base_url))
 
-        if not new.parent.exists():
-            new.parent.mkdir(parents=True)
+        dest_path = dest_dir.joinpath(src_path.relative_to(src_dir))
 
-        new.write_text(apply_base_url(orig.read_text(), base_url))
+        if not dest_path.parent.exists():
+            dest_path.parent.mkdir(parents=True)
+        dest_path.write_text(json.dumps(content, sort_keys=True, indent=4))
+
+        if "name" in content and "id" in content:
+            name = content["name"]
+            dest_path = dest_path.parent.parent.joinpath(name, "index.json")
+
+            if not dest_path.parent.exists():
+                dest_path.parent.mkdir(parents=True)
+            dest_path.write_text(json.dumps(content, sort_keys=True, indent=4))
