@@ -1,0 +1,9 @@
+version: "2.3"
+
+services:
+  ditto:
+    build: .
+    volumes:
+      - ./data:/ditto/data
+      - ./_gen:/ditto/_gen
+    network_mode: "host"

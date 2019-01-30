@@ -33,3 +33,6 @@ __pycache__
 pyvenv.cfg
 .venv
 pip-selfcheck.json
+
+/data
+/_gen
