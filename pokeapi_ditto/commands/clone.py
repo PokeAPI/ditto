@@ -11,7 +11,7 @@ from yarl import URL
 
 
 def _do_in_parallel(worker: Callable, data: List, desc: str) -> None:
-    cpus = os.cpu_count()
+    cpus = os.cpu_count() - 1
     pool = Pool(cpus, initializer=lambda: signal(SIGINT, SIG_IGN))
     try:
         for _ in tqdm(pool.imap_unordered(worker, data), total=len(data), desc=f"{desc} ({cpus}x)"):
@@ -65,10 +65,10 @@ class Cloner:
 
     def clone_single(self, endpoint_and_id: Tuple[str, str]) -> None:
         endpoint, id = endpoint_and_id
-        res_url = self._src_url / "api/v2" / endpoint / id
+        res_url = URL("{}/api/v2/{}/{}/".format(self._src_url, endpoint, id))
         self._crawl(res_url)
         if endpoint == "pokemon":
-            self._crawl(res_url / "encounters")
+            self._crawl(URL("{}encounters/".format(res_url)))
 
     def clone_endpoint(self, endpoint: str):
         res_list_url = self._src_url / "api/v2" / endpoint
