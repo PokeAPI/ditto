@@ -14,3 +14,11 @@ This repository contains:
 pip install pokeapi-ditto
 ditto --help
 ```
+
+## Docker
+
+You should have a Pokeapi server running on `localhost:80`.
+
+```sh
+docker-compose up --build
+```
