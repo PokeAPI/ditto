@@ -14,7 +14,9 @@ def _do_in_parallel(worker: Callable, data: List, desc: str) -> None:
     cpus = os.cpu_count() - 1
     pool = Pool(cpus, initializer=lambda: signal(SIGINT, SIG_IGN))
     try:
-        for _ in tqdm(pool.imap_unordered(worker, data), total=len(data), desc=f"{desc} ({cpus}x)"):
+        for _ in tqdm(
+            pool.imap_unordered(worker, data), total=len(data), desc=f"{desc} ({cpus}x)"
+        ):
             pass
     except KeyboardInterrupt as interrupt:
         pool.terminate()
@@ -74,11 +76,7 @@ class Cloner:
         res_list_url = self._src_url / "api/v2" / endpoint
         res_urls = self._crawl_resource_list(res_list_url)
         singles = [(endpoint, url.parent.name) for url in res_urls]
-        _do_in_parallel(
-            worker=self.clone_single,
-            data=singles,
-            desc=res_list_url.name,
-        )
+        _do_in_parallel(worker=self.clone_single, data=singles, desc=res_list_url.name)
 
     def clone_all(self) -> None:
         resource_lists = self._crawl_index()

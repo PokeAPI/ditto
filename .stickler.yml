@@ -8,10 +8,10 @@ linters:
     fixer: true
     python: 3
     
-    # copied from tox.ini
+    # copied from .flake8
     max-complexity: 15
     ignore: W,E
-    exclude: .venv, .git, __pycache__, dist, data
+    exclude: .venv, venv, .git, __pycache__, dist, data
 
 fixers:
   enable: true
