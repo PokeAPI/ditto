@@ -1,6 +1,4 @@
-# Ditto
-
-[https://bulbapedia.bulbagarden.net/wiki/Ditto_(Pokémon)](https://bulbapedia.bulbagarden.net/wiki/Ditto_(Pok%C3%A9mon))
+# Ditto <img src='https://veekun.com/dex/media/pokemon/global-link/132.png' height=50px/>
 
 This repository contains:
 
@@ -10,15 +8,23 @@ This repository contains:
 
 ## Usage
 
-```
+```sh
 pip install pokeapi-ditto
 ditto --help
 ```
 
-## Docker
-
-You should have a Pokeapi server running on `localhost:80`.
+## Development
 
 ```sh
+poetry install
+poetry run ditto --help
+```
+
+## Docker
+
+You should have a PokeApi server running on `localhost:80`.
+
+```sh
+# runs clone, analyze, and transform all in one step
 docker-compose up --build
 ```

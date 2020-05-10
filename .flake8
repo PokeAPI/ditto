@@ -1,0 +1,5 @@
+[flake8]
+# copy changes to .stickler.yml
+max-complexity = 15
+ignore = W,E # use black for formatting
+exclude = .venv, venv, .git, __pycache__, dist, data
