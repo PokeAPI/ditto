@@ -10,9 +10,9 @@ repository = "https://github.com/PokeAPI/ditto.git"
 documentation = "https://github.com/PokeAPI/ditto"
 keywords = ["pokeapi", "ditto", "pokemon"]
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: Apple Public Source License",
+    "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.6",
