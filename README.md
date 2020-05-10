@@ -8,9 +8,16 @@ This repository contains:
 
 ## Usage
 
-```
+```sh
 pip install pokeapi-ditto
 ditto --help
+```
+
+## Development
+
+```sh
+poetry install
+poetry run ditto --help
 ```
 
 ## Docker
