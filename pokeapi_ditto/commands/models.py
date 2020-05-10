@@ -39,4 +39,12 @@ COMMON_MODELS: OrderedDict = odict[
         "required": ["count", "next", "previous", "results"],
         "type": "object",
     },
+    f"/schema/v2/name.json":{
+        "properties": {
+            "language": {"$ref": f"/schema/v2/named_api_resource.json"},
+            "name": {"type": "string"},
+        },
+        "required": ["language", "name"],
+        "type": "object",
+    },
 ]
