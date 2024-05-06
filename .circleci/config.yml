@@ -1,0 +1,30 @@
+version: 2.1
+
+jobs:
+  test:
+    docker:
+      - image: cimg/python:3.6.15
+    steps:
+      - checkout
+      - run:
+          name: Install deps
+          command: poetry install
+      # - run:
+      #     name: Clone data
+      #     command: poetry run ditto clone --dest-dir ./data
+      # - run:
+      #     name: Analyze
+      #     command: poetry run ditto analyze --data-dir ./data
+      # - run:
+      #     name: Transform
+      #     command: |
+      #       poetry run ditto transform \
+      #       --base-url='https://pokeapi.co' \
+      #       --src-dir=./data \
+      #       --dest-dir=./_gen
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test
