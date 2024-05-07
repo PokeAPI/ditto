@@ -1,4 +1,4 @@
-# Ditto <a href="https://pokeapi.co/api/v2/pokemon/ditto"><img src='https://veekun.com/dex/media/pokemon/global-link/132.png' height=50px/></a>
+# Ditto <a href="https://pokeapi.co/api/v2/pokemon/ditto"><img src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/132.svg' height='50px'/></a>
 
 This repository contains:
 

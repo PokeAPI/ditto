@@ -13,6 +13,9 @@ jobs:
             pip3 install poetry
             poetry install
       - run:
+          name: Lint code
+          command: poetry run black pokeapi_ditto
+      - run:
           name: Spin up Pokeapi
           command: |
             git clone --recurse-submodules https://github.com/PokeAPI/pokeapi.git
@@ -20,7 +23,7 @@ jobs:
             make docker-setup
             cd ..
       - run:
-          name: Clone data
+          name: Clone
           command: poetry run ditto clone --dest-dir ./data
       - run:
           name: Analyze

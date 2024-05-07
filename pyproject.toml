@@ -16,28 +16,29 @@ classifiers = [
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.10",
 ]
 
 [tool.poetry.scripts]
 ditto = "pokeapi_ditto.main:main"
 
 [tool.poetry.dependencies]
-python = "^3.6"
-requests = "^2.19"
-genson = "^1.0"
-tqdm = "^4.26"
+python = "^3.10"
+requests = "^2.31"
+genson = "^1.2"
+tqdm = "^4.66"
 odictliteral = "^1.0"
-yarl = "^1.2"
+yarl = "^1.9"
 
 [tool.poetry.dev-dependencies]
-pytest = "^3.0"
-flake8 = "^3.5"
-black = "^18.3-alpha.0"
-isort = "^4.3"
+pytest = "^8.2"
+flake8 = "^7.0"
+black = "^24.4"
+isort = "^5.13"
 
 [tool.black]
 line-length = 88
-py36 = true
+target-version = ['py310']
 
 [tool.isort]
 skip = [".venv", "venv", ".git", "__pycache__", "dist", "data"]
