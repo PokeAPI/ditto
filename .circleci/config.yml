@@ -3,10 +3,13 @@ version: 2.1
 jobs:
   test:
     machine:
-      image: ubuntu-2004:2022.10.1
+      image: ubuntu-2204:current
     resource_class: large
     steps:
       - checkout
+      - run:
+          name: Display Python version
+          command: python3 -V
       - run:
           name: Install deps
           command: |
