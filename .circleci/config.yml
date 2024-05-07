@@ -6,7 +6,6 @@ jobs:
       image: ubuntu-2004:2022.10.1
     steps:
       - checkout
-      - setup_remote_docker
       - run:
           name: Install deps
           command: poetry install
