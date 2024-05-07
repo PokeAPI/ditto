@@ -3,35 +3,35 @@ version: 2.1
 jobs:
   test:
     machine:
-      image: ubuntu-2004:2022.10.1
+      image: ubuntu-2204:current
+    resource_class: large
     steps:
       - checkout
       - run:
           name: Install deps
-          command: poetry install
+          command: |
+            python3 -m pip install poetry
+            poetry install
       - run:
           name: Spin up Pokeapi
           command: |
             git clone --recurse-submodules https://github.com/PokeAPI/pokeapi.git
             cd pokeapi
-            docker-compose up -d
-            docker-compose exec -T app python manage.py migrate --settings=config.docker-compose
-            docker-compose exec -T app sh -c 'echo "from data.v2.build import build_all; build_all()" | python manage.py shell --settings=config.docker-compose'
+            make docker-setup
             cd ..
-
-      # - run:
-      #     name: Clone data
-      #     command: poetry run ditto clone --dest-dir ./data
-      # - run:
-      #     name: Analyze
-      #     command: poetry run ditto analyze --data-dir ./data
-      # - run:
-      #     name: Transform
-      #     command: |
-      #       poetry run ditto transform \
-      #       --base-url='https://pokeapi.co' \
-      #       --src-dir=./data \
-      #       --dest-dir=./_gen
+      - run:
+          name: Clone data
+          command: poetry run ditto clone --dest-dir ./data
+      - run:
+          name: Analyze
+          command: poetry run ditto analyze --data-dir ./data
+      - run:
+          name: Transform
+          command: |
+            poetry run ditto transform \
+            --base-url='https://pokeapi.co' \
+            --src-dir=./data \
+            --dest-dir=./_gen
 
 workflows:
   version: 2
