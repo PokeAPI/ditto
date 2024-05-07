@@ -16,6 +16,9 @@ jobs:
             pip3 install poetry
             poetry install
       - run:
+          name: Display Ditto version
+          command: poetry run ditto --version
+      - run:
           name: Lint code
           command: poetry run black pokeapi_ditto
       - run:
