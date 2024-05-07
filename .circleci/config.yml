@@ -6,6 +6,7 @@ jobs:
       - image: cimg/python:3.6.15
     steps:
       - checkout
+      - setup_remote_docker
       - run:
           name: Install deps
           command: poetry install
