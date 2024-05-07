@@ -1,7 +1,6 @@
 import argparse
 import sys
-
-import pkg_resources
+import importlib.metadata
 
 from pokeapi_ditto.commands import analyze, clone, transform
 
@@ -12,7 +11,7 @@ class Ditto(object):
         parser.add_argument(
             "--version",
             action="version",
-            version=pkg_resources.get_distribution("pokeapi-ditto").version,
+            version=importlib.metadata.version('pokeapi-ditto'),
         )
         subparsers = parser.add_subparsers(dest="command")
 
