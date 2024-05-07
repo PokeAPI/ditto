@@ -2,14 +2,24 @@ version: 2.1
 
 jobs:
   test:
-    docker:
-      - image: cimg/python:3.6.15
+    machine:
+      image: ubuntu-2004:2022.10.1
     steps:
       - checkout
       - setup_remote_docker
       - run:
           name: Install deps
           command: poetry install
+      - run:
+          name: Spin up Pokeapi
+          command: |
+            git clone --recurse-submodules https://github.com/PokeAPI/pokeapi.git
+            cd pokeapi
+            docker-compose up -d
+            docker-compose exec -T app python manage.py migrate --settings=config.docker-compose
+            docker-compose exec -T app sh -c 'echo "from data.v2.build import build_all; build_all()" | python manage.py shell --settings=config.docker-compose'
+            cd ..
+
       # - run:
       #     name: Clone data
       #     command: poetry run ditto clone --dest-dir ./data
