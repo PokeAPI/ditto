@@ -15,7 +15,7 @@ def _do_in_parallel(worker: Callable, data: List, desc: str) -> None:
     pool = Pool(cpus, initializer=lambda: signal(SIGINT, SIG_IGN))
     try:
         for _ in tqdm(
-            pool.imap_unordered(worker, data), total=len(data), desc=f"{desc} ({cpus}x)"
+            pool.imap_unordered(worker, data), total=len(data), desc=f"{desc} ({cpus}x)", mininterval=1
         ):
             pass
     except KeyboardInterrupt as interrupt:
