@@ -60,10 +60,15 @@ class Cloner:
 
     def _crawl_resource_list(self, url: URL) -> List[URL]:
         zero_url = url.with_query({"limit": 0, "offset": 0})
-        count = self._crawl(zero_url, save=False)["count"]
-        full_url = url.with_query({"limit": count, "offset": 0})
-        resource_list = self._crawl(full_url)
-        return [URL(resource_ref["url"]) for resource_ref in resource_list["results"]]
+        payload = self._crawl(zero_url, save=False)
+        if "count" in payload:
+            count = payload["count"]
+            full_url = url.with_query({"limit": count, "offset": 0})
+            resource_list = self._crawl(full_url)
+            return [URL(resource_ref["url"]) for resource_ref in resource_list["results"]]
+        else:
+            self._crawl(url)
+            return []
 
     def clone_single(self, endpoint_and_id: Tuple[str, str]) -> None:
         endpoint, id = endpoint_and_id
