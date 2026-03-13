@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pokeapi-ditto"
-version = "1.0.3"
+version = "1.0.4"
 description = "Ditto is a command line tool for performing meta operations over PokéAPI data."
 license = "Apache-2.0"
 authors = ["Sargun Vohra <sargun.vohra@gmail.com>"]
@@ -15,7 +15,6 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
@@ -26,16 +25,16 @@ ditto = "pokeapi_ditto.main:main"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-requests = "^2.31"
-genson = "^1.2"
-tqdm = "^4.66"
+requests = "^2.32"
+genson = "^1.3"
+tqdm = "^4.67"
 odictliteral = "^1.0"
-yarl = "^1.9"
+yarl = "^1.23"
 
 [tool.poetry.dev-dependencies]
-pytest = "^8.2"
-flake8 = "^7.0"
-black = "^24.4"
+pytest = "^8.4"
+flake8 = "^7.3"
+black = "^24.10"
 isort = "^5.13"
 
 [tool.black]
