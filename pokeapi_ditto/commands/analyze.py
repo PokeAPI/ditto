@@ -1,15 +1,14 @@
 import glob
-import json
 import os
 import re
 from pathlib import Path
 from typing import Dict, List, TypeVar
 
+import orjson
 from genson import SchemaBuilder
 from tqdm import tqdm
 
 from pokeapi_ditto.commands.models import COMMON_MODELS
-from pokeapi_ditto.common import from_path
 
 T = TypeVar("T")
 
@@ -43,39 +42,40 @@ def do_analyze(data_dir: str):
     if not schema_path.exists():
         schema_path.mkdir(parents=True)
 
-    @from_path(api_path)
     def get_schema_paths() -> List[Path]:
         return sorted(
             {
-                Path(*[re.sub("^[0-9]+$", "$id", part) for part in path.parts])
-                for path in Path(".").glob("**/*.json")
+                Path(
+                    *[
+                        re.sub("^[0-9]+$", "$id", part)
+                        for part in path.relative_to(api_path).parts
+                    ]
+                )
+                for path in api_path.glob("**/*.json")
             }
         )
 
-    @from_path(api_path)
     def gen_single_schema(path: Path) -> SchemaBuilder:
-        glob_exp = os.path.join(
-            *["*" if part == "$id" else part for part in path.parts]
+        glob_exp = str(
+            api_path
+            / os.path.join(*["*" if part == "$id" else part for part in path.parts])
         )
         file_names = list(glob.iglob(glob_exp, recursive=True))
         schema = SchemaBuilder()
         for file_name in tqdm(file_names, desc=str(path.parent)):
-            with open(file_name) as f:
-                schema.add_object(json.load(f))
+            with open(file_name, "rb") as f:
+                schema.add_object(orjson.loads(f.read()))
         return schema
 
-    @from_path(schema_path)
     def gen_schemas(paths: List[Path]):
         for path in tqdm(paths):
-            if not path.parent.exists():
-                os.makedirs(path.parent)
+            out_path = schema_path / path
+            out_path.parent.mkdir(parents=True, exist_ok=True)
             schema = gen_single_schema(path).to_schema()
             for name, model in COMMON_MODELS.items():
                 schema = _replace_common_model(schema, name, model)
-            with path.open("w") as f:
-                f.write(json.dumps(schema, indent=4, sort_keys=True))
+            out_path.write_bytes(orjson.dumps(schema, option=orjson.OPT_INDENT_2))
 
-    @from_path(data_path)
     def save_common_schemas():
         for name, model in COMMON_MODELS.items():
             schema_builder = SchemaBuilder()
@@ -84,8 +84,9 @@ def do_analyze(data_dir: str):
             if name.endswith("resource_list.json"):
                 schema["properties"]["next"]["type"] = ["null", "string"]
                 schema["properties"]["previous"]["type"] = ["null", "string"]
-            with Path(name).relative_to(Path(name).root).open("w") as f:
-                f.write(json.dumps(schema, indent=4, sort_keys=True))
+            out_file = data_path / Path(name).relative_to(Path(name).root)
+            out_file.parent.mkdir(parents=True, exist_ok=True)
+            out_file.write_bytes(orjson.dumps(schema, option=orjson.OPT_INDENT_2))
 
     gen_schemas(get_schema_paths())
     save_common_schemas()
