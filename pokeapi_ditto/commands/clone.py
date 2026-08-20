@@ -1,4 +1,5 @@
 import os
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any, Callable, List, NamedTuple, Tuple
@@ -43,6 +44,7 @@ _MAX_WORKERS = _calculate_max_workers()
 def _do_in_parallel(
     worker: Callable[[Tuple[str, str]], None], data: List[Tuple[str, str]], desc: str
 ) -> None:
+    t0 = time.monotonic()
     with ThreadPoolExecutor(max_workers=_MAX_WORKERS) as executor:
         futures = [executor.submit(worker, item) for item in data]
         try:
@@ -58,6 +60,10 @@ def _do_in_parallel(
         except KeyboardInterrupt:
             executor.shutdown(wait=False, cancel_futures=True)
             raise
+    elapsed = time.monotonic() - t0
+    tqdm.write(
+        f"  done {desc:<30} {len(data):>5} resources  {_MAX_WORKERS}T  {elapsed:.1f}s"
+    )
 
 
 class Cloner:
@@ -163,7 +169,9 @@ def do_clone(src_url: str, dest_dir: str, select: List[str]) -> None:
     for sel in select:
         if "/" in sel:
             cloner.clone_single(
-                tuple(filter(None, sel.split("/")))[0:2]  # pyright: ignore[reportArgumentType]
+                tuple(filter(None, sel.split("/")))[
+                    0:2
+                ]  # pyright: ignore[reportArgumentType]
             )
         else:
             cloner.clone_endpoint(sel)
