@@ -32,7 +32,7 @@ def _calculate_max_workers() -> int:
     the server of CPU time. Capped at 24 to bound memory and fd usage.
     """
     cpu = os.cpu_count() or 4
-    server_workers = 2 * cpu          # gunicorn default: 2 * CPU count
+    server_workers = 2 * cpu  # gunicorn default: 2 * CPU count
     client_threads = int(server_workers * 1.5)  # 1.5x to fill the pipeline
     return min(max(4, client_threads), 24)
 
@@ -40,7 +40,9 @@ def _calculate_max_workers() -> int:
 _MAX_WORKERS = _calculate_max_workers()
 
 
-def _do_in_parallel(worker: Callable[[Tuple[str, str]], None], data: List[Tuple[str, str]], desc: str) -> None:
+def _do_in_parallel(
+    worker: Callable[[Tuple[str, str]], None], data: List[Tuple[str, str]], desc: str
+) -> None:
     with ThreadPoolExecutor(max_workers=_MAX_WORKERS) as executor:
         futures = [executor.submit(worker, item) for item in data]
         try:
@@ -160,6 +162,8 @@ def do_clone(src_url: str, dest_dir: str, select: List[str]) -> None:
 
     for sel in select:
         if "/" in sel:
-            cloner.clone_single(tuple(filter(None, sel.split("/")))[0:2])  # pyright: ignore[reportArgumentType]
+            cloner.clone_single(
+                tuple(filter(None, sel.split("/")))[0:2]  # pyright: ignore[reportArgumentType]
+            )
         else:
             cloner.clone_endpoint(sel)

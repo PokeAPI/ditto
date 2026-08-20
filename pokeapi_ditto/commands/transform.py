@@ -40,7 +40,9 @@ def do_transform(source_directory: str, destination_directory: str, base_url: st
     src_paths = src_dir.glob("**/*.json")
 
     for src_path in tqdm(list(src_paths)):
-        content: Dict[str, Any] = orjson.loads(apply_base_url(src_path.read_text(), base_url))
+        content: Dict[str, Any] = orjson.loads(
+            apply_base_url(src_path.read_text(), base_url)
+        )
 
         # all files
         dest_path = dest_dir.joinpath(src_path.relative_to(src_dir))

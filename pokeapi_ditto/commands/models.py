@@ -1,7 +1,6 @@
 # noinspection DuplicatedCode
 from typing import Any
 
-
 COMMON_MODELS: dict[str, Any] = {
     "/schema/v2/api_resource.json": {
         "properties": {"url": {"type": "string"}},
