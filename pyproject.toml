@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "pokeapi-ditto"
-version = "1.0.4"
+version = "1.0.5"
 description = "Ditto is a command line tool for performing meta operations over PokéAPI data."
 license = "Apache-2.0"
-authors = ["Sargun Vohra <sargun.vohra@gmail.com>"]
+authors = ["Sargun Vohra <sargun.vohra@gmail.com>", "Triyan Mukherjee <triyanmukherjee@gmail.com>"]
 readme = "README.md"
 homepage = "https://github.com/PokeAPI/ditto"
 repository = "https://github.com/PokeAPI/ditto.git"
