@@ -27,9 +27,9 @@ def _dump(path: Path, content: Any):
 # clone.py is a cleaner model to follow
 
 
-def do_transform(source_directory: str, destination_directory: str, base_url: str):
-    src_dir: Path = Path(source_directory)
-    dest_dir: Path = Path(destination_directory)
+def do_transform(src_dir: str, dest_dir: str, base_url: str):
+    src_dir: Path = Path(src_dir)
+    dest_dir: Path = Path(dest_dir)
 
     if base_url.endswith("/"):
         base_url = base_url[:-1]
