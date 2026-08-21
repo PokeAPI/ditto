@@ -28,16 +28,16 @@ def _dump(path: Path, content: Any):
 
 
 def do_transform(src_dir: str, dest_dir: str, base_url: str):
-    src_dir: Path = Path(src_dir)
-    dest_dir: Path = Path(dest_dir)
+    src_path = Path(src_dir)
+    dest_path = Path(dest_dir)
 
     if base_url.endswith("/"):
         base_url = base_url[:-1]
 
-    if not dest_dir.exists():
-        dest_dir.mkdir(parents=True)
+    if not dest_path.exists():
+        dest_path.mkdir(parents=True)
 
-    src_paths = src_dir.glob("**/*.json")
+    src_paths = src_path.glob("**/*.json")
 
     for src_path in tqdm(list(src_paths)):
         content: Dict[str, Any] = orjson.loads(
@@ -45,7 +45,7 @@ def do_transform(src_dir: str, dest_dir: str, base_url: str):
         )
 
         # all files
-        dest_path = dest_dir.joinpath(src_path.relative_to(src_dir))
+        dest_path = dest_path.joinpath(src_path.relative_to(src_path))
         _dump(dest_path, content)
 
         # named resource files

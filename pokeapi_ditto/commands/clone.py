@@ -21,8 +21,7 @@ _REQUEST_TIMEOUT = RequestTimeout(connect=5, read=30)
 
 
 def _calculate_max_workers() -> int:
-    """
-    Derive client thread count from co-located server capacity.
+    """Derive client thread count from co-located server capacity.
 
     https://github.com/PokeAPI/pokeapi/blob/master/gunicorn.conf.py
 
@@ -30,12 +29,12 @@ def _calculate_max_workers() -> int:
     and the server uses gunicorn's default worker formula: 2 * cpu_count.
     We target 1.5x the server's worker count to keep the request pipeline
     saturated (accounting for network/IO round-trip slack) without starving
-    the server of CPU time. Capped at 24 to bound memory and fd usage.
+    the server of CPU time.
     """
     cpu = os.cpu_count() or 4
     server_workers = 2 * cpu  # gunicorn default: 2 * CPU count
     client_threads = int(server_workers * 1.5)  # 1.5x to fill the pipeline
-    return min(max(4, client_threads), 24)
+    return min(max(4, client_threads), 8)
 
 
 _MAX_WORKERS = _calculate_max_workers()
@@ -57,7 +56,7 @@ def _do_in_parallel(
                 leave=False,
             ):
                 future.result()
-        except KeyboardInterrupt:
+        except BaseException:
             executor.shutdown(wait=False, cancel_futures=True)
             raise
     elapsed = time.monotonic() - t0
@@ -86,8 +85,8 @@ class Cloner:
     def _build_session() -> requests.Session:
         session = requests.Session()
         retry = Retry(
-            total=3,
-            backoff_factor=0.5,
+            total=5,
+            backoff_factor=1.0,
             status_forcelist=[500, 502, 503, 504],
             allowed_methods=["GET"],
         )
@@ -106,11 +105,9 @@ class Cloner:
             response.raise_for_status()
             data = orjson.loads(response.content)
         except requests.RequestException as e:
-            tqdm.write(f"Request failure: {url} ({e})")
-            return None
-        except orjson.JSONDecodeError:
-            tqdm.write(f"JSON decode failure: {url}")
-            return None
+            raise RuntimeError(f"Request failure: {url} ({e})") from e
+        except orjson.JSONDecodeError as e:
+            raise RuntimeError(f"JSON decode failure: {url} ({e})") from e
 
         if save:
             out_data = orjson.dumps(data, option=orjson.OPT_INDENT_2)
