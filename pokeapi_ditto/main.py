@@ -1,6 +1,7 @@
 import argparse
-import sys
 import importlib.metadata
+import sys
+from typing import Any
 
 from pokeapi_ditto.commands import analyze, clone, transform
 
@@ -11,7 +12,7 @@ class Ditto(object):
         parser.add_argument(
             "--version",
             action="version",
-            version=importlib.metadata.version('pokeapi-ditto'),
+            version=importlib.metadata.version("pokeapi-ditto"),
         )
         subparsers = parser.add_subparsers(dest="command")
 
@@ -40,15 +41,15 @@ class Ditto(object):
         getattr(self, command)(args)
 
     @staticmethod
-    def clone(args):
+    def clone(args: Any):
         clone.do_clone(**args)
 
     @staticmethod
-    def transform(args):
+    def transform(args: Any):
         transform.do_transform(**args)
 
     @staticmethod
-    def analyze(args):
+    def analyze(args: Any):
         analyze.do_analyze(**args)
 
 

@@ -1,33 +1,75 @@
-import json
 import os
-from multiprocessing import Pool
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from signal import SIG_IGN, SIGINT, signal
-from typing import Any, Callable, List, Tuple
+from typing import Any, Callable, List, NamedTuple, Tuple
 
+import orjson
 import requests
+from requests.adapters import HTTPAdapter
 from tqdm import tqdm
+from urllib3.util.retry import Retry
 from yarl import URL
 
 
-def _do_in_parallel(worker: Callable, data: List, desc: str) -> None:
-    cpus = os.cpu_count() - 1
-    pool = Pool(cpus, initializer=lambda: signal(SIGINT, SIG_IGN))
-    try:
-        for _ in tqdm(
-            pool.imap_unordered(worker, data), total=len(data), desc=f"{desc} ({cpus}x)", mininterval=1
-        ):
-            pass
-    except KeyboardInterrupt as interrupt:
-        pool.terminate()
-        pool.join()
-        raise interrupt
+class RequestTimeout(NamedTuple):
+    connect: int
+    read: int
+
+
+_REQUEST_TIMEOUT = RequestTimeout(connect=5, read=30)
+
+
+def _calculate_max_workers() -> int:
+    """Derive client thread count from co-located server capacity.
+
+    https://github.com/PokeAPI/pokeapi/blob/master/gunicorn.conf.py
+
+    Assumes both this client and the target server run on the same machine,
+    and the server uses gunicorn's default worker formula: 2 * cpu_count.
+    We target 1.5x the server's worker count to keep the request pipeline
+    saturated (accounting for network/IO round-trip slack) without starving
+    the server of CPU time.
+    """
+    cpu = os.cpu_count() or 4
+    server_workers = 2 * cpu  # gunicorn default: 2 * CPU count
+    client_threads = int(server_workers * 1.5)  # 1.5x to fill the pipeline
+    return min(max(4, client_threads), 8)
+
+
+_MAX_WORKERS = _calculate_max_workers()
+
+
+def _do_in_parallel(
+    worker: Callable[[Tuple[str, str]], None], data: List[Tuple[str, str]], desc: str
+) -> None:
+    t0 = time.monotonic()
+    with ThreadPoolExecutor(max_workers=_MAX_WORKERS) as executor:
+        futures = [executor.submit(worker, item) for item in data]
+        try:
+            for future in tqdm(
+                as_completed(futures),
+                total=len(futures),
+                desc=f"{desc} ({_MAX_WORKERS}T)",
+                mininterval=1,
+                position=1,
+                leave=False,
+            ):
+                future.result()
+        except BaseException:
+            executor.shutdown(wait=False, cancel_futures=True)
+            raise
+    elapsed = time.monotonic() - t0
+    tqdm.write(
+        f"  done {desc:<30} {len(data):>5} resources  {_MAX_WORKERS}T  {elapsed:.1f}s"
+    )
 
 
 class Cloner:
 
     _src_url: URL
     _dest_dir: Path
+    _session: requests.Session
 
     def __init__(self, src_url: str, dest_dir: str):
         if src_url.endswith("/"):
@@ -37,20 +79,43 @@ class Cloner:
 
         self._src_url = URL(src_url)
         self._dest_dir = Path(dest_dir)
+        self._session = self._build_session()
+
+    @staticmethod
+    def _build_session() -> requests.Session:
+        session = requests.Session()
+        retry = Retry(
+            total=5,
+            backoff_factor=1.0,
+            status_forcelist=[500, 502, 503, 504],
+            allowed_methods=["GET"],
+        )
+        adapter = HTTPAdapter(
+            pool_connections=_MAX_WORKERS,
+            pool_maxsize=_MAX_WORKERS,
+            max_retries=retry,
+        )
+        session.mount("http://", adapter)
+        session.mount("https://", adapter)
+        return session
 
     def _crawl(self, url: URL, save: bool = True) -> Any:
         try:
-            data = requests.get(url).json()
-        except json.JSONDecodeError as err:
-            tqdm.write(f"JSON decode failure: {url}")
-            return None
+            response = self._session.get(str(url), timeout=_REQUEST_TIMEOUT)
+            response.raise_for_status()
+            data = orjson.loads(response.content)
+        except requests.RequestException as e:
+            raise RuntimeError(f"Request failure: {url} ({e})") from e
+        except orjson.JSONDecodeError as e:
+            raise RuntimeError(f"JSON decode failure: {url} ({e})") from e
 
         if save:
-            out_data = json.dumps(data, indent=4, sort_keys=True)
-            out_data = out_data.replace(str(self._src_url), "")
+            out_data = orjson.dumps(data, option=orjson.OPT_INDENT_2)
+            src_url_bytes = str(self._src_url).encode("utf-8")
+            out_data = out_data.replace(src_url_bytes, b"")
             file = self._dest_dir.joinpath((url / "index.json").path[1:])
             file.parent.mkdir(parents=True, exist_ok=True)
-            file.write_text(out_data)
+            file.write_bytes(out_data)
 
         return data
 
@@ -65,7 +130,9 @@ class Cloner:
             count = payload["count"]
             full_url = url.with_query({"limit": count, "offset": 0})
             resource_list = self._crawl(full_url)
-            return [URL(resource_ref["url"]) for resource_ref in resource_list["results"]]
+            return [
+                URL(resource_ref["url"]) for resource_ref in resource_list["results"]
+            ]
         else:
             self._crawl(url)
             return []
@@ -85,7 +152,7 @@ class Cloner:
 
     def clone_all(self) -> None:
         resource_lists = self._crawl_index()
-        for res_list_url in tqdm(resource_lists, desc="clone"):
+        for res_list_url in tqdm(resource_lists, desc="clone", position=0):
             endpoint = res_list_url.parent.name
             self.clone_endpoint(endpoint)
 
@@ -98,6 +165,10 @@ def do_clone(src_url: str, dest_dir: str, select: List[str]) -> None:
 
     for sel in select:
         if "/" in sel:
-            cloner.clone_single(tuple(filter(None, sel.split("/")))[0:2])
+            cloner.clone_single(
+                tuple(filter(None, sel.split("/")))[
+                    0:2
+                ]  # pyright: ignore[reportArgumentType]
+            )
         else:
             cloner.clone_endpoint(sel)

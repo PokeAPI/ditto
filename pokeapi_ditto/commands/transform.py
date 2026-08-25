@@ -1,13 +1,13 @@
-import json
 from pathlib import Path
 from typing import Any, Dict
 
+import orjson
 from tqdm import tqdm
 
 from pokeapi_ditto.common import apply_base_url
 
 
-def _is_id(s: str):
+def _is_id(s: str) -> bool:
     try:
         int(s)
         return True
@@ -15,10 +15,10 @@ def _is_id(s: str):
         return False
 
 
-def _dump(path: Path, content: Any):
+def _dump(path: Path, content: Any) -> None:
     if not path.parent.exists():
-        path.parent.mkdir(parents=True)
-    path.write_text(json.dumps(content, sort_keys=True, indent=4))
+        path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(orjson.dumps(content, option=orjson.OPT_INDENT_2))
 
 
 # TODO: blow all this up and make it good
@@ -27,39 +27,41 @@ def _dump(path: Path, content: Any):
 # clone.py is a cleaner model to follow
 
 
-def do_transform(src_dir: str, dest_dir: str, base_url: str):
-    src_dir: Path = Path(src_dir)
-    dest_dir: Path = Path(dest_dir)
+def do_transform(src_dir: str, dest_dir: str, base_url: str) -> None:
+    src_dir_path = Path(src_dir)
+    dest_dir_path = Path(dest_dir)
 
     if base_url.endswith("/"):
         base_url = base_url[:-1]
 
-    if not dest_dir.exists():
-        dest_dir.mkdir(parents=True)
+    if not dest_dir_path.exists():
+        dest_dir_path.mkdir(parents=True, exist_ok=True)
 
-    src_paths = src_dir.glob("**/*.json")
+    src_files = list(src_dir_path.glob("**/*.json"))
 
-    for src_path in tqdm(list(src_paths)):
-        content: Dict = json.loads(apply_base_url(src_path.read_text(), base_url))
+    for file_path in tqdm(src_files):
+        content: Dict[str, Any] = orjson.loads(
+            apply_base_url(file_path.read_text(), base_url)
+        )
 
         # all files
-        dest_path = dest_dir.joinpath(src_path.relative_to(src_dir))
-        _dump(dest_path, content)
+        dest_file = dest_dir_path.joinpath(file_path.relative_to(src_dir_path))
+        _dump(dest_file, content)
 
         # named resource files
-        if _is_id(dest_path.parent.name) and "name" in content:
+        if _is_id(dest_file.parent.name) and "name" in content:
             name = content["name"]
-            dest_path = dest_path.parent.parent.joinpath(name, "index.json")
-            _dump(dest_path, content)
+            named_dest_file = dest_file.parent.parent.joinpath(name, "index.json")
+            _dump(named_dest_file, content)
 
         # a hack for pokemon/ID/encounters
         if (
-            _is_id(dest_path.parent.parent.name)
-            and dest_path.parent.name == "encounters"
+            _is_id(dest_file.parent.parent.name)
+            and dest_file.parent.name == "encounters"
         ):
-            pokemon_path = src_path.parent.parent.joinpath("index.json")
-            name = json.loads(pokemon_path.read_text())["name"]
-            dest_path = dest_path.parent.parent.parent.joinpath(
+            pokemon_path = file_path.parent.parent.joinpath("index.json")
+            name = orjson.loads(pokemon_path.read_bytes())["name"]
+            enc_dest_file = dest_file.parent.parent.parent.joinpath(
                 name, "encounters", "index.json"
             )
-            _dump(dest_path, content)
+            _dump(enc_dest_file, content)
