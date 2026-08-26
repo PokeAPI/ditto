@@ -34,7 +34,7 @@ def _calculate_max_workers() -> int:
     cpu = os.cpu_count() or 4
     server_workers = 2 * cpu  # gunicorn default: 2 * CPU count
     client_threads = int(server_workers * 1.5)  # 1.5x to fill the pipeline
-    return min(max(4, client_threads), 8)
+    return min(max(4, client_threads), 12)
 
 
 _MAX_WORKERS = _calculate_max_workers()
