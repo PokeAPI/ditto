@@ -2,7 +2,7 @@ import os
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from typing import Any, Callable, List, NamedTuple, Tuple
+from typing import Any, Callable, List, NamedTuple, Optional, Tuple
 
 import orjson
 import requests
@@ -20,37 +20,44 @@ class RequestTimeout(NamedTuple):
 _REQUEST_TIMEOUT = RequestTimeout(connect=5, read=30)
 
 
-def _calculate_max_workers() -> int:
-    """Derive client thread count from co-located server capacity.
-
-    https://github.com/PokeAPI/pokeapi/blob/master/gunicorn.conf.py
-
-    Assumes both this client and the target server run on the same machine,
-    and the server uses gunicorn's default worker formula: 2 * cpu_count.
-    We target 1.5x the server's worker count to keep the request pipeline
-    saturated (accounting for network/IO round-trip slack) without starving
-    the server of CPU time.
+def _calculate_max_workers(explicit_workers: Optional[int] = None) -> int:
+    """Determine max worker threads with priority:
+    1. Explicit CLI argument (--max-workers)
+    2. DITTO_MAX_WORKERS or MAX_WORKERS environment variable
+    3. Dynamic heuristic based on co-located server capacity (2 * cpu_count * 1.5)
     """
+    if explicit_workers is not None and explicit_workers > 0:
+        return explicit_workers
+
+    env_val = os.environ.get("DITTO_MAX_WORKERS") or os.environ.get("MAX_WORKERS")
+    if env_val:
+        try:
+            val = int(env_val)
+            if val > 0:
+                return val
+        except ValueError:
+            pass
+
     cpu = os.cpu_count() or 4
     server_workers = 2 * cpu  # gunicorn default: 2 * CPU count
     client_threads = int(server_workers * 1.5)  # 1.5x to fill the pipeline
-    return min(max(4, client_threads), 8)
-
-
-_MAX_WORKERS = _calculate_max_workers()
+    return min(max(4, client_threads), 24)
 
 
 def _do_in_parallel(
-    worker: Callable[[Tuple[str, str]], None], data: List[Tuple[str, str]], desc: str
+    worker: Callable[[Tuple[str, str]], None],
+    data: List[Tuple[str, str]],
+    desc: str,
+    max_workers: int,
 ) -> None:
     t0 = time.monotonic()
-    with ThreadPoolExecutor(max_workers=_MAX_WORKERS) as executor:
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = [executor.submit(worker, item) for item in data]
         try:
             for future in tqdm(
                 as_completed(futures),
                 total=len(futures),
-                desc=f"{desc} ({_MAX_WORKERS}T)",
+                desc=f"{desc} ({max_workers}T)",
                 mininterval=1,
                 position=1,
                 leave=False,
@@ -61,7 +68,7 @@ def _do_in_parallel(
             raise
     elapsed = time.monotonic() - t0
     tqdm.write(
-        f"  done {desc:<30} {len(data):>5} resources  {_MAX_WORKERS}T  {elapsed:.1f}s"
+        f"  done {desc:<30} {len(data):>5} resources  {max_workers}T  {elapsed:.1f}s"
     )
 
 
@@ -70,8 +77,14 @@ class Cloner:
     _src_url: URL
     _dest_dir: Path
     _session: requests.Session
+    _max_workers: int
 
-    def __init__(self, src_url: str, dest_dir: str):
+    def __init__(
+        self,
+        src_url: str,
+        dest_dir: str,
+        max_workers: Optional[int] = None,
+    ):
         if src_url.endswith("/"):
             src_url = src_url[:-1]
         if not dest_dir.endswith("/"):
@@ -79,10 +92,11 @@ class Cloner:
 
         self._src_url = URL(src_url)
         self._dest_dir = Path(dest_dir)
-        self._session = self._build_session()
+        self._max_workers = _calculate_max_workers(max_workers)
+        self._session = self._build_session(self._max_workers)
 
     @staticmethod
-    def _build_session() -> requests.Session:
+    def _build_session(max_workers: int) -> requests.Session:
         session = requests.Session()
         retry = Retry(
             total=5,
@@ -91,8 +105,8 @@ class Cloner:
             allowed_methods=["GET"],
         )
         adapter = HTTPAdapter(
-            pool_connections=_MAX_WORKERS,
-            pool_maxsize=_MAX_WORKERS,
+            pool_connections=max_workers,
+            pool_maxsize=max_workers,
             max_retries=retry,
         )
         session.mount("http://", adapter)
@@ -148,7 +162,12 @@ class Cloner:
         res_list_url = self._src_url / "api/v2" / endpoint
         res_urls = self._crawl_resource_list(res_list_url)
         singles = [(endpoint, url.parent.name) for url in res_urls]
-        _do_in_parallel(worker=self.clone_single, data=singles, desc=res_list_url.name)
+        _do_in_parallel(
+            worker=self.clone_single,
+            data=singles,
+            desc=res_list_url.name,
+            max_workers=self._max_workers,
+        )
 
     def clone_all(self) -> None:
         resource_lists = self._crawl_index()
@@ -157,8 +176,13 @@ class Cloner:
             self.clone_endpoint(endpoint)
 
 
-def do_clone(src_url: str, dest_dir: str, select: List[str]) -> None:
-    cloner = Cloner(src_url, dest_dir)
+def do_clone(
+    src_url: str,
+    dest_dir: str,
+    select: List[str],
+    max_workers: Optional[int] = None,
+) -> None:
+    cloner = Cloner(src_url, dest_dir, max_workers=max_workers)
 
     if not select:
         cloner.clone_all()

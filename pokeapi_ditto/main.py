@@ -20,6 +20,12 @@ class Ditto(object):
         clone_args.add_argument("--src-url", type=str, default="http://localhost/")
         clone_args.add_argument("--dest-dir", type=str, default="./data")
         clone_args.add_argument("--select", nargs="+", default=[])
+        clone_args.add_argument(
+            "--max-workers",
+            type=int,
+            default=None,
+            help="Max concurrent worker threads (or set DITTO_MAX_WORKERS env var)",
+        )
 
         transform_args = subparsers.add_parser("transform")
         transform_args.add_argument("--src-dir", type=str, default="./data")
